@@ -16,7 +16,9 @@ API Rest para la intranet de la empresa SIACA Servicios Integrales Aeronauticos,
 
 Usando la consola de comandos en la ruta base:
 >python -m venv \ruta\base\env
+>
 >env/Scripts/activate
+>
 >pip install -r requirements.txt
 
 Luego de que se instalen las dependencias:
@@ -31,6 +33,9 @@ Luego de que se instalen las dependencias:
 
 Posteriormente, usando la consola de comandos:
 >python manage.py makemigrations
+>
 >python manage.py migrate
+>
 >python manage.py createsuperuser
+>
 >python manage.py runserver
