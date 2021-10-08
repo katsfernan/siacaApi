@@ -1,3 +1,4 @@
+
 # Intranet API
 
   
@@ -22,7 +23,7 @@ Usando la consola de comandos en la ruta base:
 >pip install -r requirements.txt
 
 Luego de que se instalen las dependencias:
-- Abrir **SQL Server 2014 Management Studio***
+- Abrir **SQL Server 2014 Management Studio**
 - Ejecutar el archivo **create_db.sql**
 - Crear un nuevo login con los siguientes parametros:
 -- Login name: siaca_api
@@ -35,7 +36,9 @@ Posteriormente, usando la consola de comandos:
 >python manage.py makemigrations
 >
 >python manage.py migrate
->
->python manage.py createsuperuser
+
+Ahora se ejecuta el archivo **inserts.sql**
+
+Y por ultimo, se levanta el servicio con el siguiente comando:
 >
 >python manage.py runserver
