@@ -11,7 +11,7 @@ VALUES ('Administracion', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
 VALUES ('Tecnologia Informatica', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
-VALUES ('Relaciones Institucionales', '', CURRENT_TIMESTAMP, 1, 1)
+VALUES ('Comercialización', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
 VALUES ('Mantenimiento', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
@@ -29,7 +29,7 @@ VALUES ('Organizacion y Metodos', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
 VALUES ('Gestion de la Calidad', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
-VALUES ('Limpieza de Aeronaves', '', CURRENT_TIMESTAMP, 1, 1)
+VALUES ('Gestion y Recaudación de Cobros y Pagos', '', CURRENT_TIMESTAMP, 1, 1)
 --- USUARIOS ---
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
 VALUES ('CUSER', 'Crear Usuarios', CURRENT_TIMESTAMP, 1, 1);
@@ -1661,3 +1661,455 @@ INSERT INTO Rol_Permiso (rp_fecha_modif, rp_estatus, rp_rol_fk, rp_per_fk, rp_us
 VALUES (CURRENT_TIMESTAMP, 1, 55, 38, 1);
 INSERT INTO Rol_Permiso (rp_fecha_modif, rp_estatus, rp_rol_fk, rp_per_fk, rp_usu_modif_fk)
 VALUES (CURRENT_TIMESTAMP, 1, 55, 42, 1);
+
+-- USUARIOS --
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('admin@siacaservicios.com', 'pbkdf2_sha256$180000$shScjnY7yiif$Df8g/gpI5H4tKhkqK2bivYZaFyOajMH/xC44vNzV+QY=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('acastro@siacaservicios.com', 'pbkdf2_sha256$180000$KXGTCYxOCeXX$9Ym3rb3jd0Yc3ukRlOyIdfobNfYK3SBW4JmtN8oEDr0=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ggarrido@siacaservicios.com', 'pbkdf2_sha256$180000$nrZ98Y7KUnmZ$0ylLbb0v8ORPspzbLtfz4X2R+40Phu3/P+C97f5+YvI=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ppereda@siacaservicios.com', 'pbkdf2_sha256$180000$Y5ezIjQuJ772$irfyRzAOVJbiptnRNc1A8zh2vuEG9+Z9GdKDdyt1h74=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('gmesa@siacaservicios.com', 'pbkdf2_sha256$180000$qI6plbyCRAxr$U5SoR4Ir1erHzsYEiBUT8azGErLzfvona8H6C9RnRtk=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jmeneses@siacaservicios.com', 'pbkdf2_sha256$180000$cAujuvCqwFc5$on1sa+7tJ5BXHbK1/LrZmCaHfONgy90pn1lBHX59H7w=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('epereda@siacaservicios.com', 'pbkdf2_sha256$180000$i9ibmIW0OVoy$gyBPo+C0AvNTqQFtfVRjq9xEqKESs9p/7XGsOpH9cR4=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('lrodriguez@siacaservicios.com', 'pbkdf2_sha256$180000$oQM4Ix4u2yUV$Gb+3CHs7QCOwIFxPKpE8O4yB+R3AHuu19Tgz5l4rR+s=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ymendoza@siacaservicios.com', 'pbkdf2_sha256$180000$LKDVSWZNq4WZ$XDOGewTHWxfXD0LSLcg8uyrsRBf7xNKNcnt2CoRZIHU=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rguzman@siacaservicios.com', 'pbkdf2_sha256$180000$I44otvqieZJB$jFbj1QQsdeK29e/89Ayq6stlB/NltomhLQNzolt4Uvc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rcarvajal@siacaservicios.com', 'pbkdf2_sha256$180000$dMLvl3ZTah53$DfH3nIjcMm4aty9vwDJjV3FYdGzV0Uw2IV9CRTqtQPA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('gdelgado@siacaservicios.com', 'pbkdf2_sha256$180000$kcTVUhWtPrBr$yaJoMJcK3XgEzlfzycCCnFp7t53N50kcZY2tSzXi5GA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('opereda@siacaservicios.com', 'pbkdf2_sha256$180000$Rjtqojnx1xV1$J0FxuO2q8w3RZNdFXxYhyO6+eQF501CQ+QX6QFsXg9I=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('psuarez@siacaservicios.com', 'pbkdf2_sha256$180000$GvDbupBcaQSE$+FR6Vbptm4kTG2JGmrmiDVIvuuhNBUsFjl0FI/Moo38=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jgomez@siacaservicios.com', 'pbkdf2_sha256$180000$uT9A7pAkHLyJ$Kr4AYvWzlF/z4Wy0LWk+/suEwfiVjPI7m5zKfp6Q6+o=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jpalencia@siacaservicios.com', 'pbkdf2_sha256$180000$PJ9ES4FQDCfn$61gUBQxN43LIRFPwzenLS320QQFPe9rTHamqB2MymqE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jsolorzano@siacaservicios.com', 'pbkdf2_sha256$180000$ABJtUYZAJkTI$c/WwiwAOg8/BV+RD6W2uyyeR+CAJt5PabPeDJVPN9NA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('tlezman@siacaservicios.com', 'pbkdf2_sha256$180000$H0KVlGKbpNIl$dSVZ5LtkiAM9MjRoBP6EF06033NS4uRap0rK026QSJg=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jpena@siacaservicios.com', 'pbkdf2_sha256$180000$uO4QEk0j0m3U$ocpVaGMR1asmO7acnLB21w2R2y5cGos80oEgObJ971k=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('csalas@siacaservicios.com', 'pbkdf2_sha256$180000$c1tR58EsdJ4R$xYQ3eHYBM05W06MjjwRDfV+uw/gdoveZO3QFuSzW8eU=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('htovar@siacaservicios.com', 'pbkdf2_sha256$180000$YavInHjKjIFm$k/PKNvkDiVHFI9ekcoXaC54ymfYpm7YZDrAzfZcEaBk=3', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jsalazar@siacaservicios.com', 'pbkdf2_sha256$180000$EAVzBHkYREzp$PctcgZse0udylWMOkFvFIWiljzivbxETT/gYowf/B9Y=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('omejias@siacaservicios.com', 'pbkdf2_sha256$180000$QPIZxti2Vsmi$8kyOs48+/00FYIVS8DM1IASEq81ayLwZfmm+7eUc8+g=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mfladung@siacaservicios.com', 'pbkdf2_sha256$180000$LGzfI3FXmX7G$HLfMYrodHcLKsUwHkjxQEu28ecQu/BqSod07bKtqnMY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('nfumero@siacaservicios.com', 'pbkdf2_sha256$180000$zxJ3vqo8iv2y$DRVen8TzyiQRZIlIfEbm8uhEZAWNx875KsP9M+nselY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('kanez@siacaservicios.com', 'pbkdf2_sha256$180000$UA4kq36NzmC7$2RMonE7zUgpVSDXoYFqagvP7zWRYROVLbgoZ1N5FPaE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jmalave@siacaservicios.com', 'pbkdf2_sha256$180000$JlboFlpZCJGh$d4GQptz11KdeuBuBEtcU6bpfv+fAJSy/HWPSnt/fMrg=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('cpaz@siacaservicios.com', 'pbkdf2_sha256$180000$HtJ9jk1mif99$LSd+Be/3Xk1obEedlqdjr5LdmTCT2fg9WjpQLX1BKMQ=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rmata@siacaservicios.com', 'pbkdf2_sha256$180000$1R6HIOVYmXEI$dUzfhlH1JlYeHhLNWB3CPyIkwOK9HbtU/CPvv+p2KOw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('vmoy@siacaservicios.com', 'pbkdf2_sha256$180000$scvxXtYbOiAO$dcvVrdDILaPq4sTC1TvoLFxnSR1u8bKpR4RvXyPlOvA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('wperozo@siacaservicios.com', 'pbkdf2_sha256$180000$4rOsy2zTKt29$uhACzqPNXjCvvj3TJf39XI7FJ50Hm504FzgzMkEmJyE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('lpaiva@siacaservicios.com', 'pbkdf2_sha256$180000$fh2ZaSWqsRWo$ZRtf5zp729HRT8NaSmwn1IK2lJTLBGKjGzdQozyR3UA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('cugueto@siacaservicios.com', 'pbkdf2_sha256$180000$Ft2wHzwkV4s8$ULsGFZNWlaecWbyYaDYrTnT3UxEXBmNCuLQ3ogIsgtY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jrojas@siacaservicios.com', 'pbkdf2_sha256$180000$xYPS6N4CzWZe$Tqf7NVtygfmypUZCni8RcKXll0BsGufo0hPwLhym/7Q=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('nsuarez@siacaservicios.com', 'pbkdf2_sha256$180000$kSdJ33gR8Who$9jg3GHKwVdKwZ2Iviy2euTtJ63uMYeSsmhnhFe+9ubs=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('achacon@siacaservicios.com', 'pbkdf2_sha256$180000$nwSSnm7Y3Ubk$uoKsoe/LxUUGWJCCRhEdosrJ5OlHByazymOkZ/DB3kg=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('lgonzalez@siacaservicios.com', 'pbkdf2_sha256$180000$hE0xIlPkYHAa$N0JZWqE3PBDNnRPtXcaxf9Vy2aeRwtbJSDeaDSeEyzU=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mmarcano@siacaservicios.com', 'pbkdf2_sha256$180000$gHbJUqDZ6TOH$Ml+XJHSVaAd7XkwcVOPx2mDYBwAbbGpi7iqPND4tssw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('lnunez@siacaservicios.com', 'pbkdf2_sha256$180000$vYSpqmEt6eQy$wquFzEfZmL+9oJd+uDPokficpKyxESi1wceuGTWAnQE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('imarquez@siacaservicios.com', 'pbkdf2_sha256$180000$ge4xOJTq4rKt$UzoKhmpE0nWrujVnzCopWE7OwNpdCBQI0wZSxBisF0U=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mvillareal@siacaservicios.com', 'pbkdf2_sha256$180000$RaoUYXuX34Tj$bZsXnenCJ5GnKaXG42xwbxCEQsb4nzKdkS+DSgCLtVk=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('estadisticas@siacaservicios.com', 'pbkdf2_sha256$180000$FQDGOFYQ3M9r$+4wNBXJ2es23maWea/7lvZOHToKoJ0gQ8PFTX5yga4s=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mgonzalez@siacaservicios.com', 'pbkdf2_sha256$180000$t8HyLnmbYRaJ$wvwBESPWoQ5V4oERUdDc8oqMusr1Lu3g64CZjaSTyfg=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('japonte@siacaservicios.com', 'pbkdf2_sha256$180000$bNx3Nsw6guLs$cPIpafkkrmcLCjlkzv7FiRd45Wnc7+XoZvDt+5jVaMg=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('bortega@siacaservicios.com', 'pbkdf2_sha256$180000$jGTw41oDy2WM$sL5vXu0r/11vLWEL3+hmGzIl8ZfjUqd+KLzSDclk2Eo=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jnunez@siacaservicios.com', 'pbkdf2_sha256$180000$p8wzpcuEstTD$Xp7CpF26YSnnp0vRUXQmHzCE6ZW4X62Mc9mHndpkVAU=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jarojas@siacaservicios.com', 'pbkdf2_sha256$180000$89BdQBiWPr0N$mu/myBaQnhyD0z+9c7ynh6p4iXGVyjMwuvpWZKC6t+s=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('edgonzalez@siacaservicios.com', 'pbkdf2_sha256$180000$pqfbjxe4y41Y$yNwXNCFUGq5S0ozBeHA1AIRpzxWcTlaeWG+wmh+2hDw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('omartinez@siacaservicios.com', 'pbkdf2_sha256$180000$2yk61wwib0am$1czksb4TWVw/rg92o6jqWgeduDs9fqCLuoBZjH4TqCw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('yimendoza@siacaservicios.com', 'pbkdf2_sha256$180000$fBpVhbBTa6io$xK20kS+fp0KTHXMDc9tY9R0NG0yV97H4UZ8CrRzkr6c=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ydasilva@siacaservicios.com', 'pbkdf2_sha256$180000$8xH4yfBbDIY4$JyB0HOtefh8BAsAKe4JvhuyoS/iZwZvVUFLt15KEdWk=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('aguzman@siacaservicios.com', 'pbkdf2_sha256$180000$UReKqvQgu3WT$vDbwgD5FaySXbGyIwZwt/upvat2phFSLIvsBggQrDRQ=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('gibarra@siacaservicios.com', 'pbkdf2_sha256$180000$NMIgbgnAWeOC$zdYfcgHTQqh8e0GLtGN/ZJLe+l0c+aMAkk+UIoL32Io=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('wsanchez@siacaservicios.com', 'pbkdf2_sha256$180000$TLw2dUafI9ey$LAbVuSL3YHmk4WIzG5DY5tUi86F1PNc5J4NQZTuwwG8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('kperez@siacaservicios.com', 'pbkdf2_sha256$180000$l16XILbO3cpP$egcJgiWPakgaavuB7qlURoVH5Yt5MuPw8TXFEozmtqM=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ocastillo@siacaservicios.com', 'pbkdf2_sha256$180000$6p8VjEJdaTan$3WaoERLwKqbt4lDf1WoSVwVZoqlFUwb6gk5WIDuBJaY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jgil@siacaservicios.com', 'pbkdf2_sha256$180000$UI4EgiZdATwN$EFBLQTm7/XGZGYAds36Ttu/sM+/WYxhTQyIfZJEqt/M=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('gdominguez@siacaservicios.com', 'pbkdf2_sha256$180000$RYVY97aktlad$XgI7DS3uFtJ5H4pjaWg5TKe2vwLKFJ7bsTROShDhIic=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jcamaran@siacaservicios.com', 'pbkdf2_sha256$180000$c4NDxB23VaNr$iXXtrNyyrgcq0asc+XjrGmmoOSTJVmvUh+ki5XNSZ6I=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rcarpio@siacaservicios.com', 'pbkdf2_sha256$180000$STBm7HsLfEjp$LR4qmwjm2d8lvhUixLF8of9ZlcURfBTjTer+SUxaIBA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jcarpio@siacaservicios.com', 'pbkdf2_sha256$180000$yxGZZUj1AT4z$liA4YnpC/80To4unZB6n1lQWFLy1FZl3pFIB/z9o6ZI=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jandrade@siacaservicios.com', 'pbkdf2_sha256$180000$CT2qtrPvnkYC$dEQ/fit+nK4CfRuYPScWN2+eGV0PJh5CKIYyTj2ZdHk=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ycobi@siacaservicios.com', 'pbkdf2_sha256$180000$2Q1vTNOvK63Z$l3Z9eFNOlHoSXifb5yXPGA7aL3T+aJNuLfCUjuynEPQ=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('sfossi@siacaservicios.com', 'pbkdf2_sha256$180000$3DY8bp3F4Q5V$6pcshXZLpAMuSfUxJQS3Sv71aJ4orNhj10C4Ma2EnlI=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rtortoza@siacaservicios.com', 'pbkdf2_sha256$180000$9iXUTLrHzOGT$ZOuwZFd7EYcJoPy/5yDhDmNl8oewqtDI5wyaJCSiZkY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('joropeza@siacaservicios.com', 'pbkdf2_sha256$180000$j4X7Iy3Bzw5V$MVCfIKDtpGJQntNNYrauNj7Lapx/rnqeTn/7Q4rorRU=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mtorres@siacaservicios.com', 'pbkdf2_sha256$180000$cH2A6wiFKZgq$r096CZdaEt8w2dV9gVOe6SP34yOUH2LPXXHQy+vkDHw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ocolina@siacaservicios.com', 'pbkdf2_sha256$180000$4ehd5UEVI112$CAw3NIlWcUFtDg6X64TOUr0O+ILXOonuX97R5btcqBw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('sromero@siacaservicios.com', 'pbkdf2_sha256$180000$CtcGoWJ057PJ$VctN0bn6RudOQi+MRy3mpDq4sml19CzDMpVgRk76V6U=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jhenriquez@siacaservicios.com', 'pbkdf2_sha256$180000$INZpd95eEo4q$BwD6mkLem5OzyTirPjN4o9ZOVBPsMN8Afv53odbKMe8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('voses@siacaservicios.com', 'pbkdf2_sha256$180000$ulmz1wfgZddS$/H8rSIe185iEa1KNlf8k9mbargGzZrsD3PtGRDLZSO8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jgutierrez@siacaservicios.com', 'pbkdf2_sha256$180000$yEMERgHnSGD5$wJGviVnthHN2yp36QoDSOEND/X8JR4czH4f8EcARNrc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('schelhond@siacaservicios.com', 'pbkdf2_sha256$180000$InZNolnn4iV6$KIpa6R/Wnj32KmMuIt8A5hYYnHsrCcN4mguhrrAK0hQ=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('amachado@siacaservicios.com', 'pbkdf2_sha256$180000$fVYwPIgReqCm$kfBiMLIdNblUYR4gDxR08y/1v/0S/bWCdYrv5klZBf8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('dvelasquez@siacaservicios.com', 'pbkdf2_sha256$180000$SRPtLK12LNeX$BKg55epjAacxmxjP/LFm2Gqft6XX4emOb0Y3UGJYfQM=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('phernandez@siacaservicios.com', 'pbkdf2_sha256$180000$SXzrFV83CvB5$Cm650/9/ODDCFDmRdKrpI5U8rjT8l27aEixUo5bp14A=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ecarvallo@siacaservicios.com', 'pbkdf2_sha256$180000$H2TIXkMCBUYs$iO7158/gJJs4CLzlNFmSlixgI+ppC9s18/pgZDJ1lGc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rgomez@siacaservicios.com', 'pbkdf2_sha256$180000$aLN3cRx9AmKl$RCSg2vZKKuxxXGnYqciphZTx2uAdOU3lBTzcKYTu/mw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ybolivar@siacaservicios.com', 'pbkdf2_sha256$180000$FlZLuczXWo2G$N5C4cv5MeI/VHkD4q6nj0Ibr3dlqGhMmwjw5E9f5LSM=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jmayora@siacaservicios.com', 'pbkdf2_sha256$180000$pWJrpcQBlqsN$FX493W2z6cS3EVNdX9zct1sc6k0OCJ4Ev6N15Fd3LS4=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('kfladung@siacaservicios.com', 'pbkdf2_sha256$180000$j4kzqSNxzLzz$ZANtBCT+WTPjbhIHwsx92TOSdtChb5I2mCQOTF19XZk=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('nnarvaez@siacaservicios.com', 'pbkdf2_sha256$180000$UYKlULIha9qc$wNUJ//8zvGzH54uNaGke7DKpaD+XWyi122N5KvyT2AM=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('avalenzuela@siacaservicios.com', 'pbkdf2_sha256$180000$X1qDmSpfdnPZ$D1jC8St5PRBBjrPa4YW/Quyus5DAQ0q/7Qz6se8BT4U=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('erojas@siacaservicios.com', 'pbkdf2_sha256$180000$e1kmhOSguB6Z$h3bU316J+wp4O4VrxpFJuA8X4cwTDlN9RfMBgoNX8Dc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('sgarrido@siacaservicios.com', 'pbkdf2_sha256$180000$TfDzDAKvA7Tc$OAftElAJoCI2xgoKVPNVSezybrfLaDtOImzUio+mgyQ=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('galeman@siacaservicios.com', 'pbkdf2_sha256$180000$IwZFQ2qIJkV0$fg+K2R+Qnc7WWxESrDwq0hNl7onqcFxAjyIAKV9L7Lc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jgonzalez@siacaservicios.com', 'pbkdf2_sha256$180000$HvAQRUHNj0AS$hXD5ajJDpIkCZkY+3NSbSJZKSYBpg+hiKFo4SJekmq8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('kledezma@siacaservicios.com', 'pbkdf2_sha256$180000$pANouqrbQoJr$6LOjJbSOwwICqqIqsdhcpROGmV8CCrMGtKr61ZTVUaE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ylemus@siacaservicios.com', 'pbkdf2_sha256$180000$QSIifo1hYCCZ$MskG9QP4fKy07p+P1F3Nj6jomT3RTWoyKcTJoJyaS20=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('wamaya@siacaservicios.com', 'pbkdf2_sha256$180000$BHjbADNBADx3$ST4drW5/w+/irGYMWXK2GcTETj6J8fLk2x5PDc2E3ZA=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('garteaga@siacaservicios.com', 'pbkdf2_sha256$180000$pjkQBRfqXRvn$ULpnu2HBEbYl23bDk0H9mHFno5HDGQUmNutp9PYSWT0=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('fcamacho@siacaservicios.com', 'pbkdf2_sha256$180000$ljxyYqy5nDHD$kE6b28/qfhRw1sjZZ5w1uRUV55AIuE0AL5IcBlLE+pk=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('hguanare@siacaservicios.com', 'pbkdf2_sha256$180000$AMaC2zenTsfg$GT+hI2OG77vzkS6X0iS+e7vWYX7hNGQM6bVJhG9+i6s=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rmillan@siacaservicios.com', 'pbkdf2_sha256$180000$U9Vw4VNFytoF$sLrM0GeibIv5k4N77lo9tjWuUYrVKWzd4kWYLDDhnvw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jmoya@siacaservicios.com', 'pbkdf2_sha256$180000$o6pwn3vf57ku$0Mn9nb47As/hf+cWPADJyF6DYSn9zFQ1igKAmQOX5OY=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('hnederr@siacaservicios.com', 'pbkdf2_sha256$180000$QZ003AeBpbo3$UZL+l5aE90zjU5o9iltnO/AQbjzFZ7mu3KGrX/ke9e0=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ypacheco@siacaservicios.com', 'pbkdf2_sha256$180000$QW7mS88mrIiM$EEH25A3kKZKlfJMxB3/wpxmrSU0AhCQxGSAv70YLj7Y=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jramos@siacaservicios.com', 'pbkdf2_sha256$180000$bPo5xiEyw33R$JwK1pjcW278SWxxukErfzcO2rIthoKYscUo13STUOJ8=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('grodriguez@siacaservicios.com', 'pbkdf2_sha256$180000$oBO3Xekx70ve$Sc8XlUwssWFiGKce86T5U2980Y3ispUUGgjsF4DrNkE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('msanchez@siacaservicios.com', 'pbkdf2_sha256$180000$bESrItS6eJA4$nPiiS19wPmWnybmLZVnxJCsGcxCyjmjvBOfKSIHvL4I=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jmarcano@siacaservicios.com', 'pbkdf2_sha256$180000$BI3sGQ5XQxi8$ZTfUyCHkIeysJq4ShSnc2HDwT1LHOV0TvGDDR83vbfI=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jhernandez@siacaservicios.com', 'pbkdf2_sha256$180000$EzdOQ1RbQDKL$YufwIRnVAl6Jxl7ABEK7bg4OVTa1BHo0Vx7elWDB/9k=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('atamargo@siacaservicios.com', 'pbkdf2_sha256$180000$9AMcP5Y3HghP$1HS+PhAUXy63pLxj+iXkOjGl7KHH7jIUuJQFMhDzefw=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('omonascal@siacaservicios.com', 'pbkdf2_sha256$180000$c3ZhZo6hDWcU$tE6zJfAugVszhOgd9ispvHT1H+f4BiwWenXo1zAWSsc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mguerra@siacaservicios.com', 'pbkdf2_sha256$180000$syj3OJu2sz8x$FAXWHtH/5q31/BRTd5vbDELsNN9f8RMmwk7KLLkx4dE=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('jvergara@siacaservicios.com', 'pbkdf2_sha256$180000$L2PXDAo0wrQt$oqMRToYFmWzTF5/W+dWAS4vVd69emFsDSm0sVGExFog=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('aochoa@siacaservicios.com', 'pbkdf2_sha256$180000$TO6PREZnuPyx$QHO1tej0nAsFL+cZWABeOFiy8VYwsB82qTKygwjccmM=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('mrodriguez@siacaservicios.com', 'pbkdf2_sha256$180000$98rq5UuVzWS4$YwilVM/ejT+s69yE1BJmazc3rccP9Q6NzBiXa622CdI=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('omanrique@siacaservicios.com', 'pbkdf2_sha256$180000$ipnx5pYEC4u3$7/Vqmq0ZTlEdANr1viAYtWcZrXL42gCiEqA46K51Kzc=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('fzapata@siacaservicios.com', 'pbkdf2_sha256$180000$hTcWuJ44kiY1$pUjL1Pm732s+GNVyoT8YEfPzax6XZLKaec1oyfHn6Ls=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('ypereda@siacaservicios.com', 'pbkdf2_sha256$180000$sMsYbsjO1LXZ$nvS9FVf1XM9bq5EUd11dBzulyHE8nWqsXZJDvYc+P1o=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('rgonzalez@siacaservicios.com', 'pbkdf2_sha256$180000$vlmWu63lYlqW$DFPmschGqW41HBHyctOHiCc30c+I8ujVOwrL8d9B43g=', CURRENT_TIMESTAMP, 1, 1, 1, 0, 0);
+
+-- EMPLEADOS --
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Admin', 'Admin', NULL, NULL, 99999999, CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Andres', 'Castro', NULL, NULL, 5537184, CURRENT_TIMESTAMP, 1, 2, 1, 1, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Guillermo', 'Garrido', NULL, NULL, 4766797, CURRENT_TIMESTAMP, 1, 3, 1, 1, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Penelope', 'Pereda', NULL, NULL, 13223749, CURRENT_TIMESTAMP, 1, 4, 1, 1, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Gustavo', 'Mesa', NULL, NULL, 7975250, CURRENT_TIMESTAMP, 1, 5, 1, 1, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jommy', 'Meneses', NULL, NULL, 11638172, CURRENT_TIMESTAMP, 1, 6, 2, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Edixon', 'Pereda', NULL, NULL, 11638281, CURRENT_TIMESTAMP, 1, 7, 3, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Lovelia', 'Rodriguez', NULL, NULL, 10584242, CURRENT_TIMESTAMP, 1, 8, 4, 3, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yuleima', 'Mendoza', NULL, NULL, 12162144, CURRENT_TIMESTAMP, 1, 9, 5, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Robiert', 'Guzman', NULL, NULL, 13673942, CURRENT_TIMESTAMP, 1, 10, 6, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Ruben', 'Carvajal', NULL, NULL, 07991565, CURRENT_TIMESTAMP, 1, 11, 3, 2, 1);
+---INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+---VALUES ('Gustavo', 'Delgado', NULL, NULL, nan, CURRENT_TIMESTAMP, 1, 12, 7, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oscar', 'Pereda', NULL, NULL, 11637061, CURRENT_TIMESTAMP, 1, 13, 8, 5, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Pedro', 'Suarez', NULL, NULL, 6490346, CURRENT_TIMESTAMP, 1, 14, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jorge', 'Gomez', NULL, NULL, 12740015, CURRENT_TIMESTAMP, 1, 15, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Palencia', NULL, NULL, 5525963, CURRENT_TIMESTAMP, 1, 16, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Solorzano', NULL, NULL, 12324108, CURRENT_TIMESTAMP, 1, 17, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Tony', 'Lezman', NULL, NULL, 10578203, CURRENT_TIMESTAMP, 1, 18, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Junior', 'Peña', NULL, NULL, 14568309, CURRENT_TIMESTAMP, 1, 19, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Cecilia', 'Salas', NULL, NULL, 13616409, CURRENT_TIMESTAMP, 1, 20, 10, 6, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Henry', 'Tovar', NULL, NULL, 6485613, CURRENT_TIMESTAMP, 1, 21, 11, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Salazar', NULL, NULL, 11642369, CURRENT_TIMESTAMP, 1, 22, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oswaldo', 'Mejias', NULL, NULL, 6467020, CURRENT_TIMESTAMP, 1, 23, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Michael', 'Fladung', NULL, NULL, 5541494, CURRENT_TIMESTAMP, 1, 24, 12, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Neidy', 'Fumero', NULL, NULL, 11060490, CURRENT_TIMESTAMP, 1, 25, 13, 3, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Kripson', 'Añez', NULL, NULL, 14020706, CURRENT_TIMESTAMP, 1, 26, 14, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Malave', NULL, NULL, 15267990, CURRENT_TIMESTAMP, 1, 27, 15, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Carlos', 'Paz', NULL, NULL, 12162585, CURRENT_TIMESTAMP, 1, 28, 15, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Rafael', 'Mata', NULL, NULL, 648895301, CURRENT_TIMESTAMP, 1, 29, 16, 9, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Valeska', 'Moy', NULL, NULL, 11063659, CURRENT_TIMESTAMP, 1, 30, 17, 3, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Willian', 'Perozo', NULL, NULL, 18606361, CURRENT_TIMESTAMP, 1, 31, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Luis', 'Paiva', NULL, NULL, 20005056, CURRENT_TIMESTAMP, 1, 32, 19, 5, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Carlos', 'Ugueto', NULL, NULL, 19557956, CURRENT_TIMESTAMP, 1, 33, 20, 10, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jeampier', 'Rojas', NULL, NULL, 19444516, CURRENT_TIMESTAMP, 1, 34, 21, 11, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Nahelys', 'Suarez', NULL, NULL, 20558930, CURRENT_TIMESTAMP, 1, 35, 22, 11, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Alvis', 'Chacon', NULL, NULL, 14140383, CURRENT_TIMESTAMP, 1, 36, 23, 11, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Luis', 'Daniel', NULL, NULL, 7923776, CURRENT_TIMESTAMP, 1, 37, 24, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Mauricio', 'Marcano', NULL, NULL, 14312787, CURRENT_TIMESTAMP, 1, 38, 15, 2, 1);
+---INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+---VALUES ('Luis', 'Nuñez', NULL, NULL, nan, CURRENT_TIMESTAMP, 1, 39, 9, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Ivan', 'Marquez', NULL, NULL, 16507989, CURRENT_TIMESTAMP, 1, 40, 25, 12, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Maggyn', 'Villareal', NULL, NULL, 211018, CURRENT_TIMESTAMP, 1, 41, 16, 9, 1);
+---INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+---VALUES ('Enyerbert', 'Chavez', NULL, NULL, numeros2018, CURRENT_TIMESTAMP, 1, 42, 26, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Merluis', 'Gonzalez', NULL, NULL, 17709117, CURRENT_TIMESTAMP, 1, 43, 27, 11, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Aponte', NULL, NULL, 17438682, CURRENT_TIMESTAMP, 1, 44, 15, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Belen', 'Ortega', NULL, NULL, 16725576, CURRENT_TIMESTAMP, 1, 45, 28, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jorge', 'Nunes', NULL, NULL, 24805717, CURRENT_TIMESTAMP, 1, 46, 29, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jorge', 'Rojas', NULL, NULL, 25176068, CURRENT_TIMESTAMP, 1, 47, 30, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Edgar', 'David', NULL, NULL, 21082019, CURRENT_TIMESTAMP, 1, 48, 31, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oswaldo', 'Martinez', NULL, NULL, 20559745, CURRENT_TIMESTAMP, 1, 49, 32, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yineth', 'Mendoza', NULL, NULL, 13044548, CURRENT_TIMESTAMP, 1, 50, 33, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yessica', 'Dasliva', NULL, NULL, 24333332, CURRENT_TIMESTAMP, 1, 51, 34, 13, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Adalis', 'Guzman', NULL, NULL, 23597862, CURRENT_TIMESTAMP, 1, 52, 35, 13, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Gissel', 'Ibarra', NULL, NULL, 24806137, CURRENT_TIMESTAMP, 1, 53, 36, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Wilmary', 'Sanchez', NULL, NULL, 27678037, CURRENT_TIMESTAMP, 1, 54, 37, 12, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Katty', 'Perez', NULL, NULL, 16357027, CURRENT_TIMESTAMP, 1, 55, 28, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oscar', 'Castillo', NULL, NULL, 26478252, CURRENT_TIMESTAMP, 1, 56, 38, 5, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jesus', 'Gil', NULL, NULL, 24177948, CURRENT_TIMESTAMP, 1, 57, 39, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Genesis', 'Dominguez', NULL, NULL, 20190173, CURRENT_TIMESTAMP, 1, 58, 40, 14, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jesus', 'E', NULL, NULL, 4863284, CURRENT_TIMESTAMP, 1, 59, 41, 14, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Rossana', 'Carpio', NULL, NULL, 13853462, CURRENT_TIMESTAMP, 1, 60, 42, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Johan', 'Carpio', NULL, NULL, 20005664, CURRENT_TIMESTAMP, 1, 61, 42, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Andrade', NULL, NULL, 25174644, CURRENT_TIMESTAMP, 1, 62, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yender', 'Cobi', NULL, NULL, 22942312, CURRENT_TIMESTAMP, 1, 63, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Simon', 'Fossi', NULL, NULL, 27007682, CURRENT_TIMESTAMP, 1, 64, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Roydiluet', 'Tortoza', NULL, NULL, 17041635, CURRENT_TIMESTAMP, 1, 65, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jailiana', 'Oropeza', NULL, NULL, 13828820, CURRENT_TIMESTAMP, 1, 66, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Mercedes', 'Torres', NULL, NULL, 22778059, CURRENT_TIMESTAMP, 1, 67, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oriana', 'Colina', NULL, NULL, 25523453, CURRENT_TIMESTAMP, 1, 68, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Scarlet', 'Romero', NULL, NULL, 27814050, CURRENT_TIMESTAMP, 1, 69, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jairim', 'Henriquez', NULL, NULL, 25575249, CURRENT_TIMESTAMP, 1, 70, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Victor', 'Oses', NULL, NULL, 14767590, CURRENT_TIMESTAMP, 1, 71, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jesus', 'Gutierrez', NULL, NULL, 19445582, CURRENT_TIMESTAMP, 1, 72, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Stephany', 'Chelhond', NULL, NULL, 26440892, CURRENT_TIMESTAMP, 1, 73, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Andrea', 'Machado', NULL, NULL, 21091602, CURRENT_TIMESTAMP, 1, 74, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('David', 'Velasquez', NULL, NULL, 20782300, CURRENT_TIMESTAMP, 1, 75, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Pedro', 'Hernandez', NULL, NULL, 5605855, CURRENT_TIMESTAMP, 1, 76, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Eduin', 'Carvallo', NULL, NULL, 22276065, CURRENT_TIMESTAMP, 1, 77, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Rafael', 'Gomez', NULL, NULL, 27347510, CURRENT_TIMESTAMP, 1, 78, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yeneika', 'Bolivar', NULL, NULL, 26763131, CURRENT_TIMESTAMP, 1, 79, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jesus', 'Mayora', NULL, NULL, 25575445, CURRENT_TIMESTAMP, 1, 80, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Katherinne', 'Fladung', NULL, NULL, 28132170, CURRENT_TIMESTAMP, 1, 81, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Nayet', 'Narvaez', NULL, NULL, 20005486, CURRENT_TIMESTAMP, 1, 82, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Angelo', 'Valenzuela', NULL, NULL, 27859454, CURRENT_TIMESTAMP, 1, 83, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Edgar', 'Rojas', NULL, NULL, 24880893, CURRENT_TIMESTAMP, 1, 84, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Santiago', 'Garrido', NULL, NULL, 28472510, CURRENT_TIMESTAMP, 1, 85, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Greimar', 'Aleman', NULL, NULL, 15830145, CURRENT_TIMESTAMP, 1, 86, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Juan', 'Gonzalez', NULL, NULL, 27225782, CURRENT_TIMESTAMP, 1, 87, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Katherine', 'Ledezma', NULL, NULL, 17959599, CURRENT_TIMESTAMP, 1, 88, 43, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yerfrin', 'Lemus', NULL, NULL, 19796355, CURRENT_TIMESTAMP, 1, 89, 44, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Wilfredo', 'Amaya', NULL, NULL, 6851652, CURRENT_TIMESTAMP, 1, 90, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Greyder', 'Arteaga', NULL, NULL, 18755879, CURRENT_TIMESTAMP, 1, 91, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Froilan', 'Camacho', NULL, NULL, 10583524, CURRENT_TIMESTAMP, 1, 92, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Humberto', 'Guanare', NULL, NULL, 14102901, CURRENT_TIMESTAMP, 1, 93, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Reinaldo', 'Millan', NULL, NULL, 16508437, CURRENT_TIMESTAMP, 1, 94, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Moya', NULL, NULL, 5876852, CURRENT_TIMESTAMP, 1, 95, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Henry', 'Nederr', NULL, NULL, 6498955, CURRENT_TIMESTAMP, 1, 96, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yorkfrank', 'Pacheco', NULL, NULL, 18910730, CURRENT_TIMESTAMP, 1, 97, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Juan', 'Ramos', NULL, NULL, 7998976, CURRENT_TIMESTAMP, 1, 98, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Grey', 'Rodriguez', NULL, NULL, 15779620, CURRENT_TIMESTAMP, 1, 99, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Miguel', 'Sanchez', NULL, NULL, 12165534, CURRENT_TIMESTAMP, 1, 100, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jose', 'Marcano', NULL, NULL, 12164183, CURRENT_TIMESTAMP, 1, 101, 18, 8, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jonathan', 'Hernadez', NULL, NULL, 24181714, CURRENT_TIMESTAMP, 1, 102, 45, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Angel', 'Tamargo', NULL, NULL, 6561593, CURRENT_TIMESTAMP, 1, 103, 12, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Orlando', 'Monascal', NULL, NULL, 6961113, CURRENT_TIMESTAMP, 1, 104, 46, 7, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Mayellin', 'Guerra', NULL, NULL, 15025753, CURRENT_TIMESTAMP, 1, 105, 47, 14, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Jhoana', 'Vergara', NULL, NULL, 17080077, CURRENT_TIMESTAMP, 1, 106, 48, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Alvin', 'Ochoa', NULL, NULL, 15180623, CURRENT_TIMESTAMP, 1, 107, 49, 4, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Manuel', 'Rodriguez', NULL, NULL, 9998630, CURRENT_TIMESTAMP, 1, 108, 50, 3, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Oscar', 'Manrique', NULL, NULL, 18819427, CURRENT_TIMESTAMP, 1, 109, 48, 3, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Frank', 'Zapata', NULL, NULL, 24204077, CURRENT_TIMESTAMP, 1, 110, 51, 5, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Yorge', 'Pereda', NULL, NULL, 16508529, CURRENT_TIMESTAMP, 1, 111, 52, 2, 1);
+INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
+VALUES ('Ronald', 'González', NULL, NULL, 13563734, CURRENT_TIMESTAMP, 1, 112, 53, 4, 1);
