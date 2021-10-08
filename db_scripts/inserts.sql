@@ -1,5 +1,7 @@
 USE [SIACA_INTRANET];
 GO
+INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
+VALUES ('admin@siacaservicios.com', 'pbkdf2_sha256$180000$shScjnY7yiif$Df8g/gpI5H4tKhkqK2bivYZaFyOajMH/xC44vNzV+QY=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
 VALUES ('Direccion', '', CURRENT_TIMESTAMP, 1, 1)
 INSERT INTO Departamento (dep_nombre, dep_descripcion, dep_fecha_modif, dep_estatus, dep_usu_modif_fk)
@@ -1663,8 +1665,6 @@ INSERT INTO Rol_Permiso (rp_fecha_modif, rp_estatus, rp_rol_fk, rp_per_fk, rp_us
 VALUES (CURRENT_TIMESTAMP, 1, 55, 42, 1);
 
 -- USUARIOS --
-INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
-VALUES ('admin@siacaservicios.com', 'pbkdf2_sha256$180000$shScjnY7yiif$Df8g/gpI5H4tKhkqK2bivYZaFyOajMH/xC44vNzV+QY=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
 INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
 VALUES ('acastro@siacaservicios.com', 'pbkdf2_sha256$180000$KXGTCYxOCeXX$9Ym3rb3jd0Yc3ukRlOyIdfobNfYK3SBW4JmtN8oEDr0=', CURRENT_TIMESTAMP, 1, 1, 1, 1, 1);
 INSERT INTO Usuario (usu_correo, password, usu_fecha_modif, usu_estatus, usu_usu_modif_fk, is_active, is_staff, is_superuser)
