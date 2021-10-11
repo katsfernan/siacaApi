@@ -1,12 +1,11 @@
-import re
-from rest_framework import serializers, status
+from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 
-from .models import Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
-from .serializers import ClienteSerializer, DepartamentoSerializer, EmpleadoSerializer, PermisoSerializer, ProveedorSerializer, RolPermisoSerializer, RolSerializer, UsuarioSerializer
+from .models import ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
+from .serializers import ArchivoGestionCalidadDepartamentoSerializer, ArchivoGestionDeCalidadSerializer, ClienteSerializer, DepartamentoSerializer, EmpleadoSerializer, PermisoSerializer, ProveedorSerializer, RolPermisoSerializer, RolSerializer, UsuarioSerializer
 
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
@@ -14,7 +13,7 @@ from rest_framework.permissions import IsAuthenticated
 
 class CustomAuthToken(ObtainAuthToken):
     """
-    Clase que se encarga de verificar el inicio de sesion retornando 
+    Clase que se encarga de verificar el inicio de sesion retornando
     la informacion referente a dicho usuario
     """
 
@@ -26,17 +25,20 @@ class CustomAuthToken(ObtainAuthToken):
         token, created = Token.objects.get_or_create(user=user)
         if (request.data['user_type'] == 'Empleado'):
             try:
-                user_data = EmpleadoSerializer(Empleado.objects.get(emp_usu_fk=user.pk))
+                user_data = EmpleadoSerializer(
+                    Empleado.objects.get(emp_usu_fk=user.pk))
             except Empleado.DoesNotExist:
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
-        elif (request.data['user_type'] == 'Cliente'):            
+        elif (request.data['user_type'] == 'Cliente'):
             try:
-                user_data = ClienteSerializer(Cliente.objects.get(cli_usu_fk=user.pk))
+                user_data = ClienteSerializer(
+                    Cliente.objects.get(cli_usu_fk=user.pk))
             except Cliente.DoesNotExist:
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Cliente no encontrado.')
-        elif (request.data['user_type'] == 'Proveedor'):            
+        elif (request.data['user_type'] == 'Proveedor'):
             try:
-                user_data = ProveedorSerializer(Proveedor.objects.get(pro_usu_fk=user.pk))
+                user_data = ProveedorSerializer(
+                    Proveedor.objects.get(pro_usu_fk=user.pk))
             except Proveedor.DoesNotExist:
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Proveedor no encontrado.')
         else:
@@ -52,17 +54,17 @@ class CustomAuthToken(ObtainAuthToken):
         for permission in rol_permissions.data:
             per_codigo = (Permiso.objects.get(per_id=permission["rp_per_fk"]))
             permissions.append({
-                'codigo' : per_codigo.per_codigo,
-                'nombre' : per_codigo.per_nombre,
+                'codigo': per_codigo.per_codigo,
+                'nombre': per_codigo.per_nombre,
             })
         return Response({
             'token': token.key,
             'user_id': user.pk,
             'email': user.usu_correo,
             'user_data': {
-                'type' : request.data['user_type'],
-                'data' : user_data.data,
-                'permissions' : permissions
+                'type': request.data['user_type'],
+                'data': user_data.data,
+                'permissions': permissions
             }
         })
 
@@ -120,7 +122,7 @@ def api_usuarios_wiev(request, pk):
 @permission_classes([IsAuthenticated])
 def api_depts_view(request):
     """
-    View que retorna todos los departamentos. 
+    View que retorna todos los departamentos.
     Filtra los departamentos si el url contiene el parametro status
     """
 
@@ -131,7 +133,8 @@ def api_depts_view(request):
 
     if request.method == 'GET':
         if request.query_params.__contains__("status"):
-            departamentos = Departamento.objects.filter(dep_estatus=request.query_params["status"])
+            departamentos = Departamento.objects.filter(
+                dep_estatus=request.query_params["status"])
         serializer = DepartamentoSerializer(departamentos, many=True)
         return Response(serializer.data)
 
@@ -141,7 +144,7 @@ def api_depts_view(request):
 @permission_classes([IsAuthenticated])
 def api_permisos_view(request):
     """View que retorna todos los permisos"""
-    
+
     try:
         permisos = Permiso.objects.all()
     except Permiso.DoesNotExist:
@@ -150,3 +153,70 @@ def api_permisos_view(request):
     if request.method == 'GET':
         serializer = PermisoSerializer(permisos, many=True)
         return Response(serializer.data)
+
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_archivosDeGestionDeCalidad_view(request):
+    """View que retorna todos los archivos de gestion de calidad"""
+
+    try:
+        archivos = ArchivoGestionCalidad.objects.all()
+    except ArchivoGestionCalidad.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'GET':
+        serializer = ArchivoGestionDeCalidadSerializer(archivos, many=True)
+        return Response(serializer.data)
+
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_archivosDeGestionDeCalidadEmpleado_view(request, emp_pk):
+    """View que retorna todos los archivos de gestion de calidad del empleado que está realizando la petición"""
+
+    if request.method == 'GET':
+        try:
+            empleado = EmpleadoSerializer((Empleado.objects.get(
+                emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
+            if(empleado.data['emp_id'] != int(emp_pk)):
+                return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
+            departamento = empleado.data['departamento']
+            archivos = ArchivoGestionCalidadDepartamentoSerializer(
+                ArchivoGestionCalidadDepartamento.objects.filter(ae_dep_fk=departamento['dep_id']), many=True)
+            if archivos.data == []:
+                raise ArchivoGestionCalidadDepartamento.DoesNotExist
+            response = []
+            for archivo in archivos.data:
+                response.append(
+                    ArchivoGestionDeCalidadSerializer(
+                        ArchivoGestionCalidad.objects.get(agc_id=archivo['ae_agc_fk'])).data
+                )
+            return Response(response)
+        except Empleado.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
+        except ArchivoGestionCalidadDepartamento.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Este empleado no tiene archivos de gestion de calidad asociados.')
+        except ArchivoGestionCalidad.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. No existen archivos de gestion de calidad.')
+
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
+    """View que retorna un archivo en base a su id"""
+    
+    if request.method == 'GET':
+        try:
+            empleado = EmpleadoSerializer((Empleado.objects.get(
+                emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
+            if(empleado.data['emp_id'] != int(emp_pk)):
+                return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
+            archivo = ArchivoGestionCalidad.objects.get(agc_id=agc_pk)
+            serializer = ArchivoGestionDeCalidadSerializer(archivo)
+            return Response(serializer.data)
+        except ArchivoGestionCalidad.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Archivo no encontrado')

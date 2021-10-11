@@ -185,12 +185,12 @@ class Proveedor(models.Model):
 class ArchivoGestionCalidad(models.Model):
     agc_id = models.AutoField(primary_key=True)
     agc_titulo = models.CharField(max_length=255)
-    agc_descripcion = models.CharField(max_length=500)
+    agc_descripcion = models.CharField(max_length=500, blank=True, null=True)
     agc_direccion = models.CharField(max_length=500)
     agc_fecha_modif = models.DateTimeField()
     agc_estatus = models.BooleanField(default=True)
     agc_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='agc_usu_modif_fk', blank=True, null=True)
-    agc_empleados = models.ManyToManyField(Empleado, through='ArchivoGestionCalidadEmpleado')
+    agc_departamentos = models.ManyToManyField(Departamento, through='ArchivoGestionCalidadDepartamento')
 
     class Meta:
         db_table = 'ArchivoGestionCalidad'
@@ -200,19 +200,17 @@ class ArchivoGestionCalidad(models.Model):
         return self.agc_titulo
 
 
-class ArchivoGestionCalidadEmpleado(models.Model):
+class ArchivoGestionCalidadDepartamento(models.Model):
     ae_id = models.AutoField(primary_key=True)
-    ae_fecha_visto = models.DateTimeField(blank=True, null=True)
-    ae_visto = models.BooleanField(default=True)
     ae_fecha_modif = models.DateTimeField()
     ae_estatus = models.BooleanField(default=True)
-    ae_emp_fk = models.ForeignKey(Empleado, on_delete=models.DO_NOTHING, db_column='ae_emp_fk', blank=True, null=True)
+    ae_dep_fk = models.ForeignKey(Departamento, on_delete=models.DO_NOTHING, db_column='ae_dep_fk', blank=True, null=True)
     ae_agc_fk = models.ForeignKey(ArchivoGestionCalidad, on_delete=models.DO_NOTHING, db_column='ae_agc_fk', blank=True, null=True)
     ae_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='ae_usu_modif_fk', blank=True, null=True)
 
     class Meta:
-        db_table = 'ArchivoGestionCalidad_Usuario'        
-        unique_together = [['ae_emp_fk', 'ae_agc_fk']]
+        db_table = 'ArchivoGestionCalidad_Departamento'
+        unique_together = [['ae_dep_fk', 'ae_agc_fk']]
 
 
 class Anuncio(models.Model):

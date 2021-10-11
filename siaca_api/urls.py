@@ -26,4 +26,7 @@ urlpatterns = [
     path('login/', views.CustomAuthToken.as_view(), name='login'),
     path('departamento/', views.api_depts_view, name='departamentos'),
     path('permiso/', views.api_permisos_view, name='permisos'),
+    path('archivos-gestion-calidad/', views.api_archivosDeGestionDeCalidad_view, name='archivos de gestion de la calidad'),
+    path('empleado/<emp_pk>/archivos-gestion-calidad/', views.api_archivosDeGestionDeCalidadEmpleado_view, name='archivos de gestion de la calidad del empleado'),
+    path('empleado/<emp_pk>/archivos-gestion-calidad/<agc_pk>', views.api_archivoDeGestionDeCalidadEmpleado_view, name='archivo de gestion de la calidad del empleado'),
 ]

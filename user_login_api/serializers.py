@@ -1,6 +1,7 @@
 from django.db.models import fields
 from rest_framework import serializers
-from .models import Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
+from rest_framework.utils import model_meta
+from .models import ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
 
 class RolSerializer(serializers.ModelSerializer):
     class Meta:
@@ -73,3 +74,16 @@ class ProveedorSerializer(serializers.ModelSerializer):
     def get_rol_from_supplier(self, proveedor):
         rol = proveedor.pro_rol_fk
         return RolSerializer(rol).data
+
+class ArchivoGestionDeCalidadSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = ArchivoGestionCalidad
+        fields = ['agc_titulo', 'agc_descripcion', 'agc_direccion', 'agc_estatus', 'agc_fecha_modif', 'agc_usu_modif_fk']
+
+
+class ArchivoGestionCalidadDepartamentoSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = ArchivoGestionCalidadDepartamento
+        fields = ['ae_estatus', 'ae_dep_fk', 'ae_agc_fk', 'ae_fecha_modif', 'ae_usu_modif_fk']        

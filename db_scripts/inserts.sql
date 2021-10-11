@@ -2113,3 +2113,491 @@ INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, em
 VALUES ('Yorge', 'Pereda', NULL, NULL, 16508529, CURRENT_TIMESTAMP, 1, 111, 52, 2, 1);
 INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, emp_ci, emp_fecha_modif, emp_estatus, emp_usu_fk, emp_rol_fk, emp_dep_fk, emp_usu_modif_fk)
 VALUES ('Ronald', 'González', NULL, NULL, 13563734, CURRENT_TIMESTAMP, 1, 112, 53, 4, 1);
+
+-- Manuales de Administración --
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Calidad del Servicio', NULL, '/Administracion/Manual de Calidad del Servicio.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Normas y Procedimientos', NULL, '/Administracion/Manual de Normas y Procedimientos.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Organización y Funciones', NULL, '/Administracion/Manual de Organización y Funciones.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Politicas', NULL, '/Administracion/Manual de Politicas.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Seguridad y Salud Laboral', NULL, '/Administracion/Manual de Seguridad y Salud Laboral.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual Descriptivo de Cargos', NULL, '/Administracion/Manual Descriptivo de Cargos', CURRENT_TIMESTAMP, 1, 1);
+
+-- Manuales de Operaciones --
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Animales Vivos', NULL, '/Operaciones/Manual de Animales Vivos.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Capacitación', NULL, '/Operaciones/Manual de Capacitación.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Despacho de Vuelos', NULL, '/Operaciones/Manual de Despacho de Vuelos.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Mantenimiento de Vehiculos', NULL, '/Operaciones/Manual de Mantenimiento de Vehiculos.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Mercancias Peligrosas', NULL, '/Operaciones/Manual de Mercancias Peligrosas.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Operaciones de Plataforma', NULL, '/Operaciones/Manual de Operaciones de Plataforma.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Planes de Emergencia', NULL, '/Operaciones/Manual de Planes de Emergencia.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Suministro de Combustible', NULL, '/Operaciones/Manual de Suministro de Combustible.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Programa de Facilitación', NULL, '/Operaciones/Programa de Facilitación.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
+VALUES ('Programa de FOD', NULL, '/Operaciones/Programa de FOD.pdf', CURRENT_TIMESTAMP, 1, 1);
+
+-- Departamentos a los que pertenecen los archivos --
+
+-- Dirección --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (1, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Operaciones --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (2, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Recursos Humanos --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (3, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Administracion --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 13, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (4, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Teconologias de informacion --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 13, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (5, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Comercializacion --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (6, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Mantenimiento --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Servicio al Pasajero --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (8, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Despacho de vuelos --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (9, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Seguridad y Salud en el Trabajo --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (10, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Capacitación --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (11, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Seguridad Operacional --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (12, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Organizacion y Metodos --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (13, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Gestion de la Calidad --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 7, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 9, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 10, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 11, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 12, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (14, 16, 1, CURRENT_TIMESTAMP, 1);*/
+
+-- Gestion y Recaudación de Cobros y Pagos --
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 1, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 2, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 3, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 4, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 5, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 6, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 8, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 13, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 15, 1, CURRENT_TIMESTAMP, 1);
+/*INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 14, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (15, 16, 1, CURRENT_TIMESTAMP, 1);*/
