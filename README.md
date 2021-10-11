@@ -39,6 +39,10 @@ Posteriormente, usando la consola de comandos:
 
 Ahora se ejecuta el archivo **inserts.sql**
 
+Se generan los tokens de seguridad para los usuarios existentes con el siguiente comando:
+>
+>python manage.py create_tokens
+
 Y por ultimo, se levanta el servicio con el siguiente comando:
 >
 >python manage.py runserver
