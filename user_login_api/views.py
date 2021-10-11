@@ -190,10 +190,10 @@ def api_archivosDeGestionDeCalidadEmpleado_view(request, emp_pk):
                 raise ArchivoGestionCalidadDepartamento.DoesNotExist
             response = []
             for archivo in archivos.data:
-                response.append(
-                    ArchivoGestionDeCalidadSerializer(
-                        ArchivoGestionCalidad.objects.get(agc_id=archivo['ae_agc_fk'])).data
-                )
+                archivo = ArchivoGestionDeCalidadSerializer(
+                    ArchivoGestionCalidad.objects.get(agc_id=archivo['ae_agc_fk'])).data
+                if request.query_params.__contains__("tipo") and archivo['agc_tipo'] == request.query_params["tipo"]:
+                    response.append(archivo)
             return Response(response)
         except Empleado.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
@@ -208,7 +208,7 @@ def api_archivosDeGestionDeCalidadEmpleado_view(request, emp_pk):
 @permission_classes([IsAuthenticated])
 def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
     """View que retorna un archivo en base a su id"""
-    
+
     if request.method == 'GET':
         try:
             empleado = EmpleadoSerializer((Empleado.objects.get(

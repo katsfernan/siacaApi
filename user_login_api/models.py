@@ -188,6 +188,7 @@ class ArchivoGestionCalidad(models.Model):
     agc_descripcion = models.CharField(max_length=500, blank=True, null=True)
     agc_direccion = models.CharField(max_length=500)
     agc_fecha_modif = models.DateTimeField()
+    agc_tipo = models.CharField(max_length=250, default='Operacional')
     agc_estatus = models.BooleanField(default=True)
     agc_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='agc_usu_modif_fk', blank=True, null=True)
     agc_departamentos = models.ManyToManyField(Departamento, through='ArchivoGestionCalidadDepartamento')

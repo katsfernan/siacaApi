@@ -79,7 +79,7 @@ class ArchivoGestionDeCalidadSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ArchivoGestionCalidad
-        fields = ['agc_titulo', 'agc_descripcion', 'agc_direccion', 'agc_estatus', 'agc_fecha_modif', 'agc_usu_modif_fk']
+        fields = ['agc_titulo', 'agc_descripcion', 'agc_direccion', 'agc_tipo', 'agc_estatus', 'agc_fecha_modif', 'agc_usu_modif_fk']
 
 
 class ArchivoGestionCalidadDepartamentoSerializer(serializers.ModelSerializer):

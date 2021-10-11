@@ -2115,40 +2115,40 @@ INSERT INTO Empleado (emp_nombre, emp_apellido, emp_correo_personal, emp_rif, em
 VALUES ('Ronald', 'González', NULL, NULL, 13563734, CURRENT_TIMESTAMP, 1, 112, 53, 4, 1);
 
 -- Manuales de Administración --
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Calidad del Servicio', NULL, '/Administracion/Manual de Calidad del Servicio.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Normas y Procedimientos', NULL, '/Administracion/Manual de Normas y Procedimientos.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Organización y Funciones', NULL, '/Administracion/Manual de Organización y Funciones.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Politicas', NULL, '/Administracion/Manual de Politicas.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Seguridad y Salud Laboral', NULL, '/Administracion/Manual de Seguridad y Salud Laboral.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual Descriptivo de Cargos', NULL, '/Administracion/Manual Descriptivo de Cargos', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Calidad del Servicio', NULL, '/Administracion/Manual de Calidad del Servicio.pdf', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Normas y Procedimientos', NULL, '/Administracion/Manual de Normas y Procedimientos.pdf', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Organización y Funciones', NULL, '/Administracion/Manual de Organización y Funciones.pdf', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Politicas', NULL, '/Administracion/Manual de Politicas.pdf', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Seguridad y Salud Laboral', NULL, '/Administracion/Manual de Seguridad y Salud Laboral.pdf', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual Descriptivo de Cargos', NULL, '/Administracion/Manual Descriptivo de Cargos', CURRENT_TIMESTAMP, 'Administrativo', 1, 1);
 
 -- Manuales de Operaciones --
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Animales Vivos', NULL, '/Operaciones/Manual de Animales Vivos.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Capacitación', NULL, '/Operaciones/Manual de Capacitación.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Despacho de Vuelos', NULL, '/Operaciones/Manual de Despacho de Vuelos.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Mantenimiento de Vehiculos', NULL, '/Operaciones/Manual de Mantenimiento de Vehiculos.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Mercancias Peligrosas', NULL, '/Operaciones/Manual de Mercancias Peligrosas.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Operaciones de Plataforma', NULL, '/Operaciones/Manual de Operaciones de Plataforma.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Planes de Emergencia', NULL, '/Operaciones/Manual de Planes de Emergencia.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Suministro de Combustible', NULL, '/Operaciones/Manual de Suministro de Combustible.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Programa de Facilitación', NULL, '/Operaciones/Programa de Facilitación.pdf', CURRENT_TIMESTAMP, 1, 1);
-INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_estatus, agc_usu_modif_fk)
-VALUES ('Programa de FOD', NULL, '/Operaciones/Programa de FOD.pdf', CURRENT_TIMESTAMP, 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Animales Vivos', NULL, '/Operaciones/Manual de Animales Vivos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Capacitación', NULL, '/Operaciones/Manual de Capacitación.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Despacho de Vuelos', NULL, '/Operaciones/Manual de Despacho de Vuelos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Mantenimiento de Vehiculos', NULL, '/Operaciones/Manual de Mantenimiento de Vehiculos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Mercancias Peligrosas', NULL, '/Operaciones/Manual de Mercancias Peligrosas.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Operaciones de Plataforma', NULL, '/Operaciones/Manual de Operaciones de Plataforma.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Planes de Emergencia', NULL, '/Operaciones/Manual de Planes de Emergencia.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Manual de Suministro de Combustible', NULL, '/Operaciones/Manual de Suministro de Combustible.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Programa de Facilitación', NULL, '/Operaciones/Programa de Facilitación.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Programa de FOD', NULL, '/Operaciones/Programa de FOD.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 
 -- Departamentos a los que pertenecen los archivos --
 
