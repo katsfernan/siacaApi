@@ -37,7 +37,8 @@ class Usuario(AbstractBaseUser):
     usu_correo = models.CharField(unique=True, max_length=255)
     usu_fecha_modif = models.DateTimeField(auto_now=True)
     usu_estatus = models.BooleanField(default=True)
-    usu_usu_modif_fk = models.ForeignKey('self', on_delete=models.DO_NOTHING, db_column='usu_usu_modif_fk', blank=True, null=True, related_name='usu_usu_modif_id')
+    usu_usu_modif_fk = models.ForeignKey('self', on_delete=models.DO_NOTHING, db_column='usu_usu_modif_fk', related_name='usu_usu_modif_id')
+    usu_tipo = models.CharField(default='Empleado', max_length=250)
 
     objects = UsuarioManager()
     is_staff = models.BooleanField(default=False)
@@ -70,7 +71,7 @@ class Permiso(models.Model):
     per_nombre = models.CharField(max_length=255)
     per_fecha_modif = models.DateTimeField()
     per_estatus = models.BooleanField(default=True)
-    per_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='per_usu_modif_fk', blank=True, null=True)
+    per_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='per_usu_modif_fk')
 
     class Meta:
         db_table = 'Permiso'
@@ -84,7 +85,7 @@ class Rol(models.Model):
     rol_descripcion = models.CharField(max_length=500)
     rol_fecha_modif = models.DateTimeField()
     rol_estatus = models.BooleanField(default=True)
-    rol_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='rol_usu_modif_fk', blank=True, null=True)
+    rol_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='rol_usu_modif_fk')
     rol_permisos = models.ManyToManyField(Permiso, through='RolPermiso')
 
     class Meta:
@@ -98,9 +99,9 @@ class RolPermiso(models.Model):
     rp_id = models.AutoField(primary_key=True)
     rp_fecha_modif = models.DateTimeField()
     rp_estatus = models.BooleanField(default=True)
-    rp_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='rp_rol_fk', blank=True, null=True)
-    rp_per_fk = models.ForeignKey(Permiso, on_delete=models.DO_NOTHING, db_column='rp_per_fk', blank=True, null=True)
-    rp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='rp_usu_modif_fk', blank=True, null=True)
+    rp_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='rp_rol_fk')
+    rp_per_fk = models.ForeignKey(Permiso, on_delete=models.DO_NOTHING, db_column='rp_per_fk')
+    rp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='rp_usu_modif_fk')
 
     class Meta:
         db_table = 'Rol_Permiso'
@@ -112,7 +113,7 @@ class Departamento(models.Model):
     dep_descripcion = models.CharField(max_length=500)
     dep_fecha_modif = models.DateTimeField()
     dep_estatus = models.BooleanField(default=True)
-    dep_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='dep_usu_modif_fk', blank=True, null=True)
+    dep_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='dep_usu_modif_fk')
 
     class Meta:
         db_table = 'Departamento'
@@ -130,10 +131,10 @@ class Empleado(models.Model):
     emp_ci = models.IntegerField(unique=True)
     emp_fecha_modif = models.DateTimeField()
     emp_estatus = models.BooleanField(default=True)
-    emp_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='emp_usu_fk', blank=True, null=True, related_name='emp_usu_fk')
-    emp_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='emp_rol_fk', blank=True, null=True)
-    emp_dep_fk = models.ForeignKey(Departamento, on_delete=models.DO_NOTHING, db_column='emp_dep_fk', blank=True, null=True)
-    emp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='emp_usu_modif_fk', blank=True, null=True, related_name='emp_usu_modif_fk')
+    emp_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='emp_usu_fk', related_name='emp_usu_fk')
+    emp_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='emp_rol_fk')
+    emp_dep_fk = models.ForeignKey(Departamento, on_delete=models.DO_NOTHING, db_column='emp_dep_fk')
+    emp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='emp_usu_modif_fk', related_name='emp_usu_modif_fk')
 
     class Meta:
         db_table = 'Empleado'
@@ -151,15 +152,15 @@ class Cliente(models.Model):
     cli_ci = models.IntegerField(unique=True)
     cli_fecha_modif = models.DateTimeField()
     cli_estatus = models.BooleanField(default=True)
-    cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', blank=True, null=True, related_name='cli_usu_fk')
-    cli_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='cli_rol_fk', blank=True, null=True)
-    cli_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_modif_fk', blank=True, null=True, related_name='cli_usu_modif_fk')
+    cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', related_name='cli_usu_fk')
+    cli_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='cli_rol_fk')
+    cli_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_modif_fk', related_name='cli_usu_modif_fk')
 
     class Meta:
         db_table = 'Cliente'
 
     def __str__(self) -> str:
-        return str(self.cli_ci) + ' ' + self.cli_nombre + ' ' + self.cli_apellido
+        return str(self.cli_ci) + ' ' + self.cli_nombre + ' ' + str(self.cli_apellido)
 
         
 class Proveedor(models.Model):
@@ -171,15 +172,15 @@ class Proveedor(models.Model):
     pro_ci = models.IntegerField(unique=True)
     pro_fecha_modif = models.DateTimeField()
     pro_estatus = models.BooleanField(default=True)
-    pro_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_fk', blank=True, null=True, related_name='pro_usu_fk')
-    pro_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='pro_rol_fk', blank=True, null=True)
-    pro_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
+    pro_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_fk', related_name='pro_usu_fk')
+    pro_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='pro_rol_fk')
+    pro_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_modif_fk', related_name='pro_usu_modif_fk')
 
     class Meta:
         db_table = 'Proveedor'
 
     def __str__(self) -> str:
-        return str(self.pro_rif) + ' ' + self.pro_nombre + ' ' + self.pro_apellido
+        return str(self.pro_rif) + ' ' + self.pro_nombre + ' ' + str(self.pro_apellido)
 
     
 class ArchivoGestionCalidad(models.Model):
@@ -190,7 +191,7 @@ class ArchivoGestionCalidad(models.Model):
     agc_fecha_modif = models.DateTimeField()
     agc_tipo = models.CharField(max_length=250, default='Operacional')
     agc_estatus = models.BooleanField(default=True)
-    agc_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='agc_usu_modif_fk', blank=True, null=True)
+    agc_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='agc_usu_modif_fk')
     agc_departamentos = models.ManyToManyField(Departamento, through='ArchivoGestionCalidadDepartamento')
 
     class Meta:
@@ -205,9 +206,9 @@ class ArchivoGestionCalidadDepartamento(models.Model):
     ae_id = models.AutoField(primary_key=True)
     ae_fecha_modif = models.DateTimeField()
     ae_estatus = models.BooleanField(default=True)
-    ae_dep_fk = models.ForeignKey(Departamento, on_delete=models.DO_NOTHING, db_column='ae_dep_fk', blank=True, null=True)
-    ae_agc_fk = models.ForeignKey(ArchivoGestionCalidad, on_delete=models.DO_NOTHING, db_column='ae_agc_fk', blank=True, null=True)
-    ae_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='ae_usu_modif_fk', blank=True, null=True)
+    ae_dep_fk = models.ForeignKey(Departamento, on_delete=models.DO_NOTHING, db_column='ae_dep_fk')
+    ae_agc_fk = models.ForeignKey(ArchivoGestionCalidad, on_delete=models.DO_NOTHING, db_column='ae_agc_fk')
+    ae_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='ae_usu_modif_fk')
 
     class Meta:
         db_table = 'ArchivoGestionCalidad_Departamento'
@@ -220,7 +221,7 @@ class Anuncio(models.Model):
     anu_mensaje = models.CharField(max_length=500)
     anu_fecha_modif = models.DateTimeField()
     anu_status = models.BooleanField(default=True)
-    anu_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='anu_usu_modif_fk', blank=True, null=True)
+    anu_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='anu_usu_modif_fk')
     anu_empleados = models.ManyToManyField(Empleado, through='EmpleadoAnuncio')
 
     class Meta:
@@ -235,8 +236,8 @@ class EmpleadoAnuncio(models.Model):
     ea_fecha_enviado = models.DateTimeField()
     ea_fecha_visto = models.DateTimeField(blank=True, null=True)
     ea_visto = models.BooleanField(default=False)
-    ea_anu_fk = models.ForeignKey(Anuncio, on_delete=models.DO_NOTHING, db_column='ea_anu_fk', blank=True, null=True)
-    ea_emp_fk = models.ForeignKey(Empleado, on_delete=models.DO_NOTHING, db_column='ea_emp_fk', blank=True, null=True)
+    ea_anu_fk = models.ForeignKey(Anuncio, on_delete=models.DO_NOTHING, db_column='ea_anu_fk')
+    ea_emp_fk = models.ForeignKey(Empleado, on_delete=models.DO_NOTHING, db_column='ea_emp_fk')
 
     class Meta:
         db_table = 'Empleado_Anuncio'
@@ -250,9 +251,9 @@ class ArchivoRetencion(models.Model):
     are_direccion = models.CharField(max_length=500)
     are_fecha_modif = models.DateTimeField()
     are_estatus = models.BooleanField(default=True)
-    are_cli_fk = models.ForeignKey(Cliente, on_delete=models.DO_NOTHING, db_column='are_cli_fk', blank=True, null=True)
-    are_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_pro_fk', blank=True, null=True)
-    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk', blank=True, null=True)
+    are_cli_fk = models.ForeignKey(Cliente, on_delete=models.DO_NOTHING, db_column='are_cli_fk')
+    are_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_pro_fk')
+    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk')
 
     class Meta:
         db_table = 'ArchivoRetencion'
@@ -268,8 +269,8 @@ class ArchivoServiciosPrestados(models.Model):
     asp_direccion = models.CharField(max_length=500)
     asp_fecha_modif = models.DateTimeField()
     asp_estatus = models.BooleanField(default=True)
-    asp_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='asp_pro_fk', blank=True, null=True)
-    asp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='asp_usu_modif_fk', blank=True, null=True)
+    asp_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='asp_pro_fk')
+    asp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='asp_usu_modif_fk')
 
     class Meta:
         db_table = 'ArchivoServiciosPrestados'

@@ -40,7 +40,7 @@ class UserChangeForm(forms.ModelForm):
 
     class Meta:
         model = models.Usuario
-        fields = ('usu_correo', 'usu_estatus', 'password')
+        fields = ('usu_correo', 'usu_estatus', 'usu_tipo', 'password')
 
     def clean_password(self):
         return self.initial["password"]
@@ -54,7 +54,7 @@ class UsuarioAdmin(UserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
 
-    list_display = ('usu_correo', 'last_login', 'usu_fecha_modif', 'usu_usu_modif_fk', 'usu_estatus', 'is_staff', 'is_superuser')
+    list_display = ('usu_correo', 'last_login', 'usu_fecha_modif', 'usu_usu_modif_fk', 'usu_tipo', 'usu_estatus', 'is_staff', 'is_superuser')
     search_fields = ('usu_correo',)
     readonly_fields=('usu_id', 'last_login')
 
@@ -63,13 +63,13 @@ class UsuarioAdmin(UserAdmin):
     ordering=('usu_correo',)
     fieldsets = (
         (None, {
-            'fields': ('usu_correo', 'usu_usu_modif_fk', 'usu_estatus', 'password', 'is_active', 'is_staff', 'is_superuser'),
+            'fields': ('usu_correo', 'usu_usu_modif_fk', 'usu_estatus', 'password', 'usu_tipo', 'is_active', 'is_staff', 'is_superuser'),
         }),
     )
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('usu_correo', 'usu_usu_modif_fk', 'usu_estatus', 'password1', 'password2'),
+            'fields': ('usu_correo', 'usu_usu_modif_fk', 'usu_estatus', 'usu_tipo', 'password1', 'password2'),
         }),
     )
     

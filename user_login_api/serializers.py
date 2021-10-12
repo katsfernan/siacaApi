@@ -29,7 +29,7 @@ class DepartamentoSerializer(serializers.ModelSerializer):
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model  = Usuario
-        fields = ['usu_id', 'usu_correo', 'usu_estatus', 'usu_usu_modif_fk']
+        fields = ['usu_id', 'usu_correo', 'usu_estatus', 'usu_tipo' 'usu_usu_modif_fk']
 
 
 class EmpleadoSerializer(serializers.ModelSerializer):

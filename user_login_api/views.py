@@ -23,19 +23,19 @@ class CustomAuthToken(ObtainAuthToken):
         serializer.is_valid(raise_exception=True)
         user = serializer.validated_data['user']
         token, created = Token.objects.get_or_create(user=user)
-        if (request.data['user_type'] == 'Empleado'):
+        if (user.usu_tipo == 'Empleado'):
             try:
                 user_data = EmpleadoSerializer(
                     Empleado.objects.get(emp_usu_fk=user.pk))
             except Empleado.DoesNotExist:
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
-        elif (request.data['user_type'] == 'Cliente'):
+        elif (user.usu_tipo == 'Cliente'):
             try:
                 user_data = ClienteSerializer(
                     Cliente.objects.get(cli_usu_fk=user.pk))
             except Cliente.DoesNotExist:
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Cliente no encontrado.')
-        elif (request.data['user_type'] == 'Proveedor'):
+        elif (user.usu_tipo == 'Proveedor'):
             try:
                 user_data = ProveedorSerializer(
                     Proveedor.objects.get(pro_usu_fk=user.pk))
@@ -60,6 +60,7 @@ class CustomAuthToken(ObtainAuthToken):
         return Response({
             'token': token.key,
             'user_id': user.pk,
+            'user_type': user.usu_tipo,
             'email': user.usu_correo,
             'user_data': {
                 'type': request.data['user_type'],
