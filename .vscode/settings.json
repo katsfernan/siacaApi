@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./siaca_api",
+        "./siaca_api"
+    ]
+}

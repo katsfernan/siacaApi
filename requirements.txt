@@ -2,3 +2,5 @@ django==3.0
 djangorestframework==3.12.4
 django-mssql-backend==2.8.1
 django-cors-headers==3.10.0
+boto3
+celery===5.1.2 

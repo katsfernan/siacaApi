@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+BROKER_URL = 'amqp://guest:guest@localhost//'
+
 
 # Application definition
 
@@ -39,8 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'user_login_api',
     'corsheaders',
+    
+    'user_login_api',
+    'cliente_proveedor_api_rest'
+
 ]
 
 MIDDLEWARE = [    

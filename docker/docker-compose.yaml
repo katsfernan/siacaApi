@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+  rabbitmq:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: rabbitmq
+    restar: always
+    port:
+      - 9890:15672
+      - 8888:5672
+    hostname: state
+    volumes:
+      - ./data:/var/lib/rabbitmq/mnesia
+    enviroment: 
+      RABBITMQ_DEFAULT_USER: siaca
+      RABBITMQ_DEFAULT_PASS: siacarabbitmq20210922
+      RABBITMQ_VM_MEMORY_HIGH_WATERMARK: 0.5
+    newtworks:
+      rabbitmq_net:
+        aliases:
+          - rabbitmq_host
+volumes:
+  data: {}
+  newtworks:
+    rabbitmq_net:
+      name: rabbitmq_network
+      driver: bridge

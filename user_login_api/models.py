@@ -1,3 +1,4 @@
+from os import truncate
 from django.db import models
 from django.conf import settings
 from django.dispatch import receiver
@@ -144,12 +145,11 @@ class Empleado(models.Model):
 
 
 class Cliente(models.Model):
-    cli_id = models.AutoField(primary_key=True)
-    cli_nombre = models.CharField(max_length=255)
-    cli_apellido = models.CharField(max_length=255, blank=True, null=True)
-    cli_correo_personal = models.CharField(unique=True, max_length=255, blank=True, null=True)
-    cli_rif = models.CharField(max_length=255, blank=True, null=True)
-    cli_ci = models.IntegerField(unique=True)
+    cli_doc_num = models.IntegerField(primary_key=True)
+    cli_descripcion = models.CharField(max_length=255)
+    cli_descripcion2 = models.CharField(max_length=255, blank=True, null=True)
+    cli_email = models.CharField(unique=True, max_length=255, blank=True, null=True)
+    cli_tipo_cli = models.IntegerField()
     cli_fecha_modif = models.DateTimeField()
     cli_estatus = models.BooleanField(default=True)
     cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', related_name='cli_usu_fk')
@@ -160,29 +160,50 @@ class Cliente(models.Model):
         db_table = 'Cliente'
 
     def __str__(self) -> str:
-        return str(self.cli_ci) + ' ' + self.cli_nombre + ' ' + str(self.cli_apellido)
+        return str(self.cli_doc_num) + ' ' + self.cli_descripcion.capitalize() + ' ' + self.cli_descripcion2.capitalize()
 
-        
+class TipoProveedor(models.Model):
+    tprov_id = models.AutoField(primary_key=True)
+    tprov_descripcion = models.CharField(max_length=50)
+    tprov_detalle = models.CharField(max_length=50,blank=True, null=True)
+    tprov_detalle2 = models.CharField(max_length=50,blank=True, null=True)
+    tprov_detalle3 = models.CharField(max_length=50,blank=True, null=True)
+    tprov_detalle4 = models.CharField(max_length=50,blank=True, null=True)
+   
+    class Meta:
+        db_table = 'TipoProveedor'
+
+    def __str__(self) -> str:
+        return str(self.tprov_id) + ' ' + self.tprov_descripcion.capitalize() + ' ' + self.fac_cli_fk.descripcion2.capitalize() if self.fac_cli_fk.descripcion2 else ''    
+    
+class Zona(models.Model):
+    zon_id = models.AutoField(primary_key=True)
+    zon_descripcion = models.CharField(max_length=100)
+    class Meta:
+        db_table = 'Zona'
+
+    def __str__(self) -> str:
+        return str(self.zon_id) + '' + self.zon_descripcion.capitalize()
+     
 class Proveedor(models.Model):
-    pro_id = models.AutoField(primary_key=True)
-    pro_nombre = models.CharField(max_length=255)
-    pro_apellido = models.CharField(max_length=255, blank=True, null=True)
-    pro_correo_personal = models.CharField(unique=True, max_length=255, blank=True, null=True)
-    pro_rif = models.CharField(max_length=255, blank=True, null=True)
-    pro_ci = models.IntegerField(unique=True)
+    pro_rif = models.CharField(max_length=100, primary_key=True)
+    pro_descripcion = models.CharField(max_length=100)
+    pro_email = models.CharField(unique=True, max_length=50, blank=True, null=True)
+    pro_direc1 = models.CharField(max_length=150)
+    pro_direc2 = models.CharField(max_length=150, blank=True, null=True)
+    pro_telefono = models.CharField(max_length= 20, blank=True, null=True)
     pro_fecha_modif = models.DateTimeField()
     pro_estatus = models.BooleanField(default=True)
-    pro_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_fk', related_name='pro_usu_fk')
-    pro_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='pro_rol_fk')
-    pro_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_modif_fk', related_name='pro_usu_modif_fk')
-
+    pro_tprov_fk  = models.ForeignKey(TipoProveedor, on_delete=models.DO_NOTHING, db_column='pro_tprov_fk', blank=True, null=True)
+    pro_zon_fk = models.ForeignKey(Zona, on_delete=models.DO_NOTHING, db_column='pro_zon_fk', blank=True, null=True)
+    pro_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_fk', blank=True, null=True, related_name='pro_usu_fk')
+    pro_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='pro_rol_fk', blank=True, null=True)
+    pro_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
     class Meta:
         db_table = 'Proveedor'
 
     def __str__(self) -> str:
-        return str(self.pro_rif) + ' ' + self.pro_nombre + ' ' + str(self.pro_apellido)
-
-    
+        return str(self.pro_cod) + ' ' + self.pro_descripcion + ' ' + self.pro_descripcion2
 class ArchivoGestionCalidad(models.Model):
     agc_id = models.AutoField(primary_key=True)
     agc_titulo = models.CharField(max_length=255)
@@ -244,36 +265,21 @@ class EmpleadoAnuncio(models.Model):
         unique_together = [['ea_anu_fk', 'ea_emp_fk']]
 
 
-class ArchivoRetencion(models.Model):
-    are_id = models.AutoField(primary_key=True)
-    are_titulo = models.CharField(max_length=255)
-    are_descripcion = models.CharField(max_length=500)
-    are_direccion = models.CharField(max_length=500)
-    are_fecha_modif = models.DateTimeField()
-    are_estatus = models.BooleanField(default=True)
-    are_cli_fk = models.ForeignKey(Cliente, on_delete=models.DO_NOTHING, db_column='are_cli_fk')
-    are_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_pro_fk')
-    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk')
+class PagoRetencionIva(models.Model):
+    pagRetIva_doc_num = models.CharField(primary_key=True)
+    pagRetIva_periodo = models.CharField(max_length=20)
+    pagRetIva_fecha_doc = models.DateField()
+    pagRetIva_doc_num_control = models.CharField(max_length=20)
+    pagRetIva_base_imponible = models.IntegerField()
+    pagRetIva_monto_ret_imp = models.IntegerField()
+    pagRetIva_num_comprobante = models.CharField(max_length=50)
+    pagRetIva_alicuota = models.IntegerField()
+    pagRetIva_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_cli_fk', blank=True, null=True)
+    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk', blank=True, null=True)
 
     class Meta:
-        db_table = 'ArchivoRetencion'
+        db_table = 'PagoRetencionIva'
 
     def __str__(self) -> str:
-        return self.are_titulo
+        return self.pagRetIva_doc_num
 
-
-class ArchivoServiciosPrestados(models.Model):
-    asp_id = models.AutoField(primary_key=True)
-    asp_titulo = models.CharField(max_length=255)
-    asp_descripcion = models.CharField(max_length=500)
-    asp_direccion = models.CharField(max_length=500)
-    asp_fecha_modif = models.DateTimeField()
-    asp_estatus = models.BooleanField(default=True)
-    asp_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='asp_pro_fk')
-    asp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='asp_usu_modif_fk')
-
-    class Meta:
-        db_table = 'ArchivoServiciosPrestados'
-
-    def __str__(self) -> str:
-        return self.asp_titulo

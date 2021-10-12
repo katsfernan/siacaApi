@@ -56,7 +56,14 @@ class ClienteSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cliente
-        fields = ['cli_id', 'cli_nombre', 'cli_apellido', 'cli_ci', 'cli_rif', 'cli_estatus', 'rol']
+        fields = [
+            'cli_doc_num',
+            'cli_descripcion',
+            'cli_descripcion2',
+            'cli_tipo_cli'
+            'cli_estatus',
+            'rol'
+        ]
 
     def get_rol_from_client(self, cliente):
         rol = cliente.cli_rol_fk
@@ -69,7 +76,14 @@ class ProveedorSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Proveedor
-        fields = ['pro_id', 'pro_nombre', 'pro_apellido', 'pro_ci', 'pro_rif', 'pro_estatus', 'rol']
+        fields = [
+            'pro_rif',
+            'pro_descripcion',
+            'pro_direc1',
+            'pro_direc2',
+            'pro_estatus',
+            'rol'
+        ]
 
     def get_rol_from_supplier(self, proveedor):
         rol = proveedor.pro_rol_fk
