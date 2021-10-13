@@ -1,12 +1,11 @@
 from celery import Celery
 from celery.app import shared_task
 from datetime import datetime
+
 import pyodbc
 
 from utils import enviar_email
-
-app = Celery('tasks', broker='redis://localhost:6379/0')
-
+from django.core.mail import send_mail
 
 @shared_task
 def queryFacturasProfit():
@@ -71,8 +70,12 @@ def queryFacturasProfit():
     else:
         print("No se consiguieron facturas nuevas")
 
-    
-    
+@shared_task
+def send_email_task():
+    send_mail('Correo electronico enviado',
+    'Prueba siaca',
+    'siacapruebasucab@gmail.com',
+    ['6991af4aac@emailnax.com'])
     
 
         

@@ -203,7 +203,8 @@ class Proveedor(models.Model):
         db_table = 'Proveedor'
 
     def __str__(self) -> str:
-        return str(self.pro_cod) + ' ' + self.pro_descripcion + ' ' + self.pro_descripcion2
+        return str(self.pro_rif) + ' ' + self.pro_descripcion
+
 class ArchivoGestionCalidad(models.Model):
     agc_id = models.AutoField(primary_key=True)
     agc_titulo = models.CharField(max_length=255)

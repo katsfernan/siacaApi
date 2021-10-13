@@ -23,3 +23,8 @@ app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
 @app.task(bind=True)
 def debug_task(self):
     print('Request: {0!r}'.format(self.request))
+
+
+
+# Para correr el worker de la tarea 
+#celery -A siaca_api worker -l info -P gevent 

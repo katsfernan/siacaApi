@@ -15,7 +15,9 @@ from .serializers import  FacturaVentaSerializer, FacturaVentaRenglonSerializer
 
 from .models import FacturaVenta, FacturaVentaRenglon
 
-FacturaReporte = namedtuple('FacturaReporte', ('facturaInfo', 'facturaRenglones'))
+from .tasks2 import queryFacturasProfit
+
+from .tasks import send_email_task
 
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
@@ -43,10 +45,6 @@ def factura_venta_detalle(request,pk):
         
     if request.method == 'GET':
 
-        '''factura_reporte = FacturaReporte(
-            facturaInfo = factura_encabezado,
-            facturaRenglones = factura_renglon
-            ) ''' 
         serializer_factura_encabezado = FacturaVentaSerializer(factura_encabezado)
         serializer_factura_renglon = FacturaVentaRenglonSerializer(factura_renglon, many=True)
         return Response ({
@@ -65,30 +63,28 @@ def factura_venta(request):
         cliente = Cliente.objects.get(cli_usu_fk=request.user.usu_id)
     except Cliente.DoesNotExist:
         return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')    
-    try:
-        factura_encabezado = FacturaVenta.objects.filter(fac_cli_fk = cliente.cli_doc_num)
-    except FacturaVenta.DoesNotExist:
-         return Response(status=status.HTTP_404_NOT_FOUND)
-     
+
+    #factura_encabezado = get_object_or_404(FacturaVenta, fac_cli_fk = cliente.cli_doc_num)
+    factura_encabezado = FacturaVenta.objects.filter(fac_cli_fk = cliente.cli_doc_num)
+    if not factura_encabezado.exists():
+        return Response(status=status.HTTP_404_NOT_FOUND, data='El cliente no tiene facturas disponibles')    
+
     if request.method == 'GET':
         serializer = FacturaVentaSerializer(factura_encabezado, many=True)
         return Response (serializer.data)
             
                 
+@api_view(['GET', ])
+def pruebaCelery (request):
+    queryFacturasProfit.delay()
+    return Response('Tarea enviada a la cola de eventos...') 
+
 
 @api_view(['GET', ])
-@authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
-def prueba(request):
-    if request.method == 'GET':
-        cliente = Cliente.objects.get(cli_usu_fk=request.user.usu_id)
-        serializer = ClienteSerializer(cliente)
-        print (cliente.cli_doc_num)
-        return Response({
-            'usuario' : serializer.data
-            #request.user
-         })
-        
+def enviarEmail (request):
+    send_email_task.delay()
+    return None 
+
             
     
         

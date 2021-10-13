@@ -23,12 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'uj0@hyv=m=mo&n05!!ict3*su4ls8+y%*8s4ci5e_an60i%w&z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-
-BROKER_URL = 'amqp://guest:guest@localhost//'
-
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -39,9 +36,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+    'django_celery_beat',
     
     'user_login_api',
     'cliente_proveedor_api_rest'
@@ -155,3 +154,38 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:9000',
     'http://127.0.0.1:4200',
 ]
+
+
+# Configuraciones Celery
+
+CELERY_BROKER_URL = 'amqp://localhost'
+
+CELERY_RESULT_BACKEND = 'rpc://'
+
+CELERY_ACCEPT_CONTENT= ['json']
+
+CELERY_TASK_SERIALIZER = 'json'
+
+#Configuraciones Celery Beat
+from celery.schedules import crontab
+
+CELERY_TIMEZONE = 'America/Caracas'   
+# Let's make things happen 
+CELERY_BEAT_SCHEDULE = {
+ 'enviar-email-cada-5-minutos': {
+       'task': 'cliente_proveedor_api_rest.tasks.send_email_task',
+        # There are 4 ways we can handle time, read further 
+       'schedule': crontab(minute='*/5'),
+        # If you're using any arguments
+    }      
+}
+
+#Configuraciones correo electronico
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'siacapruebasucab@gmail.com'
+EMAIL_HOST_PASSWORD = 'siacaucab202110'
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+
