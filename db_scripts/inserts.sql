@@ -2132,129 +2132,129 @@ VALUES ('Manual Descriptivo de Cargos.pdf', NULL, '/Administracion/Manual Descri
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
 VALUES ('Manual de Animales Vivos.pdf', NULL, '/Operaciones/Manual de Animales Vivos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Capacitacion', NULL, '/Operaciones/Manual de Capacitacion.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Capacitacion.pdf', NULL, '/Operaciones/Manual de Capacitacion.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Despacho de Vuelos', NULL, '/Operaciones/Manual de Despacho de Vuelos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Despacho de Vuelos.pdf', NULL, '/Operaciones/Manual de Despacho de Vuelos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Mantenimiento de Vehiculos', NULL, '/Operaciones/Manual de Mantenimiento de Vehiculos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Mantenimiento de Vehiculos.pdf', NULL, '/Operaciones/Manual de Mantenimiento de Vehiculos.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Mercancias Peligrosas', NULL, '/Operaciones/Manual de Mercancias Peligrosas.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Mercancias Peligrosas.pdf', NULL, '/Operaciones/Manual de Mercancias Peligrosas.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Operaciones de Plataforma', NULL, '/Operaciones/Manual de Operaciones de Plataforma.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Operaciones de Plataforma.pdf', NULL, '/Operaciones/Manual de Operaciones de Plataforma.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Planes de Emergencia', NULL, '/Operaciones/Manual de Planes de Emergencia.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Planes de Emergencia.pdf', NULL, '/Operaciones/Manual de Planes de Emergencia.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Manual de Suministro de Combustible', NULL, '/Operaciones/Manual de Suministro de Combustible.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Manual de Suministro de Combustible.pdf', NULL, '/Operaciones/Manual de Suministro de Combustible.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Programa de Facilitacion', NULL, '/Operaciones/Programa de Facilitacion.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Programa de Facilitacion.pdf', NULL, '/Operaciones/Programa de Facilitacion.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Programa de FOD', NULL, '/Operaciones/Programa de FOD.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
+VALUES ('Programa de FOD.pdf', NULL, '/Operaciones/Programa de FOD.pdf', CURRENT_TIMESTAMP, 'Operacional', 1, 1);
 
 -- Formularios --
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Requisicion de Materiales y Servicios', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-001 Requisicion de Materiales y Servicios.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Requisicion de Materiales y Servicios.xlsx', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-001 Requisicion de Materiales y Servicios.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Analisis de Cotizaciones', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-002 Analisis de Cotizaciones.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Analisis de Cotizaciones.xlsx', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-002 Analisis de Cotizaciones.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Requisicion de Pago', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-003 Requisicion de Pago.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Requisicion de Pago.xlsx', NULL, '/Formularios/GERENCIA DE ADMINISTRACION Y FINANZAS/REG-ADM-003 Requisicion de Pago.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Programacion Mensual de Cursos', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-001 Programacion Mensual de Cursos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Programacion Mensual de Cursos.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-001 Programacion Mensual de Cursos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Control de Asistencia', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-002 Control de Asistencia.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Control de Asistencia.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-002 Control de Asistencia.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Guia para la Capacitacion en el Puesto de Trabajo', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-003 Guia para la Capacitacion en el Puesto de Trabajo.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Guia para la Capacitacion en el Puesto de Trabajo.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-003 Guia para la Capacitacion en el Puesto de Trabajo.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Archivo de Capacitacion del Personal', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-004 Archivo de Capacitacion del Personal.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Archivo de Capacitacion del Personal.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-004 Archivo de Capacitacion del Personal.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Evaluacion del Instructor', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-005 Evaluacion del Instructor.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Evaluacion del Instructor.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-005 Evaluacion del Instructor.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Evaluacion Docente del Instructor', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-006 Evaluacion Docente del Instructor.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Evaluacion Docente del Instructor.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-006 Evaluacion Docente del Instructor.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Registro de Calificaciones', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-007 Registro de Calificaciones.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Registro de Calificaciones.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-007 Registro de Calificaciones.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Plan de Leccion', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-008 Plan de Leccion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Plan de Leccion.docx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-008 Plan de Leccion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Practica de Seguridad en Plataforma', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-009 Practica de Seguridad en Plataforma.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Practica de Seguridad en Plataforma.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-009 Practica de Seguridad en Plataforma.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Fase Practica de Capacitacion con Equipos de Soporte en Tierra', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-010 Fase Practica de Capacitacion con Equipos de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Fase Practica de Capacitacion con Equipos de Soporte en Tierra.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-010 Fase Practica de Capacitacion con Equipos de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Fase Practica Individual de Capacitacion con Equipos de Apoyo de Soporte en Tierra', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-011 Fase Practica Individual de Capacitacion con Equipos de Apoyo de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Fase Practica Individual de Capacitacion con Equipos de Apoyo de Soporte en Tierra.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-011 Fase Practica Individual de Capacitacion con Equipos de Apoyo de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Seleccion de Instructores', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-012 Seleccion de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Seleccion de Instructores.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-012 Seleccion de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista Maestra de Entrenamiento y Capacitacion', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-013 Lista Maestra de Entrenamiento y Capacitacion.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista Maestra de Entrenamiento y Capacitacion.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-013 Lista Maestra de Entrenamiento y Capacitacion.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Control de Instructores', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-014 Control de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Control de Instructores.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-014 Control de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Certificado de Aprobacion', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-015 Certificado de Aprobacion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Certificado de Aprobacion.docx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-015 Certificado de Aprobacion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Certificado de Asistencia', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-016 Certificado de Asistencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Certificado de Asistencia.docx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-016 Certificado de Asistencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Fase Practica Individual de Capacitacion de Limpieza de Aeronaves', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-017 Fase Practica Individual de Capacitacion de Limpieza de Aeronaves.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Fase Practica Individual de Capacitacion de Limpieza de Aeronaves.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-017 Fase Practica Individual de Capacitacion de Limpieza de Aeronaves.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Fase Practica Individual de Capacitacion para Señalizacion de Aeronaves y Equipos de Soporte en Tierra', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-018 Fase Practica Individual de Capacitacion para Señalizacion de Aeronaves y Equipos de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Fase Practica Individual de Capacitacion para Señalizacion de Aeronaves y Equipos de Soporte en Tierra.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-018 Fase Practica Individual de Capacitacion para Señalizacion de Aeronaves y Equipos de Soporte en Tierra.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Control de Entrega de Certificados', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-019 Control de Entrega de Certificados.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Control de Entrega de Certificados.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-019 Control de Entrega de Certificados.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Expediente de Instructores', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-020 Expediente de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Expediente de Instructores.xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-020 Expediente de Instructores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Fase Practica Individual de Capacitacion Trafico (Manejo de Pasajeros y su Equipaje)', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-021 Fase Practica Individual de Capacitacion Trafico (Manejo de Pasajeros y su Equipaje).xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Fase Practica Individual de Capacitacion Trafico (Manejo de Pasajeros y su Equipaje).xlsx', NULL, '/Formularios/GERENCIA DE CAPACITACION Y DESARROLLO/REG-CAP-021 Fase Practica Individual de Capacitacion Trafico (Manejo de Pasajeros y su Equipaje).xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Reporte de Seguridad Operacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-001 Reporte de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Reporte de Seguridad Operacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-001 Reporte de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Reporte de Peligro', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-002 Reporte de Peligro.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Reporte de Peligro.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-002 Reporte de Peligro.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Reporte de Accidente o Incidente con Animales Vivos', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-003 Reporte de Accidente o Incidente con Animales Vivos.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Reporte de Accidente o Incidente con Animales Vivos.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-003 Reporte de Accidente o Incidente con Animales Vivos.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Informe de Ocurrencia con Mercancias Peligrosas', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-004 Informe de Ocurrencia con Mercancias Peligrosas.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Informe de Ocurrencia con Mercancias Peligrosas.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-004 Informe de Ocurrencia con Mercancias Peligrosas.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Evaluacion y Mitigacion de Riesgo', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-005 Evaluacion y Mitigacion de Riesgo.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Evaluacion y Mitigacion de Riesgo.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-005 Evaluacion y Mitigacion de Riesgo.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Entrevista de Seguridad Operacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-006 Entrevista de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Entrevista de Seguridad Operacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-006 Entrevista de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Informe de Investigacion de Seguridad Operacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-007 Informe de Investigacion de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Informe de Investigacion de Seguridad Operacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-007 Informe de Investigacion de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Notificacion de Gestion del Cambio', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-008 Notificacion de Gestion del Cambio.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Notificacion de Gestion del Cambio.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-008 Notificacion de Gestion del Cambio.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Evaluacion de Gestion del Cambio', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-009 Evaluacion de Gestion del Cambio.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Evaluacion de Gestion del Cambio.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-009 Evaluacion de Gestion del Cambio.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Asistencia de Seguridad Operacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-010 Lista de Asistencia de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Asistencia de Seguridad Operacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-010 Lista de Asistencia de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Minuta de Seguridad Operacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-011 Minuta de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Minuta de Seguridad Operacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-011 Minuta de Seguridad Operacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Informacion del Pasajero Afectado de la Aerolinea Cliente', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-012 Informacion del Pasajero Afectado de la Aerolinea Cliente.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Informacion del Pasajero Afectado de la Aerolinea Cliente.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-012 Informacion del Pasajero Afectado de la Aerolinea Cliente.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Informacion de la Llamada', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-013 Informacion de la Llamada.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Informacion de la Llamada.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-013 Informacion de la Llamada.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List Comunicacional', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-014 Check List Comunicacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List Comunicacional.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-014 Check List Comunicacional.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List Grupo de Investigacion de Emergencia', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-015 Check List Grupo de Investigacion de Emergencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List Grupo de Investigacion de Emergencia.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-015 Check List Grupo de Investigacion de Emergencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List de Investigacion de Emergencia', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-016 Check List de Investigacion de Emergencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List de Investigacion de Emergencia.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-016 Check List de Investigacion de Emergencia.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List de Administracion', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-017 Check List de Administracion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List de Administracion.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-017 Check List de Administracion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List de Seguridad', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-018 Check List de Seguridad.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List de Seguridad.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-018 Check List de Seguridad.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Check List de Equipo de Asistencia en Hotel', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-019 Check List de Equipo de Asistencia en Hotel.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Check List de Equipo de Asistencia en Hotel.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-019 Check List de Equipo de Asistencia en Hotel.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion de Operaciones en Plataforma', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-020 Lista de Inspeccion de Operaciones en Plataforma.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion de Operaciones en Plataforma.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-020 Lista de Inspeccion de Operaciones en Plataforma.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion a Equipos de Apoyo en Tierra Motorizados', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-021 Lista de Inspeccion a Equipos de Apoyo en Tierra Motorizados.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion a Equipos de Apoyo en Tierra Motorizados.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-021 Lista de Inspeccion a Equipos de Apoyo en Tierra Motorizados.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion a Equipos de Apoyo en Tierra No Motorizados', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-022 Lista de Inspeccion a Equipos de Apoyo en Tierra No Motorizados.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion a Equipos de Apoyo en Tierra No Motorizados.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-022 Lista de Inspeccion a Equipos de Apoyo en Tierra No Motorizados.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion Servicio al Pasajero', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-023 Lista de Inspeccion Servicio al Pasajero.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion Servicio al Pasajero.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-023 Lista de Inspeccion Servicio al Pasajero.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion Empresas Contratadas', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-024 Lista de Inspeccion Empresas Contratadas.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion Empresas Contratadas.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-024 Lista de Inspeccion Empresas Contratadas.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Ficha Tecnica de Indicadores', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-025 Ficha Tecnica de Indicadores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Ficha Tecnica de Indicadores.xlsx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-025 Ficha Tecnica de Indicadores.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Inspeccion Despacho de Vuelo', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-026 Lista de Inspeccion Despacho de Vuelo.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Inspeccion Despacho de Vuelo.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-026 Lista de Inspeccion Despacho de Vuelo.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
-VALUES ('Lista de Pasajeros Supervivientes', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-027 Lista de Pasajeros Supervivientes.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+VALUES ('Lista de Pasajeros Supervivientes.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-027 Lista de Pasajeros Supervivientes.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 
 
 -- Departamentos a los que pertenecen los archivos --

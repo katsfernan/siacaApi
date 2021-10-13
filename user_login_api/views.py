@@ -1,3 +1,5 @@
+import os
+from django.http.response import HttpResponse
 from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
@@ -9,7 +11,7 @@ from .serializers import ArchivoGestionCalidadDepartamentoSerializer, ArchivoGes
 
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
-
+from ftplib import FTP
 
 class CustomAuthToken(ObtainAuthToken):
     """
@@ -211,6 +213,9 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
     """View que retorna un archivo en base a su id"""
 
     if request.method == 'GET':
+        ftpClient = FTP('184.154.47.82')
+        ftpClient.login('psiaca@siacaservicios.com', 'pasante2021')
+
         try:
             empleado = EmpleadoSerializer((Empleado.objects.get(
                 emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
@@ -218,6 +223,34 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
                 return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
             archivo = ArchivoGestionCalidad.objects.get(agc_id=agc_pk)
             serializer = ArchivoGestionDeCalidadSerializer(archivo)
-            return Response(serializer.data)
+            titulo = serializer.data['agc_titulo']
+            with open(titulo, 'w+b') as file:
+                ftpClient.retrbinary('RETR ' + serializer.data['agc_direccion'], file.write)
+            with open(titulo, 'rb') as doc:
+                content = doc.read()
+                if titulo.endswith(".docx"):
+                    response = HttpResponse(
+                        content,
+                        content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                    )
+                    response['Content-Disposition'] = 'attachment; filename=%s' %titulo
+                elif titulo.endswith(".xlsx"):
+                    response = HttpResponse(
+                        content,
+                        content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                    )
+                    response['Content-Disposition'] = 'attachment; filename=%s' %titulo
+                elif titulo.endswith(".pdf"):
+                    response = HttpResponse(
+                        content,
+                        content_type='application/pdf'
+                    )
+                    response['Content-Disposition'] = 'inline; filename=%s' %titulo
+                response['Content-Length'] = len(content)
+            if os.path.isfile(serializer.data['agc_titulo']):
+                os.remove(serializer.data['agc_titulo'])
+            return response
         except ArchivoGestionCalidad.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Archivo no encontrado')
+        finally:
+            ftpClient.quit()
