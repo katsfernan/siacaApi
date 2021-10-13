@@ -114,9 +114,9 @@ class FacturaVentaRenglon(models.Model):
     facren_costo_unit = models.IntegerField()
     facren_porc_imp = models.IntegerField()
     facren_monto_imp = models.IntegerField()
-    facren_reng_neto = models.ForeignKey()
-    facren_pendiente = models.ForeignKey()
-    facren_comentario = models.CharField(max_length=100)
+    facren_reng_neto = models.IntegerField()
+    facren_pendiente = models.BooleanField()
+    facren_comentario = models.CharField(max_length=250)
     facren_fac_doc_fk = models.ForeignKey(FacturaVenta, on_delete=models.DO_NOTHING, db_column='facren_fac_doc_fk', blank=True, null=True)
     facren_art_fk = models.ForeignKey(Articulo, on_delete=models.DO_NOTHING, db_column='facren_art_fk', blank=True, null=True)
     facren_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='facren_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
@@ -131,6 +131,23 @@ class FacturaVentaRenglon(models.Model):
     def articuloDesc(self):
         return self.facren_art_fk.art_descripcion
     
+class PagoRetencionIva(models.Model):
+    pagRetIva_doc_num = models.CharField(primary_key=True)
+    pagRetIva_periodo = models.CharField(max_length=20)
+    pagRetIva_fecha_doc = models.DateField()
+    pagRetIva_doc_num_control = models.CharField(max_length=20)
+    pagRetIva_base_imponible = models.IntegerField()
+    pagRetIva_monto_ret_imp = models.IntegerField()
+    pagRetIva_num_comprobante = models.CharField(max_length=50)
+    pagRetIva_alicuota = models.IntegerField()
+    pagRetIva_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_cli_fk', blank=True, null=True)
+    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk', blank=True, null=True)
+
+    class Meta:
+        db_table = 'PagoRetencionIva'
+
+    def __str__(self) -> str:
+        return self.pagRetIva_doc_num
     
     
     

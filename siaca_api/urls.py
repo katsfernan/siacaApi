@@ -16,7 +16,9 @@ Including another URLconf
 from os import name
 from django.contrib import admin
 from django.urls import path
+
 from user_login_api import views
+from cliente_proveedor_api_rest import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,10 +31,18 @@ urlpatterns = [
     path('archivos-gestion-calidad/', views.api_archivosDeGestionDeCalidad_view, name='archivos de gestion de la calidad'),
     path('empleado/<emp_pk>/archivos-gestion-calidad/', views.api_archivosDeGestionDeCalidadEmpleado_view, name='archivos de gestion de la calidad del empleado'),
     path('empleado/<emp_pk>/archivos-gestion-calidad/<agc_pk>', views.api_archivoDeGestionDeCalidadEmpleado_view, name='archivo de gestion de la calidad del empleado'),
+<<<<<<< HEAD
     path('empleado/recibos-de-pago/', views.api_recibosDePagoEmpleado_view, name='recibos de pago del empleado'),
     path('empleado/recibos-de-pago/<reci_num>', views.api_reciboDePagoEmpleado_view, name='pdf de un recibo de pago del empleado'),
     path('empleado/recibos-de-pago-reconv/<reci_num>', views.api_reciboDePagoEmpleadoReconversion_view, name='pdf de un recibo de pago del empleado luego de la reconversion'),
     path('anuncio/', views.api_anuncio_view, name='anuncio del sistema'),
     path('anuncios/', views.api_anuncioEmpleados_view, name='anuncio del sistema'),
     path('empleado/<emp_pk>/anuncio/', views.api_anunciosEmpleado_view, name='recibos de pago del empleado'),
+=======
+
+    #Clientes y proveedores
+    path('facturas/', views.factura_venta, name='facturas'),
+    path('factura/detalle/<int:pk>',views.factura_venta_detalle,name='factura_detalle'),
+    path('prueba/',views.views.prueba, name='prueba')
+>>>>>>> fa904e1 (modificadas vistas cliente)
 ]

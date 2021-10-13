@@ -265,21 +265,3 @@ class EmpleadoAnuncio(models.Model):
         unique_together = [['ea_anu_fk', 'ea_emp_fk']]
 
 
-class PagoRetencionIva(models.Model):
-    pagRetIva_doc_num = models.CharField(primary_key=True)
-    pagRetIva_periodo = models.CharField(max_length=20)
-    pagRetIva_fecha_doc = models.DateField()
-    pagRetIva_doc_num_control = models.CharField(max_length=20)
-    pagRetIva_base_imponible = models.IntegerField()
-    pagRetIva_monto_ret_imp = models.IntegerField()
-    pagRetIva_num_comprobante = models.CharField(max_length=50)
-    pagRetIva_alicuota = models.IntegerField()
-    pagRetIva_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='are_cli_fk', blank=True, null=True)
-    are_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='are_usu_modif_fk', blank=True, null=True)
-
-    class Meta:
-        db_table = 'PagoRetencionIva'
-
-    def __str__(self) -> str:
-        return self.pagRetIva_doc_num
-
