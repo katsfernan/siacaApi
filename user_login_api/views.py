@@ -246,6 +246,12 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
                         content_type='application/pdf'
                     )
                     response['Content-Disposition'] = 'inline; filename=%s' %titulo
+                elif titulo.endswith(".vsdx"):
+                    response = HttpResponse(
+                        content,
+                        content_type='application/vnd.ms-visio.drawing'
+                    )
+                    response['Content-Disposition'] = 'attachment; filename=%s' %titulo
                 response['Content-Length'] = len(content)
             if os.path.isfile(serializer.data['agc_titulo']):
                 os.remove(serializer.data['agc_titulo'])
