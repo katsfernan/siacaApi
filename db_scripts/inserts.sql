@@ -2256,6 +2256,57 @@ VALUES ('Lista de Inspeccion Despacho de Vuelo.docx', NULL, '/Formularios/GERENC
 INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
 VALUES ('Lista de Pasajeros Supervivientes.docx', NULL, '/Formularios/GERENCIA DE GESTION DE LA SEGURIDAD OPERACIONAL SMS/REG-SMS-027 Lista de Pasajeros Supervivientes.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Registro de Abastecimiento de Combustible.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-001 Registro de Abastecimiento de Combustible.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Orden de Trabajo y Vale Manual.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-002 Orden de Trabajo y Vale Manual.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Registro de Entrada y Salida de Equipos al Taller.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-003 Registro de Entrada y Salida de Equipos al Taller.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Orden de Movimiento.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-004 Orden de Movimiento.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Control e Inspeccion en la Asignación de Equipos.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-005 Control e Inspeccion en la Asignación de Equipos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Inspeccion Diaria de Equipos.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-006 Inspeccion Diaria de Equipos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Asignacion de Equipos Por Vuelo.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-007 Asignacion de Equipos Por Vuelo.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Inspeccion de Autobus.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-008 Inspeccion de Autobus.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Ficha Tecnica.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-009 Ficha Tecnica.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Planificacion Mensual del Mantenimiento.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-010 Planificacion Mensual del Mantenimiento.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Control de Uso de Herramientas e Instrumentos.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-011 Control de Uso de Herramientas e Instrumentos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Control de Entrada y Salida de Herramientas e Instrumentos.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-012 Control de Entrada y Salida de Herramientas e Instrumentos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Inspeccion de Equipo Adquirido.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-013 Inspeccion de Equipo Adquirido.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Inspeccion de Herramientas e Instrumentos.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-014 Inspeccion de Herramientas e Instrumentos.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Asignacion de Guardias.xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-015 Asignacion de Guardias.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Verificacion de la Calibracion de la Unidad Auxiliar de Poder (GPU).xlsx', NULL, '/Formularios/GERENCIA DE MANTENIMIENTO/REG-MNT-016 Verificacion de la Calibracion de la Unidad Auxiliar de Poder (GPU).xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Control de Operaciones de Apoyo Terrestre.docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-001 Control de Operaciones de Apoyo Terrestre.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Asignaciones del Personal por Vuelo.docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-002 Asignaciones del Personal por Vuelo.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Control de Llegada y Salida de Contenedores.vsdx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-003 Control de Llegada y Salida de Contenedores.vsdx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Chequeo de las Areas de Limpieza.docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-004 Chequeo de las Areas de Limpieza.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Lista de Chequeo Atencion de Vuelos Charters.xlsx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-005 Lista de Chequeo Atencion de Vuelos Charters.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('REG-GOP-006 Operacion Pasarela de Embarque.xlsx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-006 Operacion Pasarela de Embarque.xlsx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Lista de Chequeo para Desinfeccion.docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-007 Lista de Chequeo para Desinfeccion.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Aleccionamiento Verbal (Briefing).docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-008 Aleccionamiento Verbal (Briefing).docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
+INSERT INTO ArchivoGestionCalidad (agc_titulo, agc_descripcion, agc_direccion, agc_fecha_modif, agc_tipo , agc_estatus, agc_usu_modif_fk)
+VALUES ('Asignacion de Lockers.docx', NULL, '/Formularios/GERENCIA DE OPERACIONES/REG-GOP-009 Asignacion de Lockers.docx', CURRENT_TIMESTAMP, 'Formulario', 1, 1);
 
 -- Departamentos a los que pertenecen los archivos --
 
@@ -2326,6 +2377,24 @@ INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus
 VALUES (2, 14, 1, CURRENT_TIMESTAMP, 1);
 INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
 VALUES (2, 16, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 84, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 85, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 86, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 87, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 88, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 89, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 90, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 91, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 92, 1, CURRENT_TIMESTAMP, 1);
 
 -- Recursos Humanos --
 INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
@@ -2442,6 +2511,38 @@ INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus
 VALUES (7, 14, 1, CURRENT_TIMESTAMP, 1);
 INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
 VALUES (7, 16, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 68, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 69, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 70, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 71, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 72, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 73, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 74, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 75, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 76, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 77, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 78, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 79, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 80, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 81, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 82, 1, CURRENT_TIMESTAMP, 1);
+INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
+VALUES (7, 83, 1, CURRENT_TIMESTAMP, 1);
 
 -- Servicio al Pasajero --
 INSERT INTO ArchivoGestionCalidad_Departamento (ae_dep_fk, ae_agc_fk, ae_estatus, ae_fecha_modif, ae_usu_modif_fk)
