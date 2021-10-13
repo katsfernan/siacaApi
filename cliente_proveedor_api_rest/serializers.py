@@ -30,11 +30,15 @@ class FacturaVentaSerializer (serializers.ModelSerializer):
             'fac_tasa',
             'fac_total_bruto',
             'fac_monto_imp',
-            'fac_monto_total'
+            'fac_monto_total',
+            'clienteDesc',
+            'CondicionPagoDesc'
+
         ]
         
 class FacturaVentaRenglonSerializer (serializers.ModelSerializer):
-    
+
+
     articuloDesc = serializers.ReadOnlyField()
     
     class Meta:
@@ -45,19 +49,19 @@ class FacturaVentaRenglonSerializer (serializers.ModelSerializer):
             'facren_cod_alm',
             'facren_total_art',
             'facren_precio_venta',
-            'facren_costo_unit',
             'facren_porc_imp',
             'facren_monto_imp',
             'facren_reng_neto',
             'facren_pendiente',
             'facren_comentario',
-            'facren_fac_doc_fk'
+            'facren_fac_doc_fk',
+            'articuloDesc'
         ]
         
-class FacturaVentaReporteSerializer (serializers.Serializer):
+'''class FacturaVentaReporteSerializer (serializers.Serializer):
     
-    factura_info = FacturaVentaSerializer()
+    factura_info = FacturaVentaSerializer(many=True)
     factura_detalles = FacturaVentaRenglonSerializer(many=True)
-
+'''
     
     

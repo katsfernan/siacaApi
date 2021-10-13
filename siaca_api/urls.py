@@ -15,10 +15,11 @@ Including another URLconf
 """
 from os import name
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
+
 
 from user_login_api import views
-from cliente_proveedor_api_rest import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -41,8 +42,12 @@ urlpatterns = [
 =======
 
     #Clientes y proveedores
+<<<<<<< HEAD
     path('facturas/', views.factura_venta, name='facturas'),
     path('factura/detalle/<int:pk>',views.factura_venta_detalle,name='factura_detalle'),
     path('prueba/',views.views.prueba, name='prueba')
 >>>>>>> fa904e1 (modificadas vistas cliente)
+=======
+    path('reportes/', include('cliente_proveedor_api_rest.urls', namespace=None)),
+>>>>>>> 47a1777 (fix endpoints factura_venta y factura_venta_detalle)
 ]

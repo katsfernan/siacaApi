@@ -49,7 +49,7 @@ class CondicionPago(models.Model):
         return self.cp_descripcion
     
 class Moneda (models.Model):
-    mon_cod = models.CharField(primary_key=True)
+    mon_cod = models.CharField(primary_key=True, max_length=10)
     mon_descripcion = models.CharField(max_length=50)
     mon_cambio = models.IntegerField()
     mon_relacion = models.IntegerField()
@@ -59,22 +59,22 @@ class Moneda (models.Model):
         db_table = 'Moneda'
 
     def __str__(self) -> str:
-        return self.mon_codigo  
+        return self.mon_cod 
     
 class FacturaVenta(models.Model):
     fac_doc_num = models.IntegerField(primary_key=True)
     fac_fecha_emi = models.DateField()
     fac_fecha_venc = models.DateField(null=True)
     fac_fecha_reg = models.DateField()
-    fac_num_control = models.IntegerField(null=True)
-    fac_tasa = models.IntegerField(null=True)
-    fac_total_bruto = models.IntegerField()
-    fac_monto_imp = models.IntegerField()
-    fac_monto_total = models.IntegerField()
+    fac_num_control = models.CharField(null=True, max_length=20)
+    fac_tasa = models.FloatField(null=True)
+    fac_total_bruto = models.FloatField()
+    fac_monto_imp = models.FloatField()
+    fac_monto_total = models.FloatField()
     fac_cli_fk = models.ForeignKey(Cliente, on_delete=models.DO_NOTHING, db_column='fac_cli_fk', blank=True, null=True)
     fac_moneda_fk = models.ForeignKey(Moneda, on_delete=models.DO_NOTHING, db_column='fac_moneda_fk', blank=True, null=True)
     fac_cp_fk = models.ForeignKey(CondicionPago, on_delete=models.DO_NOTHING, db_column='fac_cp_fk', blank=True, null=True)
-    fac_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
+    fac_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='fac_usu_modif_fk', blank=True, null=True, related_name='fac_usu_modif_fk')
 
     class Meta:
         db_table = 'FacturaVenta'
@@ -96,8 +96,8 @@ class Articulo (models.Model):
     art_descripcion = models.CharField(max_length=100)
     art_tipo = models.CharField(max_length=1)
     art_anulado = models.BooleanField()
-    art_fecha_inac =models.DateField()
-    art_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='art_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
+    art_fecha_inac =models.DateField(null=True)
+    art_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='art_usu_modif_fk', blank=True, null=True, related_name='art_usu_modif_fk')
 
     class Meta:
         db_table = 'Articulo'
@@ -109,17 +109,16 @@ class FacturaVentaRenglon(models.Model):
     facren_id = models.AutoField(primary_key=True)
     facren_reng_num = models.IntegerField()
     facren_cod_alm = models.CharField(max_length=10)
-    facren_total_art = models.IntegerField()
-    facren_precio_venta = models.IntegerField() 
-    facren_costo_unit = models.IntegerField()
+    facren_total_art = models.FloatField()
+    facren_precio_venta = models.FloatField() 
     facren_porc_imp = models.IntegerField()
-    facren_monto_imp = models.IntegerField()
-    facren_reng_neto = models.IntegerField()
-    facren_pendiente = models.BooleanField()
+    facren_monto_imp = models.FloatField()
+    facren_reng_neto = models.FloatField()
+    facren_pendiente = models.FloatField()
     facren_comentario = models.CharField(max_length=250)
     facren_fac_doc_fk = models.ForeignKey(FacturaVenta, on_delete=models.DO_NOTHING, db_column='facren_fac_doc_fk', blank=True, null=True)
     facren_art_fk = models.ForeignKey(Articulo, on_delete=models.DO_NOTHING, db_column='facren_art_fk', blank=True, null=True)
-    facren_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='facren_usu_modif_fk', blank=True, null=True, related_name='pro_usu_modif_fk')
+    facren_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='facren_usu_modif_fk', blank=True, null=True, related_name='facren_usu_modif_fk')
 
     class Meta:
         db_table = 'FacturaVentaRenglon'
@@ -130,9 +129,10 @@ class FacturaVentaRenglon(models.Model):
     @property
     def articuloDesc(self):
         return self.facren_art_fk.art_descripcion
-    
+
+   
 class PagoRetencionIva(models.Model):
-    pagRetIva_doc_num = models.CharField(primary_key=True)
+    pagRetIva_doc_num = models.CharField(primary_key=True,max_length=50)
     pagRetIva_periodo = models.CharField(max_length=20)
     pagRetIva_fecha_doc = models.DateField()
     pagRetIva_doc_num_control = models.CharField(max_length=20)

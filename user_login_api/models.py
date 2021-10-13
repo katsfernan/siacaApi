@@ -174,8 +174,8 @@ class TipoProveedor(models.Model):
         db_table = 'TipoProveedor'
 
     def __str__(self) -> str:
-        return str(self.tprov_id) + ' ' + self.tprov_descripcion.capitalize() + ' ' + self.fac_cli_fk.descripcion2.capitalize() if self.fac_cli_fk.descripcion2 else ''    
-    
+        return str(self.tprov_id) + ' ' + self.tprov_descripcion.capitalize() 
+            
 class Zona(models.Model):
     zon_id = models.AutoField(primary_key=True)
     zon_descripcion = models.CharField(max_length=100)

@@ -60,7 +60,7 @@ class ClienteSerializer(serializers.ModelSerializer):
             'cli_doc_num',
             'cli_descripcion',
             'cli_descripcion2',
-            'cli_tipo_cli'
+            'cli_tipo_cli',
             'cli_estatus',
             'rol'
         ]

@@ -1,8 +1,11 @@
 from django import forms
-from user_login_api import models
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
+
+from user_login_api import models
+
+
 
 class UserCreationForm(forms.ModelForm):
     """
@@ -82,9 +85,13 @@ admin.site.register(models.Permiso)
 admin.site.register(models.RolPermiso)
 admin.site.register(models.Departamento)
 admin.site.register(models.Empleado)
+admin.site.register(models.ArchivoGestionCalidad)
+admin.site.register(models.ArchivoGestionCalidadDepartamento)
 admin.site.register(models.Cliente)
 admin.site.register(models.Proveedor)
 admin.site.register(models.ArchivoGestionCalidad)
 admin.site.register(models.ArchivoGestionCalidadDepartamento)
 admin.site.register(models.Anuncio)
 admin.site.register(models.EmpleadoAnuncio)
+admin.site.register(models.TipoProveedor)
+admin.site.register(models.Zona)
