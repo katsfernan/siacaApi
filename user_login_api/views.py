@@ -12,6 +12,7 @@ from .serializers import ArchivoGestionCalidadDepartamentoSerializer, ArchivoGes
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from ftplib import FTP
+import random, string
 
 class CustomAuthToken(ObtainAuthToken):
     """
@@ -206,6 +207,11 @@ def api_archivosDeGestionDeCalidadEmpleado_view(request, emp_pk):
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. No existen archivos de gestion de calidad.')
 
 
+def randomword(length):
+   letters = string.ascii_lowercase
+   return ''.join(random.choice(letters) for i in range(length))
+
+
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
@@ -224,6 +230,8 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
             archivo = ArchivoGestionCalidad.objects.get(agc_id=agc_pk)
             serializer = ArchivoGestionDeCalidadSerializer(archivo)
             titulo = serializer.data['agc_titulo']
+            if os.path.isfile(serializer.data['agc_titulo']):
+                titulo = titulo.replace('.',randomword(6)+'.')
             with open(titulo, 'w+b') as file:
                 ftpClient.retrbinary('RETR ' + serializer.data['agc_direccion'], file.write)
             with open(titulo, 'rb') as doc:
