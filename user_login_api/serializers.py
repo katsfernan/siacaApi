@@ -1,7 +1,7 @@
 from django.db.models import fields
 from rest_framework import serializers
 from rest_framework.utils import model_meta
-from .models import ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
+from .models import Anuncio, ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, EmpleadoAnuncio, Permiso, Proveedor, Rol, RolPermiso, Usuario
 
 class RolSerializer(serializers.ModelSerializer):
     class Meta:
@@ -86,4 +86,17 @@ class ArchivoGestionCalidadDepartamentoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ArchivoGestionCalidadDepartamento
-        fields = ['ae_estatus', 'ae_dep_fk', 'ae_agc_fk', 'ae_fecha_modif', 'ae_usu_modif_fk']        
+        fields = ['ae_estatus', 'ae_dep_fk', 'ae_agc_fk', 'ae_fecha_modif', 'ae_usu_modif_fk']
+
+
+class AnuncioSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Anuncio
+        fields = ['anu_id', 'anu_titulo', 'anu_mensaje', 'anu_fecha_modif', 'anu_status', 'anu_usu_modif_fk']
+
+class EmpleadoAnuncioSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = EmpleadoAnuncio
+        fields = ['ea_id', 'ea_fecha_enviado', 'ea_fecha_visto', 'ea_visto', 'ea_anu_fk', 'ea_emp_fk']

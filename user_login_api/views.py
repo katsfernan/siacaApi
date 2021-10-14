@@ -1,18 +1,20 @@
 import os
 from django.http.response import HttpResponse
+from django.utils.functional import partition
 from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 
-from .models import ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, Permiso, Proveedor, Rol, RolPermiso, Usuario
-from .serializers import ArchivoGestionCalidadDepartamentoSerializer, ArchivoGestionDeCalidadSerializer, ClienteSerializer, DepartamentoSerializer, EmpleadoSerializer, PermisoSerializer, ProveedorSerializer, RolPermisoSerializer, RolSerializer, UsuarioSerializer
+from .models import Anuncio, ArchivoGestionCalidad, ArchivoGestionCalidadDepartamento, Cliente, Departamento, Empleado, EmpleadoAnuncio, Permiso, Proveedor, Rol, RolPermiso, Usuario
+from .serializers import AnuncioSerializer, ArchivoGestionCalidadDepartamentoSerializer, ArchivoGestionDeCalidadSerializer, ClienteSerializer, DepartamentoSerializer, EmpleadoAnuncioSerializer, EmpleadoSerializer, PermisoSerializer, ProveedorSerializer, RolPermisoSerializer, RolSerializer, UsuarioSerializer
 
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from ftplib import FTP
 import random, string
+from datetime import date, datetime
 import pyodbc
 
 class CustomAuthToken(ObtainAuthToken):
@@ -271,6 +273,7 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 def api_recibosDePagoEmpleado_view(request, emp_pk):
+    """View que retorna los recibos de pago de un empleado en base a su id"""
 
     direccion_servidor = '127.0.0.1'
     nombre_bd = 'SIA_N'
@@ -315,3 +318,106 @@ def api_recibosDePagoEmpleado_view(request, emp_pk):
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
         except pyodbc.Error as error:
             return Response(error.args[1])
+
+
+@api_view(['POST', 'PATCH', 'PUT'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_anuncio_view(request):
+    """View que crea o actualiza un anuncio en base al id del anuncio"""
+
+    if request.method == 'POST':
+        titulo = request.data['anu_titulo']
+        mensaje = request.data['anu_mensaje']
+        usu_modif = Usuario.objects.get(usu_id=request.user.usu_id)
+        anuncio = Anuncio(anu_titulo=titulo, anu_mensaje=mensaje, anu_fecha_modif=datetime.now(), anu_usu_modif_fk=usu_modif)
+        anuncio.save()
+        if anuncio.anu_id:
+            return Response(status=status.HTTP_201_CREATED, data='Success. Se creó el anuncio exitosamente')
+        else:
+            return Response(status=status.HTTP_400_BAD_REQUEST, data='Error. No se pudo crear el anuncio')
+
+    elif request.method == 'PATCH':
+        anuncio_id = request.data['anu_id']
+
+        if not request.data.get('anu_titulo'):
+            anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id))
+            data = request.data.copy()
+            data['anu_titulo'] = anuncio.data['anu_titulo']
+            data['anu_fecha_modif'] = datetime.now()
+            usu_modif = Usuario.objects.get(usu_id=request.user.usu_id)
+            data['anu_usu_modif_fk'] = request.user.usu_id
+            anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id), data=data)
+            if anuncio.is_valid():
+                anuncio.save()
+                return Response(anuncio.data)
+            return Response(anuncio.errors)
+
+        elif not request.data.get('anu_mensaje'):
+            anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id))
+            data = request.data.copy()
+            data['anu_mensaje'] = anuncio.data['anu_mensaje']
+            data['anu_fecha_modif'] = datetime.now()
+            usu_modif = Usuario.objects.get(usu_id=request.user.usu_id)
+            data['anu_usu_modif_fk'] = request.user.usu_id
+            anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id), data=data)
+            if anuncio.is_valid():
+                anuncio.save()
+                return Response(anuncio.data)
+            return Response(anuncio.errors)
+
+    elif request.method == 'PUT':
+        anuncio_id = request.data['anu_id']
+        anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id))
+        data = request.data.copy()
+        data['anu_fecha_modif'] = datetime.now()
+        usu_modif = Usuario.objects.get(usu_id=request.user.usu_id)
+        data['anu_usu_modif_fk'] = request.user.usu_id
+        anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio_id), data=data)
+        if anuncio.is_valid():
+            anuncio.save()
+            return Response(anuncio.data)
+        return Response(anuncio.errors)
+
+            
+
+
+@api_view(['POST', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_anuncioEmpleados_view(request):
+    """View que crea un anuncio y se lo envía a todos los empleado que pertenecen a un departamento"""
+
+    if request.method == 'POST':
+        titulo = request.data['anu_titulo']
+        mensaje = request.data['anu_mensaje']
+        usu_modif = Usuario.objects.get(usu_id=request.user.usu_id)
+        anuncio = Anuncio(anu_titulo=titulo, anu_mensaje=mensaje, anu_fecha_modif=datetime.now(), anu_usu_modif_fk=usu_modif)
+        anuncio.save()
+        if anuncio.anu_id and request.query_params.__contains__("departamento"):
+            empledos = EmpleadoSerializer(Empleado.objects.filter(emp_dep_fk=request.query_params['departamento']), many=True)
+            for empleado in empledos.data:
+                print(empleado['emp_id'])
+                empleado = Empleado.objects.get(emp_id=empleado['emp_id'])
+                anuncioEmpleado = EmpleadoAnuncio(ea_fecha_enviado=datetime.now(), ea_anu_fk=anuncio, ea_emp_fk=empleado)
+                anuncioEmpleado.save()
+            return Response(status=status.HTTP_201_CREATED, data='Success. Se creó el anuncio exitosamente')
+        else:
+            return Response(status=status.HTTP_400_BAD_REQUEST, data='Error. No se pudo crear el anuncio')
+
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_anunciosEmpleado_view(request, emp_pk):
+    """View que retorna todos los anuncios sin ver de un empleado en base a su id"""
+    
+    if request.method == 'GET':
+        anuncios = EmpleadoAnuncioSerializer(EmpleadoAnuncio.objects.filter(ea_emp_fk=emp_pk, ea_visto=False), many=True)
+        if anuncios.data:
+            response = []
+            for anuncio in anuncios.data:
+                anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio['ea_anu_fk']))
+                response.append(anuncio.data)
+            return Response(response)
+        return Response(status=status.HTTP_404_NOT_FOUND, data='No posees anuncios pendientes por ver.')
