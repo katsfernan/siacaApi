@@ -91,7 +91,7 @@ class FacturaVenta(models.Model):
         return self.fac_cp_fk.cp_descripcion
         
 class Articulo (models.Model):
-    art_cod =  models.IntegerField(primary_key=True)
+    art_cod =  models.CharField(max_length=50,primary_key=True)
     art_fecha_reg = models.DateField()
     art_descripcion = models.CharField(max_length=100)
     art_tipo = models.CharField(max_length=1)

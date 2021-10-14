@@ -15,7 +15,7 @@ from .serializers import  FacturaVentaSerializer, FacturaVentaRenglonSerializer
 
 from .models import FacturaVenta, FacturaVentaRenglon
 
-from .tasks2 import queryFacturasProfit
+from .tasks2 import poblarDB
 
 from .tasks import send_email_task
 
@@ -75,9 +75,13 @@ def factura_venta(request):
             
                 
 @api_view(['GET', ])
-def pruebaCelery (request):
-    queryFacturasProfit.delay()
-    return Response('Tarea enviada a la cola de eventos...') 
+def poblarDB (request):
+    try:
+        poblarDB()
+    except Exception as error:
+        return Response('Ocurrio un error insertando los datos',error)
+    
+    return Response('Archivos insertados exitosamente...!') 
 
 
 @api_view(['GET', ])
