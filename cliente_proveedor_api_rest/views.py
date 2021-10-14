@@ -155,20 +155,23 @@ def insertarArticulos (request):
         print("Ocurrió un error al conectar a base de datos de App Django: ", error)
 
 
-    insert_articulos_django = 'INSERT INTO Articulo VALUES (?,?,?,?,?,?,?)'
-    
+    insert_articulos_django = """INSERT INTO Articulo 
+    (art_cod,art_fecha_reg,art_descripcion,art_tipo,art_anulado) 
+    VALUES (?,?,?,?,?,?,?)"""       
     '''consulta_usuarios_django = 'SELECT * FROM Usuario WHERE usu_correo = (?)'
     
     # Clave foránea del usuario admin 
     u = conexion_django.cursor().execute(consulta_usuarios_django,'admin@siaca.com')
     u = u[0]'''
     
-    cursor_articulos_django = conexion_django.cursor()
-    
-    for i in articulos:
-        cursor_articulos_django.execute(insert_articulos_django,i[0],i[1],i[2],i[3],i[4],i[5],None)
+    try:
+        cursor_articulos_django = conexion_django.cursor()
+        for a in articulos:
+            print(len(a[0].rstrip()))
+            print(len(a[3]))
+            cursor_articulos_django.execute(insert_articulos_django,a[0].rstrip(),'2020-10-10',a[2].rstrip(),a[3].rstrip(),a[4])
+        conexion_django.commit()
 
-    conexion_django.commit()
-        
-         
-                
+        return None
+    except pyodbc.Error as error:
+        return Response(error.args[1]) 
