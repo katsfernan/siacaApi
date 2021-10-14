@@ -301,9 +301,6 @@ def api_recibosDePagoEmpleado_view(request, emp_pk):
                     ci_str = ci_str + '.'
                 ci_str = ci_str + digito
             ci_str = ci_str[::-1]
-            print(ci_str)
-            print(request.query_params["start"])
-            print(request.query_params["end"])
             conexion = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER=' +
                               direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
             cursor = conexion.cursor()
