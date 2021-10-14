@@ -13,6 +13,7 @@ from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from ftplib import FTP
 import random, string
+import pyodbc
 
 class CustomAuthToken(ObtainAuthToken):
     """
@@ -46,31 +47,33 @@ class CustomAuthToken(ObtainAuthToken):
                 return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Proveedor no encontrado.')
         else:
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Tipo de usuario no encontrado.')
-
-        rol_id = (user_data.data["rol"])["rol_id"]
-        rol_permissions = RolPermisoSerializer(
-            RolPermiso.objects.all().filter(
-                rp_rol_fk=rol_id,
-                rp_estatus=True),
-            many=True)
-        permissions = []
-        for permission in rol_permissions.data:
-            per_codigo = (Permiso.objects.get(per_id=permission["rp_per_fk"]))
-            permissions.append({
-                'codigo': per_codigo.per_codigo,
-                'nombre': per_codigo.per_nombre,
+        if(user.usu_estatus):
+            rol_id = (user_data.data["rol"])["rol_id"]
+            rol_permissions = RolPermisoSerializer(
+                RolPermiso.objects.all().filter(
+                    rp_rol_fk=rol_id,
+                    rp_estatus=True),
+                many=True)
+            permissions = []
+            for permission in rol_permissions.data:
+                per_codigo = (Permiso.objects.get(per_id=permission["rp_per_fk"]))
+                permissions.append({
+                    'codigo': per_codigo.per_codigo,
+                    'nombre': per_codigo.per_nombre,
+                })
+            return Response({
+                'token': token.key,
+                'user_id': user.pk,
+                'user_type': user.usu_tipo,
+                'email': user.usu_correo,
+                'user_data': {
+                    'type': request.data['user_type'],
+                    'data': user_data.data,
+                    'permissions': permissions
+                }
             })
-        return Response({
-            'token': token.key,
-            'user_id': user.pk,
-            'user_type': user.usu_tipo,
-            'email': user.usu_correo,
-            'user_data': {
-                'type': request.data['user_type'],
-                'data': user_data.data,
-                'permissions': permissions
-            }
-        })
+        else:
+            return Response(status=status.HTTP_401_UNAUTHORIZED, data="Error. Este usuario está desactivado")
 
 
 @api_view(['GET', ])
@@ -213,8 +216,6 @@ def randomword(length):
 
 
 @api_view(['GET', ])
-@authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
 def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
     """View que retorna un archivo en base a su id"""
 
@@ -223,10 +224,6 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
         ftpClient.login('psiaca@siacaservicios.com', 'pasante2021')
 
         try:
-            empleado = EmpleadoSerializer((Empleado.objects.get(
-                emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
-            if(empleado.data['emp_id'] != int(emp_pk)):
-                return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
             archivo = ArchivoGestionCalidad.objects.get(agc_id=agc_pk)
             serializer = ArchivoGestionDeCalidadSerializer(archivo)
             titulo = serializer.data['agc_titulo']
@@ -268,3 +265,56 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Archivo no encontrado')
         finally:
             ftpClient.quit()
+
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_recibosDePagoEmpleado_view(request, emp_pk):
+
+    direccion_servidor = '127.0.0.1'
+    nombre_bd = 'SIA_N'
+    nombre_usuario = 'siaca_api_nomina'
+    password = 'AD@79410893'
+    consulta = '''
+    SELECT nomi.reci_num as reci_num, nomi.co_cont as co_cont, sncont.des_cont as des_cont, snconcep.des_conce as des_conce,
+	snemple.nombre_completo as nombre, snemple.ci as ci, nomi.monto as monto,  nomi.fec_emis as fecha
+    FROM snnomi nomi
+    INNER JOIN snemple on nomi.cod_emp = snemple.cod_emp 
+    INNER JOIN sncont on nomi.co_cont = sncont.co_cont
+    INNER JOIN snconcep on nomi.co_conce = snconcep.co_conce
+    WHERE snemple.ci = (?) 
+    AND nomi.fec_emis between (?) AND (?)
+    ORDER BY nomi.fec_emis asc
+    '''              
+    if request.method == 'GET':
+        try:
+            empleado = EmpleadoSerializer((Empleado.objects.get(
+                emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
+            if(empleado.data['emp_id'] != int(emp_pk)):
+                return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
+            ci = str(empleado.data['emp_ci'])
+            ci = ci[::-1]
+            ci_str = ''
+            for index, digito in enumerate(ci):
+                if index % 3 == 0 and index != 0:
+                    ci_str = ci_str + '.'
+                ci_str = ci_str + digito
+            ci_str = ci_str[::-1]
+            print(ci_str)
+            print(request.query_params["start"])
+            print(request.query_params["end"])
+            conexion = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER=' +
+                              direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
+            cursor = conexion.cursor()
+            cursor.execute(consulta, ci_str, request.query_params["start"], request.query_params["end"])
+            columns = [column[0] for column in cursor.description]
+            recibos = cursor.fetchall()
+            response = []
+            for recibo in recibos:
+                response.append(dict(zip(columns, recibo)))
+            return Response(response)
+        except Empleado.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
+        except pyodbc.Error as error:
+            return Response(error.args[1])
