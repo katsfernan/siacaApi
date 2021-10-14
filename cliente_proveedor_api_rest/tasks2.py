@@ -23,12 +23,12 @@ def poblarDB():
     #CREANDO CONSULTA A PROFIT PLUS   
     
     #Consultando Articulos
-    consulta_articulos = 'SELECT * FROM saArticulo'
+    consulta_articulos = 'SELECT top 1 * FROM saArticulo'
     cursor_articulo_profit = conexion_profit.cursor()
     cursor_articulo_profit.execute(consulta_articulos)
-    cursor_articulo_profit = cursor_articulo_profit.fetchall()
+    articulos = cursor_articulo_profit.fetchall()
     
-    #Consultando Clientes
+    '''#Consultando Clientes
     consulta_clientes = 'SELECT * FROM saCliente'
     cursor_cliente_profit = conexion_profit.cursor()
     cursor_cliente_profit.execute(consulta_clientes)
@@ -57,7 +57,7 @@ def poblarDB():
     cursor_pagoRetencioniva_profit = conexion_profit.cursor()
     cursor_pagoRetencioniva_profit.execute(consulta_retenciones_pago_iva)
     cursor_pagoRetencioniva_profit = cursor_pagoRetencioniva_profit.fetchall()
-    
+    '''
     direccion_servidor = '127.0.0.1'
     nombre_bd = 'SIACA_INTRANET'
     nombre_usuario = 'siaca_api'
@@ -72,7 +72,7 @@ def poblarDB():
 
 
     insert_articulos_django = 'INSERT INTO Articulo VALUES (?,?,?,?,?,?,?)'
-    insert_clientes_django = 'INSERT INTO Cliente VALUES (?,?,?,?,?,?,?,?,?,?)'
+    '''    insert_clientes_django = 'INSERT INTO Cliente VALUES (?,?,?,?,?,?,?,?,?,?)'
     insert_facturasVenta_django = 'INSERT INTO FacturaVenta VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)'
     insert_facturasVentaRenglon_django = 'INSERT INTO FacturaVentaRenglon (?,?,?,?,?,?,?,?,?,?,?,?,?)'
     insert_proveedores_django = 'INSERT INTO Proveedores VALUES '
@@ -83,13 +83,15 @@ def poblarDB():
     # Clave foránea del usuario admin 
     u = conexion_django.cursor().execute(consulta_usuarios_django,'admin@siaca.com')
     u = u[0]
-    
-    
-    for i in cursor_articulo_profit:
-        cursor_articulos_django = conexion_django.cursor()
-        cursor_articulos_django.execute(insert_articulos_django,i[0],i[1],i[2],i[3],i[4],i[5],u)
+    '''
+    cursor_articulos_django = conexion_django.cursor()
+    for i in articulos:
+        #cursor_articulos_django.execute(insert_articulos_django,i[0],i[1],i[2],i[3],i[4],i[5],u)
+        cursor_articulos_django.execute(insert_articulos_django,i[0],'2021-10-01',i[2],'C',0,None,None)
         
     conexion_django.commit()
+        
+    
 
 
 

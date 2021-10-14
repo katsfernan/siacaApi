@@ -75,7 +75,7 @@ def send_email_task():
     send_mail('Correo electronico enviado',
     'Prueba siaca',
     'siacapruebasucab@gmail.com',
-    ['6991af4aac@emailnax.com'])
+    ['9621209ec6@emailnax.com'])
     
 
         
