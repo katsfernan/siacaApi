@@ -395,18 +395,25 @@ def api_anuncioEmpleados_view(request):
         anuncio = Anuncio(anu_titulo=titulo, anu_mensaje=mensaje, anu_fecha_modif=datetime.now(), anu_usu_modif_fk=usu_modif)
         anuncio.save()
         if anuncio.anu_id and request.query_params.__contains__("departamento"):
-            empledos = EmpleadoSerializer(Empleado.objects.filter(emp_dep_fk=request.query_params['departamento']), many=True)
-            for empleado in empledos.data:
-                print(empleado['emp_id'])
-                empleado = Empleado.objects.get(emp_id=empleado['emp_id'])
-                anuncioEmpleado = EmpleadoAnuncio(ea_fecha_enviado=datetime.now(), ea_anu_fk=anuncio, ea_emp_fk=empleado)
-                anuncioEmpleado.save()
-            return Response(status=status.HTTP_201_CREATED, data='Success. Se creó el anuncio exitosamente')
+            if request.query_params['departamento'] == '0':
+                empleados = EmpleadoSerializer(Empleado.objects.all(), many=True)
+                for empleado in empleados.data:
+                    empleado = Empleado.objects.get(emp_id=empleado['emp_id'])
+                    anuncioEmpleado = EmpleadoAnuncio(ea_fecha_enviado=datetime.now(), ea_anu_fk=anuncio, ea_emp_fk=empleado)
+                    anuncioEmpleado.save()
+                return Response(status=status.HTTP_201_CREATED, data='Success. Se creó el anuncio exitosamente')
+            else:
+                empleados = EmpleadoSerializer(Empleado.objects.filter(emp_dep_fk=request.query_params['departamento']), many=True)
+                for empleado in empleados.data:
+                    empleado = Empleado.objects.get(emp_id=empleado['emp_id'])
+                    anuncioEmpleado = EmpleadoAnuncio(ea_fecha_enviado=datetime.now(), ea_anu_fk=anuncio, ea_emp_fk=empleado)
+                    anuncioEmpleado.save()
+                return Response(status=status.HTTP_201_CREATED, data='Success. Se creó el anuncio exitosamente')
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST, data='Error. No se pudo crear el anuncio')
 
 
-@api_view(['GET', ])
+@api_view(['GET', 'POST',])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 def api_anunciosEmpleado_view(request, emp_pk):
@@ -417,7 +424,16 @@ def api_anunciosEmpleado_view(request, emp_pk):
         if anuncios.data:
             response = []
             for anuncio in anuncios.data:
-                anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=anuncio['ea_anu_fk']))
+                anuncio = AnuncioSerializer(Anuncio.objects.get(anu_id=(anuncio['anuncio'])['anu_id']))
                 response.append(anuncio.data)
             return Response(response)
         return Response(status=status.HTTP_404_NOT_FOUND, data='No posees anuncios pendientes por ver.')
+
+    if request.method == 'POST':
+        try:
+            anuncio = EmpleadoAnuncio.objects.filter(ea_emp_fk=emp_pk, ea_anu_fk=request.data.get('anuncio_id')).update(ea_visto=True, ea_fecha_visto=datetime.now())
+            if anuncio == 0:
+                raise EmpleadoAnuncio.DoesNotExist
+            return Response(status=status.HTTP_200_OK, data='Success. Anuncio actualizado con éxito.')
+        except EmpleadoAnuncio.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Anuncio no encontrado.')

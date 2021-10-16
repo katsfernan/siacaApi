@@ -97,6 +97,17 @@ class AnuncioSerializer(serializers.ModelSerializer):
 
 class EmpleadoAnuncioSerializer(serializers.ModelSerializer):
 
+    anuncio = serializers.SerializerMethodField('get_anuncio')
+    empleado = serializers.SerializerMethodField('get_empleado')
+
     class Meta:
         model = EmpleadoAnuncio
-        fields = ['ea_id', 'ea_fecha_enviado', 'ea_fecha_visto', 'ea_visto', 'ea_anu_fk', 'ea_emp_fk']
+        fields = ['ea_id', 'ea_fecha_enviado', 'ea_fecha_visto', 'ea_visto', 'anuncio', 'empleado']
+
+    def get_anuncio(self, empleadoAnuncio):
+        anuncio = empleadoAnuncio.ea_anu_fk
+        return AnuncioSerializer(anuncio).data
+        
+    def get_empleado(self, empleadoAnuncio):
+        empleado = empleadoAnuncio.ea_emp_fk
+        return EmpleadoSerializer(empleado).data
