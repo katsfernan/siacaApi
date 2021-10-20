@@ -1,6 +1,8 @@
+import datetime
 from os import truncate
 from django.db import models
 from django.conf import settings
+from django.db.models.fields import CharField, IntegerField
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 from django.contrib.auth.base_user import BaseUserManager
@@ -145,12 +147,12 @@ class Empleado(models.Model):
 
 
 class Cliente(models.Model):
-    cli_doc_num = models.IntegerField(primary_key=True)
+    cli_doc_num = models.CharField(max_length=25,primary_key=True)
     cli_descripcion = models.CharField(max_length=255)
     cli_descripcion2 = models.CharField(max_length=255, blank=True, null=True)
     cli_email = models.CharField(unique=True, max_length=255, blank=True, null=True)
     cli_tipo_cli = models.IntegerField()
-    cli_fecha_modif = models.DateTimeField()
+    cli_fecha_modif = models.DateTimeField(default=datetime.datetime.now)
     cli_estatus = models.BooleanField(default=True)
     cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', related_name='cli_usu_fk')
     cli_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='cli_rol_fk')
@@ -160,15 +162,15 @@ class Cliente(models.Model):
         db_table = 'Cliente'
 
     def __str__(self) -> str:
-        return str(self.cli_doc_num) + ' ' + self.cli_descripcion.capitalize() + ' ' + self.cli_descripcion2.capitalize()
+        return str(self.cli_doc_num) + ' ' + self.cli_descripcion.capitalize() + ' ' + (self.cli_descripcion2.capitalize() if self.cli_descripcion2 else '')
 
 class TipoProveedor(models.Model):
     tprov_id = models.AutoField(primary_key=True)
-    tprov_descripcion = models.CharField(max_length=50)
-    tprov_detalle = models.CharField(max_length=50,blank=True, null=True)
-    tprov_detalle2 = models.CharField(max_length=50,blank=True, null=True)
-    tprov_detalle3 = models.CharField(max_length=50,blank=True, null=True)
-    tprov_detalle4 = models.CharField(max_length=50,blank=True, null=True)
+    tprov_descripcion = models.CharField(max_length=255)
+    tprov_detalle = models.CharField(max_length=255,blank=True, null=True)
+    tprov_detalle2 = models.CharField(max_length=255,blank=True, null=True)
+    tprov_detalle3 = models.CharField(max_length=255,blank=True, null=True)
+    tprov_detalle4 = models.CharField(max_length=255,blank=True, null=True)
    
     class Meta:
         db_table = 'TipoProveedor'
@@ -186,14 +188,16 @@ class Zona(models.Model):
         return str(self.zon_id) + '' + self.zon_descripcion.capitalize()
      
 class Proveedor(models.Model):
-    pro_rif = models.CharField(max_length=100, primary_key=True)
+    pro_cod = CharField(max_length=50,primary_key=True)
+    pro_rif = models.CharField(max_length=100, unique=True) 
     pro_descripcion = models.CharField(max_length=100)
     pro_email = models.CharField(unique=True, max_length=50, blank=True, null=True)
-    pro_direc1 = models.CharField(max_length=150)
-    pro_direc2 = models.CharField(max_length=150, blank=True, null=True)
-    pro_telefono = models.CharField(max_length= 20, blank=True, null=True)
+    pro_direc1 = models.CharField(max_length=255,null=True)
+    pro_direc2 = models.CharField(max_length=255, blank=True, null=True)
+    pro_telefono = models.CharField(max_length= 50, blank=True, null=True)
     pro_fecha_modif = models.DateTimeField()
     pro_estatus = models.BooleanField(default=True)
+    pro_contribu_e = models.BooleanField()
     pro_tprov_fk  = models.ForeignKey(TipoProveedor, on_delete=models.DO_NOTHING, db_column='pro_tprov_fk', blank=True, null=True)
     pro_zon_fk = models.ForeignKey(Zona, on_delete=models.DO_NOTHING, db_column='pro_zon_fk', blank=True, null=True)
     pro_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pro_usu_fk', blank=True, null=True, related_name='pro_usu_fk')

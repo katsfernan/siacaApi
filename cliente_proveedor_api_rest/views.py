@@ -6,22 +6,83 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
-from user_login_api.models import Cliente, Proveedor
-from user_login_api.serializers import ProveedorSerializer
+from user_login_api.models import Cliente, Empleado, Permiso, Proveedor, RolPermiso
+from user_login_api.serializers import EmpleadoSerializer, PermisoSerializer, ProveedorSerializer, UsuarioSerializer
 
 from .serializers import  FacturaVentaSerializer, FacturaVentaRenglonSerializer, PagoRetencionIvaSerializer
 
 from .models import FacturaVenta, FacturaVentaRenglon, PagoRetencionIva
 
-from .tasks import send_email_task
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def factura_venta(request):
+    """View que retorna todas las facturas al empleado con permisos"""
+    
+    try:
+        #cliente = ClienteSerializer(Cliente.objects.get(cli_usuario_fk= UsuarioSerializer(request.user).data['usu_id']))
+        cliente = Cliente.objects.get(cli_usu_fk=request.user.usu_id)
+    except Cliente.DoesNotExist:
+        return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')    
 
-import pyodbc
+    #factura_encabezado = get_object_or_404(FacturaVenta, fac_cli_fk = cliente.cli_doc_num)
+    factura_encabezado = FacturaVenta.objects.filter(fac_cli_fk = cliente.cli_doc_num)
+    if not factura_encabezado.exists():
+        return Response(status=status.HTTP_404_NOT_FOUND, data='El cliente no tiene facturas disponibles')    
 
+    if request.method == 'GET':
+        serializer = FacturaVentaSerializer(factura_encabezado, many=True)
+        return Response (serializer.data)
+    
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def factura_venta(request):
+    """View que retorna todas las facturas de un cliente"""
+    if request.method == 'GET':
+        try:
+            empleado = EmpleadoSerializer((Empleado.objects.get(
+                                            emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
+        except Empleado.DoesNotExist:
+            try:
+                #cliente = ClienteSerializer(Cliente.objects.get(cli_usuario_fk= UsuarioSerializer(request.user).data['usu_id']))
+                cliente = Cliente.objects.get(cli_usu_fk=request.user.usu_id)
+            except Cliente.DoesNotExist:
+                return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')    
+
+            #factura_encabezado = get_object_or_404(FacturaVenta, fac_cli_fk = cliente.cli_doc_num)
+            factura_encabezado = FacturaVenta.objects.filter(fac_cli_fk = cliente.cli_doc_num)
+            if not factura_encabezado.exists():
+                return Response(status=status.HTTP_404_NOT_FOUND, data='El cliente no tiene facturas disponibles')    
+
+            serializer = FacturaVentaSerializer(factura_encabezado, many=True)
+            return Response (serializer.data)
+        
+        else:
+            rol_id = (empleado.data["rol"])["rol_id"]
+            rol_permissions = PermisoSerializer(
+                RolPermiso.objects.all().filter(
+                    rp_rol_fk=rol_id,
+                    rp_estatus=True),
+                many=True)
+            for permission in rol_permissions.data:
+                permiso_serialized = (Permiso.objects.get(per_id=permission["rp_per_fk"]))
+                if permiso_serialized.per_nombre == 'Ver facturas':
+                    factura_encabezado = FacturaVenta.objects.all()    
+                    if not factura_encabezado.exists():
+                        return Response(status=status.HTTP_404_NOT_FOUND, data='No hay facturas disponibles para consultar')  
+                    
+                    serializer = FacturaVentaSerializer(factura_encabezado, many=True)
+                    return Response (serializer.data)    
+            return Response (status=status.HTTP_401_UNAUTHORIZED, data='Error. El empleado no tiene permiso para realizar esta consulta')             
+    
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 def factura_venta_detalle(request,pk):
     """View que retorna la Factura de Venta Reporte de un cliente en detalle"""
+
     
     try:
        # cliente = ClienteSerializer(Cliente.objects.get(cli_usuario_fk= UsuarioSerializer(request.user).data['usu_id']))
@@ -30,9 +91,7 @@ def factura_venta_detalle(request,pk):
         return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')   
     
     try:
-        #factura_encabezado = get_object_or_404(FacturaVenta, fac_doc_num=pk, fac_cli_fk= cliente.cli_doc_num)
         factura_encabezado = FacturaVenta.objects.get(fac_doc_num = pk, fac_cli_fk = cliente.cli_doc_num )
-
     except FacturaVenta.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)   
 
@@ -54,27 +113,6 @@ def factura_venta_detalle(request,pk):
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
-def factura_venta(request):
-    """View que retorna todas las facturas de un cliente"""
-    try:
-        #cliente = ClienteSerializer(Cliente.objects.get(cli_usuario_fk= UsuarioSerializer(request.user).data['usu_id']))
-        cliente = Cliente.objects.get(cli_usu_fk=request.user.usu_id)
-    except Cliente.DoesNotExist:
-        return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')    
-
-    #factura_encabezado = get_object_or_404(FacturaVenta, fac_cli_fk = cliente.cli_doc_num)
-    factura_encabezado = FacturaVenta.objects.filter(fac_cli_fk = cliente.cli_doc_num)
-    if not factura_encabezado.exists():
-        return Response(status=status.HTTP_404_NOT_FOUND, data='El cliente no tiene facturas disponibles')    
-
-    if request.method == 'GET':
-        serializer = FacturaVentaSerializer(factura_encabezado, many=True)
-        return Response (serializer.data)
-
-    
-@api_view(['GET', ])
-@authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
 def pago_retencion_iva(request):
     """View que retorna todas las retenciones de un proveedor"""
     try:
@@ -82,7 +120,7 @@ def pago_retencion_iva(request):
     except Proveedor.DoesNotExist:
         return Response(status=status.HTTP_401_UNAUTHORIZED, data='Error. No tienes permisos para realizar esta consulta')    
 
-    pago_retencion = PagoRetencionIva.objects.filter(pagRetIva_pro_fk = proveedor.pro_rif)
+    pago_retencion = PagoRetencionIva.objects.filter(pagRetIva_pro_fk = proveedor.pro_cod)
     if not pago_retencion.exists():
         return Response(status=status.HTTP_404_NOT_FOUND, data='El cliente no tiene retenciones disponibles')    
 
@@ -93,7 +131,7 @@ def pago_retencion_iva(request):
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
-def pago_retencion_iva(request, pk):
+def pago_retencion_iva_detalle(request, pk):
     """View que retorna una retencion de pago de iva en detalle del proveedor"""
     try:
         proveedor = Proveedor.objects.get(pro_usu_fk=request.user.usu_id)
@@ -111,67 +149,3 @@ def pago_retencion_iva(request, pk):
             'encabezado': serializer_retencion_encabezado.data,
             'renglon': serializer_retencion_renglon.data
             })
-
-@api_view(['GET', ])
-def enviarEmail (request):
-    send_email_task.delay()
-    return None 
-
-@api_view(['GET', ])
-def insertarArticulos (request):
-    direccion_servidor = '127.0.0.1'
-    nombre_bd = 'SIACA_2020'
-    nombre_usuario = 'siaca_api_profit'
-    password = 'siacaucab12102021'
-    try:
-        conexion_profit = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' +
-                              direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
-         # OK! conexión exitosa
-              
-    except Exception as error:
-    # Atrapar error
-        print("Ocurrió un error al conectar a Profit Plus SQL Server: ", error)
-        
-    #CREANDO CONSULTA A PROFIT PLUS   
-    
-    #Consultando Articulos
-    consulta_articulos = 'SELECT top 1 * FROM saArticulo'
-    cursor_articulo_profit = conexion_profit.cursor()
-    cursor_articulo_profit.execute(consulta_articulos)
-    articulos = cursor_articulo_profit.fetchall()
-            
-            
-    #CREANDO CONSULTA A Django DB        
-    direccion_servidor = '127.0.0.1'
-    nombre_bd = 'SIACA_INTRANET'
-    nombre_usuario = 'siaca_api'
-    password = 'siaca'
-    try:
-        conexion_django = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' +
-                              direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
-
-    except Exception as error:
-    # Atrapar error
-        print("Ocurrió un error al conectar a base de datos de App Django: ", error)
-
-
-    insert_articulos_django = """INSERT INTO Articulo 
-    (art_cod,art_fecha_reg,art_descripcion,art_tipo,art_anulado) 
-    VALUES (?,?,?,?,?,?,?)"""       
-    '''consulta_usuarios_django = 'SELECT * FROM Usuario WHERE usu_correo = (?)'
-    
-    # Clave foránea del usuario admin 
-    u = conexion_django.cursor().execute(consulta_usuarios_django,'admin@siaca.com')
-    u = u[0]'''
-    
-    try:
-        cursor_articulos_django = conexion_django.cursor()
-        for a in articulos:
-            print(len(a[0].rstrip()))
-            print(len(a[3]))
-            cursor_articulos_django.execute(insert_articulos_django,a[0].rstrip(),'2020-10-10',a[2].rstrip(),a[3].rstrip(),a[4])
-        conexion_django.commit()
-
-        return None
-    except pyodbc.Error as error:
-        return Response(error.args[1]) 

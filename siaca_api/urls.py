@@ -13,7 +13,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from os import name
+from django import urls
 from django.contrib import admin
 from django.urls import include, path
 
@@ -51,3 +53,14 @@ urlpatterns = [
     path('reportes/', include('cliente_proveedor_api_rest.urls', namespace=None)),
 >>>>>>> 47a1777 (fix endpoints factura_venta y factura_venta_detalle)
 ]
+
+'''urlpatterns += [
+    urls(
+        r'^static/(?P<path>.*)$',
+        'django.views.static.serve',
+        {
+            'document_root': settings.STATIC_ROOT,
+            'show_indexes': settings.DEBUG,
+        }
+    ),
+]'''

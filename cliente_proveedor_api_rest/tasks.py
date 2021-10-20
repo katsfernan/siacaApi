@@ -1,10 +1,10 @@
-from celery import Celery
 from celery.app import shared_task
-from datetime import datetime
-
+from datetime import datetime, time
 import pyodbc
+from cliente_proveedor_api_rest.models import FacturaVenta
 
-from utils import enviar_email
+from user_login_api.models import Cliente, Usuario
+
 from django.core.mail import send_mail
 
 @shared_task
@@ -21,61 +21,86 @@ def queryFacturasProfit():
               
     except Exception as error:
     # Atrapar error
-        print("Ocurrió un error al conectar a Profit Plus SQL Server: ", error)
+        return ("Ocurrió un error al conectar a Profit Plus SQL Server: ", error)
         
     #CREANDO CONSULTA A PROFIT PLUS   
     fecha_consulta = datetime.now()
     
     consulta_factura_encabezado = '''
     SELECT 
-    fac.doc_num, cli.email, cli.cli_des, con.cond_des, ven.des,
-    fac.fec_emis, fac.fec_venc, fac.fec_reg, fac.n_control,
-    tra.des_tran, mon.co_mone, mon.mone_des, fac.tasa 
-    FROM saFacturaVenta fac
-    JOIN saCliente clie on cli.co_cli = fac.co_cli   
-    JOIN saCondicionPago con on con.co_cond = fac.co_cond
-    JOIN saVendedor ven on ven.co_ven = fac.co_ven
-    JOIN saTransporte tra on tra.co_tran = fac.co_tran
-    JOIN saMoneda mon on mon.co_mone = fac.co_mone
-    WHERE fac.fec_emis = (?)
+    ltrim(rtrim(doc_num)), format(fec_emis,'yyyy-MM-dd'),format(fec_venc,'yyyy-MM-dd') , format(fec_reg,'yyyy-MM-dd'),
+    ltrim(rtrim(n_control)), tasa, total_bruto, monto_imp, total_neto,ltrim(rtrim(co_cli)), ltrim(rtrim(co_mone)), 
+    ltrim(rtrim(co_cond))
+    FROM saFacturaVenta 
+    WHERE fac.fec_emis >= (?)
     '''
     
     consulta_factura_renglon = '''
     SELECT
-    facRen.co_art, art.art_des, alm.des_alma, facRen.co_uni, 
-    facRen.total_art, facRen.co_precio, facRen.prec_vta, 
-    facRen.porc_imp, facRen.porc_imp2, facRen.porc_imp3, facRen.reng_neto, facRen.comentario
-    FROM saFacturaVentaReng facRen
-    JOIN saArticulo art on art.co_art = facRen.co_art
-    JOIN saAlmacen alm on alm.co_alma = facRen.co_alma
+    reng_num, ltrim(rtrim(co_alma)), total_art, prec_vta, porc_imp, monto_imp, reng_neto, pendiente, ltrim(rtrim(comentario)), 
+    ltrim(rtrim(doc_num)), ltrim(rtrim(co_art))
+    FROM saFacturaVentaReng
     WHERE fac.doc_num = (?)
+    '''
+    
+    consulta_cliente = '''
+    SELECT 
+    ltrim(rtrim(co_cli)),cli_des,ltrim(rtrim(email)),tip_cli 
+    FROM saCliente
+    WHERE ltrim(rtrim(co_cli)) = (?)
     '''
     cursor_factura_encabezado = conexion.cursor()
     cursor_factura_encabezado.execute(consulta_factura_encabezado,fecha_consulta)
     facturas_encabezado = cursor_factura_encabezado.fetchall()
+    
     if facturas_encabezado:
-        for factura_encabezado in facturas_encabezado:
-            doc_num = factura_encabezado[0]
-            cursor_factura_renglon = conexion.cursor()
-            cursor_factura_renglon.execute(consulta_factura_renglon,doc_num)
-            facturas_renglon = cursor_factura_renglon.fetchall()
-            for factura_renglon in facturas_renglon:
-                pass
-            #Envío de correo electrónico a cliente
-            email_cliente = factura_encabezado[1]
-            if email_cliente:
-                pass
-            else:
-                print("El cliente {} no tiene Email registrado".format(factura_encabezado[2].capitalize()))
-    else:
-        print("No se consiguieron facturas nuevas")
+        for fac in facturas_encabezado:
+            doc_num = fac[0]
+            co_cli = fac[9]
+            try:
+                FacturaVenta.objects.get(pk = doc_num)
+            except FacturaVenta.DoesNotExist:
+                try:
+                    cliente = Cliente.objects.get(pk = co_cli)
+                except Cliente.DoesNotExist:
+                    cursor_cliente = conexion.cursor()
+                    cursor_cliente.execute(consulta_cliente, co_cli)
+                    cli = cursor_cliente.fetchone
+                    cliente_nuevo = Cliente(cli_doc_num=cli[0],cli_descripcion=cli[1],cli_email = cli[2],
+                                    cli_tipo_cli = cli[3])
+                    try:
+                        Usuario.objects.get(usu_correo = cliente_nuevo.cli_email)
+                    
+                    except Usuario.DoesNotExist:
+                        Usuario.objects.create_user(usu_correo =cli[2],
+                                                     password='pbkdf2_sha256$180000$P1u8jvvDK78e$3QzMEvK+flQ13/jzY40/gI68rZu0nxAYFNpfbaMYY8M=')
+                    finally:
+                        email_cliente = cliente_nuevo.cli_email                     
+                else:
+                    email_cliente = cliente.cli_email
+
+                                               
+            finally:    
+                nuevaFactura = FacturaVenta(fac_doc_num = fac[0], fac_fecha_emi = fac[1], fac_fecha_venc=fac[2],
+                                            fac_fecha_reg= fac[3], fac_num_control = fac[4], fac_tasa=fac[5],
+                                            fac_total_bruto=fac[6], fac_monto_imp=fac[7],fac_monto_total=fac[8],
+                                            fac_cli_fk= fac[9], fac_moneda_fk=fac[10], fac_cp_fk=fac[11])
+                cursor_factura_renglon = conexion.cursor()
+                cursor_factura_renglon.execute(consulta_factura_renglon, doc_num)
+                facturas_renglon = cursor_factura_renglon.fetchall()
+                for facren in facturas_renglon:
+                    
+                    pass
+                asunto = 'Nueva factura en su perfil de cliente Siaca'
+                msg = 'Usted tiene una nueva factura a consultar. Número de factura: {numerofactura}'.format(numerofactura = nuevaFactura.fac_doc_num)
+                send_email_task(email_cliente, asunto, msg)
 
 @shared_task
-def send_email_task():
-    send_mail('Correo electronico enviado',
-    'Prueba siaca',
+def send_email_task(destinatario, asunto, mensaje):
+    send_mail(asunto,
+    mensaje,
     'siacapruebasucab@gmail.com',
-    ['9621209ec6@emailnax.com'])
+    [destinatario])
     
 
         

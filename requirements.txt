@@ -5,3 +5,5 @@ django-cors-headers==3.10.0
 boto3
 celery===5.1.2 
 gevent==20.9.0
+django-celery-beat==2.2.1
+pyodbc

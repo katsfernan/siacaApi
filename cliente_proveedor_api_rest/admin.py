@@ -3,8 +3,7 @@ from django.contrib import admin
 from cliente_proveedor_api_rest import models
 
 
-admin.site.register(models.ArchivoRetencion)
-admin.site.register(models.ArchivoServiciosPrestados)
+
 admin.site.register(models.CondicionPago)
 admin.site.register(models.Moneda)
 admin.site.register(models.FacturaVenta)

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from socket import gethostname
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,9 +24,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'uj0@hyv=m=mo&n05!!ict3*su4ls8+y%*8s4ci5e_an60i%w&z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+]
 
 # Application definition
 
@@ -45,6 +49,12 @@ INSTALLED_APPS = [
     'user_login_api',
     'cliente_proveedor_api_rest'
 
+]
+
+STATICFILES_FINDERS = [
+    # ...
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+    # ...
 ]
 
 MIDDLEWARE = [    
@@ -87,9 +97,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'SIACA_INTRANET',
-        'USER': 'siaca_api',
-        'PASSWORD': 'siaca',
-        'HOST': '127.0.0.1',
+        'uid': 'siaca_api',
+        'pwd': 'siaca',
+        'HOST': 'DESKTOP-6A1RO2L',
         'PORT': '1433',
 
         'OPTIONS': {

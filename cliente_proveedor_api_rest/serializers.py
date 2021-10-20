@@ -17,7 +17,7 @@ class MonedaSerializer (serializers.ModelSerializer):
 class FacturaVentaSerializer (serializers.ModelSerializer):
     
     clienteDesc = serializers.ReadOnlyField()
-    CondicionPagoDesc = serializers.ReadOnlyField()
+    condicionPagoDesc = serializers.ReadOnlyField()
     
     class Meta:
         model = FacturaVenta
@@ -32,7 +32,7 @@ class FacturaVentaSerializer (serializers.ModelSerializer):
             'fac_monto_imp',
             'fac_monto_total',
             'clienteDesc',
-            'CondicionPagoDesc'
+            'condicionPagoDesc'
 
         ]
         
