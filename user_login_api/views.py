@@ -15,6 +15,7 @@ from rest_framework.permissions import IsAuthenticated
 from ftplib import FTP
 import random, string
 from datetime import date, datetime
+import time
 import pyodbc
 
 class CustomAuthToken(ObtainAuthToken):
@@ -272,30 +273,93 @@ def api_archivoDeGestionDeCalidadEmpleado_view(request, emp_pk, agc_pk):
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
-def api_recibosDePagoEmpleado_view(request, emp_pk):
+def api_reciboDePagoEmpleado_view(request, reci_num):
     """View que retorna los recibos de pago de un empleado en base a su id"""
 
     direccion_servidor = '127.0.0.1'
-    nombre_bd = 'SIA_N'
-    nombre_usuario = 'siaca_api_nomina'
-    password = 'AD@79410893'
-    consulta = '''
-    SELECT nomi.reci_num as reci_num, nomi.co_cont as co_cont, sncont.des_cont as des_cont, snconcep.des_conce as des_conce,
-	snemple.nombre_completo as nombre, snemple.ci as ci, nomi.monto as monto,  nomi.fec_emis as fecha
-    FROM snnomi nomi
-    INNER JOIN snemple on nomi.cod_emp = snemple.cod_emp 
-    INNER JOIN sncont on nomi.co_cont = sncont.co_cont
-    INNER JOIN snconcep on nomi.co_conce = snconcep.co_conce
-    WHERE snemple.ci = (?) 
-    AND nomi.fec_emis between (?) AND (?)
-    ORDER BY nomi.fec_emis asc
-    '''              
+    nombre_bd = 'SIACA1_N'
+    nombre_usuario = 'siaca_api'
+    password = 'siaca'
+    consultaReglones = '''
+    SELECT rtrim(nomi.co_conce) as codigo, 	
+	snconcep.des_conce as descripcion,
+	IIF(nomi.auxi_num = 0, NULL, nomi.auxi_num) as auxi_num, 
+	nomi.auxi_cha as auxi_cha,
+	IIF(nomi.tipo = 1, nomi.monto, 0) as asignaciones,
+	IIF(nomi.tipo = 3, nomi.monto, 0) as deducciones
+    from snnomi nomi
+    inner join snemple on nomi.cod_emp = snemple.cod_emp
+    inner join sncont on nomi.co_cont = sncont.co_cont
+    inner join snconcep on nomi.co_conce = snconcep.co_conce
+    where reci_num = (?)
+    and nomi.tipo != 4
+    and nomi.co_cont between '01' and '02'
+    order by codigo asc
+    '''
+    consultaDatos = '''
+    SELECT TOP 1 nomi.reci_num as reci_num, rtrim(snemple.cod_emp) as cod_emp, snemple.nombre_completo, 
+	rtrim(snemple.ci) as ci, sndepart.des_depart as departamento, sncargo.des_cargo as cargo,
+	snemple.fecha_ing as ingreso, sncont.des_cont as contrato,
+	nomi.fec_inic, nomi.fec_emis
+    from snnomi nomi
+    inner join snemple on nomi.cod_emp = snemple.cod_emp
+	inner join sndepart on snemple.co_depart = sndepart.co_depart
+	inner join sncargo on snemple.co_cargo = sncargo.co_cargo
+	inner join sncont on snemple.co_cont = sncont.co_cont
+    where reci_num = (?)
+    and nomi.tipo != 4
+    and nomi.co_cont between '01' and '02'
+    '''
+    if request.method == 'GET':
+        try:
+            datos = {}
+            reglones = []
+            conexion = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER=' +
+                              direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
+            cursor = conexion.cursor()
+            cursor.execute(consultaDatos, reci_num)
+            columns = [column[0] for column in cursor.description]
+            data = cursor.fetchall()
+            for dato in data:
+                datos=(dict(zip(columns, dato)))
+            cursor.execute(consultaReglones, reci_num)
+            columns = [column[0] for column in cursor.description]
+            recibos = cursor.fetchall()
+            for recibo in recibos:
+                reglones.append(dict(zip(columns, recibo)))
+            return Response({
+                'datos': datos,
+                'reglones': reglones
+            })
+        except pyodbc.Error as error:
+            return Response(error.args[1])
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_recibosDePagoEmpleado_view(request):
+    """View que retorna los recibos de pago de un empleado en base a su id"""
+
+    direccion_servidor = '127.0.0.1'
+    nombre_bd = 'SIACA1_N'
+    nombre_usuario = 'siaca_api'
+    password = 'siaca'
+    consultaDatos = '''
+    SELECT nomi.reci_num as reci_num,  FORMAT (nomi.fec_emis, 'dd/MM/yyyy ') as date
+    from snnomi nomi
+    inner join snemple on nomi.cod_emp = snemple.cod_emp
+    inner join sncont on nomi.co_cont = sncont.co_cont
+    inner join snconcep on nomi.co_conce = snconcep.co_conce
+    where ci = (?)
+    and nomi.tipo != 4
+    and nomi.co_cont between '01' and '02'
+	group by reci_num, nomi.fec_emis
+    order by reci_num desc
+    '''
     if request.method == 'GET':
         try:
             empleado = EmpleadoSerializer((Empleado.objects.get(
                 emp_usu_fk=(UsuarioSerializer(request.user).data['usu_id']))))
-            if(empleado.data['emp_id'] != int(emp_pk)):
-                return Response(status=status.HTTP_403_FORBIDDEN, data='Error. No tienes permisos para realizar esta consulta')
             ci = str(empleado.data['emp_ci'])
             ci = ci[::-1]
             ci_str = ''
@@ -304,16 +368,17 @@ def api_recibosDePagoEmpleado_view(request, emp_pk):
                     ci_str = ci_str + '.'
                 ci_str = ci_str + digito
             ci_str = ci_str[::-1]
+            datos = []
             conexion = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER=' +
                               direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
             cursor = conexion.cursor()
-            cursor.execute(consulta, ci_str, request.query_params["start"], request.query_params["end"])
+            cursor.execute(consultaDatos, ci_str)
             columns = [column[0] for column in cursor.description]
-            recibos = cursor.fetchall()
-            response = []
-            for recibo in recibos:
-                response.append(dict(zip(columns, recibo)))
-            return Response(response)
+            data = cursor.fetchall()
+            for dato in data:
+                print(dato)
+                datos.append(dict(zip(columns, dato)))
+            return Response(datos)
         except Empleado.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND, data='Error. Empleado no encontrado.')
         except pyodbc.Error as error:
