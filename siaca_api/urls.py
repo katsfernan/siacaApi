@@ -31,6 +31,7 @@ urlpatterns = [
     path('empleado/<emp_pk>/archivos-gestion-calidad/<agc_pk>', views.api_archivoDeGestionDeCalidadEmpleado_view, name='archivo de gestion de la calidad del empleado'),
     path('empleado/recibos-de-pago/', views.api_recibosDePagoEmpleado_view, name='recibos de pago del empleado'),
     path('empleado/recibos-de-pago/<reci_num>', views.api_reciboDePagoEmpleado_view, name='pdf de un recibo de pago del empleado'),
+    path('empleado/recibos-de-pago-reconv/<reci_num>', views.api_reciboDePagoEmpleadoReconversion_view, name='pdf de un recibo de pago del empleado luego de la reconversion'),
     path('anuncio/', views.api_anuncio_view, name='anuncio del sistema'),
     path('anuncios/', views.api_anuncioEmpleados_view, name='anuncio del sistema'),
     path('empleado/<emp_pk>/anuncio/', views.api_anunciosEmpleado_view, name='recibos de pago del empleado'),

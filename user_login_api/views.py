@@ -334,6 +334,71 @@ def api_reciboDePagoEmpleado_view(request, reci_num):
         except pyodbc.Error as error:
             return Response(error.args[1])
 
+
+@api_view(['GET', ])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+def api_reciboDePagoEmpleadoReconversion_view(request, reci_num):
+    """View que retorna los recibos de pago de un empleado en base a su id"""
+
+    direccion_servidor = '127.0.0.1'
+    nombre_bd = 'SIA_N'
+    nombre_usuario = 'siaca_api'
+    password = 'siaca'
+    consultaReglones = '''
+    SELECT rtrim(nomi.co_conce) as codigo, 	
+	snconcep.des_conce as descripcion,
+	IIF(nomi.auxi_num = 0, NULL, nomi.auxi_num) as auxi_num, 
+	nomi.auxi_cha as auxi_cha,
+	IIF(nomi.tipo = 1, nomi.monto, 0) as asignaciones,
+	IIF(nomi.tipo = 3, nomi.monto, 0) as deducciones
+    from snnomi nomi
+    inner join snemple on nomi.cod_emp = snemple.cod_emp
+    inner join sncont on nomi.co_cont = sncont.co_cont
+    inner join snconcep on nomi.co_conce = snconcep.co_conce
+    where reci_num = (?)
+    and nomi.tipo != 4
+    and nomi.co_cont between '01' and '02'
+    order by codigo asc
+    '''
+    consultaDatos = '''
+    SELECT TOP 1 nomi.reci_num as reci_num, rtrim(snemple.cod_emp) as cod_emp, snemple.nombre_completo, 
+	rtrim(snemple.ci) as ci, sndepart.des_depart as departamento, sncargo.des_cargo as cargo,
+	snemple.fecha_ing as ingreso, sncont.des_cont as contrato,
+	nomi.fec_inic, nomi.fec_emis
+    from snnomi nomi
+    inner join snemple on nomi.cod_emp = snemple.cod_emp
+	inner join sndepart on snemple.co_depart = sndepart.co_depart
+	inner join sncargo on snemple.co_cargo = sncargo.co_cargo
+	inner join sncont on snemple.co_cont = sncont.co_cont
+    where reci_num = (?)
+    and nomi.tipo != 4
+    and nomi.co_cont between '01' and '02'
+    '''
+    if request.method == 'GET':
+        try:
+            datos = {}
+            reglones = []
+            conexion = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER=' +
+                              direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
+            cursor = conexion.cursor()
+            cursor.execute(consultaDatos, reci_num)
+            columns = [column[0] for column in cursor.description]
+            data = cursor.fetchall()
+            for dato in data:
+                datos=(dict(zip(columns, dato)))
+            cursor.execute(consultaReglones, reci_num)
+            columns = [column[0] for column in cursor.description]
+            recibos = cursor.fetchall()
+            for recibo in recibos:
+                reglones.append(dict(zip(columns, recibo)))
+            return Response({
+                'datos': datos,
+                'reglones': reglones
+            })
+        except pyodbc.Error as error:
+            return Response(error.args[1])
+
 @api_view(['GET', ])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
@@ -341,7 +406,7 @@ def api_recibosDePagoEmpleado_view(request):
     """View que retorna los recibos de pago de un empleado en base a su id"""
 
     direccion_servidor = '127.0.0.1'
-    nombre_bd = 'SIACA1_N'
+    nombre_bd = 'SIA_N'
     nombre_usuario = 'siaca_api'
     password = 'siaca'
     consultaDatos = '''
@@ -376,7 +441,6 @@ def api_recibosDePagoEmpleado_view(request):
             columns = [column[0] for column in cursor.description]
             data = cursor.fetchall()
             for dato in data:
-                print(dato)
                 datos.append(dict(zip(columns, dato)))
             return Response(datos)
         except Empleado.DoesNotExist:
