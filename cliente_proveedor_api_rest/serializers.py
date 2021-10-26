@@ -71,7 +71,7 @@ class PagoRetencionIvaSerializer (serializers.ModelSerializer):
             'pagRetIva_monto_ret_imp',
             'pagRetIva_num_comprobante',
             'pagRetIva_alicuota',
-            'pagRetIva_pro_fk'
+            'provDesc'
         ]
         
     

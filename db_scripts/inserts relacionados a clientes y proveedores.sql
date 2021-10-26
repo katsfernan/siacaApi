@@ -4927,6 +4927,3458 @@ INSERT INTO FacturaVenta  (fac_doc_num,fac_fecha_emi,fac_fecha_venc,fac_fecha_re
 
 --FACTURASVENTARENGLON
 INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',126.00000,339073.70000,16.00000,6835725.79000,42723286.20,126.00000,'',00003648,'ADIBESR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,7690191.51600,16.00000,1230430.64000,7690191.52,1.00000,'',00003648,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',61.00000,406888.44000,16.00000,3971231.17000,24820194.84,61.00000,'',00003649,'ADCTAPSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,4467635.07120,16.00000,714821.61000,4467635.07,1.00000,'',00003649,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',150.00000,440795.81000,16.00000,10579099.44000,66119371.50,150.00000,'',00003650,'ADCWINSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11901486.87000,16.00000,1904237.90000,11901486.87,1.00000,'',00003650,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',173.00000,406888.44000,16.00000,11262672.02000,70391700.12,173.00000,'FACTURACION CORRESPONDIENTE 
+DICIEMBRE SILLAS RUEDAS',00003651,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,12670506.02160,16.00000,2027280.96000,12670506.02,1.00000,'',00003651,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1080.00000,16.00000,172.80000,1080.00,1.00000,'',00003652,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,310.00000,16.00000,49.60000,310.00,1.00000,'',00003652,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,250.20000,16.00000,40.03000,250.20,1.00000,'',00003652,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,73239919.20000,16.00000,23436774.14000,146479838.40,2.00000,'FACTURACION CORRESPONDIENTE
+DICIEMBRE DEL 25/12 AL 30/12
+ORDEN 33626, 33627',00003653,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,21022569.40000,16.00000,6727222.21000,42045138.80,2.00000,'',00003653,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,33934495.89600,16.00000,5429519.34000,33934495.90,1.00000,'',00003653,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,65067069.31000,16.00000,10410731.09000,65067069.31,1.00000,'',00003654,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,63087868.63000,16.00000,10094058.98000,63087868.63,1.00000,'',00003654,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,9468746.95000,16.00000,4544998.54000,28406240.85,3.00000,'',00003654,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3787589.29000,16.00000,606014.29000,3787589.29,1.00000,'',00003654,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,63948553.70000,16.00000,10231768.59000,63948553.70,1.00000,'',00003654,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',2.00000,9597925.65000,16.00000,3071336.21000,19195851.30,2.00000,'',00003654,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,43828771.15000,16.00000,7012603.38000,43828771.15,1.00000,'',00003654,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,67899873.65000,16.00000,10863979.78000,67899873.65,1.00000,'',00003655,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,10190972.29000,16.00000,3261111.13000,20381944.58,2.00000,'',00003655,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,3694604.95000,16.00000,1773410.38000,11083814.85,3.00000,'',00003655,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,17885813.96000,16.00000,2861730.23000,17885813.96,1.00000,'',00003655,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,68357257.92000,16.00000,43748645.07000,273429031.68,4.00000,'',00003656,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,49217225.70240,16.00000,7874756.11000,49217225.70,1.00000,'',00003656,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,28550005.54000,16.00000,13704002.66000,85650016.62,3.00000,'',00003657,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,14241095.40000,16.00000,6835725.79000,42723286.20,3.00000,'',00003657,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,23107194.50760,16.00000,3697151.12000,23107194.51,1.00000,'',00003657,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,171232218.50000,16.00000,82191464.88000,513696655.50,3.00000,'',00003658,'HDIBE737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,10172211.00000,16.00000,1627553.76000,10172211.00,1.00000,'',00003658,'ADIBEASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,94296395.97000,16.00000,15087423.36000,94296395.97,1.00000,'',00003658,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',12.00000,27936282.14000,16.00000,53637661.71000,335235385.68,12.00000,'',00003659,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,60342233.79940,16.00000,9654757.41000,60342233.80,1.00000,'',00003659,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,32593120.34000,16.00000,31289395.53000,195558722.04,6.00000,'FACTURACION CORRESPONDIENTE
+DICIEMBRE DEL 26/12 AL 31/12',00003660,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,5086105.50000,16.00000,4068884.40000,25430527.50,5.00000,'',00003660,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',5.00000,6442400.30000,16.00000,5153920.24000,32212001.50,5.00000,'',00003660,'ADCOPES',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,45576252.31180,16.00000,7292200.37000,45576252.31,1.00000,'',00003660,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,23702607.92000,16.00000,7584834.53000,47405215.84,2.00000,'',00003661,'ADRUTGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,23185181.45000,16.00000,3709629.03000,23185181.45,1.00000,'',00003661,'ADRUTACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,12706271.51000,16.00000,2033003.44000,12706271.51,1.00000,'',00003661,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,23735159.00000,16.00000,7595250.88000,47470318.00,2.00000,'',00003662,'ADLASASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,8544657.24000,16.00000,1367145.16000,8544657.24,1.00000,'',00003662,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,13584648.71000,16.00000,2173543.79000,13584648.71,1.00000,'',00003663,'ADESTAGR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2445236.76000,16.00000,391237.88000,2445236.76,1.00000,'',00003663,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,22710315.60000,16.00000,3633650.50000,22710315.60,1.00000,'',00003664,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6518701.70000,16.00000,1042992.27000,6518701.70,1.00000,'',00003664,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,5261223.11400,16.00000,841795.70000,5261223.11,1.00000,'',00003664,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',15.00000,96131110.50000,16.00000,230714665.20000,1441966657.50,15.00000,'',00003665,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,39947817.03000,16.00000,31958253.62000,199739085.15,5.00000,'',00003665,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,8901028.75000,16.00000,19938304.40000,124614402.50,14.00000,'',00003665,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',8.00000,8901028.75000,16.00000,11393316.80000,71208230.00,8.00000,'',00003665,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,330755107.52000,16.00000,52920817.20000,330755107.52,1.00000,'',00003665,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,8901028.75000,16.00000,1424164.60000,8901028.75,1.00000,'',00003666,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6764781.85000,16.00000,1082365.10000,6764781.85,1.00000,'',00003666,'ADDHLPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6764781.85000,16.00000,1082365.10000,6764781.85,1.00000,'',00003666,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4037506.64000,16.00000,646001.06000,4037506.64,1.00000,'',00003666,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,71777895.84000,16.00000,126329096.68000,789556854.24,11.00000,'FACTURACION CORRESPONDIENTE 
+ENERO DEL 01/01 AL 15/01',00003667,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,142120233.76320,16.00000,22739237.40000,142120233.76,1.00000,'',00003667,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,179800780.75000,16.00000,172608749.52000,1078804684.50,6.00000,'FACTURACION CORRESPONDIENTE
+ENERO DEL 02/01 AL 14/01',00003668,'HDIBE737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,194184843.21000,16.00000,31069574.91000,194184843.21,1.00000,'',00003668,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,76904888.40000,16.00000,49219128.58000,307619553.60,4.00000,'FACTURACION CORRESPONDIENTE
+ENERO DEL 04/01 AL 14/01',00003669,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,22074551.30000,16.00000,14127712.83000,88298205.20,4.00000,'',00003669,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,5696658.40000,16.00000,1822930.69000,11393316.80,2.00000,'',00003669,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,73315993.60800,16.00000,11730558.98000,73315993.61,1.00000,'',00003669,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,9028542.50000,16.00000,1444566.80000,9028542.50,1.00000,'FACTURACION CORRESPONDIENTE
+ENERO SERVICIOS ADICIONALES',00003670,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6861692.30000,16.00000,1097870.77000,6861692.30,1.00000,'',00003670,'ADDHLPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6861692.30000,16.00000,1097870.77000,6861692.30,1.00000,'',00003670,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4095346.87000,16.00000,655255.50000,4095346.87,1.00000,'',00003670,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',15.00000,97508259.00000,16.00000,234019821.60000,1462623885.00,15.00000,'',00003671,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,40520098.74000,16.00000,32416078.99000,202600493.70,5.00000,'',00003671,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,9028542.50000,16.00000,20223935.20000,126399595.00,14.00000,'',00003671,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',8.00000,9028542.50000,16.00000,11556534.40000,72228340.00,8.00000,'',00003671,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,335493416.46000,16.00000,53678946.63000,335493416.46,1.00000,'',00003671,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',50.00000,6861692.30000,16.00000,54893538.40000,343084615.00,50.00000,'',00003672,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,61755230.70000,16.00000,9880836.91000,61755230.70,1.00000,'',00003672,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,97508259.00000,16.00000,202817178.72000,1267607367.00,13.00000,'',00003673,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,40520098.74000,16.00000,32416078.99000,202600493.70,5.00000,'',00003673,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,34814059.88000,16.00000,11140499.16000,69628119.76,2.00000,'',00003673,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',14.00000,9028542.50000,16.00000,20223935.20000,126399595.00,14.00000,'',00003673,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',8.00000,9028542.50000,16.00000,11556534.40000,72228340.00,8.00000,'',00003673,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,312923504.78000,16.00000,50067760.76000,312923504.78,1.00000,'',00003673,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,97508259.00000,16.00000,202817178.72000,1267607367.00,13.00000,'',00003674,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,40520098.74000,16.00000,32416078.99000,202600493.70,5.00000,'',00003674,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,34814059.88000,16.00000,11140499.16000,69628119.76,2.00000,'',00003674,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',14.00000,9028542.50000,16.00000,20223935.20000,126399595.00,14.00000,'',00003674,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',8.00000,9028542.50000,16.00000,11556534.40000,72228340.00,8.00000,'',00003674,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,312923504.78000,16.00000,50067760.76000,312923504.78,1.00000,'',00003674,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,31212716.87000,16.00000,39952277.59000,249701734.96,8.00000,'',00003675,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',8.00000,15569288.70000,16.00000,19928689.54000,124554309.60,8.00000,'',00003675,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,67366088.02080,16.00000,10778574.08000,67366088.02,1.00000,'',00003675,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,38552524.40000,16.00000,6168403.90000,38552524.40,1.00000,'',00003676,'WINGGT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6939454.39200,16.00000,1110312.70000,6939454.39,1.00000,'',00003676,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,36328340.30000,16.00000,5812534.45000,36328340.30,1.00000,'',00003677,'WINJS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6539101.25400,16.00000,1046256.20000,6539101.25,1.00000,'',00003677,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,32593120.33880,16.00000,31289395.52000,195558722.03,6.00000,'',00003678,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,5086105.50000,16.00000,4068884.40000,25430527.50,5.00000,'',00003678,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,39778064.92000,16.00000,6364490.39000,39778064.92,1.00000,'',00003678,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,25665421.36000,16.00000,12319402.25000,76996264.08,3.00000,'',00003679,'ADRUTGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,25105146.80000,16.00000,4016823.49000,25105146.80,1.00000,'',00003679,'ADRUTASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,18378253.95000,16.00000,2940520.63000,18378253.95,1.00000,'',00003679,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',29.00000,30584646.90000,16.00000,141912761.62000,886954760.10,29.00000,'',00003680,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',15.00000,35682954.23000,16.00000,85639090.15000,535244313.45,15.00000,'',00003680,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',10.00000,5568269.25000,16.00000,8909230.80000,55682692.50,10.00000,'',00003680,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,6310705.15000,16.00000,3029138.47000,18932115.45,3.00000,'',00003680,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,269426498.66000,16.00000,43108239.79000,269426498.66,1.00000,'',00003680,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,99262848.45000,16.00000,15882055.75000,99262848.45,1.00000,'',00003681,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,14898185.88000,16.00000,7151129.22000,44694557.64,3.00000,'',00003681,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,103348938.39000,16.00000,16535830.14000,103348938.39,1.00000,'',00003681,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,15511459.91000,16.00000,4963667.17000,31022919.82,2.00000,'',00003681,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,50099257.57000,16.00000,8015881.21000,50099257.57,1.00000,'',00003681,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',37.00000,30783861.80100,16.00000,182240461.86000,1139002886.64,37.00000,'',00003682,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,35915377.25160,16.00000,40225222.52000,251407640.76,7.00000,'',00003682,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',10.00000,5604538.50000,16.00000,8967261.60000,56045385.00,10.00000,'',00003682,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,6351810.30000,16.00000,3048868.94000,19055430.90,3.00000,'',00003682,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,263792041.79000,16.00000,42206726.69000,263792041.79,1.00000,'',00003682,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,1308979.35000,16.00000,418873.39000,2617958.70,2.00000,'',00003683,'ADVORAC',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,471232.56000,16.00000,75397.21000,471232.56,1.00000,'',00003683,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,93694943.84000,16.00000,14991191.01000,93694943.84,1.00000,'',00003684,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,14062508.89000,16.00000,9000005.69000,56250035.56,4.00000,'',00003684,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,5098180.38000,16.00000,3262835.44000,20392721.52,4.00000,'',00003684,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,102360620.51000,16.00000,16377699.28000,102360620.51,1.00000,'',00003684,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',4.00000,15363125.02000,16.00000,9832400.01000,61452500.08,4.00000,'',00003684,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,60147147.87000,16.00000,9623543.66000,60147147.87,1.00000,'',00003684,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7124037.65000,16.00000,1139846.02000,7124037.65,1.00000,'',00003685,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1282326.77000,16.00000,205172.28000,1282326.77,1.00000,'',00003685,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7124037.65000,16.00000,1139846.02000,7124037.65,1.00000,'',00003686,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1282326.77000,16.00000,205172.28000,1282326.77,1.00000,'',00003686,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7032527.95000,16.00000,1125204.47000,7032527.95,1.00000,'',00003687,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1265855.03000,16.00000,202536.80000,1265855.03,1.00000,'',00003687,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7032527.95000,16.00000,1125204.47000,7032527.95,1.00000,'',00003688,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1265855.03000,16.00000,202536.80000,1265855.03,1.00000,'',00003688,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,186917190.25000,16.00000,209347253.08000,1308420331.75,7.00000,'',00003689,'HDIBE737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,11103991.50000,16.00000,3553277.28000,22207983.00,2.00000,'',00003689,'ADIBEACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,239513096.65500,16.00000,38322095.47000,239513096.66,1.00000,'',00003689,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,31165202.81000,16.00000,34905027.15000,218156419.67,7.00000,'',00003690,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,15545588.10000,16.00000,17411058.67000,108819116.70,7.00000,'',00003690,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,58855596.54660,16.00000,9416895.45000,58855596.55,1.00000,'',00003690,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,79948738.80000,16.00000,51167192.83000,319794955.20,4.00000,'',00003691,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,22948249.10000,16.00000,14686879.42000,91792996.40,4.00000,'',00003691,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,5922128.80000,16.00000,1895081.22000,11844257.60,2.00000,'',00003691,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,76217797.65600,16.00000,12194847.63000,76217797.66,1.00000,'',00003691,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,74618822.88000,16.00000,131329128.27000,820807051.68,11.00000,'',00003692,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,147745269.30240,16.00000,23639243.09000,147745269.30,1.00000,'',00003692,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',46.00000,30495261.99000,16.00000,224445128.25000,1402782051.54,46.00000,'',00003693,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,35578669.30000,16.00000,11385174.18000,71157338.60,2.00000,'',00003693,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',7.00000,5551995.75000,16.00000,6218235.24000,38863970.25,7.00000,'',00003693,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6292261.85000,16.00000,6040571.38000,37753571.10,6.00000,'',00003693,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,279100247.66000,16.00000,44656039.63000,279100247.66,1.00000,'',00003693,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,15247260.86170,16.00000,2439561.74000,15247260.86,1.00000,'',00003694,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2744506.96000,16.00000,439121.11000,2744506.96,1.00000,'',00003694,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,104168194.37000,16.00000,16666911.10000,104168194.37,1.00000,'',00003695,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,18750274.98000,16.00000,3000044.00000,18750274.98,1.00000,'',00003695,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,104168194.37000,16.00000,16666911.10000,104168194.37,1.00000,'',00003696,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',6.00000,15634420.59000,16.00000,15009043.77000,93806523.54,6.00000,'',00003696,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,35635449.22000,16.00000,5701671.88000,35635449.22,1.00000,'',00003696,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',24.00000,41528928.21000,16.00000,159471084.33000,996694277.04,24.00000,'',00003697,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9253326.25000,16.00000,1480532.20000,9253326.25,1.00000,'',00003697,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,181070568.69000,16.00000,28971290.99000,181070568.69,1.00000,'',00003697,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7032527.95000,16.00000,1125204.47000,7032527.95,1.00000,'',00003698,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1265855.03000,16.00000,202536.80000,1265855.03,1.00000,'',00003698,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',51.00000,7032527.95000,16.00000,57385428.07000,358658925.45,51.00000,'',00003699,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,6292261.85000,16.00000,2013523.79000,12584523.70,2.00000,'',00003699,'ADDHLCIN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,33311974.50000,16.00000,5329915.92000,33311974.50,1.00000,'',00003699,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,72819976.25000,16.00000,11651196.20000,72819976.25,1.00000,'',00003699,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',51.00000,7032527.95000,16.00000,57385428.07000,358658925.45,51.00000,'',00003700,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,64558606.58000,16.00000,10329377.05000,64558606.58,1.00000,'',00003700,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',145.00000,365242.40000,16.00000,8473623.68000,52960148.00,145.00000,'',00003701,'ADIBESR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9532826.64000,16.00000,1525252.26000,9532826.64,1.00000,'',00003701,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',31.00000,438290.88000,16.00000,2173922.76000,13587017.28,31.00000,'',00003702,'ADCTAPSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2445663.11040,16.00000,391306.10000,2445663.11,1.00000,'',00003702,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',94.00000,438290.88000,16.00000,6591894.84000,41199342.72,94.00000,'',00003703,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,7415881.68960,16.00000,1186541.07000,7415881.69,1.00000,'',00003703,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',119.00000,474815.12000,16.00000,9040479.88000,56502999.28,119.00000,'',00003704,'ADCWINSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,10170539.87040,16.00000,1627286.38000,10170539.87,1.00000,'',00003704,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6939605.60000,16.00000,1110336.90000,6939605.60,1.00000,'',00003705,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1249129.00000,16.00000,199860.64000,1249129.00,1.00000,'',00003705,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,102000987.61000,16.00000,16320158.02000,102000987.61,1.00000,'',00003706,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,102573132.76000,16.00000,16411701.24000,102573132.76,1.00000,'',00003706,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,15395020.61000,16.00000,4926406.60000,30790041.22,2.00000,'',00003706,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,42365549.08000,16.00000,6778487.85000,42365549.08,1.00000,'',00003706,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,74362498.56000,16.00000,130877997.47000,817987484.16,11.00000,'',00003707,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,147237747.14880,16.00000,23558039.54000,147237747.15,1.00000,'',00003707,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,79674105.60000,16.00000,63739284.48000,398370528.00,5.00000,'',00003708,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,22869419.20000,16.00000,18295535.36000,114347096.00,5.00000,'',00003708,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,5901785.60000,16.00000,1888571.39000,11803571.20,2.00000,'',00003708,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,94413815.13600,16.00000,15106210.42000,94413815.14,1.00000,'',00003708,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,186275108.00000,16.00000,178824103.68000,1117650648.00,6.00000,'',00003709,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,201177116.64000,16.00000,32188338.66000,201177116.64,1.00000,'',00003709,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,31058146.72000,16.00000,44723731.28000,279523320.48,9.00000,'',00003710,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,15492187.20000,16.00000,22308749.57000,139429684.80,9.00000,'',00003710,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,6270647.20000,16.00000,3009910.66000,18811941.60,3.00000,'',00003710,'ADAERACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,5532924.00000,16.00000,2655803.52000,16598772.00,3.00000,'',00003710,'ADAERGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,81785469.39840,16.00000,13085675.10000,81785469.40,1.00000,'',00003710,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,36148436.80000,16.00000,5783749.89000,36148436.80,1.00000,'',00003711,'WINJS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6506718.62400,16.00000,1041074.98000,6506718.62,1.00000,'',00003711,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,38361606.40000,16.00000,6137857.02000,38361606.40,1.00000,'',00003712,'WINGGT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6905089.15200,16.00000,1104814.26000,6905089.15,1.00000,'',00003712,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,53501657.65000,16.00000,8560265.22000,53501657.65,1.00000,'',00003713,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7008370.40000,16.00000,1121339.26000,7008370.40,1.00000,'',00003714,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1261506.67000,16.00000,201841.07000,1261506.67,1.00000,'',00003714,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',47.00000,7008370.40000,16.00000,52702945.41000,329393408.80,47.00000,'',00003715,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,59290813.58000,16.00000,9486530.17000,59290813.58,1.00000,'',00003715,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',21.00000,41386271.52000,16.00000,139057872.31000,869111701.92,21.00000,'',00003716,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,156440106.34000,16.00000,25030417.01000,156440106.34,1.00000,'',00003716,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,30385366.08800,16.00000,4861658.57000,30385366.09,1.00000,'',00003717,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,30390507.22000,16.00000,4862481.16000,30390507.22,1.00000,'',00003718,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',16.00000,41291350.32000,16.00000,105705856.82000,660661605.12,16.00000,'',00003719,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,99364212.00000,16.00000,63593095.68000,397456848.00,4.00000,'',00003719,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,35476703.84000,16.00000,5676272.61000,35476703.84,1.00000,'',00003719,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',4.00000,9200390.00000,16.00000,5888249.60000,36801560.00,4.00000,'',00003719,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,9200390.00000,16.00000,1472062.40000,9200390.00,1.00000,'',00003719,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,205127479.25000,16.00000,32820396.68000,205127479.25,1.00000,'',00003719,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,102417076.70000,16.00000,16386732.27000,102417076.70,1.00000,'',00003720,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,102837138.63000,16.00000,16453942.18000,102837138.63,1.00000,'',00003720,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2049066.65000,16.00000,327850.66000,2049066.65,1.00000,'',00003720,'ADCUBTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,102857685.89000,16.00000,32914459.48000,205715371.78,2.00000,'',00003720,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,102249868.79000,16.00000,16359979.01000,102249868.79,1.00000,'',00003720,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,92748334.05000,16.00000,14839733.45000,92748334.05,1.00000,'',00003720,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,15434644.79000,16.00000,2469543.17000,15434644.79,1.00000,'',00003721,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,15434644.79000,16.00000,12347715.83000,77173223.95,5.00000,'',00003722,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,15437728.69000,16.00000,7410109.77000,46313186.07,3.00000,'',00003722,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,22227553.80000,16.00000,3556408.61000,22227553.80,1.00000,'',00003722,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',31.00000,30341011.43000,16.00000,150491416.69000,940571354.33,31.00000,'',00003723,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,35398705.94540,16.00000,79293101.32000,495581883.24,14.00000,'',00003723,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',19.00000,5523912.75000,16.00000,16792694.76000,104954342.25,19.00000,'',00003723,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260434.45000,16.00000,6010017.07000,37562606.70,6.00000,'',00003723,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,6260434.45000,16.00000,1001669.51000,6260434.45,1.00000,'',00003723,'ADCOPASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,285287261.36480,16.00000,45645961.82000,285287261.36,1.00000,'',00003723,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',19.00000,99430429.50000,16.00000,302268505.68000,1889178160.50,19.00000,'',00003724,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,41318867.37000,16.00000,6611018.78000,41318867.37,1.00000,'',00003724,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,9206521.25000,16.00000,2946086.80000,18413042.50,2.00000,'',00003724,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',8.00000,9206521.25000,16.00000,11784347.20000,73652170.00,8.00000,'',00003724,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,35500345.94000,16.00000,5680055.35000,35500345.94,1.00000,'',00003724,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,370451265.54000,16.00000,59272202.49000,370451265.54,1.00000,'',00003724,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',43.00000,6996956.15000,16.00000,48139058.31000,300869114.45,43.00000,'',00003725,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6996956.15000,16.00000,1119512.98000,6996956.15,1.00000,'',00003725,'ADDHLPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,55415892.71000,16.00000,8866542.83000,55415892.71,1.00000,'',00003725,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6996956.15000,16.00000,1119512.98000,6996956.15,1.00000,'',00003726,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1259452.11000,16.00000,201512.34000,1259452.11,1.00000,'',00003726,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',10.00000,74241387.36000,16.00000,118786219.78000,742413873.60,10.00000,'',00003727,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,133634497.24800,16.00000,21381519.56000,133634497.25,1.00000,'',00003727,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,31007563.57000,16.00000,39689681.37000,248060508.56,8.00000,'',00003728,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,5523912.75000,16.00000,883826.04000,5523912.75,1.00000,'',00003728,'ADAERGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6260434.45000,16.00000,1001669.51000,6260434.45,1.00000,'',00003728,'ADAERACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',8.00000,15466955.70000,16.00000,19797703.30000,123735645.60,8.00000,'',00003728,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,69044490.24480,16.00000,11047118.44000,69044490.24,1.00000,'',00003728,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,30341011.43000,16.00000,4854561.83000,30341011.43,1.00000,'',00003729,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,411.95000,16.00000,65.91000,411.95,1.00000,'',00003730,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',28.00000,30341011.43000,16.00000,135927731.21000,849548320.04,28.00000,'',00003731,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',13.00000,35398705.95000,16.00000,73629308.38000,460183177.35,13.00000,'',00003731,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,5523912.75000,16.00000,12373564.56000,77334778.50,14.00000,'',00003731,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260434.45000,16.00000,6010017.07000,37562606.70,6.00000,'',00003731,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,256433287.24560,16.00000,41029325.96000,256433287.25,1.00000,'',00003731,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,185971729.25000,16.00000,29755476.68000,185971729.25,1.00000,'',00003732,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,185971729.25000,16.00000,178532860.08000,1115830375.50,6.00000,'',00003733,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,200849467.59000,16.00000,32135914.81000,200849467.59,1.00000,'',00003733,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',31.00000,30341464.57650,16.00000,150493664.30000,940585401.87,31.00000,'FACTURACION CORRESPONDIENTE FEBRERO 01/02 AL 15/02 ORDEN 33648, 33645, 33642, 33639, 33636, 33633, 33630, 33627, 33624, 33621, 33618, 33615, 33612, 33634, 33631, 33628, 33625, 33622, 33618, 33616, 33613, 33610, 33607, 33626',00003735,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,35399234.62740,16.00000,79294285.56000,495589284.78,14.00000,'ORDEN 33647, 33644, 33641, 33638, 33635, 33632, 33629, 33623, 33620, 33617, 33614, 33611, 33608, 33605',00003735,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',19.00000,5523995.25000,16.00000,16792945.56000,104955909.75,19.00000,'ORDEN 33606, 33637, 33625, 33605, 33608, 33611, 33614, 33620, 33623, 33629, 33632, 33635, 33638, 33641, 33644, 33647, 33626',00003735,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260527.95000,16.00000,6010106.83000,37563167.70,6.00000,'ORDEN 33626, 33644, 33623, 33611, 33605, 33637',00003735,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,6260434.45000,16.00000,1001669.51000,6260434.45,1.00000,'ORDEN 33636',00003735,'ADCOPASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,285291522.14880,16.00000,45646643.54000,285291522.15,1.00000,'',00003735,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',28.00000,30341464.57650,16.00000,135929761.30000,849561008.14,28.00000,'FACTURACION CORRESPONDIENTE FEBRERO 16/02 AL 29/02 ORDEN 33652, 33651, 33655, 33654, 33658, 33657, 33661, 33660, 33664, 33663, 33667, 33666, 33670, 33669, 33673, 33672, 33676, 33675, 33679, 33678, 33682, 33681, 33685, 33684, 33688, 33687, 33691, 33690',00003736,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',13.00000,35399234.62740,16.00000,73630408.03000,460190050.16,13.00000,'ORDEN 33650, 33653, 33656, 33659, 33662, 33665, 33668, 33671, 33674, 33677, 33680, 33683, 33686',00003736,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,5523995.25000,16.00000,12373749.36000,77335933.50,14.00000,'ORDEN 33659, 33662, 33665, 33671, 33677, 33680, 33683, 33686, 33689, 33658, 33661, 33663, 33676, 33679',00003736,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260527.95000,16.00000,6010106.83000,37563167.70,6.00000,'ORDEN 33659, 33658, 33661, 33663, 33676, 33679',00003736,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,256437117.09360,16.00000,41029938.73000,256437117.09,1.00000,'',00003736,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',31.00000,30341464.57650,16.00000,150493664.30000,940585401.87,31.00000,'FACTURACION CORRESPONDIENTE FEBRERO 01/02 AL 15/02 ORDEN 33648, 33645, 33642, 33639, 33636, 33633, 33630, 33627, 33624, 33621, 33618, 33615, 33612, 33634, 33631, 33628, 33625, 33622, 33618, 33616, 33613, 33610, 33607, 33626',00003737,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,35399234.62740,16.00000,79294285.56000,495589284.78,14.00000,'ORDEN 33647, 33644, 33641, 33638, 33635, 33632, 33629, 33623, 33620, 33617, 33614, 33611, 33608, 33605',00003737,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',19.00000,5523995.25000,16.00000,16792945.56000,104955909.75,19.00000,'ORDEN 33606, 33637, 33625, 33605, 33608, 33611, 33614, 33620, 33623, 33629, 33632, 33635, 33638, 33641, 33644, 33647, 33626',00003737,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260527.95000,16.00000,6010106.83000,37563167.70,6.00000,'ORDEN 33626, 33644, 33623, 33611, 33605, 33637',00003737,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,6260527.95000,16.00000,1001684.47000,6260527.95,1.00000,'ORDEN 33636',00003737,'ADCOPASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,285291522.15000,16.00000,45646643.54000,285291522.15,1.00000,'',00003737,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',28.00000,30341464.58000,16.00000,135929761.32000,849561008.24,28.00000,'',00003738,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',31.00000,30341464.58000,16.00000,150493664.32000,940585401.98,31.00000,'FACTURACION CORRESPONDIENTE FEBRERO 01/02 AL 15/02 
+ORDEN 33648, 33645, 33642, 33639, 33636, 33633, 33630, 33627, 33624, 33621, 33618, 33615, 33612, 33609, 33606, 33649, 33646, 33643, 33640, 33637, 33634, 33631, 33628, 33625, 33622, 33619, 33616, 33613, 33610, 33607, 33626',00003739,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,35399234.63000,16.00000,79294285.57000,495589284.82,14.00000,'ORDEN 33647, 33644, 33641, 33633, 33635, 33632, 33629, 33623, 33620, 33617, 33614, 33611, 33608, 33605',00003739,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',19.00000,5523995.25000,16.00000,16792945.56000,104955909.75,19.00000,'ORDEN 33606, 33637, 33625, 33605, 33608, 36611, 33614, 33620, 33623, 33629, 33632, 33635, 33638, 33641, 33644, 33647, 33626',00003739,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260527.95000,16.00000,6010106.83000,37563167.70,6.00000,'ORDEN 33626, 33644, 33623, 33611, 33606, 33637',00003739,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,6260527.95000,16.00000,1001684.47000,6260527.95,1.00000,'ORDEN 33625',00003739,'ADCOPASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,285291772.60000,16.00000,45646683.62000,285291772.60,1.00000,'',00003739,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',28.00000,30341464.58000,16.00000,135929761.32000,849561008.24,28.00000,'FACTURACION CORRESPONDIENTE
+FEBRERO 16/02 AL 29/02
+ORDEN 33652, 33651, 33655, 33654, 33658,, 33661 33660, 33664, 33663, 33667, 33666, 33670, 33669, 33673, 33672, 33676, 33675, 33679, 33678, 33682, 33681, 33685, 33684, 33688, 33687, 33691, 33690',00003740,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',13.00000,35399234.63000,16.00000,73630408.03000,460190050.19,13.00000,'ORDEN 33650, 33653, 33656, 33659, 33662, 33665, 33668, 33671, 33674, 33677, 33680, 33683, 33686',00003740,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,5523995.25000,16.00000,12373749.36000,77335933.50,14.00000,'ORDEN 33659, 33662, 33665, 33671, 33660, 33683, 33685, 33689, 33658, 33661, 33663, 33676, 33679',00003740,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',6.00000,6260527.95000,16.00000,6010106.83000,37563167.70,6.00000,'ORDEN 33659, 33658, 33661, 33663, 33676, 33679',00003740,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,256437028.73000,16.00000,41029924.60000,256437028.73,1.00000,'',00003740,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,102669651.94000,16.00000,16427144.31000,102669651.94,1.00000,'FACTURACION CORRESPONDIENTE FEBRERO
+29/02 DICOM 73.652,17
+ORDEN 33879',00003741,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6163950.11000,16.00000,986232.02000,6163950.11,1.00000,'TASA DICOM 73.652.17
+ORDEN 33879',00003741,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,19590048.37000,16.00000,3134407.74000,19590048.37,1.00000,'',00003741,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,187056696.50000,16.00000,179574428.64000,1122340179.00,6.00000,'FACTURACION CORRESPONDIENTE MARZO 01/03 AL 15/03
+ORDEN 34064, 34065, 34066, 34067, 34068, 34069',00003742,'HDIBE737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11112279.00000,16.00000,1777964.64000,11112279.00,1.00000,'ORDEN 34066',00003742,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,204021442.44000,16.00000,32643430.79000,204021442.44,1.00000,'',00003742,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',175.00000,370409.30000,16.00000,10371460.40000,64821627.50,175.00000,'',00003743,'ADIBESR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11667892.95000,16.00000,1866862.87000,11667892.95,1.00000,'',00003743,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',29.00000,30518022.23000,16.00000,141603623.15000,885022644.67,29.00000,'FACTURACION CORRESPONDIENTE MARZO
+DEL 01/03 AL 15/03 
+ORDEN 33971, 33972, 33974, 33975, 33977, 33978, 33980, 33981, 33983, 33984, 33986, 33987, 33989, 33990, 33992, 33993, 33995, 33996, 33998, 33999, 34001, 34002, 34004, 34005, 34007, 34008, 34010, 34011, 34012',00003744,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,35605223.55000,16.00000,79755700.75000,498473129.70,14.00000,'ORDEN 33970,33973, 33979, 33982, 33985, 33991, 33994, 33997, 34000, 34003, 34006, 34009, 33976, 33988',00003744,'HDCOP737P',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',28.00000,5556139.50000,16.00000,24891504.96000,155571906.00,28.00000,'ORDEN 33970, 33973, 33979, 33982, 33985, 33991, 33994, 33997, 34000, 34003, 34006, 34009, 33977, 33978, 33980, 33981, 33984, 33986, 33987, 33989, 33990, 33993, 34001, 34004, 34007, 34008, 34010, 34011',00003744,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',19.00000,6296958.10000,16.00000,19142752.62000,119642203.90,19.00000,'ORDEN 33944, 33976, 33988, 33977, 33978, 33980, 33981, 33986, 33987, 33989, 33990, 33993, 33999, 34001, 34004, 34007, 34008, 34010, 34011',00003744,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,298567779.17000,16.00000,47770844.67000,298567779.17,1.00000,'',00003744,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,187056696.50000,16.00000,179574428.64000,1122340179.00,6.00000,'FACTURACION CORRESPONDIENTE MARZO 01/03 AL 15/03
+ORDEN 34064, 34065, 34066, 34067, 34068, 34069',00003745,'HDIBE737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11112279.00000,16.00000,1777964.64000,11112279.00,1.00000,'ORDEN 34066',00003745,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,204021442.44000,16.00000,32643430.79000,204021442.44,1.00000,'',00003745,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,31188463.06000,16.00000,34931078.63000,218319241.42,7.00000,'FACTURACION CORRESPONDIENTE MARZO 01/03 AL 15/03
+ORDEN 34102, 34103, 34014, 34105, 34106, 34107, 34108',00003746,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,15557190.60000,16.00000,17424053.47000,108900334.20,7.00000,'',00003746,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,58899523.61160,16.00000,9423923.78000,58899523.61,1.00000,'',00003746,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,31188463.06000,16.00000,34931078.63000,218319241.42,7.00000,'FACTURACION CORRESPONDIENTE MARZO 01/03 AL 15/03
+ORDEN 34102, 34103, 34014, 34105, 34106, 34107, 34108',00003747,'HDAER737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,15557190.60000,16.00000,17424053.47000,108900334.20,7.00000,'',00003747,'WINSPA73',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,58899523.61160,16.00000,9423923.78000,58899523.61,1.00000,'',00003747,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,36300111.40000,16.00000,5808017.82000,36300111.40,1.00000,'FACTURACION CORRESPONDIENTE MARZO',00003748,'WINJS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6534020.05200,16.00000,1045443.21000,6534020.05,1.00000,'',00003748,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,38522567.20000,16.00000,6163610.75000,38522567.20,1.00000,'FACTURACION CORRESPONDIENTE MARZO',00003749,'WINGGT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6934062.09600,16.00000,1109449.94000,6934062.10,1.00000,'',00003749,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',126.00000,481532.09000,16.00000,9707686.93000,60673043.34,126.00000,'FACTURACION CORRESPONDIENTE MARZO SILLAS DE RUEDA',00003750,'ADCWINSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,10921147.80120,16.00000,1747383.65000,10921147.80,1.00000,'',00003750,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,22965376.60000,16.00000,14697841.02000,91861506.40,4.00000,'FACTURACION CORRESPONDIENTE FEBRERO 
+18/02 AL 29/02',00003751,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,16535071.15200,16.00000,2645611.38000,16535071.15,1.00000,'',00003751,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,22965376.60000,16.00000,11023380.77000,68896129.80,3.00000,'FACTURACION CORRESPONDIENTE MARZO
+03/03 AL 10/03',00003752,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,12401303.36400,16.00000,1984208.54000,12401303.36,1.00000,'',00003752,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',50.00000,444491.16000,16.00000,3555929.28000,22224558.00,50.00000,'FACTURACION CORRESPONDIENTE FEBRERO',00003753,'ADCTAPSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,4000420.44000,16.00000,640067.27000,4000420.44,1.00000,'',00003753,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,74674514.88000,16.00000,131427146.19000,821419663.68,11.00000,'FACTURACION CORRESPONDIENTE MARZO
+01/03 AL 15/03
+ORDEN 33079, 34080, 34081, 34082, 34083, 34084, 34085, 34086, 34087, 34088, 34089',00003754,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,147855539.46240,16.00000,23656886.31000,147855539.46,1.00000,'',00003754,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',124.00000,444491.16000,16.00000,8818704.61000,55116903.84,124.00000,'FACTURACION CORRESPONDIENTE FEBRERO SILLAS DE RUEDA',00003755,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9921042.69120,16.00000,1587366.83000,9921042.69,1.00000,'',00003755,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',21.00000,100010511.00000,16.00000,336035316.96000,2100220731.00,21.00000,'FACTURACION CORRESPONDIENTE MARZO
+01/03 AL 15/03
+ORDEN 34161, 34162, 34163, 34164, 34165, 34166, 34167, 34168, 34169, 34170, 34171, 34172, 34173, 34174, 34175, 34176, 34177, 34178, 34179, 34180, 34181',00003756,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,41559923.46000,16.00000,6649587.75000,41559923.46,1.00000,'FACTURACION CORRESPONDIENTE MARZO
+01/03 AL 15/03
+OREDN 34160',00003756,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',12.00000,9260232.50000,16.00000,17779646.40000,111122790.00,12.00000,'FACTURACION CORRESPONDIENTE MARZO
+01/03 AL 15/03
+ORDEN 34161, 34163, 34164, 34166, 34168, 34170, 34172, 34174, 34176, 34178, 34179, 34180',00003756,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,405522620.00000,16.00000,64883619.20000,405522620.00,1.00000,'',00003756,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',57.00000,7037776.70000,16.00000,64184523.50000,401153271.90,57.00000,'FACTURACION CORRESPONDIENTE MARZO
+SERVICIOS ADICIONALES TRASLADOS
+ORDEN 6654, 6653, 6652, 6651, 6921, 6918, 2581, 6601, 6603, 6606, 2582, 6607, 6655, 6611, 6612, 6613, 6615, 6616, 6621, 6623, 6626,6659',00003757,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,72207588.94000,16.00000,11553214.23000,72207588.94,1.00000,'',00003757,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6296958.10000,16.00000,1007513.30000,6296958.10,1.00000,'FACTURACION CORRESPONDIENTE MARZO
+SERVICIO ADICIONAL 
+ORDEN 6657',00003758,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1133452.46000,16.00000,181352.39000,1133452.46,1.00000,'',00003758,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',57.00000,7037776.70000,16.00000,64184523.50000,401153271.90,57.00000,'FACTURACION CORRESPONDIENTE MARZO
+SERVICIOS ADICIONALES TRASLADOS
+ORDEN 6654, 6653, 6652, 6651, 6921, 6918, 2581, 6601, 6603, 6606, 2582, 6607, 6655, 6611, 6612, 6613, 6615, 6616, 6621, 6623, 6626,6659',00003759,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,72207588.94000,16.00000,11553214.23000,72207588.94,1.00000,'',00003759,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,74600033.76000,16.00000,23872010.80000,149200067.52,2.00000,'FACTURACION CORRESPONDIENTE A MARZO 17/03 AL 18/03
+ORDEN 34090, 34091',00003760,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,26856012.15360,16.00000,4296961.94000,26856012.15,1.00000,'',00003760,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',175.00000,370039.85000,16.00000,10361115.80000,64756973.75,175.00000,'',00003761,'ADIBESR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11656255.27000,16.00000,1865000.84000,11656255.27,1.00000,'',00003761,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7030757.15000,16.00000,1124921.14000,7030757.15,1.00000,'FACTURACION CORRESPONDIENTE A FEBRERO
+SERVICIOS ADICIONALES
+ORDEN 6614',00003762,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1265536.29000,16.00000,202485.81000,1265536.29,1.00000,'',00003762,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,7625658.55000,16.00000,1220105.37000,7625658.55,1.00000,'FACTURACION POR SERVICIOS ADICIONALES
+ORDEN 6639',00003763,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1372618.54000,16.00000,219618.97000,1372618.54,1.00000,'',00003763,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,28094531.50000,16.00000,8990250.08000,56189063.00,2.00000,'FACTURACION CORRESPONDIENTE 
+SERVICIOS ADICIONALES
+ORDEN 6923, 6604',00003764,'ADLASASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,10114031.34000,16.00000,1618245.01000,10114031.34,1.00000,'',00003764,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',23.00000,108364621.50000,16.00000,398781807.12000,2492386294.50,23.00000,'FACTURACION CORRESPONDIENTE
+MARZO DEL 16/03 AL 31/03
+ORDEN 34183, 34182, 34184, 34185, 34186, 34187, 34188, 34189, 34190, 34191, 34192, 34193, 34194, 34195, 34196, 34197, 34198, 34199, 34200, 34201, 34202, 34203',00003765,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',13.00000,10033761.25000,16.00000,20870223.40000,130438896.25,13.00000,'ORDEN 34183, 34184, 34186, 34188, 34190, 34192,34193, 34194, 34196, 34198, 34200, 34202, 34204',00003765,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,10033761.25000,16.00000,1605401.80000,10033761.25,1.00000,'ORDEN 34193',00003765,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,473914611.36000,16.00000,75826337.82000,473914611.36,1.00000,'',00003765,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',43.00000,7625658.55000,16.00000,52464530.82000,327903317.65,43.00000,'FACTURACION CORRESPONDIENTE MARZO
+SERVICIOS ADICIONALES DEL 16/03 AL 31/03
+ORDEN 6627, 6630, 6631, 6633, 6634, 6635, 6637, 6640, 6641, 6644, 6645, 6646, 6648, 6649, 6650, 6916, 6914, 6912, 6910, 6909, 6907',00003766,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,59022597.18000,16.00000,9443615.55000,59022597.18,1.00000,'',00003766,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,7625658.55000,16.00000,2440210.74000,15251317.10,2.00000,'FACTURACION CORRESPONDIENTE MARZO
+SERVICIO ADICIONAL
+ORDEN 6617, 6911',00003767,'ATRDHLCNT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2745237.08000,16.00000,439237.93000,2745237.08,1.00000,'',00003767,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,54182310.75000,16.00000,8669169.72000,54182310.75,1.00000,'DEMORA EN VUELO ORDEN 34199
+CARGOS ADMINISTRATIVOS',00003768,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9752815.94000,16.00000,1560450.55000,9752815.94,1.00000,'',00003768,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,153675846.00000,16.00000,270469488.96000,1690434306.00,11.00000,'FACTURACION CORRESPONDIENTE ABRIL
+ORDEN 34206, 34205, 34208, 34207, 34210, 34209, 34211, 34212, 34213, 34214, 34215',00003769,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,54867968.72000,16.00000,17557749.99000,109735937.44,2.00000,'ORDEN 34216, 34217',00003769,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',5.00000,14229245.00000,16.00000,11383396.00000,71146225.00,5.00000,'ORDEN 34206, 34208, 34210, 34212, 34214',00003769,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,336836964.32000,16.00000,53893914.29000,336836964.32,1.00000,'',00003769,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',26.00000,10814226.20000,16.00000,44987180.99000,281169881.20,26.00000,'FACTURACION CORRESPONDIENTE ABRIL 
+ORDEN 6908, 6905, 6906, 6904, 6903, 6902, 6901, 6763, 6762, 2572, 2583, 2585, 2584',00003770,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,14229245.00000,16.00000,2276679.20000,14229245.00,1.00000,'ORDEN 6765',00003770,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,10245056.40000,16.00000,1639209.02000,10245056.40,1.00000,'ORDEN 6765',00003770,'ADCDHLESC',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,55015952.87000,16.00000,8802552.46000,55015952.87,1.00000,'',00003770,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,46893899.82000,16.00000,7503023.97000,46893899.82,1.00000,'FACTURACION CORRESPONDIENTE ABRIL
+ORDEN 34013 AYUDA HUMANITARIA',00003771,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,12863237.48000,16.00000,4116235.99000,25726474.96,2.00000,'',00003771,'ADCOPRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,10245056.40000,16.00000,1639209.02000,10245056.40,1.00000,'',00003771,'ADCOPES',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,10245056.40000,16.00000,1639209.02000,10245056.40,1.00000,'',00003771,'ADCOPATR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,80270.09000,16.00000,12843.21000,80270.09,1.00000,'',00003771,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,46893899.82000,16.00000,7503023.97000,46893899.82,1.00000,'FACTURACION CORRESPONDIENTE ABRIL
+ORDEN 34013 AYUDA HUMANITARIA',00003772,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,12863237.48000,16.00000,4116235.99000,25726474.96,2.00000,'ORDEN 6920, 34013',00003772,'ADCOPRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,10245056.40000,16.00000,1639209.02000,10245056.40,1.00000,'ORDEN 6636',00003772,'ADCOPATR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,14915777.62000,16.00000,2386524.42000,14915777.62,1.00000,'',00003772,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,99051882.27000,16.00000,31696602.33000,198103764.54,2.00000,'FACTURACION CORRESPONDIENTE ABRIL DEL 16/04 AL 30/04
+ORDEN 34218, 34219',00003773,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',12.00000,238360144.50000,16.00000,457651477.44000,2860321734.00,12.00000,'ORDEN 34220, 34221, 34233, 34224, 34225, 34226, 34227, 34228, 34229, 34230, 34231, 34233',00003773,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',6.00000,22070383.75000,16.00000,21187568.40000,132422302.50,6.00000,'ORDEN 34223, 34225, 34227, 34229, 34231, 34233',00003773,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,16773491.65000,16.00000,2683758.66000,16773491.65,1.00000,'ORDEN 34223',00003773,'ADDHLPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,577371832.68000,16.00000,92379493.23000,577371832.68,1.00000,'',00003773,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',34.00000,16773491.65000,16.00000,91247794.58000,570298716.10,34.00000,'FACTURACION CORRESPONDIENTE ABRIL DEL 16/04 AL 30/04
+ORDEN 2587, 2590, 2586, 2592, 2593, 2594, 2595, 2597, 2598, 2600, 2599',00003774,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,102653768.90000,16.00000,16424603.02000,102653768.90,1.00000,'',00003774,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,49525941.14000,16.00000,7924150.58000,49525941.14,1.00000,'CANCELACION VUELO DEL 21/04
+SEGUN PARAGRAFO 1.7
+ORDEN 33448',00003775,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,119180072.25000,16.00000,19068811.56000,119180072.25,1.00000,'CANCELACION VUELO DEL 30/04
+SEGUN PARAGRAFO 1.7
+ORDEN 33872',00003775,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,30367082.41000,16.00000,4858733.19000,30367082.41,1.00000,'',00003775,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,247151915.00000,16.00000,316354451.20000,1977215320.00,8.00000,'FACTURACION CORRESPONDIENTE 
+MAYO DEL 01/05 AL 15/05
+ORDEN 34234, 34235, 34236
+34237, 34238, 34239, 34240, 34242',00003776,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,102690090.69000,16.00000,32860829.02000,205380181.38,2.00000,'ORDEN 34243, 34244',00003776,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,22881036.25000,16.00000,14643863.20000,91524145.00,4.00000,'ORDEN 34235, 34237, 34239
+34240',00003776,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,409341536.35000,16.00000,65494645.82000,409341536.35,1.00000,'',00003776,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',37.00000,17389587.55000,16.00000,102946358.30000,643414739.35,37.00000,'FACTURACION CORRESPODNIENTE MAYO DEL 01/05 AL 15/05
+ORDEN 7502, 7503, 7504, 7505, 7507
+7508, 7509, 7510, 7512, 7515, 7513,
+7516',00003777,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,115814653.08000,16.00000,18530344.49000,115814653.08,1.00000,'',00003777,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,123557595.75000,16.00000,39538430.64000,247115191.50,2.00000,'CANCELACION DE VUELO DÍA 
+06/05 Y 08/05
+SEGUN PARRAFO 1.7
+ORDEN 34240 Y 34241',00003778,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,44480734.47000,16.00000,7116917.52000,44480734.47,1.00000,'',00003778,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,75406743.07000,16.00000,12065078.89000,75406743.07,1.00000,'FACTURACION CORRESPONDIENTE 
+DEL 01/05 AL 15/05 VUELO ESPECIAL
+ORDEN 34013',00003779,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,13573213.75000,16.00000,2171714.20000,13573213.75,1.00000,'',00003779,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,111140040.99000,16.00000,53347219.68000,333420122.97,3.00000,'FACTURACION CORRESPONDIENTE MAYO DEL 16/05 AL 31/05
+ORDEN 34245, 34248, 34249',00003780,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,267449296.50000,16.00000,85583774.88000,534898593.00,2.00000,'ORDEN 34246, 34247',00003780,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,156297368.87000,16.00000,25007579.02000,156297368.87,1.00000,'',00003780,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',33.00000,18820506.05000,16.00000,99372271.94000,621076699.65,33.00000,'FACTURACION CORRESPONDIENTE MAYO DEL 16/05 AL 31/05
+ORDEN 7517, 7519, 7520, 7522,
+7523, 7525, 7526 7528',00003781,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,16839400.15000,16.00000,8082912.07000,50518200.45,3.00000,'TRASLADO ADICIONAL AL HUB
+ORDEN 7518, 7524, 7527',00003781,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,89149765.50000,16.00000,42791887.44000,267449296.50,3.00000,'ORDEN 7518, 7524, 7527',00003781,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,169027955.39000,16.00000,27044472.86000,169027955.39,1.00000,'',00003781,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,255845276.30000,16.00000,40935244.21000,255845276.30,1.00000,'FACTURACION CORRESPNDIENTE 21 DE MAYO
+ORDEN 33880',00003782,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',6.00000,38399366.35000,16.00000,36863391.70000,230396198.10,6.00000,'ORDEN 33880',00003782,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,87523465.57000,16.00000,14003754.49000,87523465.57,1.00000,'',00003782,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,114166417.20000,16.00000,54799880.26000,342499251.60,3.00000,'FACTURACION CORRESPONDIENTE JUNIO DEL 01/06 AL 15/06
+ORDEN 34250, 34253, 34254',00003783,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,274732020.00000,16.00000,87914246.40000,549464040.00,2.00000,'ORDEN 34251, 34252',00003783,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,25438150.00000,16.00000,12210312.00000,76314450.00,3.00000,'ORDEN 34250, 34253, 34254',00003783,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,174289993.49000,16.00000,27886398.96000,174289993.49,1.00000,'',00003783,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',38.00000,19332994.00000,16.00000,117544603.52000,734653772.00,38.00000,'FACTURACION CORRESPONDIENTE JUNIO DEL 01/06 AL 15/06
+ORDEN 7533, 7536, 7538, 7541, 7544
+7548, 6501, 6504, 6505',00003784,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,91577340.00000,16.00000,58609497.60000,366309360.00,4.00000,'ORDEN 7534, 7545, 6502, 6506',00003784,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,17297942.00000,16.00000,2767670.72000,17297942.00,1.00000,'TRASLADO DE CARGA AL HUB
+ORDEN 7534',00003784,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',4.00000,29508254.00000,16.00000,18885282.56000,118033016.00,4.00000,'ORDEN 7547, 6503',00003784,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,275331973.64000,16.00000,44053115.78000,275331973.64,1.00000,'FACTURACION CORRESPODNIENTE DIA 04 JUNIO 2020
+ORDEN 33881',00003785,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,41324090.39000,16.00000,6611854.46000,41324090.39,1.00000,'SERVICIOS ADICIONALES EN LA RAMPA 32
+ORDEN 7539',00003785,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,16530031.19000,16.00000,2644804.99000,16530031.19,1.00000,'ORDEN 7539',00003785,'ADCOPPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,14981513.51000,16.00000,4794084.32000,29963027.02,2.00000,'ORDEN 7539',00003785,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,65366842.00000,16.00000,10458694.72000,65366842.00,1.00000,'',00003785,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,83612015.46000,16.00000,26755844.95000,167224030.92,2.00000,'FACTURACION CORRESPONDIENTE AL 07 DE JUNIO',00003786,'ADWASASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,15050162.78000,16.00000,2408026.04000,15050162.78,1.00000,'',00003786,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,282753355.88000,16.00000,45240536.94000,282753355.88,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 20 DE JUNIO
+ORDEN 33882',00003787,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,42437952.57000,16.00000,27160289.64000,169751810.28,4.00000,'ORDEN 33882',00003787,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,81450929.91000,16.00000,13032148.79000,81450929.91,1.00000,'',00003787,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,19186332.05000,16.00000,6139626.26000,38372664.10,2.00000,'FACTURACION CORRESPONDIENTE 
+23 DE JUNIO 
+ORDEN 6520',00003788,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,6907079.54000,16.00000,1105132.73000,6907079.54,1.00000,'',00003788,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,19221493.45000,16.00000,3075438.95000,19221493.45,1.00000,'FACTURACION CORRESPONDIENTE 
+26 DE JUNIO',00003789,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,3459868.82000,16.00000,553579.01000,3459868.82,1.00000,'',00003789,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,113507977.11000,16.00000,72645105.35000,454031908.44,4.00000,'FACTURACION CORRESPONDIENTE JUNIO DEL 16/06 AL 30/06
+ORDEN 34255, 34256, 34257, 34258',00003790,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,273147538.50000,16.00000,87407212.32000,546295077.00,2.00000,'ORDEN 34260, 34261',00003790,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,25291438.75000,16.00000,8093260.40000,50582877.50,2.00000,'ORDEN 34255, 34256',00003790,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,29338068.95000,16.00000,4694091.03000,29338068.95,1.00000,'ORDEN 34255',00003790,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,194444627.74000,16.00000,31111140.44000,194444627.74,1.00000,'',00003790,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',40.00000,19221493.45000,16.00000,123017558.08000,768859738.00,40.00000,'FACTURACION CORRESPONDIENTE MES JUNIO DEL 16/06 AL 30/06
+ORDEN 6510, 6507, 6512, 6514, 6516, 6519, 6518, 6525, 6526, 6531',00003791,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,17198178.35000,16.00000,8255125.61000,51594535.05,3.00000,'TRASLADO DE CARGA AL HUB
+ORDEN 6513, 6517, 6522',00003791,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,91049179.50000,16.00000,43703606.16000,273147538.50,3.00000,'ORDEN 6513, 6517, 6522',00003791,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,29338068.95000,16.00000,9388182.06000,58676137.90,2.00000,'ORDEN 6515, 6517',00003791,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,207410030.90000,16.00000,33185604.94000,207410030.90,1.00000,'',00003791,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,136573769.25000,16.00000,21851803.08000,136573769.25,1.00000,'FACTURACION CORRESPONDIENTE JUNIO DEL 16/06 AL 30/06
+VUELO CANCELADO DIA 29 DE JUNIO 
+ORDEN 34259',00003792,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,24583278.47000,16.00000,3933324.56000,24583278.47,1.00000,'',00003792,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,62803975.47000,16.00000,10048636.08000,62803975.47,1.00000,'SERVICIOS ADICIONAL AGUA RESIDUALES
+ORDEN 6539',00003793,'ADCUBAGR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11304715.58000,16.00000,1808754.49000,11304715.58,1.00000,'',00003793,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,62803975.47000,16.00000,10048636.08000,62803975.47,1.00000,'ORDEN 6539',00003794,'ADCUBAGR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,11304715.58000,16.00000,1808754.49000,11304715.58,1.00000,'',00003794,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,20880946.80000,16.00000,3340951.49000,20880946.80,1.00000,'FACTURACION CORRESPONDIENTE 
+03 DE JULIO
+ORDEN 6534',00003795,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,20880946.80000,16.00000,3340951.49000,20880946.80,1.00000,'FACTURACION CORRESPONDIETE 
+14 DE JULIO
+ORDEN 6545',00003795,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,7517140.85000,16.00000,1202742.54000,7517140.85,1.00000,'',00003795,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,123971923.02000,16.00000,59506523.05000,371915769.06,3.00000,'FACTURACION CORRESPONDIETE MES JULIO DEL 01/07 AL 15/073
+ORDEN 34262, 34263, 34264',00003796,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,298328157.00000,16.00000,95465010.24000,596656314.00,2.00000,'ORDEN 34265, 34266',00003796,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,32042651.00000,16.00000,5126824.16000,32042651.00,1.00000,'ORDEN 34262',00003796,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,27621725.00000,16.00000,8838952.00000,55243450.00,2.00000,'ORDEN 34263, 34265',00003796,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,19054473.13000,16.00000,3048715.70000,19054473.13,1.00000,'',00003796,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',38.00000,20993462.90000,16.00000,127640254.43000,797751590.20,38.00000,'FACTURACION CORRESPONDIENTE MES JULIO DESDE 01/07 AL 15/07
+ORDEN 6527, 6533, 6535, 6537, 6540, 6542, 6543, 6544',00003797,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,18783624.70000,16.00000,9016139.86000,56350874.10,3.00000,'TRASLADO DEL CARGA AL HUB
+ORDEN 6528, 6536, 6541',00003797,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,99442719.00000,16.00000,47732505.12000,298328157.00,3.00000,'ORDEN 6528, 6536, 6541',00003797,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,32042653.90000,16.00000,15380473.87000,96127961.70,3.00000,'ORDEN 6523, 6538,',00003797,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,224740544.94000,16.00000,35958487.19000,224740544.94,1.00000,'',00003797,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,53257100.62000,16.00000,8521136.10000,53257100.62,1.00000,'FACTURACION CORRESPONDIENTE MES DE JULIO DEL 01/07 AL 15/07
+VUELO VEC323/316
+SOLO TRIPULACION',00003798,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9586278.11000,16.00000,1533804.50000,9586278.11,1.00000,'',00003798,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',10.00000,349779721.50000,16.00000,559647554.40000,3497797215.00,10.00000,'FACTURACION CORRESPONDIENTE MES JULIO DEL 16/07 AL 31/07
+ORDEN  34267, 34268, 34269, 34270, 34271, 34272, 34273, 34274, 34275, 34276',00003799,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,32387011.25000,16.00000,20727687.20000,129548045.00,4.00000,'ORDEN 34269, 34271, 34273, 34275',00003799,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,652922146.80000,16.00000,104467543.49000,652922146.80,1.00000,'',00003799,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',50.00000,24614128.55000,16.00000,196913028.40000,1230706427.50,50.00000,'FACTURACION CORRESPONDIENTE MES JULIO DEL 16/07 AL 31/07
+ORDEN 6547, 6550, 6552, 6553, 6555, 6559, 6560, 6563, 6565, 2747',00003800,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,32387011.25000,16.00000,5181921.80000,32387011.25,1.00000,'ORDEN 6556',00003800,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,24614128.55000,16.00000,3938260.57000,24614128.55,1.00000,'ORDEN 6556',00003800,'ADDHLPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,24614128.55000,16.00000,3938260.57000,24614128.55,1.00000,'ORDEN 6556',00003800,'ADDHLCIN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,23318648.10000,16.00000,3730983.70000,23318648.10,1.00000,'ORDEN 6556',00003800,'ADCDHLESC',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,240415261.91000,16.00000,38466441.91000,240415261.91,1.00000,'',00003800,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,308047025.40000,16.00000,49287524.06000,308047025.40,1.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07
+ORDEN 33883 DEL 16/07',00003801,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,319026444.02000,16.00000,51044231.04000,319026444.02,1.00000,'ORDEN 33884 DEL 21/07',00003801,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,337302427.90000,16.00000,53968388.46000,337302427.90,1.00000,'ORDEN 33885 DEL 25/07',00003801,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,347910197.51000,16.00000,55665631.60000,347910197.51,1.00000,'ORDEN 33886 DEL 29/07',00003801,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,360155377.84000,16.00000,57624860.45000,360155377.84,1.00000,'ORDEN 33887 DEL 31/07',00003801,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,308047025.40000,16.00000,49287524.06000,308047025.40,1.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07
+ORDEN 33883 DEL 16/07',00003802,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,319026444.02000,16.00000,51044231.04000,319026444.02,1.00000,'ORDEN 33884 DEL 21/07',00003802,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,337302427.90000,16.00000,53968388.46000,337302427.90,1.00000,'ORDEN 33885 DEL 25/07',00003802,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,347910197.51000,16.00000,55665631.60000,347910197.51,1.00000,'ORDEN 33886 DEL 29/07',00003802,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,360155377.84000,16.00000,57624860.45000,360155377.84,1.00000,'ORDEN 33887 DEL 31/07',00003802,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,46234234.82000,16.00000,7397477.57000,46234234.82,1.00000,'ORDEN 6551 DEL 16/07',00003802,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,18494135.90000,16.00000,2959061.74000,18494135.90,1.00000,'ORDEN 6551 DEL 16/07',00003802,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,33523245.49000,16.00000,5363719.28000,33523245.49,1.00000,'ORDEN 6551',00003802,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,52217228.03000,16.00000,8354756.48000,52217228.03,1.00000,'ORDEN 2744 DEL 29/07',00003802,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,20887390.37000,16.00000,3341982.46000,20887390.37,1.00000,'ORDEN 2744 DEL 29/07',00003802,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(11,'PPAL',1.00000,37861358.82000,16.00000,6057817.41000,37861358.82,1.00000,'ORDEN 2744 DEL 29/07',00003802,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(12,'PPAL',1.00000,338698631.90000,16.00000,54191781.10000,338698631.90,1.00000,'',00003802,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,308047025.40000,16.00000,49287524.06000,308047025.40,1.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07
+ORDEN 33883 DEL 16/07',00003803,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,319026444.02000,16.00000,51044231.04000,319026444.02,1.00000,'ORDEN 33884 DEL 21/07',00003803,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,337302427.90000,16.00000,53968388.46000,337302427.90,1.00000,'ORDEN 33885 DEL 25/07',00003803,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,347910197.51000,16.00000,55665631.60000,347910197.51,1.00000,'ORDEN 33886 DEL 29/07',00003803,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,360155377.84000,16.00000,57624860.45000,360155377.84,1.00000,'ORDEN 33887 DEL 31/07',00003803,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,301039465.08000,16.00000,48166314.41000,301039465.08,1.00000,'',00003803,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,46234234.82000,16.00000,7397477.57000,46234234.82,1.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07 SERVICIOS ADICIONALES
+ORDEN 6551 DIA 16/07',00003804,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,18494135.90000,16.00000,2959061.74000,18494135.90,1.00000,'ORDEN 6551 DIA 16/07',00003804,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,16761622.75000,16.00000,5363719.28000,33523245.50,2.00000,'ORDEN 6551 DIA 16/07',00003804,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,52217228.03000,16.00000,8354756.48000,52217228.03,1.00000,'ORDEN 2744 DIA 29/07',00003804,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,20887390.37000,16.00000,3341982.46000,20887390.37,1.00000,'ORDEN 2744 DIA 29/07',00003804,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',2.00000,18930679.41000,16.00000,6057817.41000,37861358.82,2.00000,'ORDEN 2744 DIA 29/07',00003804,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,37659166.82000,16.00000,6025466.69000,37659166.82,1.00000,'',00003804,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,308047025.40000,16.00000,49287524.06000,308047025.40,1.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07
+ORDEN 33883 DEL 16/07',00003805,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,319026444.02000,16.00000,51044231.04000,319026444.02,1.00000,'ORDEN 33884 DEL DIA 21/07',00003805,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,337302427.90000,16.00000,53968388.46000,337302427.90,1.00000,'ORDEN 33885 DEL DIA 25/07',00003805,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,347910197.51000,16.00000,55665631.60000,347910197.51,1.00000,'ORDEN 33886 DEL DIA 29/07',00003805,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,360155377.84000,16.00000,57624860.45000,360155377.84,1.00000,'ORDEN 33887 DEL DIA 31/07',00003805,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,301039465.08000,16.00000,48166314.41000,301039465.08,1.00000,'',00003805,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,24614128.55000,16.00000,11814781.70000,73842385.65,3.00000,'FACTURACION CORRESPONDIENTE DEL 16/07 AL 31/07
+ORDEN  6549, 6558, 6562',00003806,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,13291629.42000,16.00000,2126660.71000,13291629.42,1.00000,'',00003806,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,121384280.71000,16.00000,19421484.91000,121384280.71,1.00000,'FACTURACION CORRESPONDIENTE 31 BDE JULIO 2020
+ORDEN 34014',00003807,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,21848875.87000,16.00000,3495820.14000,21848875.87,1.00000,'',00003807,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',10.00000,391873194.00000,16.00000,626997110.40000,3918731940.00,10.00000,'FACTURACION CORRESPONDIENTE MES AGOSTO DEL 01/08 AL 15/08
+ORDEN 34278, 34279, 34280, 34281, 34282, 34283, 34287, 34285, 34284, 34286',00003808,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,36284555.00000,16.00000,29027644.00000,181422775.00,5.00000,'ORDEN 34278, 34280, 34282, 34287, 34284',00003808,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,738027848.70000,16.00000,118084455.79000,738027848.70,1.00000,'',00003808,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',49.00000,27576261.80000,16.00000,216197892.51000,1351236828.20,49.00000,'FACTURACION CORRESPODNIENTE MES AGOSTO DEL 01/08 AL 15/08
+ORDEN 6566, 6568, 6569, 6570, 6574, 6575, 6576, 6578, 6579, 6564,',00003809,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,243222629.08000,16.00000,38915620.65000,243222629.08,1.00000,'',00003809,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,55152523.60000,16.00000,8824403.78000,55152523.60,1.00000,'FACTURACION CORRESPONDIENTE 07/08 Y 13/08',00003810,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,9927454.25000,16.00000,1588392.68000,9927454.25,1.00000,'',00003810,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,387580303.39000,16.00000,62012848.54000,387580303.39,1.00000,'FACTURACION CORRESPODNIENTE 08 DE AGOSTO
+ORDEN 33887',00003811,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',6.00000,58171244.26000,16.00000,55844394.49000,349027465.56,6.00000,'ORDEN 33887',00003811,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,132589398.41000,16.00000,21214303.75000,132589398.41,1.00000,'',00003811,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,121384107.69100,16.00000,19421457.23000,121384107.69,1.00000,'FACTURACION CORRESPONDIETE AL 31 DE JULIO DEL 2020
+ORDEN 34014',00003812,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,21848844.72700,16.00000,3495815.16000,21848844.73,1.00000,'',00003812,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,126162674.14000,16.00000,20186027.86000,126162674.14,1.00000,'FACTURACION CORRESPONDIENTE AL 31 DE JULIO DEL 2020
+ORDEN 34014',00003813,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,22708975.08750,16.00000,3633436.01000,22708975.09,1.00000,'',00003813,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,126876950.12000,16.00000,20300312.02000,126876950.12,1.00000,'FACTURACION CORRESPONDIENTE AL 31 DE JULIO DEL 2020
+ORDEN 34014',00003814,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,22837851.02000,16.00000,3654056.16000,22837851.02,1.00000,'',00003814,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,135016155.24000,16.00000,43205169.68000,270032310.48,2.00000,'FACTURACION CORRESPONDIETE 2DA QUINCENA AGOSTO
+ORDEN 34014; 34015',00003815,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,48605815.88000,16.00000,7776930.54000,48605815.88,1.00000,'',00003815,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,442461001.50000,16.00000,920318883.12000,5751993019.50,13.00000,'FACTURACION CORRESPONDIETE AGOSTO DEL 16/08 AL 31/08
+ORDEN 34288, 34289, 34290, 34291, 34292, 34293, 34294, 34295, 34296, 34297, 34301, 34302, 34303',00003816,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,40968611.25000,16.00000,45884844.60000,286780278.75,7.00000,'ORDEN 34288, 34290, 34292, 34294, 34296, 34301, 34303',00003816,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1086979193.69000,16.00000,173916670.99000,1086979193.69,1.00000,'',00003816,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',58.00000,31136144.55000,16.00000,288943421.42000,1805896383.90,58.00000,'FACTURACION CORRESPONDIENTE AGOSTO DEL 16/08 AL 31/08
+ORDEN  6580, 6582, 6583, 6586, 2750, 6588, 6590, 6591, 6593, 6594, 6595, 6597',00003817,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,27858655.65000,16.00000,4457384.90000,27858655.65,1.00000,'ORDEN 6581',00003817,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,147487000.50000,16.00000,23597920.08000,147487000.50,1.00000,'ORDEN 6581',00003817,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,356623567.21000,16.00000,57059770.75000,356623567.21,1.00000,'',00003817,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,393298668.00000,16.00000,62927786.88000,393298668.00,1.00000,'FACTURACION CORRESPONDIENTE VUELO VIP 18 DE AGOSTO
+ORDEN 34298',00003818,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,70793760.24000,16.00000,11327001.64000,70793760.24,1.00000,'',00003818,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,31136144.55000,16.00000,19927132.51000,124544578.20,4.00000,'FACTURACION CORRESPODNIENTE DIAS 20/08, 21/08, 27/08, 28/08
+ORDEN 6585, 6587, 6592, 6851',00003819,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,22418024.08000,16.00000,3586883.85000,22418024.08,1.00000,'',00003819,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,237144635.00000,16.00000,37943141.60000,237144635.00,1.00000,'5000 WATTS
+CMCGGAS030731',00003820,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,203266830.00000,16.00000,32522692.80000,203266830.00,1.00000,'7500W 
+MODEL. H07552',00003820,'ADAERGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,406533660.00000,16.00000,65045385.60000,406533660.00,1.00000,'FACTURACION CORRESPONDIENTE VUELO VIP 18 DE AGOSTO
+ORDEN 34298',00003821,'HDTUA330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,93163963.75000,16.00000,14906234.20000,93163963.75,1.00000,'AUG 2020 A/C 319 TC-IST FLT TK0005',00003821,'ADCTURAST',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,89945572.27500,16.00000,14391291.56000,89945572.28,1.00000,'',00003821,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.50000,855414576.25000,16.00000,205299498.30000,1283121864.38,1.50000,'FACTURACION CORRESPONDIENTE VUELO ESPECIAL EC-MLB
+18 AGOS T 19 DE AGOS
+ORDEN 34299, 34300',00003822,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,50816707.50000,16.00000,32522692.80000,203266830.00,4.00000,'ORDEN 34300',00003822,'ADIBEACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,267549964.98750,16.00000,42807994.40000,267549964.99,1.00000,'',00003822,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',62.00000,34763071.65000,16.00000,344849670.77000,2155310442.30,62.00000,'FACTURACION CORRESPONDIENTE MES SEPTIEMBRE DEL 01 AL 15 SEP
+ORDEN 6598, 6599, 6853, 6854, 6855, 6859, 6861, 6862, 6863, 6867, 6874, 6875, 6880',00003823,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,31103800.95000,16.00000,4976608.15000,31103800.95,1.00000,'TRASLADO DE CARGA AL HUB
+ORDEN 6864',00003823,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,164667181.50000,16.00000,26346749.04000,164667181.50,1.00000,'ORDEN 6864',00003823,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,53059425.15000,16.00000,16979016.05000,106118850.30,2.00000,'ORDEN 6868',00003823,'ADDHLACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,442296049.51000,16.00000,70767367.92000,442296049.51,1.00000,'',00003823,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',12.00000,494001544.50000,16.00000,948482965.44000,5928018534.00,12.00000,'FACTURACION CORRESPONDIENTE MES SEPTIEMBRE DE 01 AL 15 SEP
+ORDEN 34304, 34305, 34306, 34307, 34308, 34309, 34310, 34311, 34312, 34314, 34319,34320',00003824,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,205285086.27000,16.00000,65691227.61000,410570172.54,2.00000,'ORDEN 34317, 34318',00003824,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',6.00000,45740883.75000,16.00000,43911248.40000,274445302.50,6.00000,'ORDEN 34305, 34307, 34309, 34314, 34317, 34319',00003824,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1190346121.63000,16.00000,190455379.46000,1190346121.63,1.00000,'',00003824,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,494001544.50000,16.00000,158080494.24000,988003089.00,2.00000,'FACTURACION CORRESPONDIENTE MES DE SEPTIEMBRE DEL 01 AL 15 SEP
+O0RDEN 34315, 34316',00003825,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,177840556.02000,16.00000,28454488.96000,177840556.02,1.00000,'',00003825,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,472249826.14000,16.00000,75559972.18000,472249826.14,1.00000,'FACTURACION VUELO CORRESPONDIENTE 05 SEPTIEMBRE
+ORDEN 34313
+TASA VALOR DEL DIA 338.778,05',00003826,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,70879143.62000,16.00000,45362651.92000,283516574.48,4.00000,'ORDEN 34313',00003826,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,506244718.82000,16.00000,80999155.01000,506244718.82,1.00000,'FACTURACION CORRESPONDIENTE 11 SEPTIEMBRE 
+ORDEN 34314
+TASA FECHA VALOR 363164,98',00003826,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,75981377.12000,16.00000,24314040.68000,151962754.24,2.00000,'ORDEN 34314',00003826,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,254515297.26000,16.00000,40722447.56000,254515297.26,1.00000,'',00003826,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,556750914.29000,16.00000,89080146.29000,556750914.29,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 24 SEPTIEMBRE
+TASA FECHA VALOR 399.396,53
+ORDEN 34335',00003827,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,83561762.93000,16.00000,26739764.14000,167123525.86,2.00000,'ORDEN 34335',00003827,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,577636108.12000,16.00000,92421777.30000,577636108.12,1.00000,'TASA FECHA VALOR 414379.05
+ORDEN 34336',00003827,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,86696384.84000,16.00000,27742843.15000,173392769.68,2.00000,'ORDEN 34336',00003827,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,265482597.23000,16.00000,42477215.56000,265482597.23,1.00000,'',00003827,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,589514557.50000,16.00000,1226190279.60000,7663689247.50,13.00000,'FACTURACION CORRESPONDIETE DEL 16 AL 30 DE SEPTIEMBRE 2020
+ORDEN 34321, 34322, 34323, 34324, 34325, 34326, 34327, 34328, 34329, 34330, 34331, 34332, 34333',00003828,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,54584681.25000,16.00000,61134843.00000,382092768.75,7.00000,'ORDEN 34321, 34323, 34325, 34327, 34329, 34331, 34333',00003828,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1448240762.93000,16.00000,231718522.07000,1448240762.93,1.00000,'',00003828,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',63.00000,41484357.75000,16.00000,418162326.12000,2613514538.25,63.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE SEPTIEMBRE
+ORDEN 6881, 6883, 6884, 6887, 6889, 6890, 6891, 6896, 6897, 6898, 6899, 7051, 7052',00003829,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,470432616.89000,16.00000,75269218.70000,470432616.89,1.00000,'',00003829,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,179889275.53000,16.00000,28782284.08000,179889275.53,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 12 DE SEPTIEMBRE
+ORDEN 34016',00003830,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,32380069.59000,16.00000,5180811.13000,32380069.59,1.00000,'',00003830,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,179889275.53000,16.00000,28782284.08000,179889275.53,1.00000,'FAC TURACION CORRESPONDIENTE VUELO DIA 12 DE SEPTIEMBRE
+ORDEN 34016',00003831,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,32380069.59000,16.00000,5180811.13000,32380069.59,1.00000,'',00003831,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,41484357.75000,16.00000,33187486.20000,207421788.75,5.00000,'FACTURACION CORRESPONDIENTE MES DE SEPTIEMBRE
+ORDEN 6852, 6866, 6882, 6885, 6895',00003832,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,37335921.98000,16.00000,5973747.52000,37335921.98,1.00000,'',00003832,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',14.00000,608653089.00000,16.00000,1363382919.36000,8521143246.00,14.00000,'FACTURACION CORRESPONDIENTE DESDE 01 AL 15 DE OCTUBRE
+ORDEN: 34334, 34335, 34336, 34337, 34338, 34339, 34340, 34341, 34342, 34343, 34344, 34347, 34346, 34345',00003833,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',7.00000,56356767.50000,16.00000,63119579.60000,394497372.50,7.00000,'ORDEN: 34335, 34337, 34339, 34341, 34343, 34347, 34345',00003833,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1604815311.53000,16.00000,256770449.84000,1604815311.53,1.00000,'',00003833,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',62.00000,42831143.30000,16.00000,424884941.54000,2655530884.60,62.00000,'FACTURACION CORRESPONDIENTE DESDE 01 AL 15 DE OCTUBRE
+ORDEN 7054, 7055, 7075, 7056, 7057, 7059, 7060, 7061, 7063, 7064, 7067, 7069, 7070, 7072',00003834,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,477995559.23000,16.00000,76479289.48000,477995559.23,1.00000,'',00003834,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,42831143.30000,16.00000,6852982.93000,42831143.30,1.00000,'FACTURACION CORRESPONDIENTE DIA 09 DE OCTUBRE
+ORDEN 7062',00003835,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,7709605.79000,16.00000,1233536.93000,7709605.79,1.00000,'',00003835,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,185729362.97000,16.00000,29716698.08000,185729362.97,1.00000,'FACTURACION CORRESPONDIENTE
+DIA 09 DE OCTUBRE
+ORDEN 34365',00003836,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,33814060.50000,16.00000,10820499.36000,67628121.00,2.00000,'ORDEN 34365',00003836,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,45604347.12000,16.00000,7296695.54000,45604347.12,1.00000,'',00003836,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.50000,489071682.00000,16.00000,117377203.68000,733607523.00,1.50000,'FACTURACION CORRESPONDIENTE VUELO ESPECIAL DIA 05 Y 06 DE OCTUBRE
+ORDEN 34363 34364',00003837,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,67926622.50000,16.00000,10868259.60000,67926622.50,1.00000,'ORDEN 34363',00003837,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,144276146.19000,16.00000,23084183.39000,144276146.19,1.00000,'',00003837,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,628481723.78000,16.00000,100557075.80000,628481723.78,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 15 OCTUBRE
+ORDEN 34366
+TASA 450854,19',00003838,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,94327713.63000,16.00000,30184868.36000,188655427.26,2.00000,'ORDEN 34366',00003838,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,631255688.22000,16.00000,101000910.12000,631255688.22,1.00000,'FACTURACION VUELO DIA 17 DE OCTUBRE
+ORDEN 34367
+TASA 452844,15',00003838,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,94744053.06000,16.00000,45477145.47000,284232159.18,3.00000,'ORDEN 34367',00003838,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,311872499.72000,16.00000,49899599.96000,311872499.72,1.00000,'',00003838,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,700761253.50000,16.00000,1457583407.28000,9109896295.50,13.00000,'FACTURACION CORRESPONDIENTE DEL 16 OCT AL 31 OCT
+ORDEN: 34348, 34350, 34351, 34352, 34353, 34354, 34355, 34357, 34358, 34359, 34360, 34361, 34370',00003839,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,291205232.01000,16.00000,93185674.24000,582410464.02,2.00000,'ORDEN: 34349, 34356',00003839,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',6.00000,64885301.25000,16.00000,62289889.20000,389311807.50,6.00000,'ORDEN: 34350, 34352, 34354, 34357, 34359, 34361',00003839,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1814691342.06000,16.00000,290350614.73000,1814691342.06,1.00000,'',00003839,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',63.00000,49312828.95000,16.00000,497073315.82000,3106708223.85,63.00000,'FACTURACION CORRESPONDIENTE DEL 16 OCT AL 31 OCT
+ORDEN: 7074, 7076, 7077, 7078, 7081, 7085, 7082, 7087, 7089, 7090, 7091, 7093, 7094, 7095, 7097',00003840,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,559207480.29000,16.00000,89473196.85000,559207480.29,1.00000,'',00003840,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,213835998.80000,16.00000,34213759.81000,213835998.80,1.00000,'FCATURACION VUELO CORRESPONDIENTE 28 DE OCT
+ORDEN 34369',00003841,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,38931180.75000,16.00000,6228988.92000,38931180.75,1.00000,'ORDEN: 34369',00003841,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,44122004.85000,16.00000,7059520.78000,44122004.85,1.00000,'ORDEN: 34369',00003841,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,53440053.19000,16.00000,8550408.51000,53440053.19,1.00000,'',00003841,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,213835998.80000,16.00000,68427519.62000,427671997.60,2.00000,'FACTURACION CORRESPONDIENTE VUELO 17 OCT Y 28 OCT
+ORDEN: 34368, 34369',00003842,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,44122004.85000,16.00000,7059520.78000,44122004.85,1.00000,'ORDEN: 34369',00003842,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,38931180.75000,16.00000,6228988.92000,38931180.75,1.00000,'ORDEN: 34369',00003842,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,91930532.98000,16.00000,14708885.28000,91930532.98,1.00000,'',00003842,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,611284764.05000,16.00000,97805562.25000,611284764.05,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 04 OCT
+TASA 438.517,60
+ORDEN 34361',00003843,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,91746652.27000,16.00000,58717857.45000,366986609.08,4.00000,'ORDEN 34361',00003843,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,680564733.66000,16.00000,108890357.39000,680564733.66,1.00000,'FACTURACION CORRESPONDIENTE VUELLO 28 OCT
+TASA 488.217,00
+ORDEN 34671',00003843,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,102144760.74000,16.00000,49029485.16000,306434282.22,3.00000,'ORDEN; 34671',00003843,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,353054555.24000,16.00000,56488728.84000,353054555.24,1.00000,'FACTURACION CORRESPONDIENTE VUELO CANCELADO 29 OCT
+TASA 506.541,78
+ORDEN 34672 VUELO CANCELADO',00003843,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,723590497.89000,16.00000,115774479.66000,723590497.89,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 30 OCT
+TASA 519.082,41
+ORDEN 34673',00003843,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',3.00000,108602421.82000,16.00000,52129162.47000,325807265.46,3.00000,'ORDEN 34673',00003843,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,606190087.37000,16.00000,96990413.98000,606190087.37,1.00000,'',00003843,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,49312828.95000,16.00000,23670157.90000,147938486.85,3.00000,'FACTURACION CORRESPONDIENTE TRASLADO DE CARGA DIAS 16, 22 Y 23 OCTUBRE
+ORDEN 7073, 7084, 7086',00003844,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,26628927.63000,16.00000,4260628.42000,26628927.63,1.00000,'',00003844,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',12.00000,900062833.50000,16.00000,1728120640.32000,10800754002.00,12.00000,'FACTURACION CORRESPONDIENTE DEL 01 NOV AL 15 NOV
+ORDEN: 34380, 34381, 34382, 34383, 34384, 34385, 34387, 34388, 34389, 34390, 34391, 34392',00003845,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,321355767.22000,16.00000,51416922.76000,321355767.22,1.00000,'ORDEN: 34386',00003845,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',6.00000,83339151.25000,16.00000,80005585.20000,500034907.50,6.00000,'ORDEN: 34380, 34382, 34384, 34387, 34389, 34391',00003845,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2091986041.81000,16.00000,334717766.69000,2091986041.81,1.00000,'',00003845,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',54.00000,63337754.95000,16.00000,547238202.77000,3420238767.30,54.00000,'FACTURACION CORRESPODNIENTE DEL 01 NOV AL 15 NOV
+ORDEN: 6401, 6403, 6405, 6406, 6407, 6410, 6411, 6413, 6414, 6415, 6416, 6417',00003846,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,615642978.11000,16.00000,98502876.50000,615642978.11,1.00000,'',00003846,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,764518350.10000,16.00000,122322936.02000,764518350.10,1.00000,'FACTURACION CORRESPONDIENTE VUELOS DIA 10 DE NOV
+ORDEN 34376
+TASA 548.442,84',00003847,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,114745210.98000,16.00000,73436935.03000,458980843.92,4.00000,'ORDEN: 34376',00003847,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,796829858.60000,16.00000,127492777.38000,796829858.60,1.00000,'FACTURACION VUELOS 11 DE NOV
+ORDEN 34377
+TASA 5716.22,16',00003847,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,119594788.32000,16.00000,57405498.39000,358784364.96,3.00000,'ORDEN 34377',00003847,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,428240415.17000,16.00000,68518466.43000,428240415.17,1.00000,'',00003847,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,292774912.57000,16.00000,46843986.01000,292774912.57,1.00000,'FACTURACION CORRESPONDIENTE DIA 11 DE NOV 
+ORDEN: 34378',00003848,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,52699484.26000,16.00000,8431917.48000,52699484.26,1.00000,'',00003848,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,67516644.40000,16.00000,43210652.42000,270066577.60,4.00000,'FACTURACION CORRESPONDIENTE DESDE 30 DE OCT HASTA 13 NOV
+ORDEN: 7098, 6402, 6409, 6418',00003849,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,48611983.97000,16.00000,7777917.44000,48611983.97,1.00000,'',00003849,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.50000,844587172.80000,16.00000,202700921.47000,1266880759.20,1.50000,'FACTURACION CORRESPONDIENTE VUELOS DÍA 03 Y 04 DE NOV 2020
+ORDEN 34374, 34375',00003850,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,117303774.00000,16.00000,37537207.68000,234607548.00,2.00000,'ORDEN 34374, 34375',00003850,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,78202516.00000,16.00000,12512402.56000,78202516.00,1.00000,'GEL ANTIBACTERIAL',00003850,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,284344348.17600,16.00000,45495095.71000,284344348.18,1.00000,'',00003850,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,1090127432.54000,16.00000,348840778.41000,2180254865.08,2.00000,'FACTURACION CORRESPONDINETE A LOS VUELOS 20 Y 21 DE NOV
+TASA 782.025,16
+ORDEN 34378, 34379',00003851,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',6.00000,163615303.98000,16.00000,157070691.82000,981691823.88,6.00000,'ORDEN 34378, 34379',00003851,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,569150404.01000,16.00000,91064064.64000,569150404.01,1.00000,'',00003851,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1702315407.60000,16.00000,3540816047.81000,22130100298.80,13.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE NOV 2020
+ORDEN: 34393, 34394, 34395, 34396, 34397, 34398, 34400, 34401, 34402, 34403, 34404, 34405, 34406',00003852,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,607789649.23000,16.00000,97246343.88000,607789649.23,1.00000,'ORDEN 34399',00003852,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',7.00000,164189371.88000,16.00000,183892096.51000,1149325603.16,7.00000,'ORDEN: 34393, 34395, 34397, 34400, 34402, 34404, 34406',00003852,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4299698799.21000,16.00000,687951807.87000,4299698799.21,1.00000,'',00003852,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',69.00000,124783922.63000,16.00000,1377614505.84000,8610090661.47,69.00000,'FACTURACION CORRESPODNIENTE DEL 16 AL 30 DE NOV 2020
+ORDEN: 6419, 6421, 6423, 6424, 6426, 6427, 6431, 6430, 6429, 6432, 6440, 6449, 6448, 6453, 6455',00003853,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,591081738.75000,16.00000,94573078.20000,591081738.75,1.00000,'ORDEN: 6437',00003853,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,111648772.88000,16.00000,17863803.66000,111648772.88,1.00000,'ORDEN: 6437',00003853,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1676307811.10000,16.00000,268209249.78000,1676307811.10,1.00000,'',00003853,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,432881995.16000,16.00000,346305596.13000,2164409975.80,5.00000,'FACTURACION CORRESPONDIENTE VUELOS DIAS 18, 24, 25, 26 Y 29 DE NOV
+ORDEN: 34412, 34413, 34414, 34415, 34416',00003854,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,78810898.50000,16.00000,12609743.76000,78810898.50,1.00000,'ORDEN: 34412',00003854,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,89319018.30000,16.00000,14291042.93000,89319018.30,1.00000,'ORDEN: 34412',00003854,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,419857180.67000,16.00000,67177148.91000,419857180.67,1.00000,'',00003854,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1289346299.46000,16.00000,206295407.91000,1289346299.46,1.00000,'FACTURACION CORRESPONDIENTE VUELO DEL DIA 16 DE NOVIEMBRE AL 17 DE NOVIEMBRE PERNOTA VUELO 223
+ORDEN 34407',00003855,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1289346299.46000,16.00000,103147703.96000,644673149.73,0.50000,'VUELO DIA 17 DE NOVIEMBRE PERNOTA VUELO 224
+ORDEN 34408',00003855,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,1289346299.46000,16.00000,618886223.74000,3868038898.38,3.00000,'FACTURACION CORRESPODNIENTE VUELOS DE LOS DÍAS, 21, 24 Y 28 DE NOVIEMBRE 2020
+ORDEN 34409, 34410, 34421',00003855,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,154469361.06000,16.00000,49430195.54000,308938722.12,2.00000,'ORDEN 34407, 34408',00003855,'ADTURPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1099979472.54420,16.00000,175996715.61000,1099979472.54,1.00000,'',00003855,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1289346299.46000,16.00000,206295407.91000,1289346299.46,1.00000,'FACTURACION CORRESPONDIENTE VUELO DEL DIA 16 DE NOVIEMBRE AL 17 DE NOVIEMBRE PERNOTA VUELO 223
+ORDEN 34407',00003856,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1289346299.46000,16.00000,103147703.96000,644673149.73,0.50000,'VUELO DIA 17 DE NOVIEMBRE PERNOTA VUELO 224
+ORDEN 34408',00003856,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,1289346299.46000,16.00000,618886223.74000,3868038898.38,3.00000,'FACTURACION CORRESPODNIENTE VUELOS DE LOS DÍAS, 21, 24 Y 28 DE NOVIEMBRE 2020
+ORDEN 34409, 34410, 34421',00003856,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,154469361.06000,16.00000,49430195.54000,308938722.12,2.00000,'ORDEN 34407, 34408',00003856,'ADTURPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1099979472.54420,16.00000,175996715.61000,1099979472.54,1.00000,'',00003856,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2287831920.00000,16.00000,366053107.20000,2287831920.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO CARGERO A330 TAP-9171 PERNOTA SALIDA VUELO TAP-9172
+ORDEN 34412',00003857,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1143915960.00000,16.00000,91513276.80000,571957980.00,0.50000,'VUELO TAP-9172 
+ORDEN 34413',00003857,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,653280005.52000,16.00000,104524800.88000,653280005.52,1.00000,'',00003857,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2287831920.00000,16.00000,366053107.20000,2287831920.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO CARGERO TAP-A330 CON PERNOTA, VUELO TAP-9171
+ORDEN 34412',00003858,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1143915960.00000,16.00000,91513276.80000,571957980.00,0.50000,'VUELO TAP-9172 DIA 29-11
+ORDEN 34413',00003858,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',10.00000,19758548.40000,16.00000,31613677.44000,197585484.00,10.00000,'SERVICIO ADICIONAL DESINFECION AERONAVE, UTILIZANDO TRAJES DE BIOSEGURIDAD COMO: BRAGA IMPERMIABLE, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL',00003858,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,550327569.12000,16.00000,88052411.06000,550327569.12,1.00000,'',00003858,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1123117488.00000,16.00000,179698798.08000,1123117488.00,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 29 AL 30 DE NOVIEMBRE 
+ORDEN 34414',00003859,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1123117488.00000,16.00000,89849399.04000,561558744.00,0.50000,'ORDEN 34420',00003859,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,322376316.00000,16.00000,51580210.56000,322376316.00,1.00000,'',00003859,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,83193888.00000,16.00000,26622044.16000,166387776.00,2.00000,'',00003859,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,391219258.32000,16.00000,62595081.33000,391219258.32,1.00000,'',00003859,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1123117488.00000,16.00000,179698798.08000,1123117488.00,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 29 AL 30 DE NOVIEMBRE 
+ORDEN 34414',00003860,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1123117488.00000,16.00000,89849399.04000,561558744.00,0.50000,'ORDEN 34420',00003860,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,322376316.00000,16.00000,51580210.56000,322376316.00,1.00000,'',00003860,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,83193888.00000,16.00000,26622044.16000,166387776.00,2.00000,'',00003860,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',2.00000,155988540.00000,16.00000,49916332.80000,311977080.00,2.00000,'ORDEN: 34414, 34420',00003860,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,447375132.72000,16.00000,71580021.24000,447375132.72,1.00000,'',00003860,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',15.00000,1742216299.20000,16.00000,4181319118.08000,26133244488.00,15.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE DIC 2020
+ORDEN:34422, 34423,34424,34425,34426,34427,34428,34429,34431,34430,34432,34433,34434,34436,34437',00003861,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,622035745.34000,16.00000,99525719.25000,622035745.34,1.00000,'ORDEN 34435',00003861,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,168037837.50000,16.00000,107544216.00000,672151350.00,4.00000,'ORDEN:34423, 34425,34427,34436',00003861,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,5250536618.86000,16.00000,840085859.02000,5250536618.86,1.00000,'',00003861,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',83.00000,114265729.50000,16.00000,1517448887.76000,9484055548.50,83.00000,'FACTURACION CORRESPONDIENTE DEL 1 AL 15 DE DIC
+ORDEN: 6458, 6460, 6463, 6462, 6465, 6468, 6469, 6471, 6472, 6473, 6482, 6475, 6476, 6477 6478, 6479, 6480, 6483, 6486',00003862,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1707129998.73000,16.00000,273140799.80000,1707129998.73,1.00000,'',00003862,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1434477796.00000,16.00000,229516447.36000,1434477796.00,1.00000,'FACTURACION CORRESPONDIENTE VUELOS DIA 03 DE DIC
+TASA1.029.051,92
+ORDEN: 34470',00003863,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,215298242.79000,16.00000,103343156.54000,645894728.37,3.00000,'ORDEN 34470',00003863,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1514058434.17000,16.00000,242249349.47000,1514058434.17,1.00000,'FACTURACION CORRESPONDIENTE VUELOS DIA 05 DE DIC
+TASA1.086.140,72
+ORDEN: 34471',00003863,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,227242360.43000,16.00000,109076333.01000,681727081.29,3.00000,'ORDEN: 34471',00003863,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1538178428.02000,16.00000,246108548.48000,1538178428.02,1.00000,'FACTURACION CORRESPONDIENTE VUELOS DIA 13 DE DIC
+TASA 1103443,69
+ORDEN: 34472',00003863,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',2.00000,230862487.78000,16.00000,73875996.09000,461724975.56,2.00000,'ORDEN: 34472',00003863,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,1129691059.81000,16.00000,180750569.57000,1129691059.81,1.00000,'',00003863,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,114265729.50000,16.00000,146260133.76000,914125836.00,8.00000,'FACTURACION CORRESPONDIENTE DEL 15 NOV AL 15 DE DIC
+ORDEN:6425, 6428, 6435, 6447, 6466, 6457, 6474',00003864,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,164542650.48000,16.00000,26326824.08000,164542650.48,1.00000,'',00003864,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,432766384.19000,16.00000,346213107.35000,2163831920.95,5.00000,'FACTURACION CORRESPONDIENTE VUELOS DIAS 01, 03, 06, 08, 10 DE DIC
+ORDEN: 34463, 34464, 34465, 34466, 34467',00003865,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,78789850.26000,16.00000,25212752.08000,157579700.52,2.00000,'ORDEN 34464, 34466',00003865,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,89295163.63000,16.00000,28574452.36000,178590327.26,2.00000,'ORDEN: 34464, 34466',00003865,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,450005603.43165,16.00000,72000896.55000,450005603.43,1.00000,'',00003865,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1289001950.25000,16.00000,206240312.04000,1289001950.25,1.00000,'FACTURACION CORRESPONDIENTE VUELO DIA 01 DE DICIEMBRE
+ORDEN:034920',00003866,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,1289001950.25000,16.00000,824961248.16000,5156007801.00,4.00000,'VUELOS DIAS 05, 08, 12, 15
+ORDEN: 34451, 34452, 34453, 34454',00003866,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1160101755.22824,16.00000,185616280.84000,1160101755.23,1.00000,'',00003866,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,437647638.74000,16.00000,350118110.99000,2188238193.70,5.00000,'FACTURACION CORRESPONDIENTE VUELOS DIAS 01, 03, 06, 08, 10 DE DIC',00003867,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,79678536.00000,16.00000,25497131.52000,159357072.00,2.00000,'ORDEN 34464, 34466',00003867,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,90302340.80000,16.00000,28896749.06000,180604681.60,2.00000,'ORDEN 34464, 34466',00003867,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,455081302.41280,16.00000,72813008.39000,455081302.41,1.00000,'',00003867,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,438094365.56000,16.00000,350475492.45000,2190471827.80,5.00000,'FACTURACION CORRESPONDIENTE VUELOS DIAS 01, 03, 06, 08, 10 DE DIC 
+ORDEN: 34463, 34464, 34465, 34466, 34467',00003868,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,79759867.50000,16.00000,25523157.60000,159519735.00,2.00000,'ORDEN: 34464, 34466',00003868,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,90394516.50000,16.00000,28926245.28000,180789033.00,2.00000,'ORDEN 34464, 34466',00003868,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,455540507.24000,16.00000,72886481.16000,455540507.24,1.00000,'',00003868,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2283272750.00000,16.00000,365323640.00000,2283272750.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 07 DE DIC.
+ORDEN: 34459',00003869,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',10.00000,19719173.75000,16.00000,31550678.00000,197191737.50,10.00000,'TRAJES DE BIOSEGURIDAD PARA DESINFECCION DE VUELO DEL 07-12',00003869,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2283272750.00000,16.00000,365323640.00000,2283272750.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 08 DE DIC. CARGADO STAKC DE PALLETS 
+ORDEN:34460',00003869,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2283272750.00000,16.00000,365323640.00000,2283272750.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 14 DE DIC.
+ORDEN:34460',00003869,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,93406612.50000,16.00000,14945058.00000,93406612.50,1.00000,'ORDEN: 34460',00003869,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',10.00000,19719173.75000,16.00000,31550678.00000,197191737.50,10.00000,'TRAJES DE BIOSEGURIDAD PARA DESINFECCION DE VUELO DEL 14-12',00003869,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,2283272750.00000,16.00000,365323640.00000,2283272750.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 07 DE DIC. CARGANDO STAKC DE PALLETS
+ORDEN: 34461',00003869,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,1731758595.75000,16.00000,277081375.32000,1731758595.75,1.00000,'',00003869,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,103785125.00000,16.00000,16605620.00000,103785125.00,1.00000,'SERICIO DE COMUNICACION DIA 02 DE DICIEMBRE 
+ORDEN: 6464',00003870,'ADDHLSERT',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,18681322.50000,16.00000,2989011.60000,18681322.50,1.00000,'',00003870,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2395927754.00000,16.00000,383348440.64000,2395927754.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 17 Y 18 DE DIC
+ORDEN 34481',00003871,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,2395927754.00000,16.00000,191674220.32000,1197963877.00,0.50000,'ORDEN 34482',00003871,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,163358710.50000,16.00000,26137393.68000,163358710.50,1.00000,'ORDEN: 34481',00003871,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,20692103.33000,16.00000,33107365.33000,206921033.30,10.00000,'TRAJE DE BIOSEGURIDAD PARA DESINFECCION DE VUELO 17-12',00003871,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,98015226.30000,16.00000,15682436.21000,98015226.30,1.00000,'ORDEN: 34481',00003871,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,731193588.19800,16.00000,116990974.11000,731193588.20,1.00000,'',00003871,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,2150889688.25000,16.00000,688284700.24000,4301779376.50,2.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 19 Y 20 DE DIC
+ORDEN: 34483, 34482',00003872,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,163358710.50000,16.00000,78412181.04000,490076131.50,3.00000,'ORDEN: 34482',00003872,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,98015226.30000,16.00000,31364872.42000,196030452.60,2.00000,'ORDEN:34483, 34482',00003872,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,20692103.33000,16.00000,33107365.33000,206921033.30,10.00000,'TRAJES DE BIOSEGURIDAD PARA DESINFECCION DE VUELO DEL 19/12',00003872,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,935065258.90200,16.00000,149610441.42000,935065258.90,1.00000,'',00003872,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1499144862.20000,16.00000,239863177.95000,1499144862.20,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL 16 DE DIC
+ORDEN: 34473
+TASA: 1075442,16',00003873,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,225004008.72000,16.00000,180003206.98000,1125020043.60,5.00000,'ORDEN: 34473',00003873,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,255008844.98000,16.00000,163205660.79000,1020035379.92,4.00000,'ORDEN: 34473',00003873,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1480937141.51000,16.00000,236949942.64000,1480937141.51,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL 19 DE DIC
+ORDEN: 34474
+TASA: 1062380,48',00003873,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',4.00000,222271244.03000,16.00000,142253596.18000,889084976.12,4.00000,'ORDEN: 34474',00003873,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1082560032.59000,16.00000,173209605.21000,1082560032.59,1.00000,'',00003873,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1446743885.48000,16.00000,231479021.68000,1446743885.48,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL 26 DE DIC
+ORDEN: 34475
+TASA: 1037851,25',00003874,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,217139238.53000,16.00000,104226834.49000,651417715.59,3.00000,'ORDEN: 34475',00003874,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,246095288.40000,16.00000,78750492.29000,492190576.80,2.00000,'ORDEN: 34475',00003874,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1543412676.55000,16.00000,246946028.25000,1543412676.55,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL 30 DE DIC
+ORDEN: 34476
+TASA: 1107198,58',00003874,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,231648086.91000,16.00000,111191081.72000,694944260.73,3.00000,'ORDEN: 34476',00003874,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,869167640.72000,16.00000,139066822.52000,869167640.72,1.00000,'',00003874,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1358532657.66000,16.00000,869460900.90000,5434130630.64,4.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 19,22, 26, 29 DE DIC',00003875,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,978143513.51520,16.00000,156502962.16000,978143513.52,1.00000,'',00003875,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',22.00000,1793661699.60000,16.00000,6313689182.59000,39460557391.20,22.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 31 DE DICIEMBRE 
+ORDEN 34461, 34460, 34459, 34458, 34457, 34456, 34454, 34453, 34452, 34451, 34450, 34449, 34448, 34447, 34446, 34445, 34444, 344443, 34442, 34441, 34440, 34438',00003876,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',15.00000,172999778.13000,16.00000,415199467.51000,2594996671.95,15.00000,'ORDEN: 34460, 34458, 34456, 34454, 34452, 34450, 34448, 34446, 34444,34442, 34440,34438',00003876,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,7596999731.35000,16.00000,1215519957.02000,7596999731.35,1.00000,'',00003876,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',90.00000,131479831.38000,16.00000,1893309571.87000,11833184824.20,90.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 31 DE DICIEMBRE
+ORDEN: 6488, 6494, 6490, 6495, 6496, 6500, 6498, 7251, 7255, 7256, 7257, 7261, 7260, 7262, 7264, 7267, 7268, 7269, 7271, 7272, 7274, 7275, 7276',00003877,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2129973268.28000,16.00000,340795722.92000,2129973268.28,1.00000,'',00003877,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,1793661699.60000,16.00000,143492935.97000,896830849.80,0.50000,'VUELO 1527 CANCELADO A LAS 10:11
+ORDEN: 34439',00003878,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,1793661699.60000,16.00000,143492935.97000,896830849.80,0.50000,'VUELO FERRI  
+ORDEN: 34455',00003878,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,322859105.93000,16.00000,51657456.95000,322859105.93,1.00000,'',00003878,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,89970956.61000,16.00000,43186059.17000,269912869.83,3.00000,'FACTURACION CORRESPONDIENTE A FECHA 15 DE DICIEMBRE 
+TRACTOR RETENIDO EN EL SENIAT
+ORDEN: 6489',00003879,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,89970956.61000,16.00000,28790706.12000,179941913.22,2.00000,'FACTURACION CORRESPONDIENTE A FECHA 22 DE DICIEMBRE 
+TRACTOR RETENIDO EN EL SENIAT
+ORDEN: 7259',00003879,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,80973860.95000,16.00000,12955817.75000,80973860.95,1.00000,'',00003879,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO CARGUERO TAP-330 CON PERNOTA,VUELO TAP-9171 DIA 07-12
+ORDEN: 34461',00003880,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,2214397160.00000,16.00000,177151772.80000,1107198580.00,0.50000,'VUELO TAP-9172 DIA 08-12. ORDEN: 34462',00003880,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,166079787.00000,16.00000,26572765.92000,166079787.00,1.00000,'ORDEN: 34461',00003880,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,'DESINFECCION AERONAVE, UTILIZANDO  TRAJES DE BIOSEGURIDAD: BRAGA, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL. VUELO DEL DIA 07-12',00003880,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'FACT. DEL VUELO CARGUERO  TAP-330 VUELO TAP-9171 DIA 16-12. ORDEN: 34483',00003880,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'VUELO TAP-9138 DIA 17-12
+CARGA DE STAKC DE PALLETS. ORDEN: 34484',00003880,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,166079787.00000,16.00000,26572765.92000,166079787.00,1.00000,'ORDEN: 34483',00003880,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,'DESINFECCION AERONAVE, UTILIZANDO  TRAJES DE BIOSEGURIDAD: BRAGA, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL. VUELO DEL DIA 17-12',00003880,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,1530591316.99200,16.00000,244894610.72000,1530591316.99,1.00000,'',00003880,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO CARGUERO TAP-A-330, VUELO 9560, DIA 17 DICIEMBRE
+ORDEN: 34485',00003881,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'VUELO DEL DIA 18 DE DICIEMBRE.
+ORDEN: 34486. CARGA DE STAKC DE PALLETS',00003881,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,166079787.00000,16.00000,26572765.92000,166079787.00,1.00000,'ORDEN: 34485',00003881,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,'DESINFECCION AERONAVE,  TRAJES DE BIOSEGURIDAD: BRAGA, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL. VUELO DEL DIA 17-12',00003881,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO CARGUERO TAP-A-330 CON PERNOTA, VUELO 9541, DIA 20 DE DICIEMBRE
+ORDEN: 34489',00003881,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',0.50000,2214397160.00000,16.00000,177151772.80000,1107198580.00,0.50000,'VUELO DIA 21 DE DIC
+ORDEN: 34490',00003881,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,166079787.00000,16.00000,26572765.92000,166079787.00,1.00000,'ORDEN: 34489',00003881,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,' DESINFECCION AERONAVE, TRAJES DE BIOSEGURIDA: BRAGA, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL. VUELO DEL DIA 21-12',00003881,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,1530591316.99200,16.00000,244894610.72000,1530591316.99,1.00000,'',00003881,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO CARGUERO TAP-A330 VUELO 9532 DEL DIA 30
+ORDEN: 34491',00003882,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2214397160.00000,16.00000,354303545.60000,2214397160.00,1.00000,'VUELO 9532 DEL DIA 31 DE DICIEMBRE.
+CARGA DE STAKC DE PALLETS
+ORDEN:34492',00003882,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,166079787.00000,16.00000,53145531.84000,332159574.00,2.00000,'ORDEN:34491, 34492',00003882,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,'SERVICIO ADICIONAL DESINFECCION AERONAVE, UTILIZANDO TRAJES DE BIOSEGURIDAD COMO: BRAGA IMPERMEABLE, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL.',00003882,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,894837892.35600,16.00000,143174062.78000,894837892.36,1.00000,'',00003882,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,1494718083.00000,16.00000,239154893.28000,1494718083.00,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 18 
+ORDEN: 34487',00003883,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1494718083.00000,16.00000,239154893.28000,1494718083.00,1.00000,'VUELO DEL DIA 19 DE DICIEMBRE
+ORDEN: 34488',00003883,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,166079787.00000,16.00000,53145531.84000,332159574.00,2.00000,'ORDEN: 34487, 34488',00003883,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,343231559.80000,16.00000,109834099.14000,686463119.60,2.00000,'',00003883,'TAPPA300',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',2.00000,88575886.40000,16.00000,28344283.65000,177151772.80,2.00000,'',00003883,'TAPTRAF',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',10.00000,21036773.02000,16.00000,33658836.83000,210367730.20,10.00000,'DESINFECCION DE AERONAVE UTILIZANDO TRAJES DE BIOSEGURIDAD COMO: BRAGA IMPERMIABL, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL. 
+VUELO DEL 18-12',00003883,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,791204105.26800,16.00000,126592656.84000,791204105.27,1.00000,'',00003883,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,127708756.50000,16.00000,183900609.36000,1149378808.50,9.00000,'FACTURACION CORRESPONDIENTE DEL 15 NOV AL 31 DE DIC',00003884,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,206888185.53000,16.00000,33102109.68000,206888185.53,1.00000,'',00003884,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,1900541183.64000,16.00000,1520432946.91000,9502705918.20,5.00000,'FACTURACION CORRESPONDIENTE A LOS VUELOS DEL 02-03-05-09 Y 12 ENERO 
+ORDEN: 34493, 34494, 34495, 34496',00003885,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1710487065.27600,16.00000,273677930.44000,1710487065.28,1.00000,'',00003885,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,2509271978.40000,16.00000,200741758.27000,1254635989.20,0.50000,'FACTURACION CORRESPONDIENTE AL DIA 02 DE ENERO 
+ORDEN 34507',00003886,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,242020831.25000,16.00000,38723333.00000,242020831.25,1.00000,'ORDEN 34507',00003886,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,187046277.68000,16.00000,29927404.43000,187046277.68,1.00000,'',00003886,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',18.00000,2509271978.40000,16.00000,7226703297.79000,45166895611.20,18.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE ENERO 
+ORDEN: 34505, 34506, 34508, 34509, 34510, 34511, 34513, 34514, 34515, 34516, 34517, 34518, 34519, 34520, 34521, 34522, 34523',00003887,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,242020831.25000,16.00000,348509997.00000,2178187481.25,9.00000,'ORDEN: 34505, 34509, 34511, 34514, 34515, 34517, 34519, 34521, 34523',00003887,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,622035745.34000,16.00000,99525719.25000,622035745.34,1.00000,'ORDEN: 34512',00003887,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,8683377502.45000,16.00000,1389340400.39000,8683377502.45,1.00000,'',00003887,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',50.00000,183935831.75000,16.00000,1471486654.00000,9196791587.50,50.00000,'FACTURACION CORRESPONDIENTE A TRASLADOS DESDE EL 01 AL 15 DE ENERO
+ORDEN: 7270, 7277, 7278, 7280, 7281, 7283, 7284, 7286, 7285, 7287, 7288, 7290, 7295, 7296, 7297, 7298, 7299,',00003888,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1655422485.75000,16.00000,264867597.72000,1655422485.75,1.00000,'',00003888,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,2509271978.40000,16.00000,200741758.27000,1254635989.20,0.50000,'FACTURACION CORRESPONDIENTE AL DIA 02 DE ENERO 
+ORDEN 34507',00003889,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,242020831.25000,16.00000,38723333.00000,242020831.25,1.00000,'ORDEN: 34507',00003889,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,269398227.68000,16.00000,43103716.43000,269398227.68,1.00000,'',00003889,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',18.00000,2509271978.40000,16.00000,7226703297.79000,45166895611.20,18.00000,'FACTURACION CORRESPONDIENTE  DEL 1 AL 15 DE ENERO 
+ORDE: 34505, 34506, 34507,34508, 34509, 34510, 34511, 34513, 34512, 34514, 34515, 34516, 34517, 34518, 34519, 34520, 34521, 34522, 34523',00003890,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,242020831.25000,16.00000,348509997.00000,2178187481.25,9.00000,'ORDEN: 34505, 34509, 04511, 04514, 04515, 34517, 34519, 34521, 34523',00003890,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,895903032.29000,16.00000,143344485.17000,895903032.29,1.00000,'ORDEN 34512',00003890,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,8683377502.45000,16.00000,1389340400.39000,8683377502.45,1.00000,'',00003890,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2046698798.28000,16.00000,327471807.72000,2046698798.28,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 08 DE ENERO 
+ORDEN:34540
+TASA: 1.468.241,15',00003891,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,307185413.40000,16.00000,147448998.43000,921556240.20,3.00000,'ORDEN: 34540',00003891,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2046698798.28000,16.00000,327471807.72000,2046698798.28,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 08 DE ENERO 
+ORDEN:34541
+TASA: 1.468.241,15',00003891,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',4.00000,307185413.40000,16.00000,196598664.58000,1228741653.60,4.00000,'ORDEN: 34541',00003891,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,348149341.49000,16.00000,167111683.92000,1044448024.47,3.00000,'ORDEN: 34541',00003891,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1311865832.67000,16.00000,209898533.23000,1311865832.67,1.00000,'',00003891,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',26.00000,7744666.60000,16.00000,32217813.06000,201361331.60,26.00000,'FACTURACION CORRESPONDIENTE AL MES DE DICIEMBRE',00003892,'ADIBESR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,36245039.68800,16.00000,5799206.35000,36245039.69,1.00000,'',00003892,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,11616999.90000,16.00000,14869759.87000,92935999.20,8.00000,'FACTURACION CORRESPONDIENTE AL MES DE DICIEMBRE',00003893,'ADCTAPSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,16728479.85600,16.00000,2676556.78000,16728479.86,1.00000,'',00003893,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',219.00000,9293599.92000,16.00000,325647741.20000,2035298382.48,219.00000,'FACTURACION CORRESPONDIENTE AL MES DE DICIEMBRE',00003894,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,366353708.84640,16.00000,58616593.42000,366353708.85,1.00000,'',00003894,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2159182069.41000,16.00000,345469131.11000,2159182069.41,1.00000,'FACTURACCION CORRESPONDIENTE AL VUELO DEL DIA 16-01 CUT-1251
+TASA: 1548933,32
+ORDEN: 34542',00003895,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,324067829.21000,16.00000,207403410.69000,1296271316.84,4.00000,'ORDEN: 34542',00003895,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,367283068.84000,16.00000,117530582.03000,734566137.68,2.00000,'ORDEN: 34542',00003895,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,754203514.31000,16.00000,120672562.29000,754203514.31,1.00000,'',00003895,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',20.00000,13661510.02500,16.00000,43716832.08000,273230200.50,20.00000,'FACTURACION CORRESPONDIENTE A SERVICIO DEL MES DE NOVIEMBRE',00003896,'ADCTAPSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,49181436.09000,16.00000,7869029.77000,49181436.09,1.00000,'',00003896,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',87.00000,10929208.02000,16.00000,152134575.64000,950841097.74,87.00000,'FACTURACION CORRESPONDIENTE A SERVICIO DEL MES DE NOVIEMBRE',00003897,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,171151397.59320,16.00000,27384223.61000,171151397.59,1.00000,'',00003897,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,2235023040.09000,16.00000,1788018432.07000,11175115200.45,5.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 16, 19 , 23, 26 Y 30 DE ENERO 
+ORDEN: 34497-34498-34499-34500-34501',00003898,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,306017824.56000,16.00000,97925703.86000,612035649.12,2.00000,'ORDEN 34501',00003898,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,430975102.92000,16.00000,68956016.47000,430975102.92,1.00000,'ORDEN 34501',00003898,'ADTURACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2199262671.45000,16.00000,351882027.43000,2199262671.45,1.00000,'',00003898,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,2235023040.09000,16.00000,1788018432.07000,11175115200.45,5.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 16, 19 , 23, 26 Y 30 DE ENERO',00003899,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,306017824.56000,16.00000,97925703.86000,612035649.12,2.00000,'ORDEN: 34501',00003899,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,430975102.92000,16.00000,68956016.47000,430975102.92,1.00000,'ORDEN: 34501',00003899,'ADTURACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2199262671.45000,16.00000,351882027.43000,2199262671.45,1.00000,'',00003899,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',87.00000,10929208.02000,16.00000,152134575.64000,950841097.74,87.00000,'FACTURACION CORRESPONDIENTE A SERVICIO DEL MES DE NOVIEMBRE',00003900,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,171151397.59320,16.00000,27384223.61000,171151397.59,1.00000,'',00003900,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',16.00000,2950886165.40000,16.00000,7554268583.42000,47214178646.40,16.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 16 AL 31 DE ENERO
+ORDEN: 34524, 34525, 34526, 34527, 34528, 34529, 34530, 34531, 34532, 34533, 34534, 34535, 34536, 34537, 34538, 34539,',00003901,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',8.00000,284614792.19000,16.00000,364306934.00000,2276918337.52,8.00000,'ORDEN: 34525, 34527, 34529, 34531, 34532, 34534, 34536, 34538,',00003901,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,8908397457.10000,16.00000,1425343593.14000,8908397457.10,1.00000,'',00003901,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',53.00000,216307242.06000,16.00000,1834285412.67000,11464283829.18,53.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 16 AL 31 DE ENERO
+ORDEN: 7303, 7304, 7305, 7307, 7309, 7311, 7310, 7314, 7315, 7316, 7317, 7320, 7324, 7326, 7328, 7329, 7330',00003902,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2063571089.28000,16.00000,330171374.28000,2063571089.28,1.00000,'',00003902,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,2950886165.40000,16.00000,236070893.23000,1475443082.70,0.50000,' FACTURACION CORRESPONDIENTE A VUELO CANCELADO DEL DIA 23/01/2021
+ORDEN: 34532',00003903,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,265579754.89000,16.00000,42492760.78000,265579754.89,1.00000,'',00003903,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.50000,750385761.14000,16.00000,540277748.02000,3376735925.13,4.50000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 23, 24, 27,28, 30 Y 31 DE ENERO',00003904,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,607812466.53000,16.00000,97249994.64000,607812466.53,1.00000,'',00003904,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,183935831.75000,16.00000,29429733.08000,183935831.75,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL DIA 16 DE ENERO
+ORDEN: 7301 
+TASA: 1548933,32',00003905,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,216555744.25000,16.00000,69297838.16000,433111488.50,2.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL DIA 28 DE ENERO
+ORDEN: 7325 
+TASA: 1823627,32',00003905,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,111068517.65000,16.00000,17770962.82000,111068517.65,1.00000,'',00003905,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4007376274.00000,16.00000,641180203.84000,4007376274.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL DIA 16 Y 17  DE ENERO
+ORDEN: 34550',00003906,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,4007376274.00000,16.00000,320590101.92000,2003688137.00,0.50000,'ORDEN: 34551',00003906,'HDIBEC330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,273230200.50000,16.00000,87433664.16000,546460401.00,2.00000,'ORDEN: 34550, 34551',00003906,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,34609158.73000,16.00000,55374653.97000,346091587.30,10.00000,'',00003906,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,163938120.30000,16.00000,26230099.25000,163938120.30,1.00000,'ORDEN: 34550',00003906,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1272159813.52800,16.00000,203545570.16000,1272159813.53,1.00000,'',00003906,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3597530973.25000,16.00000,575604955.72000,3597530973.25,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL DIA  27 Y 28  DE ENERO
+ORDEN: 34552',00003907,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3597530973.25000,16.00000,287802477.86000,1798765486.63,0.50000,'ORDEN: 34553',00003907,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,163938120.30000,16.00000,52460198.50000,327876240.60,2.00000,'ORDEN: 34552, 34553',00003907,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,273230200.50000,16.00000,87433664.16000,546460401.00,2.00000,'ORDEN: 34553',00003907,'ADIBEGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',10.00000,34609158.73000,16.00000,55374653.97000,346091587.30,10.00000,'',00003907,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1191010443.97950,16.00000,190561671.04000,1191010443.98,1.00000,'',00003907,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3643069340.00000,16.00000,582891094.40000,3643069340.00,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 22-01 CON PERNOCTA
+ORDEN: 34502',00003908,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3643069340.00000,16.00000,291445547.20000,1821534670.00,0.50000,'ORDEN: 34503',00003908,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,273230200.50000,16.00000,43716832.08000,273230200.50,1.00000,'ORDEN: 34502',00003908,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,34609158.73000,16.00000,55374653.97000,346091587.30,10.00000,'',00003908,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1095106643.60400,16.00000,175217062.98000,1095106643.60,1.00000,'',00003908,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,216307242.06000,16.00000,69218317.46000,432614484.12,2.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS  EL 24-11
+ORDEN: 6443, 6442',00003909,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,77870607.14000,16.00000,12459297.14000,77870607.14,1.00000,'',00003909,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,754115353.38000,16.00000,120658456.54000,754115353.38,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 30-12
+ORDEN: 7273',00003910,'ADRUTASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,135740763.61000,16.00000,21718522.18000,135740763.61,1.00000,'',00003910,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,754115353.38000,16.00000,120658456.54000,754115353.38,1.00000,'FACTURACION CORRESPONDIENTE AL DIA 30-12 
+ORDEN: 7273',00003911,'ADVORACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,135740763.61000,16.00000,21718522.18000,135740763.61,1.00000,'',00003911,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,756926594.34700,16.00000,605541275.48000,3784632971.74,5.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 23, 24 27, 28, 30 Y 31 DE ENERO 
+ORDEN: 34506, 34507, 34508, 34509, 34510, 34511',00003912,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,681233934.91000,16.00000,108997429.59000,681233934.91,1.00000,'',00003912,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,215229971.75000,16.00000,34436795.48000,215229971.75,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 27-01-2021.
+ORDEN:7321',00003913,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,38741394.92000,16.00000,6198623.19000,38741394.92,1.00000,'',00003913,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,756931187.91000,16.00000,726653940.39000,4541587127.46,6.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 23, 24 27, 28, 30 Y 31 DE ENERO 
+ORDEN: 34506, 34507, 34508, 34509, 34510, 34511',00003914,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,817485682.94000,16.00000,130797709.27000,817485682.94,1.00000,'',00003914,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,756926594.35000,16.00000,726649530.58000,4541559566.10,6.00000,'',00003915,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,817480721.90000,16.00000,130796915.50000,817480721.90,1.00000,'',00003915,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',182.00000,10369775.88000,16.00000,301967873.63000,1887299210.16,182.00000,'SERVICIO CORRESPONDIENTE AL MES DE ENERO',00003916,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,339713857.82880,16.00000,54354217.25000,339713857.83,1.00000,'',00003916,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,217123153.13000,16.00000,69479409.00000,434246306.26,2.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 01 AL 15 DE FEBRERO
+ORDEN: 7336 TASA: 1.828.405,50',00003917,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,214203223.63000,16.00000,34272515.78000,214203223.63,1.00000,'ORDEN: 7344 TASA: 1.803.816,62',00003917,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,209968592.69000,16.00000,67189949.66000,419937185.38,2.00000,'ORDEN: 7352 TASA: 1.768.156,57',00003917,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,192309608.75000,16.00000,30769537.40000,192309608.75,1.00000,'',00003917,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',17.00000,2799839487.60000,16.00000,7615563406.27000,47597271289.20,17.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 01 AL 15 DE FEBRERO
+ORDEN: 34590, 34591, 34592, 34593, 34594, 34595, 34596, 34597, 34598, 34599, 34600, 34601, 34602, 34603,34604, 34605',00003918,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,270046246.88000,16.00000,388866595.51000,2430416221.92,9.00000,'ORDEN: 34590, 34592, 34594, 34596, 34598, 34600, 34602, 34604, 34605',00003918,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,9004983752.00000,16.00000,1440797400.32000,9004983752.00,1.00000,'',00003918,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',58.00000,205235147.63000,16.00000,1904582170.01000,11903638562.54,58.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 01 AL 15 DE FEBRERO
+ORDEN: 7331, 7332, 7335, 7337, 7338, 7339, 7340, 7341, 7342, 7345, 7347, 7354, 7353, 7356, 7355, 7358',00003919,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2142654941.26000,16.00000,342824790.60000,2142654941.26,1.00000,'',00003919,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,711971528.96000,16.00000,911323557.07000,5695772231.68,8.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE FECHA 03, 04, 06, 07,10, 11, 13 Y 14  DE FEBRERO 
+ORDEN: 34553, 34554, 34555, 34556, 34557, 34558, 34559, 34560',00003920,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,129622198.50000,16.00000,62218655.28000,388866595.50,3.00000,'ORDEN: 34553, 34554',00003920,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,146905158.30000,16.00000,23504825.33000,146905158.30,1.00000,'ORDEN: 34553',00003920,'ADCOPASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,146905158.30000,16.00000,70514475.98000,440715474.90,3.00000,'ORDEN: 34553, 34554',00003920,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1201006702.87000,16.00000,192161072.46000,1201006702.87,1.00000,'',00003920,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,2120619167.46000,16.00000,2035794400.76000,12723715004.76,6.00000,'FACTURACION CORRESPIENTE A VUELOS DEL 1 AL 5 DE FEBRERO
+ORDEN: 34570,34571, 34572, 34573, 34574, 34575',00003921,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,290353724.64000,16.00000,139369787.83000,871061173.92,3.00000,'ORDEN: 34571,34570',00003921,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2447059712.16240,16.00000,391529553.95000,2447059712.16,1.00000,'',00003921,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2409210030.20000,16.00000,385473604.83000,2409210030.20,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 14-02 
+ORDEN: 34542
+TASA:1.728.295,98',00003922,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,361594084.94000,16.00000,231420214.36000,1446376339.76,4.00000,'',00003922,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,144641090.57000,16.00000,23142574.49000,144641090.57,1.00000,'',00003922,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,131091250.08000,16.00000,20974600.01000,131091250.08,1.00000,'',00003922,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,743637367.91000,16.00000,118981978.87000,743637367.91,1.00000,'',00003922,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,146905158.30000,16.00000,23504825.33000,146905158.30,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 30-12
+ORDEN: 7273',00003923,'ADVORACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,195297445.74000,16.00000,31247591.32000,195297445.74,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 11-02
+ORDEN: 7351',00003923,'ADVORRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,172829598.00000,16.00000,27652735.68000,172829598.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 11-02
+ORDEN: 7350',00003923,'ADVORRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,92705796.37000,16.00000,14832927.42000,92705796.37,1.00000,'',00003923,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3456591960.00000,16.00000,553054713.60000,3456591960.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 04 Y 05 DE FEBRERO CON PERNOTA 
+ORDEN: 34583',00003924,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3456591960.00000,16.00000,276527356.80000,1728295980.00,0.50000,'ORDEN: 34584',00003924,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,259244397.00000,16.00000,41479103.52000,259244397.00,1.00000,'ORDEN: 34583',00003924,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',10.00000,32837623.62000,16.00000,52540197.79000,328376236.20,10.00000,'SERVICIO ADICIONAL DESINFECCION AERONAVE UTILIZANDO TRAJES DE BIOSEGURIDAD COMO: BRAGA IMPERMEABLE, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL.',00003924,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,3456591960.00000,16.00000,553054713.60000,3456591960.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 05 Y 06 DE FEBRERO CON PERNOTA 
+ORDEN: 34585',00003924,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',0.50000,3456591960.00000,16.00000,276527356.80000,1728295980.00,0.50000,'ORDEN: 34586',00003924,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,259244397.00000,16.00000,41479103.52000,259244397.00,1.00000,'ORDEN: 34585',00003924,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',10.00000,32837623.62000,16.00000,52540197.79000,328376236.20,10.00000,'SERVICIO ADICIONAL DESINFECCION AERONAVE UTILIZANDO TRAJES DE BIOSEGURIDAD COMO: BRAGA IMPERMEABLE, GUANTES, TAPABOCAS, LENTES O CARETA FACIAL.',00003924,'ADCTAPBI',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,2078103086.35200,16.00000,332496493.82000,2078103086.35,1.00000,'',00003924,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,639469512.60000,16.00000,102315122.02000,639469512.60,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 14/02
+TASA:1.728.295,98',00003925,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,77773319.10000,16.00000,12443731.06000,77773319.10,1.00000,'',00003925,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,129103709.71000,16.00000,20656593.55000,129103709.71,1.00000,'',00003925,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2610438570.69000,16.00000,417670171.31000,2610438570.69,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 24 DE FEBRERO 
+ORDEN: 34623
+TASA: 1.872.651,37',00003926,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1175388365.17000,16.00000,188062138.43000,1175388365.17,1.00000,'ORDEN: 34623',00003926,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,142040607.17000,16.00000,22726497.15000,142040607.17,1.00000,'ORDEN: 34623',00003926,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,156722193.99000,16.00000,25075551.04000,156722193.99,1.00000,'ORDEN: 34623',00003926,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,735226152.66000,16.00000,117636184.43000,735226152.66,1.00000,'',00003926,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,692881010.60000,16.00000,110860961.70000,692881010.60,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 24 DE FEBRERO 
+ORDEN: 34623
+TASA: 1.872.651,37',00003927,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,84269312.10000,16.00000,13483089.94000,84269312.10,1.00000,'ORDEN: 34623',00003927,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,139887058.09000,16.00000,22381929.29000,139887058.09,1.00000,'',00003927,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,210814369.57000,16.00000,101190897.39000,632443108.71,3.00000,'FACTURACION CORRESPONDIENTE A SERVICIO PRESTADOS DEL 16 AL 28 DE FEBRERO
+ORDEN: 7366, 7369, 7381',00003928,'ADVORRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,186561389.00000,16.00000,29849822.24000,186561389.00,1.00000,'ORDEN: 7368',00003928,'ADVORRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,147420809.59000,16.00000,23587329.53000,147420809.59,1.00000,'',00003928,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,217273525.06000,16.00000,34763764.01000,217273525.06,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DE FECHA 23 DE FEBRERO 
+ORDEN: 7372
+TASA: 1.829.671,79',00003929,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,39109234.51000,16.00000,6257477.52000,39109234.51,1.00000,'',00003929,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,2289108243.03000,16.00000,2197543913.31000,13734649458.18,6.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE FECHA 16, 18, 20, 23, 25 Y 27 DE FEBRERO 
+ORDEN: 34576, 34577, 34578, 34579, 34580, 34581',00003930,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,313423133.52000,16.00000,100295402.73000,626846267.04,2.00000,'ORDEN: 34578',00003930,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2585069230.53960,16.00000,413611076.89000,2585069230.54,1.00000,'',00003930,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,217273525.06000,16.00000,34763764.01000,217273525.06,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIO DEL DIA 23 DE FEBRERO
+ORDEN: 7372
+TASA: 1.829.671,79',00003931,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,221541649.44000,16.00000,35446663.91000,221541649.44,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIO DEL DIA 26 DE FEBRERO
+ORDEN: 7377
+TASA: 1.865.613,89',00003931,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,78986731.41000,16.00000,12637877.03000,78986731.41,1.00000,'',00003931,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,768539641.99000,16.00000,983730741.75000,6148317135.92,8.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIA 17, 18, 20, 21, 24, 25 , 27 Y 28
+ORDEN: 34561, 34562, 34563, 34564, 34565, 34566, 34567, 34568',00003932,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,139921041.75000,16.00000,22387366.68000,139921041.75,1.00000,'ORDEN: 34565',00003932,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,158577180.65000,16.00000,25372348.90000,158577180.65,1.00000,'ORDEN: 34565',00003932,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1160426764.49000,16.00000,185668282.32000,1160426764.49,1.00000,'',00003932,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,3022294501.80000,16.00000,5319238323.17000,33245239519.80,11.00000,'FACTURACION CORRESPONDIENTES A SERVICIOS PRESTADOS DEL 16 AL 28 DE FEBRERO 
+ORDEN: 34606, 34607, 34608, 34613, 34614, 34615, 34616, 34617, 34618, 34619, 34620',00003933,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,291502170.31000,16.00000,233201736.25000,1457510851.55,5.00000,'ORDEN: 34607, 34613, 34615, 34617, 34619',00003933,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1079071073.98000,16.00000,172651371.84000,1079071073.98,1.00000,'ORDEN: 34612',00003933,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,6440727860.34000,16.00000,1030516457.65000,6440727860.34,1.00000,'',00003933,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',40.00000,221541649.44000,16.00000,1417866556.42000,8861665977.60,40.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 28 DE FEBRERO.
+ORDEN: 7359, 7361, 7364, 7365, 7367, 7370, 7373, 7375, 7376, 7378, 7379, 7380',00003934,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1595099875.97000,16.00000,255215980.16000,1595099875.97,1.00000,'',00003934,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,2022294501.80000,16.00000,161783560.14000,1011147250.90,0.50000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 18 DE FEBRERO CANCELADO. 
+ORDEN: 34609',00003935,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,3022294501.80000,16.00000,241783560.14000,1511147250.90,0.50000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 18 DE FEBRERO CANCELADO. 
+ORDEN: 34609',00003936,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,272006505.16000,16.00000,43521040.83000,272006505.16,1.00000,'',00003936,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2610438570.69000,16.00000,417670171.31000,2610438570.69,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 24 DE FEBRERO 
+ORDEN: 34623
+TASA: 1.872.651,37',00003937,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,391796121.72000,16.00000,188062138.43000,1175388365.16,3.00000,'ORDEN: 34623',00003937,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,156722193.99000,16.00000,25075551.04000,156722193.99,1.00000,'ORDEN: 34623',00003937,'ADCUBESP',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,142040607.17000,16.00000,22726497.15000,142040607.17,1.00000,'ORDEN: 34623',00003937,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,735226152.67000,16.00000,117636184.43000,735226152.67,1.00000,'',00003937,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',190.00000,11193683.34000,16.00000,340287973.54000,2126799834.60,190.00000,'FACTURACION CORRESPONDIENTE AL MES DE FEBRERO',00003938,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,382823970.22800,16.00000,61251835.24000,382823970.23,1.00000,'',00003938,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3731227780.00000,16.00000,596996444.80000,3731227780.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DE DIA 04 Y 05 DE FEBRERO CON PERNOTA 
+ORDEN: 34583',00003939,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3731227780.00000,16.00000,298498222.40000,1865613890.00,0.50000,'ORDEN: 34584',00003939,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,279842083.50000,16.00000,44774733.36000,279842083.50,1.00000,'ORDEN: 34583',00003939,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3731227780.00000,16.00000,596996444.80000,3731227780.00,1.00000,'ORDEN: 34585',00003939,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',0.50000,3731227780.00000,16.00000,298498222.40000,1865613890.00,0.50000,'ORDEN: 34586',00003939,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,279842083.50000,16.00000,44774733.36000,279842083.50,1.00000,'ORDEN: 34585',00003939,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,2115606151.26000,16.00000,338496984.20000,2115606151.26,1.00000,'',00003939,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3731227780.00000,16.00000,596996444.80000,3731227780.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL DIA 18 Y 19  DE FEBRERO
+ORDEN: 34587',00003940,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3731227780.00000,16.00000,298498222.40000,1865613890.00,0.50000,'ORDEN: 34588',00003940,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,279842083.50000,16.00000,44774733.36000,279842083.50,1.00000,'ORDEN: 34587',00003940,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3731227780.00000,16.00000,596996444.80000,3731227780.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL DIA 25 Y  26  DE FEBRERO
+ORDEN: 34589',00003940,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',0.50000,3731227780.00000,16.00000,298498222.40000,1865613890.00,0.50000,'ORDEN: 34524',00003940,'HDTAP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,279842083.50000,16.00000,44774733.36000,279842083.50,1.00000,'ORDEN: 34589',00003940,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,2115606151.26000,16.00000,338496984.20000,2115606151.26,1.00000,'',00003940,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,752749969.24050,16.00000,963519960.63000,6021999753.92,8.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE MARZO
+ORDEN: 34625, 34626, 34627, 34628, 34629, 34630, 34631, 34632',00003941,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,137046359.25000,16.00000,21927417.48000,137046359.25,1.00000,'ORDEN: 34630',00003941,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,155319207.15000,16.00000,24851073.14000,155319207.15,1.00000,'ORDEN: 34630',00003941,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1136585757.66000,16.00000,181853721.23000,1136585757.66,1.00000,'',00003941,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,2242078437.33000,16.00000,2152395299.84000,13452470623.98,6.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE MARZO 
+ORDEN: 34642, 34643, 34644, 34645, 34646, 34647',00003942,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2421444712.31640,16.00000,387431153.97000,2421444712.32,1.00000,'',00003942,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,182728479.00000,16.00000,29236556.64000,182728479.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 01 DE MARZO
+ORDEN: 7383',00003943,'ADVORACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,32891126.22000,16.00000,5262580.20000,32891126.22,1.00000,'',00003943,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,222609386.50000,16.00000,35617501.84000,222609386.50,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 04 DE MARZO
+TASA: 1.874.605,36
+ORDEN:  7391',00003944,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,219517398.94000,16.00000,35122783.83000,219517398.94,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 12 DE MARZO
+TASA: 1.848.567,57
+ORDEN:  6806',00003944,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,79582821.37000,16.00000,12733251.42000,79582821.37,1.00000,'',00003944,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',16.00000,2960201359.80000,16.00000,7578115481.09000,47363221756.80,16.00000,'FACTURACION CORRESPONDIENTE A LA FECHA DEL 01 AL 15 DE MARZO
+ORDEN: 34625, 34626, 34627, 34628, 34629, 34630, 34631, 34632, 34633, 34634, 34635, 34636, 34637, 34638, 34639, 34640',00003945,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,285513248.44000,16.00000,411139077.75000,2569619235.96,9.00000,'ORDEN: 34625, 34627, 34629, 34631, 34633, 34635, 34636,34638, 34640',00003945,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,8987911378.69000,16.00000,1438065820.59000,8987911378.69,1.00000,'',00003945,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',57.00000,216990068.81000,16.00000,1978949427.55000,12368433922.17,57.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 1 AL 15 DE MARZO 
+ORDEN: 7387, 7384, 7386, 7388, 7392, 7393, 7394, 7395, 7396, 7399, 6802, 6803, 6805, 6807, 6808, 6809, 6810',00003946,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,2226318105.99000,16.00000,356210896.96000,2226318105.99,1.00000,'',00003946,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3654569580.00000,16.00000,584731132.80000,3654569580.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 05 Y 06 DE MARZO CON PERNOTA
+ORDEN: 34694',00003947,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3654569580.00000,16.00000,292365566.40000,1827284790.00,0.50000,'ORDEN: 34695',00003947,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,274092718.50000,16.00000,43854834.96000,274092718.50,1.00000,'ORDEN: 34694',00003947,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1036070475.93000,16.00000,165771276.15000,1036070475.93,1.00000,'',00003947,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3644640560.00000,16.00000,583142489.60000,3644640560.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 15 CON PERNOTA AL 16 DE MARZO 
+ORDEN: 34696, 34697',00003948,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3644640560.00000,16.00000,291571244.80000,1822320280.00,0.50000,'ORDEN: 34697',00003948,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,273348042.00000,16.00000,43735686.72000,273348042.00,1.00000,'ORDEN: 34696',00003948,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1033255598.76000,16.00000,165320895.80000,1033255598.76,1.00000,'',00003948,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,743567467.80000,16.00000,951766358.78000,5948539742.40,8.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE MARZO
+ORDEN: 34625, 34626, 34627, 34628, 34629, 34630, 34631, 34632',00003949,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,135374584.50000,16.00000,21659933.52000,135374584.50,1.00000,'ORDEN: 34630',00003949,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,153424529.10000,16.00000,24547924.66000,153424529.10,1.00000,'ORDEN: 34630',00003949,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,935600828.39640,16.00000,149696132.54000,935600828.40,1.00000,'',00003949,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,3776972506.20000,16.00000,2417262403.97000,15107890024.80,4.00000,'FACTURACION CORRESPONDIENTE AL 15 AL 30 DE MARZO 
+ORDEN: 34641, 34642, 34643, 34644',00003950,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,1348519072.58000,16.00000,647289154.84000,4045557217.74,3.00000,'ORDEN: 34648, 34646, 34649',00003950,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1569541908.13000,16.00000,251126705.30000,1569541908.13,1.00000,'ORDEN: 34647',00003950,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,364291329.69000,16.00000,116573225.50000,728582659.38,2.00000,'ORDEN: 34642, 34643',00003950,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,3217735771.51000,16.00000,514837723.44000,3217735771.51,1.00000,'',00003950,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,3776972506.20000,16.00000,302157800.50000,1888486253.10,0.50000,'FACTURACION CORRESPONDIENTE A ORDEN 34645 VUELO CANCELADO',00003951,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,283272937.97000,16.00000,45323670.08000,283272937.97,1.00000,'',00003951,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',47.00000,276861410.56000,16.00000,2081997807.41000,13012486296.32,47.00000,'FACTURACION CORRESPONDIENTE DEL 15 AL 30 DE MARZO
+ORDEN: 6811, 6813, 6814, 6815, 6817, 6818, 6819, 6820, 6822, 6824, 6825, 6827, 6828, 6829, 6830, 6834, 6835, 6836,',00003952,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1951872944.60000,16.00000,312299671.14000,1951872944.60,1.00000,'',00003952,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,3776972506.20000,16.00000,2417262403.97000,15107890024.80,4.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE MARZO
+ORDEN: 34641, 34642, 34643, 34644,',00003953,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,1348519072.58000,16.00000,647289154.84000,4045557217.74,3.00000,'ORDEN: 34648, 34646, 34649',00003953,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1569541908.13000,16.00000,251126705.30000,1569541908.13,1.00000,'ORDEN: 34647',00003953,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,364291329.69000,16.00000,116573225.50000,728582659.38,2.00000,'ORDEN: 34642,34643',00003953,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,364291329.69000,16.00000,58286612.75000,364291329.69,1.00000,'ORDEN: 34644',00003953,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,3272379470.96000,16.00000,523580715.35000,3272379470.96,1.00000,'',00003953,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,3188264052.60000,16.00000,2040488993.66000,12753056210.40,4.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE MARZO
+ORDEN 34641, 34642,34643, 34644',00003954,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,1138328350.63000,16.00000,546397608.30000,3414985051.89,3.00000,'ORDEN: 34648, 34646, 34649',00003954,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1324900839.64000,16.00000,211984134.34000,1324900839.64,1.00000,'ORDEN: 34647',00003954,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,307510035.94000,16.00000,98403211.50000,615020071.88,2.00000,'ORDEN: 34642, 34643',00003954,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,307510035.94000,16.00000,49201605.75000,307510035.94,1.00000,'ORDEN: 34644',00003954,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,2762320831.46000,16.00000,441971333.03000,2762320831.46,1.00000,'',00003954,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',0.50000,3188264052.60000,16.00000,255061124.21000,1594132026.30,0.50000,'FACTURACION CONRRESPONDIENTE A VUELO DEL DIA 19/03 
+ORDEN: 34645
+VUELO CANCELADO',00003955,'HDDHLB767',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,239119803.95000,16.00000,38259168.63000,239119803.95,1.00000,'',00003955,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',47.00000,233707627.31000,16.00000,1757481357.37000,10984258483.57,47.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE ABRIL',00003956,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1647638772.55000,16.00000,263622203.61000,1647638772.55,1.00000,'',00003956,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,2414814810.21000,16.00000,2704592587.44000,16903703671.47,7.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL 16 AL 30 DE MARZO',00003957,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,330634790.64000,16.00000,158704699.51000,991904371.92,3.00000,'ORDEN:34654',00003957,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2684341206.50850,16.00000,429494593.04000,2684341206.51,1.00000,'',00003957,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,214343092.13000,16.00000,34294894.74000,214343092.13,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MARZO
+ORDEN: 6816 DEL 19-03
+TASA: 1.804.994,46',00003958,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,224446612.88000,16.00000,35911458.06000,224446612.88,1.00000,'ORDEN: 6831 DEL 27/03
+TASA: 1.890.076,74',00003958,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,65818455.75000,16.00000,10530952.92000,65818455.75,1.00000,'',00003958,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,818620774.24000,16.00000,785875943.27000,4911724645.44,6.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL 16 AL 25 DE MARZO 
+ORDEN: 34633, 34634, 34635, 34636, 34637, 34638',00003959,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,149038859.25000,16.00000,47692434.96000,298077718.50,2.00000,'ORDEN: 34637, 34638',00003959,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,168910707.15000,16.00000,54051426.29000,337821414.30,2.00000,'ORDEN: 34637, 34638',00003959,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1987184.79000,16.00000,317949.57000,1987184.79,1.00000,'',00003959,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3974369580.00000,16.00000,635899132.80000,3974369580.00,1.00000,'FACTURACION CORRESPONDIENTE AL 22  CON PERNOTA
+ORDEN: 34698',00003960,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3974369580.00000,16.00000,317949566.40000,1987184790.00,0.50000,'ORDEN: 34699 DEL 23 DE MARZO',00003960,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,158974783.20000,16.00000,25435965.31000,158974783.20,1.00000,'ORDEN: 34698',00003960,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,298077718.50000,16.00000,47692434.96000,298077718.50,1.00000,'ORDEN:34698',00003960,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,962791030.75500,16.00000,154046564.92000,962791030.76,1.00000,'',00003960,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,818620774.24000,16.00000,785875943.27000,4911724645.44,6.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL 16 AL 25 DE MARZO
+ORDEN: 34633, 34634, 34636, 34637, 34638',00003961,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,149038859.25000,16.00000,47692434.96000,298077718.50,2.00000,'ORDEN: 34637, 34638',00003961,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,168910707.15000,16.00000,54051426.29000,337821414.30,2.00000,'ORDEN: 34637, 34638',00003961,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,832143566.74000,16.00000,133142970.68000,832143566.74,1.00000,'',00003961,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,214343092.13000,16.00000,34294894.74000,214343092.13,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MARZO
+ORDEN: 6816 DEL 19-03
+TASA: 1.804.994,46',00003962,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,224446612.88000,16.00000,35911458.06000,224446612.88,1.00000,'ORDEN: 6831 DEL 27/03
+TASA: 1.890.076,74',00003962,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,65818455.75000,16.00000,10530952.92000,65818455.75,1.00000,'',00003962,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,818620774.24000,16.00000,392937971.64000,2455862322.72,3.00000,'FACTURACION CORRESPONDIENTE A FECHA DEL 27 AL 31 DE MARZO
+ORDEN: 34639, 34640, 346',00003963,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,149038859.25000,16.00000,23846217.48000,149038859.25,1.00000,'ORDEN: 34641',00003963,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,168910707.15000,16.00000,27025713.14000,168910707.15,1.00000,'ORDEN: 34641',00003963,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,416071783.37000,16.00000,66571485.34000,416071783.37,1.00000,'',00003963,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3974369580.00000,16.00000,635899132.80000,3974369580.00,1.00000,'FACTURACION CORRESPONDIENTEAL 29 DE MARZO CON PERNOTA
+ORDEN: 34700',00003964,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,3974369580.00000,16.00000,317949566.40000,1987184790.00,0.50000,'ORDEN: 34701 DEL 30 DE MARZO',00003964,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,298077718.50000,16.00000,47692434.96000,298077718.50,1.00000,'ORDEN: 34700',00003964,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,938944813.27500,16.00000,150231170.12000,938944813.28,1.00000,'',00003964,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4285028820.00000,16.00000,685604611.20000,4285028820.00,1.00000,'FACTURACION CORRESPONDIENTE AL 22 DE MARZO CON PERNOTA
+ORDEN: 34698',00003965,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,4285028820.00000,16.00000,342802305.60000,2142514410.00,0.50000,'ORDEN: 34699 DEL 23 DE MARZO',00003965,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,321377161.50000,16.00000,51420345.84000,321377161.50,1.00000,'ORDEN: 34698',00003965,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1012338058.72500,16.00000,161974089.40000,1012338058.73,1.00000,'',00003965,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',175.00000,12855086.46000,16.00000,359942420.88000,2249640130.50,175.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EN EL MES DE MARZO',00003966,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,337446019.57500,16.00000,53991363.13000,337446019.58,1.00000,'',00003966,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,2770095797.81000,16.00000,443215327.65000,2770095797.81,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL 03 DE ABRIL
+ORDEN: 34757
+TASA: 1.987.184,75',00003967,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,415758793.40000,16.00000,332607034.72000,2078793967.00,5.00000,'ORDEN: 34757',00003967,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,471201247.92000,16.00000,226176599.00000,1413603743.76,3.00000,'ORDEN: 34757',00003967,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,735258357.50000,16.00000,117641337.20000,735258357.50,1.00000,'',00003967,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,89423313.75000,16.00000,14307730.20000,89423313.75,1.00000,'',00003967,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,3116693674.66000,16.00000,498670987.95000,3116693674.66,1.00000,'FACTURACION CORRESPONDIENTE A VUELOS DEL 11 DE ABRIL
+ORDEN: 34758
+TASA: 2.235.823,81',00003967,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',2.00000,467779057.53000,16.00000,149689298.41000,935558115.06,2.00000,'ORDEN: 34758',00003967,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,827254809.70000,16.00000,132360769.55000,827254809.70,1.00000,'',00003967,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,100612071.45000,16.00000,16097931.43000,100612071.45,1.00000,'',00003967,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,1810094077.60000,16.00000,289615052.42000,1810094077.60,1.00000,'',00003967,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,981179894.12000,16.00000,1412899047.53000,8830619047.08,9.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE ABRIL
+ORDEN: 34702, 34703, 34704, 34705, 34706, 34707, 34708 , 34709, 34710',00003968,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,178634523.75000,16.00000,142907619.00000,893172618.75,5.00000,'ORDEN: 34702, 34705, 34709, 34710',00003968,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',5.00000,202452460.25000,16.00000,161961968.20000,1012262301.25,5.00000,'ORDEN: 34702, 34705, 34709, 34710',00003968,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1610408095.06000,16.00000,257665295.21000,1610408095.06,1.00000,'',00003968,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,2922460808.55000,16.00000,3273156105.58000,20457225659.85,7.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE ABRIL 
+ORDEN: 34720, 34721, 34722, 34723, 34724, 34725, 34726',00003969,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,400141333.20000,16.00000,128045226.62000,800282666.40,2.00000,'ORDEN: 34724',00003969,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,3188626248.93750,16.00000,510180199.83000,3188626248.94,1.00000,'',00003969,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4763587300.00000,16.00000,762173968.00000,4763587300.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL 05 DE ABRIL CON PERNOTA AL 06 DE ABRIL
+ORDEN: 34750',00003970,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,4763587300.00000,16.00000,381086984.00000,2381793650.00,0.50000,'ORDEN:34751',00003970,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,357269047.50000,16.00000,57163047.60000,357269047.50,1.00000,'ORDEN: 34750',00003970,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4763587300.00000,16.00000,762173968.00000,4763587300.00,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL 12 DE ABRIL CON PERNOTA AL 13 DE ABRIL
+ORDEN: 34752',00003970,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,4763587300.00000,16.00000,762173968.00000,4763587300.00,1.00000,'ORDEN: 34753',00003970,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,357269047.50000,16.00000,57163047.60000,357269047.50,1.00000,'ORDEN: 34752',00003970,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,2608064046.75000,16.00000,417290247.48000,2608064046.75,1.00000,'',00003970,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,1377629447.16000,16.00000,661262134.64000,4132888341.48,3.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE ABRIL 
+ORDEN: 34740, 34741, 34742',00003971,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,619933251.22000,16.00000,99189320.20000,619933251.22,1.00000,'',00003971,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',21.00000,282837995.94000,16.00000,950335666.36000,5939597914.74,21.00000,'FACTURA CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE ABRIL 
+ORDEN: 6842, 6841, 6844, 6846, 6847, 6848, 7405, 7407, 7409, 7411, 7415',00003972,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,890939687.20000,16.00000,142550349.95000,890939687.20,1.00000,'',00003972,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',10.00000,446586309.38000,16.00000,714538095.01000,4465863093.80,10.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 1 AL 15 DE ABRIL 
+ORDEN: 6838, 6843, 6839, 6845, 6849, 6850, 7401, 7408, 7414, 7410',00003973,'ADVORACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,669879464.07000,16.00000,107180714.25000,669879464.07,1.00000,'',00003973,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3510503716.49000,16.00000,561680594.64000,3510503716.49,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 21-04   
+ORDEN: 34759
+TASA: 2.518.331,48',00003974,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,526885312.24000,16.00000,337206599.83000,2107541248.96,4.00000,'ORDEN: 34759',00003974,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,597146760.54000,16.00000,286630445.06000,1791440281.62,3.00000,'ORDEN: 34759',00003974,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,113324916.60000,16.00000,18131986.66000,113324916.60,1.00000,'',00003974,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',5.00000,570065399.53000,16.00000,456052319.62000,2850326997.65,5.00000,'',00003974,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,122612288.40000,16.00000,19617966.14000,122612288.40,1.00000,'',00003974,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,1008145482.40000,16.00000,161303277.18000,1008145482.40,1.00000,'',00003974,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,2435081896.24000,16.00000,389613103.40000,2435081896.24,1.00000,'',00003974,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,1008145482.40000,16.00000,161303277.18000,1008145482.40,1.00000,'',00003974,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3510503716.49000,16.00000,561680594.64000,3510503716.49,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 21-04
+ORDEN: 34759
+TASA:  2.518.331,48',00003975,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,526885312.25000,16.00000,337206599.84000,2107541249.00,4.00000,'ORDEN: 34759',00003975,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,597146760.54000,16.00000,286630445.06000,1791440281.62,3.00000,'ORDEN: 34759',00003975,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,113324916.60000,16.00000,18131986.66000,113324916.60,1.00000,'',00003975,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,931782647.60000,16.00000,149085223.62000,931782647.60,1.00000,'',00003975,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1268188921.69000,16.00000,202910227.47000,1268188921.69,1.00000,'',00003975,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3798201728.53000,16.00000,607712276.56000,3798201728.53,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 28-04
+ORDEN 34760
+TASA:  2.724.717,52',00003976,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,570065399.53000,16.00000,456052319.62000,2850326997.65,5.00000,'ORDEN 34760',00003976,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,122612288.40000,16.00000,19617966.14000,122612288.40,1.00000,'',00003976,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1008145482.40000,16.00000,161303277.18000,1008145482.40,1.00000,'',00003976,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1166892974.70000,16.00000,186702875.95000,1166892974.70,1.00000,'',00003976,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,3369528270.87000,16.00000,3234747140.04000,20217169625.22,6.00000,'FACTURACION CORRESPONDIENTE DEL 16 al 30 DE ABRIL
+ORDEN: 34727, 34728, 34729, 34730, 34731, 34732',00003977,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,461353504.08000,16.00000,295266242.61000,1845414016.32,4.00000,'ORDEN: 34728',00003977,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,461353504.08000,16.00000,295266242.61000,1845414016.32,4.00000,'ORDEN: 34728',00003977,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN: 34730',00003977,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN: 34730',00003977,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,4001417802.35100,16.00000,640226848.38000,4001417802.35,1.00000,'',00003977,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,1900359099.94000,16.00000,912172367.97000,5701077299.82,3.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 30 DE ABRIL 
+ORDEN: 34743, 34744, 34746,',00003978,'HDDHL757',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,1632750599.23000,16.00000,522480191.75000,3265501198.46,2.00000,'ORDEN: 34745, 34747',00003978,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1344986774.74000,16.00000,215197883.96000,1344986774.74,1.00000,'',00003978,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,335216344.50000,16.00000,160903845.36000,1005649033.50,3.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 17, 18 Y 21 DE ABRIL 
+ORDEN: 7421, 7428, 7433',00003979,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,150847355.02000,16.00000,24135576.80000,150847355.02,1.00000,'',00003979,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',30.00000,335216344.50000,16.00000,1609038453.60000,10056490335.00,30.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 30 DE ABRIL 
+ORDEN: 7417, 7416, 7419, 7430, 7437, 7439, 7441, 7444, 7443, 7445, 7446',00003980,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,299930413.50000,16.00000,191955464.64000,1199721654.00,4.00000,'ORDEN: 7429, 7438, 6704, 7442',00003980,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,1587866895.00000,16.00000,1016234812.80000,6351467580.00,4.00000,'ORDEN: 7429, 7438, 6704, 7442',00003980,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2641151935.35000,16.00000,422584309.66000,2641151935.35,1.00000,'',00003980,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,3463666986.96000,16.00000,3325120307.48000,20782001921.76,6.00000,'FACTURACION CORRESPONDIENTE DEL 16 al 30 DE ABRIL
+ORDEN: 34727, 34728, 34729, 34730, 34731, 34732',00003981,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,474242912.64000,16.00000,303515464.09000,1896971650.56,4.00000,'ORDEN: 34728',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,474242912.64000,16.00000,303515464.09000,1896971650.56,4.00000,'ORDEN: 34728',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,474242912.64000,16.00000,227636598.07000,1422728737.92,3.00000,'ORDEN: 34730',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,474242912.64000,16.00000,227636598.07000,1422728737.92,3.00000,'ORDEN: 34730',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',3.00000,474242912.64000,16.00000,227636598.07000,1422728737.92,3.00000,'ORDEN: 34731',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',3.00000,474242912.64000,16.00000,227636598.07000,1422728737.92,3.00000,'ORDEN: 34731',00003981,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,4540029026.18400,16.00000,726404644.19000,4540029026.18,1.00000,'',00003981,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,5645748960.00000,16.00000,903319833.60000,5645748960.00,1.00000,'SERVICIOS PRESTADOS EL 19 CON PERNOTA AL 20-04
+ORDEN: 34754',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',0.50000,5645748960.00000,16.00000,451659916.80000,2822874480.00,0.50000,'ORDEN: 34755',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,423431172.00000,16.00000,67748987.52000,423431172.00,1.00000,'ORDEN: 34755',00003982,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,225829958.40000,16.00000,36132793.34000,225829958.40,1.00000,'ORDEN: 34754',00003982,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,5645748960.00000,16.00000,903319833.60000,5645748960.00,1.00000,'SERVICIOS PRESTADOS EL 27 CON PERNOTA AL 28-04
+ORDEN: 34756',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',0.50000,5645748960.00000,16.00000,451659916.80000,2822874480.00,0.50000,'ORDEN: 34757',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,423431172.00000,16.00000,67748987.52000,423431172.00,1.00000,'ORDEN: 34756',00003982,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,5645748960.00000,16.00000,903319833.60000,5645748960.00,1.00000,'SERVICIOS PRESTADOS EL 28 CON PERNOTA AL 29-04
+ORDEN: 34758',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',0.50000,5645748960.00000,16.00000,451659916.80000,2822874480.00,0.50000,'ORDEN: 34759',00003982,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,423431172.00000,16.00000,67748987.52000,423431172.00,1.00000,'ORDEN: 34758',00003982,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(11,'PPAL',1.00000,4035299069.16000,16.00000,645647851.07000,4035299069.16,1.00000,'',00003982,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,3369528270.87000,16.00000,3234747140.04000,20217169625.22,6.00000,'FACTURACION CORRESPONDIENTE DEL 16 al 30 DE ABRIL
+ORDEN: 34727, 34728, 34729, 34730, 34731, 34732',00003983,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,461353504.08000,16.00000,295266242.61000,1845414016.32,4.00000,'ORDEN: 34728',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,461353504.08000,16.00000,295266242.61000,1845414016.32,4.00000,'ORDEN:34728',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN: 34730',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN: 34730',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN: 34731',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',3.00000,461353504.08000,16.00000,221449681.96000,1384060512.24,3.00000,'ORDEN:34731',00003983,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,4416635956.02300,16.00000,706661752.96000,4416635956.02,1.00000,'',00003983,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,1152170106.28000,16.00000,1474777736.04000,9217360850.24,8.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE ABRIL
+ORDEN: 34711, 34712, 34713, 34714, 34715, 34716, 34717, 34718',00003984,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,209765160.75000,16.00000,134249702.88000,839060643.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003984,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,237733848.85000,16.00000,152149663.26000,950935395.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003984,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1651103533.29540,16.00000,264176565.33000,1651103533.30,1.00000,'',00003984,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,1152170106.27950,16.00000,1474777736.04000,9217360850.24,8.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE ABRIL
+ORDEN:34702, 34703, 34704, 34705, 34706, 34707, 34708 , 34709',00003985,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,209765160.75000,16.00000,134249702.88000,839060643.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003985,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,237733848.85000,16.00000,152149663.26000,950935395.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003985,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1651103533.29540,16.00000,264176565.33000,1651103533.30,1.00000,'',00003985,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,1152170106.27950,16.00000,1474777736.04000,9217360850.24,8.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE ABRIL
+ORDEN:34702, 34703, 34704, 34705, 34706, 34707, 34708 , 34709',00003986,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,209765160.75000,16.00000,134249702.88000,839060643.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003986,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,237733848.85000,16.00000,152149663.26000,950935395.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003986,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1651103533.29540,16.00000,264176565.33000,1651103533.30,1.00000,'',00003986,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,1152170106.27950,16.00000,1659124953.04000,10369530956.52,9.00000,'FACTURACION CORRESPONDIENTE DEL 16 AL 30 DE ABRIL
+ORDEN:34711, 34712, 34713, 34714, 34715, 34716, 34717 , 34717, 34718',00003987,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,209765160.75000,16.00000,134249702.88000,839060643.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003987,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,237733848.85000,16.00000,152149663.26000,950935395.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003987,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1823929049.24000,16.00000,291828647.88000,1823929049.24,1.00000,'',00003987,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',3.00000,352293126.50000,16.00000,169100700.72000,1056879379.50,3.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE MAYO
+
+ORDEN; 6714, 6715, 6716',00003988,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,158531906.92000,16.00000,25365105.11000,158531906.92,1.00000,'',00003988,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,3640115083.92000,16.00000,4076928893.99000,25480805587.44,7.00000,'FACTURACION CORRESPONDIENTE DEL 01 AL 15 DE MAYO
+ORDEN: 34799, 34800, 34801, 34802, 34803, 34804, 34805',00003989,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN: 34800',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN: 34800',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN: 34801',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN: 34801',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN: 34804',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',4.00000,498402065.28000,16.00000,318977321.78000,1993608261.12,4.00000,'ORDEN:34805',00003989,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,5242566724.16400,16.00000,838810675.87000,5242566724.16,1.00000,'',00003989,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,3640115083.92000,16.00000,4076928893.99000,25480805587.44,7.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE MAYO 
+ORDEN: 34799, 34800,34801,34802, 34803,34804, 34805',00003990,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN:34800',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN:34800',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN:34801',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN:34801',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',3.00000,498402065.28000,16.00000,239232991.33000,1495206195.84,3.00000,'ORDEN:34804',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',4.00000,498402065.28000,16.00000,318977321.78000,1993608261.12,4.00000,'ORDEN:34805',00003990,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,5242566724.16400,16.00000,838810675.87000,5242566724.16,1.00000,'',00003990,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1715927110.46000,16.00000,1098193350.69000,6863708441.84,4.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 MAYO 
+ORDEN: 34788, 34789, 34790,34791',00003991,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1029556266.28000,16.00000,164729002.60000,1029556266.28,1.00000,'',00003991,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',22.00000,352293126.50000,16.00000,1240071805.28000,7750448783.00,22.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 1 AL 15 DE MAYO
+ORDEN: 7447, 7449, 6707,6708, 6711, 6713, 6718, 6720, 6721',00003992,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,315209639.50000,16.00000,151300626.96000,945628918.50,3.00000,'ORDEN: 6705, 6710, 6712',00003992,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,1668756915.00000,16.00000,801003319.20000,5006270745.00,3.00000,'ORDEN: 6705, 6710, 6712',00003992,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2055352266.98000,16.00000,328856362.72000,2055352266.98,1.00000,'',00003992,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3989554617.71000,16.00000,638328738.83000,3989554617.71,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 06-05
+ORDEN 34830
+TASA: 2.861.988,42',00003993,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,598785217.23000,16.00000,287416904.27000,1796355651.69,3.00000,'ORDEN: 34830',00003993,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,678634694.15000,16.00000,108581551.06000,678634694.15,1.00000,'',00003993,'ADCUBASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,128789478.90000,16.00000,20606316.62000,128789478.90,1.00000,'',00003993,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1058935715.40000,16.00000,169429714.46000,1058935715.40,1.00000,'',00003993,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1147840523.68000,16.00000,183654483.79000,1147840523.68,1.00000,'',00003993,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4135491136.66000,16.00000,661678581.87000,4135491136.66,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 14-05
+ORDEN 34831
+TASA: 2.966.678,96',00003994,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,620688572.01000,16.00000,297930514.56000,1862065716.03,3.00000,'ORDEN: 34831',00003994,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,133500553.20000,16.00000,21360088.51000,133500553.20,1.00000,'',00003994,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1097671215.20000,16.00000,175627394.43000,1097671215.20,1.00000,'',00003994,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1084309293.16000,16.00000,173489486.91000,1084309293.16,1.00000,'',00003994,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,3989554617.71000,16.00000,638328738.83000,3989554617.71,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 06-05
+ORDEN 34830
+TASA: 2.861.988,42',00003995,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,997388654.43000,16.00000,159582184.71000,997388654.43,1.00000,'RECARDO DE 25% POR VUELO DEMORADO. QUE LLEGARIA A LAS 10:15 AM Y LLEGO A LAS 19:15',00003995,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,598785217.23000,16.00000,287416904.27000,1796355651.69,3.00000,'ORDEN: 34830',00003995,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,678634694.15000,16.00000,108581551.06000,678634694.15,1.00000,'',00003995,'ADCUBASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,128789478.90000,16.00000,20606316.62000,128789478.90,1.00000,'',00003995,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1058935715.40000,16.00000,169429714.46000,1058935715.40,1.00000,'',00003995,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,1297448821.84000,16.00000,207591811.49000,1297448821.84,1.00000,'',00003995,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',29.00000,17800073.76000,16.00000,82592342.25000,516202139.04,29.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PENDIENTES DEL MES DE MARZO',00003996,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',199.00000,17800073.76000,16.00000,566754348.52000,3542214678.24,199.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS  DEL MES DE ABRIL',00003996,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,608762522.59200,16.00000,97402003.61000,608762522.59,1.00000,'',00003996,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1217248134.10000,16.00000,2531876118.93000,15824225743.30,13.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE MAYO
+ORDEN: 34761, 34762, 34763, 34764, 34765, 34766, 34767, 34768, 34769, 34770, 34771, 34772, 34773',00003997,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',14.00000,221613327.00000,16.00000,496413852.48000,3102586578.00,14.00000,'ORDEN: 34761, 34762, 34763, 34764, 34765, 34766, 34767, 34768, 34769, 34770, 34771, 34772, 34773',00003997,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',18.00000,251161770.60000,16.00000,723345899.33000,4520911870.80,18.00000,'ORDEN: 34761, 34762, 34763, 34764, 34765, 34766, 34767, 34768, 34769, 34770, 34771, 34772, 34773',00003997,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3517158628.82000,16.00000,562745380.61000,3517158628.82,1.00000,'',00003997,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,1217248134.10000,16.00000,1752837313.10000,10955233206.90,9.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 30 DE ABRIL
+ORDEN: 34711, 34712, 34713, 34714, 34715, 34716, 34717, 34717, 34718',00003998,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,221613327.00000,16.00000,141832529.28000,886453308.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003998,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,251161770.60000,16.00000,160743533.18000,1004647082.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003998,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1926942652.48680,16.00000,308310824.40000,1926942652.49,1.00000,'',00003998,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,1217248134.10000,16.00000,1752837313.10000,10955233206.90,9.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 30 DE ABRIL 
+ORDEN: 34711, 34712, 34713, 34714, 34715, 34716, 34717, 34717, 34718',00003999,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,221613327.00000,16.00000,141832529.28000,886453308.00,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003999,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,251161770.60000,16.00000,160743533.18000,1004647082.40,4.00000,'ORDEN: 34713, 34717, 34717, 34718',00003999,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1926950039.60000,16.00000,308312006.34000,1926950039.60,1.00000,'',00003999,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 07 DE MAYO CON PERNOTA
+ORDEN; 34820',00004000,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,243610392.80000,16.00000,116932988.54000,730831178.40,3.00000,'ORDEN: 34820',00004000,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',0.70000,6090259820.00000,16.00000,682109099.84000,4263181874.00,0.70000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 08 DE MAYO
+ORDEN 34821',00004000,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 10 DE MAYO CON PERNOTA ORDEN 34822',00004000,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,456769486.50000,16.00000,73083117.84000,456769486.50,1.00000,'ORDEN: 34823',00004000,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',5.00000,243610392.80000,16.00000,194888314.24000,1218051964.00,5.00000,'ORDEN 34822',00004000,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 11 DE MAYO CON PERNOTA 
+ORDEN 34823',00004000,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',2.00000,243610392.80000,16.00000,77955325.70000,487220785.60,2.00000,'ORDEN 34823',00004000,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,3814025212.27500,16.00000,610244033.96000,3814025212.28,1.00000,'',00004000,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION DEL 03 DE MAYO CON PERNOTA
+ORDEN; 34813',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,456769486.50000,16.00000,73083117.84000,456769486.50,1.00000,'ORDEN; 34813',00004001,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION DEL 04 DE MAYO
+ORDEN 34814',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION DEL 04 DE MAYO CON PERNOTA
+ORDEN 34816',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'ORDEN 34817',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',4.00000,243610392.80000,16.00000,155910651.39000,974441571.20,4.00000,'ORDEN 34817',00004001,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION DEL 04 DE MAYO CON PERNOTA 
+ORDEN:34815',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,456769486.50000,16.00000,73083117.84000,456769486.50,1.00000,'ORDEN: 34815',00004001,'ADCTAPRE',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'ORDEN: 34818
+VUELO CANCELADO',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,6090259820.00000,16.00000,974441571.20000,6090259820.00,1.00000,'FACTURACION DEL 06 DE MAYO
+ORDEN: 34819',00004001,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(11,'PPAL',1.00000,6677969892.63000,16.00000,1068475182.82000,6677969892.63,1.00000,'',00004001,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4244850191.94000,16.00000,679176030.71000,4244850191.94,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 22 DE MAYO
+ORDEN:34832
+
+TASA: 3.045.129,91',00004002,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,637102079.77000,16.00000,407745331.05000,2548408319.08,4.00000,'ORDEN:34832',00004002,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,137030845.95000,16.00000,21924935.35000,137030845.95,1.00000,'',00004002,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1126698066.70000,16.00000,180271690.67000,1126698066.70,1.00000,'',00004002,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1208548113.55000,16.00000,193367698.17000,1208548113.55,1.00000,'',00004002,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4322542733.28000,16.00000,691606837.32000,4322542733.28,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 30 DE MAYO
+ORDEN:34837
+
+TASA: 3.100.864,24',00004003,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,648762816.29000,16.00000,415208202.43000,2595051265.16,4.00000,'ORDEN:34837',00004003,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,139538890.80000,16.00000,22326222.53000,139538890.80,1.00000,'',00004003,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1147319768.80000,16.00000,183571163.01000,1147319768.80,1.00000,'',00004003,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1230667898.71000,16.00000,196906863.79000,1230667898.71,1.00000,'',00004003,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,2319322416.95000,16.00000,1484366346.85000,9277289667.80,4.00000,'FACTURACION CORRESPONDIENTE A VUELOS DE DIAS 29 Y 30 DE MAYO
+ORDEN: 34833, 34834, 34835, 34836
+TASA: 3.100.864,24',00004004,'HDCUB158',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,648762816.29000,16.00000,311406151.82000,1946288448.87,3.00000,'ORDEN:34833',00004004,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,648762816.29000,16.00000,103802050.61000,648762816.29,1.00000,'ORDEN: 34834',00004004,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,648762816.29000,16.00000,103802050.61000,648762816.29,1.00000,'ORDEN: 34835',00004004,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,648762816.29000,16.00000,103802050.61000,648762816.29,1.00000,'ORDEN: 34836',00004004,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',4.00000,139538890.80000,16.00000,89304890.11000,558155563.20,4.00000,'ORDEN:34833, 34834, 34836, 34835',00004004,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,2059203319.31000,16.00000,329472531.09000,2059203319.31,1.00000,'',00004004,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4322542733.28000,16.00000,691606837.32000,4322542733.28,1.00000,'FACTURACION CORRESPONDIENTE AL VUELO DEL DIA 30 DE MAYO
+ORDEN:34837
+
+TASA: 3.100.864,24',00004005,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,648762816.29000,16.00000,415208202.43000,2595051265.16,4.00000,'ORDEN:34837',00004005,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,139538890.80000,16.00000,22326222.53000,139538890.80,1.00000,'',00004005,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1147319768.80000,16.00000,183571163.01000,1147319768.80,1.00000,'',00004005,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1230667898.71000,16.00000,196906863.79000,1230667898.71,1.00000,'',00004005,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'FACT. DE SERV. DEL 16 AL 25 DE MAYO
+VUELO DEL DIA 17-05
+ ORDEN: 34824',00004006,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,248069139.20000,16.00000,158764249.09000,992276556.80,4.00000,'ORDEN: 34824',00004006,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 18-05 
+ORDEN: 34825',00004006,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 19 
+ORDEN: 34826',00004006,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,248069139.20000,16.00000,39691062.27000,248069139.20,1.00000,'ORDEN:34826',00004006,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',0.70000,6201728480.00000,16.00000,694593589.76000,4341209936.00,0.70000,'VUELO DEL DIA 20 
+ORDEN: 34827',00004006,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,248069139.20000,16.00000,39691062.27000,248069139.20,1.00000,'ORDEN: 34727',00004006,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 24 
+ORDEN: 34828',00004006,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',2.00000,248069139.20000,16.00000,79382124.54000,496138278.40,2.00000,'VUELO DEL DIA 25  
+ORDEN: 34828',00004006,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,4669901545.44000,16.00000,747184247.27000,4669901545.44,1.00000,'',00004006,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'FACTURACION CORESPONDIENTE A SERVICIOS VUELO DEL 24 DE MAYO 
+ORDEN: 34828',00004007,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,248069139.20000,16.00000,79382124.54000,496138278.40,2.00000,'ORDEN: 34828',00004007,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 25 DE MAYO
+ORDEN: 34829',00004007,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',2.00000,248069139.20000,16.00000,79382124.54000,496138278.40,2.00000,'ORDEN: 34829',00004007,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,2009360027.52000,16.00000,321497604.40000,2009360027.52,1.00000,'',00004007,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'FACTURACION. DE SERV. DEL 16 AL 20 DE MAYO
+VUELO DEL DIA 17-05
+ ORDEN: 34824',00004008,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,248069139.20000,16.00000,158764249.09000,992276556.80,4.00000,'ORDEN: 34824',00004008,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 18-05 
+ORDEN: 34825',00004008,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,6201728480.00000,16.00000,992276556.80000,6201728480.00,1.00000,'VUELO DEL DIA 19 
+ORDEN: 34826',00004008,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,248069139.20000,16.00000,39691062.27000,248069139.20,1.00000,'ORDEN:34826',00004008,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',0.70000,6201728480.00000,16.00000,694593589.76000,4341209936.00,0.70000,'VUELO DEL DIA 20 
+ORDEN: 34827',00004008,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,248069139.20000,16.00000,39691062.27000,248069139.20,1.00000,'ORDEN: 34727',00004008,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,3665221531.68000,16.00000,586435445.07000,3665221531.68,1.00000,'',00004008,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1793539876.42000,16.00000,1147865520.91000,7174159505.68,4.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO 
+ORDEN: 34788, 34789, 34790, 34791',00004009,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1076123925.85000,16.00000,172179828.14000,1076123925.85,1.00000,'',00004009,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',22.00000,368227628.50000,16.00000,1296161252.32000,8101007827.00,22.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO
+ORDEN: 6723, 6725, 6726, 6732, 6734, 6736, 6738, 6739, 7206, 6747',00004010,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,329466825.50000,16.00000,210858768.32000,1317867302.00,4.00000,'ORDEN: 6727, 6733, 6737, 6745',00004010,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,1744236135.00000,16.00000,1116311126.40000,6976944540.00,4.00000,'ORDEN: 6727, 6733, 6737, 6745',00004010,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2459372950.35000,16.00000,393499672.06000,2459372950.35,1.00000,'',00004010,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,364171341.06000,16.00000,58267414.57000,364171341.06,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 28 DE MAYO
+ORDEN: 6748
+TASA: 3.066.706,03',00004011,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,54625701.16000,16.00000,8740112.19000,54625701.16,1.00000,'',00004011,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,368227628.50000,16.00000,648080626.16000,4050503913.50,11.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO
+ORDEN: 6722, 6728, 6730, 6731, 6742, 6741, 6744, 6749, 7201, 7203',00004012,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,607575587.18000,16.00000,97212093.95000,607575587.18,1.00000,'',00004012,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',11.00000,341095066.40000,16.00000,600327316.86000,3752045730.40,11.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO
+ORDEN: 6722, 6728, 6730, 6731, 6742, 6741, 6744, 6749, 7201, 7203',00004013,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,562806859.56000,16.00000,90049097.53000,562806859.56,1.00000,'',00004013,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,813046603.73000,16.00000,130087456.60000,813046603.73,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 30 DE MAYO 
+ORDEN: 7204',00004014,'ADWASGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,121956990.56000,16.00000,19513118.49000,121956990.56,1.00000,'',00004014,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,3804760422.48000,16.00000,3652570005.58000,22828562534.88,6.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO 
+ORDEN: 34808, 34809, 34810, 34811, 34812, 34813',00004015,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,520945192.32000,16.00000,333404923.08000,2083780769.28,4.00000,'ORDEN:34810, 34813',00004015,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,455827043.28000,16.00000,72932326.92000,455827043.28,1.00000,'ORDEN: 34810',00004015,'ADTURPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3805225552.11600,16.00000,608836088.34000,3805225552.12,1.00000,'',00004015,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',22.00000,368227628.50000,16.00000,1296161252.32000,8101007827.00,22.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO
+ORDEN: 6723, 6725, 6726, 6732, 6734, 6736, 6738, 6739, 7206, 6747',00004016,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,329466825.50000,16.00000,263573460.40000,1647334127.50,5.00000,'ORDEN: 6727, 6733, 6737, 6745, 7308',00004016,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',5.00000,1744236135.00000,16.00000,1395388908.00000,8721180675.00,5.00000,'ORDEN: 6727, 6733, 6737, 6745, 7208',00004016,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2770428394.43000,16.00000,443268543.11000,2770428394.43,1.00000,'',00004016,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1277401023.67000,16.00000,2656994129.23000,16606213307.71,13.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE MAYO
+ORDEN: 34774, 34775, 34776, 34777, 34778, 34779, 34780, 34781, 34782, 34783, 34784, 34785, 34786',00004017,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',18.00000,232564818.00000,16.00000,669786675.84000,4186166724.00,18.00000,'ORDEN: 34774, 34775, 34776, 34777, 34778, 34779, 34780, 34781, 34782, 34783, 34784, 34785, 34786',00004017,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',16.00000,263573460.40000,16.00000,674748058.62000,4217175366.40,16.00000,'ORDEN: 34774, 34775, 34776, 34777, 34778, 34779, 34780, 34781, 34782, 34783, 34784, 34785, 34786',00004017,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3751433309.71000,16.00000,600229329.55000,3751433309.71,1.00000,'',00004017,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4340738507.55000,16.00000,694518161.21000,4340738507.55,1.00000,'FACTURACION CORRESPONDIENTE A VUELO DEL DIA 06 DE JUNIO 
+ORDEN: 34895
+TASA: 3113917,35',00004018,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,651493787.97000,16.00000,416956024.30000,2605975151.88,4.00000,'ORDEN: 34895',00004018,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',3.00000,738372082.03000,16.00000,354418599.37000,2215116246.09,3.00000,'ORDEN: 34895',00004018,'ADCUBACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1152149419.50000,16.00000,184343907.12000,1152149419.50,1.00000,'',00004018,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,140126280.75000,16.00000,22420204.92000,140126280.75,1.00000,'',00004018,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1568115840.87000,16.00000,250898534.54000,1568115840.87,1.00000,'',00004018,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,1800583828.27000,16.00000,1440467062.62000,9002919141.35,5.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JUNIO 
+ORDEN: 34879, 34880, 34881, 34882, 34883',00004019,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,486412903.13000,16.00000,77826064.50000,486412903.13,1.00000,'ORDEN: 34883',00004019,'ADDHLGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1423399806.67000,16.00000,227743969.07000,1423399806.67,1.00000,'',00004019,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',27.00000,369673806.38000,16.00000,1596990843.56000,9981192772.26,27.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE JUNIO 
+ORDEN: 7209, 7210, 7216, 7218, 7222, 7221, 7227, 7230, 7237, 7233, 7246, 7002, 7010',00004020,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,330760774.13000,16.00000,264608619.30000,1653803870.65,5.00000,'ORDEN: 7207, 7220, 7229, 7245, 7004',00004020,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,1751086451.25000,16.00000,1120695328.80000,7004345805.00,4.00000,'ORDEN: 7220, 7229, 7245, 7004',00004020,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2795901367.18000,16.00000,447344218.75000,2795901367.18,1.00000,'',00004020,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,3819703245.66000,16.00000,4278067635.14000,26737922719.62,7.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 1 AL 15 DE JUNIO 
+ORDEN: 34898, 34899, 34900, 34901, 34902, 34903, 34904',00004021,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,522991153.44000,16.00000,83678584.55000,522991153.44,1.00000,'ORDEN:34899',00004021,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,522991153.44000,16.00000,83678584.55000,522991153.44,1.00000,'ORDEN:34899',00004021,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,522991153.44000,16.00000,251035753.65000,1568973460.32,3.00000,'ORDEN:34900',00004021,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',3.00000,522991153.44000,16.00000,251035753.65000,1568973460.32,3.00000,'ORDEN:34900',00004021,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,4638277792.07100,16.00000,742124446.73000,4638277792.07,1.00000,'',00004021,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1282417890.83000,16.00000,2667429212.93000,16671432580.79,13.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE JUNIO 
+ORDEN: 34838, 34839, 34840, 34841, 34842, 34843, 34844, 34845,34846, 34847,34848, 34849, 34850',00004022,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',16.00000,233478193.50000,16.00000,597704175.36000,3735651096.00,16.00000,'ORDEN: 34838, 34839, 34840, 34841, 34842, 34843, 34844, 34845,34846, 34847,34848, 34849, 34850',00004022,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',19.00000,264608619.30000,16.00000,804410202.67000,5027563766.70,19.00000,'ORDEN: 34838, 34839, 34840, 34841, 34842, 34843, 34844, 34845,34846, 34847,34848, 34849, 34850',00004022,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3815197116.53000,16.00000,610431538.64000,3815197116.53,1.00000,'',00004022,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',248.00000,18678255.48000,16.00000,741153177.45000,4632207359.04,248.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DE MES DE MAYO',00004023,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,694831103.85600,16.00000,111172976.62000,694831103.86,1.00000,'',00004023,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,6226085160.00000,16.00000,1992347251.20000,12452170320.00,2.00000,'FACTURACION CORRESPONDIENTE SERVICIOS PRESTADOS VUELOS DEL DIA 31/05 AL 01/06
+ORDEN:34830, 34891',00004024,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,249043406.40000,16.00000,79693890.05000,498086812.80,2.00000,'ORDEN: 34830',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,311304258.00000,16.00000,49808681.28000,311304258.00,1.00000,'ORDEN: 34830',00004024,'ADTAPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,249043406.40000,16.00000,39846945.02000,249043406.40,1.00000,'ORDEN: 34891',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',2.00000,6226085160.00000,16.00000,1992347251.20000,12452170320.00,2.00000,'VUELOS DEL DIA 07/06 Y 08/06
+ORDEN: 34892, 34893',00004024,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',2.00000,249043406.40000,16.00000,79693890.05000,498086812.80,2.00000,'ORDEN: 34892',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,249043406.40000,16.00000,39846945.02000,249043406.40,1.00000,'ORDEN: 34893',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',2.00000,6226085160.00000,16.00000,1992347251.20000,12452170320.00,2.00000,'VUELOS DEL DIA 14/06 Y 15/06
+ORDEN:34894, 34895',00004024,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',3.00000,249043406.40000,16.00000,119540835.07000,747130219.20,3.00000,'ORDEN: 34894',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,249043406.40000,16.00000,39846945.02000,249043406.40,1.00000,'ORDEN: 34895',00004024,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(11,'PPAL',1.00000,6023737392.30000,16.00000,963797982.77000,6023737392.30,1.00000,'',00004024,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,217966502.60000,16.00000,34874640.42000,217966502.60,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 09 DE JUNIO
+ORDEN: 7238',00004025,'ADWASCIN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,816440242.60000,16.00000,130630438.82000,816440242.60,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 14 DE JUNIO
+ORDEN: 7003',00004025,'ADWASGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,155161011.78000,16.00000,24825761.88000,155161011.78,1.00000,'',00004025,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,6198732649.75000,16.00000,991797223.96000,6198732649.75,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 14 Y 15 DE JUNIO 
+ORDEN: 34912',00004026,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,282473892.90000,16.00000,45195822.86000,282473892.90,1.00000,'ORDEN: 34912, 34913',00004026,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1239746529.95000,16.00000,198359444.79000,1239746529.95,1.00000,'ORDEN:34913',00004026,'HDIBE333',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,282473892.90000,16.00000,45195822.86000,282473892.90,1.00000,'ORDEN; 34913',00004026,'ADIBERAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',10.00000,47078982.15000,16.00000,75326371.44000,470789821.50,10.00000,'',00004026,'ADIBEBIOS',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,1271132518.05000,16.00000,203381202.89000,1271132518.05,1.00000,'',00004026,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,345245869.10000,16.00000,55239339.06000,345245869.10,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JUNIO 
+ORDEN: 7219',00004027,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',30.00000,282473892.90000,16.00000,1355874685.92000,8474216787.00,30.00000,'ORDEN: 7211,7212, 7215, 7214, 7223, 7225, 7226, 7231, 7232,7236, 7242, 7243, 7247, 7248, 7249, 7250, 7012',00004027,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1322919398.42000,16.00000,211667103.75000,1322919398.42,1.00000,'',00004027,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,345245869.10000,16.00000,497154051.50000,3107212821.90,9.00000,'FACTURACION A SERVICIOS DEL 01 AL 15 DE JUNIO 
+ORDEN: 7211, 7212, 7214, 7215, 7219, 7223, 7225, 7226, 7231, 7232, 7235, 7236, 7242, 7247, 7243, 7248, 7249, 7250, 7012',00004028,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',22.00000,282473892.90000,16.00000,994308103.01000,6214425643.80,22.00000,'',00004028,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1398245769.86000,16.00000,223719323.18000,1398245769.86,1.00000,'',00004028,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4328356117.77000,16.00000,692536978.84000,4328356117.77,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL DIA 16 DE JUNIO 
+ORDEN: 34896
+TASA:  3.105.034,59',00004029,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,649635336.92000,16.00000,311824961.72000,1948906010.76,3.00000,'ORDEN: 34896',00004029,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,139726556.55000,16.00000,22356249.05000,139726556.55,1.00000,'',00004029,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1148862798.30000,16.00000,183818047.73000,1148862798.30,1.00000,'',00004029,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,4437614764.67000,16.00000,710018362.35000,4437614764.67,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL DIA 16 DE JUNIO 
+ORDEN: 34897
+TASA: 3183413,51',00004029,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,143253607.95000,16.00000,22920577.27000,143253607.95,1.00000,'',00004029,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,1177862998.70000,16.00000,188458079.79000,1177862998.70,1.00000,'',00004029,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,266419876.65000,16.00000,42627180.26000,266419876.65,1.00000,'ORDEN: 34897',00004029,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,286857391.39000,16.00000,45897182.62000,286857391.39,1.00000,'ORDEN: 34897',00004029,'ADCUBRAN',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(10,'PPAL',1.00000,2081679018.41000,16.00000,333068642.95000,2081679018.41,1.00000,'',00004029,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,3931405571.04000,16.00000,5032199130.93000,31451244568.32,8.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 34906, 34907, 34908, 34909, 34910, 34911, 34912, 34913',00004030,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,538285359.36000,16.00000,86125657.50000,538285359.36,1.00000,'ORDEN: 34906',00004030,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,538285359.36000,16.00000,86125657.50000,538285359.36,1.00000,'ORDEN: 34906',00004030,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',3.00000,538285359.36000,16.00000,258376972.49000,1614856078.08,3.00000,'ORDEN: 34908',00004030,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',4.00000,538285359.36000,16.00000,344502629.99000,2153141437.44,4.00000,'ORDEN: 34911',00004030,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',2.00000,538285359.36000,16.00000,172251315.00000,1076570718.72,2.00000,'ORDEN: 34912',00004030,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,5605857528.19200,16.00000,896937204.51000,5605857528.19,1.00000,'',00004030,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1800583828.27000,16.00000,1152373650.09000,7202335313.08,4.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 34884, 34885, 34886, 34887',00004031,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1080350296.96000,16.00000,172856047.51000,1080350296.96,1.00000,'',00004031,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',25.00000,380484443.00000,16.00000,1521937772.00000,9512111075.00,25.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 7008, 7013, 7015, 7020, 7028, 7030, 7607, 7033, 7613, 7618, 7616',00004032,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,340433449.00000,16.00000,217877407.36000,1361733796.00,4.00000,'ORDEN: 7019, 7029, 7606, 7614',00004032,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,1802294730.00000,16.00000,1153468627.20000,7209178920.00,4.00000,'ORDEN: 7019, 7029, 7606, 7614',00004032,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2712453568.65000,16.00000,433992570.98000,2712453568.65,1.00000,'',00004032,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1853239594.37000,16.00000,1186073340.40000,7412958377.48,4.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN:34884, 34885, 34886, 34887',00004033,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1111943756.62000,16.00000,177911001.06000,1111943756.62,1.00000,'',00004033,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1319920558.26000,16.00000,2745434761.18000,17158967257.38,13.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 34851, 34852, 34853, 34854, 34855, 34856, 34857, 34858, 34859, 34860, 34861, 34862, 34863',00004034,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',12.00000,240305964.00000,16.00000,461387450.88000,2883671568.00,12.00000,'ORDEN: 34851, 34852, 34853, 34854, 34855, 34856, 34857, 34859, 34860, 34861, 34862, 34863',00004034,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',14.00000,272346759.20000,16.00000,610056740.61000,3812854628.80,14.00000,'ORDEN: 34851, 34852, 34853, 34854, 34855, 34856, 34857, 34859, 34860, 34861, 34862, 34863',00004034,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,3578324018.13000,16.00000,572531842.90000,3578324018.13,1.00000,'',00004034,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,6408159040.00000,16.00000,4101221785.60000,25632636160.00,4.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 34896, 34897, 34898, 34899',00004035,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,256326361.60000,16.00000,82024435.71000,512652723.20,2.00000,'ORDEN: 34896',00004035,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,256326361.60000,16.00000,164048871.42000,1025305446.40,4.00000,'ORDEN: 34898',00004035,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4075589149.44000,16.00000,652094263.91000,4075589149.44,1.00000,'',00004035,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,282473892.90000,16.00000,361566582.91000,2259791143.20,8.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JUNIO TRASLADO DE GNB
+ORDEN: 7211, 7215, 7223, 7231, 7232, 7236, 7242, 7248',00004036,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,345245869.10000,16.00000,110478678.11000,690491738.20,2.00000,'ORDEN: 7214, 7247',00004036,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,442542432.21000,16.00000,70806789.15000,442542432.21,1.00000,'',00004036,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,282473892.90000,16.00000,361566582.91000,2259791143.20,8.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JUNIO TRASLADO DE GNB
+ORDEN: 7211, 7215, 7223, 7231, 7232, 7236, 7242, 7248',00004037,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,345245869.10000,16.00000,110478678.11000,690491738.20,2.00000,'',00004037,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,442542432.21000,16.00000,70806789.15000,442542432.21,1.00000,'',00004037,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,267548812.91000,16.00000,42807810.07000,267548812.91,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS 25/06
+ORDEN: 7619 
+TASA: 3.196.903,01',00004038,'ADCUBPBK',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,181040617.46000,16.00000,28966498.79000,181040617.46,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL DIA 24/06
+ORDEN: 7032
+TASA: 3.196.903,01',00004038,'ADCUBAGR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,67288414.55000,16.00000,10766146.33000,67288414.55,1.00000,'',00004038,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',8.00000,356807958.10000,16.00000,456714186.37000,2854463664.80,8.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 30
+ORDEN: 7014, 7022,7026, 7603, 7034, 7610,7037, 7040',00004039,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',18.00000,291933783.90000,16.00000,840769297.63000,5254808110.20,18.00000,'ORDEN: 7014, 7017, 7018, 7021, 7022, 7050, 7026, 7601, 7602, 7603, 7605, 7604, 7034, 7035, 7610, 7037, 7039, 7040',00004039,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1216390766.25000,16.00000,194622522.60000,1216390766.25,1.00000,'',00004039,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,291933783.90000,16.00000,280256432.54000,1751602703.40,6.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 7017, 7018, 7602, 7603, 7604, 7039',00004040,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,262740405.51000,16.00000,42038464.88000,262740405.51,1.00000,'',00004040,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',4.00000,1991659511.83000,16.00000,1274662087.57000,7966638047.32,4.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS DEL 01 AL 15 DE JULIO
+ORDEN:34888, 34889, 34890, 34891',00004041,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,1194995707.10000,16.00000,191199313.14000,1194995707.10,1.00000,'',00004041,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',24.00000,408903124.19000,16.00000,1570187996.89000,9813674980.56,24.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JULIO 
+ORDEN: 7620, 7623, 7622, 7621, 7049, 7632, 7636, 7640, 7643, 7644, 7650',00004042,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',4.00000,365860690.06000,16.00000,234150841.64000,1463442760.24,4.00000,'ORDEN: 7044, 7048, 7642, 7554',00004042,'ADDHLTR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',4.00000,1936909535.63000,16.00000,1239622102.80000,7747638142.52,4.00000,'ORDEN: 7019, 7029, 7606, 7614',00004042,'ADDHLLOA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2853713382.50000,16.00000,456594141.20000,2853713382.50,1.00000,'',00004042,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,4225045333.71000,16.00000,6084065280.54000,38025408003.39,9.00000,'FACTURACION CORRESPONDIENTE A SERV. PRESTADOS DEL 01 AL 15 DE JULIO 
+ORDEN:34914, 34915, 34916, 34917, 34918, 34919, 34920, 34921, 34922',00004043,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,578490314.64000,16.00000,277675351.03000,1735470943.92,3.00000,'ORDEN: 34914, 34915',00004043,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,5964131842.09650,16.00000,954261094.74000,5964131842.10,1.00000,'',00004043,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',13.00000,1418506459.02000,16.00000,2950493434.76000,18440583967.26,13.00000,'FACTURACION CORRESPONDIENTE A  SERV. DEL 01 AL 15 DE JULIO 
+ORDEN: 34864,34865, 34866, 34867, 34868, 34869, 34870, 34871, 34872, 34873, 34874, 34875, 34876',00004044,'HDCOP737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',21.00000,258254604.75000,16.00000,867735471.96000,5423346699.75,21.00000,'ORDEN: 34864,34865, 34866, 34867, 34868, 34869, 34870, 34871, 34872, 34873, 34874, 34875, 34876',00004044,'ADCOPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',22.00000,292688552.05000,16.00000,1030263703.22000,6439148145.10,22.00000,'ORDEN: 34864,34865, 34866, 34867, 34868, 34869, 34870, 34871, 34872, 34873, 34874, 34875, 34876',00004044,'ADCOPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,4545461821.82000,16.00000,727273891.49000,4545461821.82,1.00000,'',00004044,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,6886789460.00000,16.00000,2203772627.20000,13773578920.00,2.00000,'FACTURACION CORRESPONDIENTE A SERV. PRESTADOS DEL 06 AL 07 DE JULIO 
+ORDEN: 34900, 34901',00004045,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,275471578.40000,16.00000,44075452.54000,275471578.40,1.00000,'ORDEN: 34900',00004045,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',2.00000,344339473.00000,16.00000,110188631.36000,688678946.00,2.00000,'ORDEN: 34900',00004045,'ADTAPACU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,275471578.40000,16.00000,44075452.54000,275471578.40,1.00000,'ORDEN: 34901',00004045,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,2251980153.42000,16.00000,360316824.55000,2251980153.42,1.00000,'',00004045,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,6886789460.00000,16.00000,2203772627.20000,13773578920.00,2.00000,'FACTURACION CORRESPONDIENTE A SERV. PRESTADOS DEL 10 AL 11 DE JULIO 
+ORDEN:  34902, 34903',00004046,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,275471578.40000,16.00000,88150905.09000,550943156.80,2.00000,'ORDEN: 34903',00004046,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,2148678311.52000,16.00000,343788529.84000,2148678311.52,1.00000,'',00004046,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',9.00000,4225045333.71000,16.00000,6084065280.54000,38025408003.39,9.00000,'FACTURACION CORRESPONDIENTE A SERV. PRESTADOS DEL 01 AL 15 DE JULIO 
+ORDEN:34914, 34915, 34916, 34917, 34918, 34919, 34920, 34921, 34922',00004047,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,578490314.64000,16.00000,277675351.03000,1735470943.92,3.00000,'ORDEN: 34914, 34915',00004047,'ADTURGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,5964131842.09650,16.00000,954261094.74000,5964131842.10,1.00000,'',00004047,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',2.00000,6886789460.00000,16.00000,2203772627.20000,13773578920.00,2.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 15 AL 16 DE JULIO 
+ORDEN: 34904, 34905',00004048,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,275471578.40000,16.00000,44075452.54000,275471578.40,1.00000,'ORDEN: 34904',00004048,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,275471578.40000,16.00000,44075452.54000,275471578.40,1.00000,'ORDEN: 34904',00004048,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,2148678311.52000,16.00000,343788529.84000,2148678311.52,1.00000,'',00004048,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4525306408.18000,16.00000,724049025.31000,4525306408.18,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 01 DE JULIO 
+ORDEN: 34898
+TASA: 3246320,9',00004049,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',3.00000,679195258.70000,16.00000,326013724.18000,2037585776.10,3.00000,'ORDEN: 34898',00004049,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,146084440.50000,16.00000,23373510.48000,146084440.50,1.00000,'',00004049,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1201138733.00000,16.00000,192182197.28000,1201138733.00,1.00000,'',00004049,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,4587705093.10000,16.00000,734032814.90000,4587705093.10,1.00000,'SERVICIOS PRESTADOS EL 10 DE JULIO 
+ORDEN: 34899
+TASA: 3291083,87',00004049,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,148098774.15000,16.00000,23695803.86000,148098774.15,1.00000,'',00004049,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,1217701031.90000,16.00000,194832165.10000,1217701031.90,1.00000,'',00004049,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,2079543038.53000,16.00000,332726886.16000,2079543038.53,1.00000,'',00004049,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',273.00000,20660368.38000,16.00000,902444890.84000,5640280567.74,273.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADO DURANTE EL MES DE JUNIO',00004050,'ADCTURSR',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,846042085.16100,16.00000,135366733.63000,846042085.16,1.00000,'',00004050,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',7.00000,434221465.20000,16.00000,486328041.02000,3039550256.40,7.00000,'',00004051,'ADCGCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,455932538.46000,16.00000,72949206.15000,455932538.46,1.00000,'',00004051,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',17.00000,325666098.90000,16.00000,885811789.01000,5536323681.30,17.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 01 AL 15 DE JULIO
+ORDEN: 7041, 7043, 7042, 7624, 7047, 7045, 7628, 7626, 7630,7631, 7634, 7633, 7637, 7645, 7649, 7551, 7552',00004052,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',9.00000,398036343.10000,16.00000,573172334.06000,3582327087.90,9.00000,'ORDEN:7042, 7624, 7047, 7628, 7631, 7634, 7645, 7649, 7551',00004052,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1367797615.38000,16.00000,218847618.46000,1367797615.38,1.00000,'',00004052,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,325666098.90000,16.00000,312639454.94000,1953996593.40,6.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 01 AL 15 DE JULIO.
+TRASLADO GNB
+ORDEN; 7041, 7043, 7626, 7630, 7633, 7552',00004053,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,293099489.01000,16.00000,46895918.24000,293099489.01,1.00000,'',00004053,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,291933783.90000,16.00000,280256432.54000,1751602703.40,6.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS DEL 16 AL 30 DE JUNIO 
+ORDEN: 7017, 7018, 7602, 7603, 7604, 7039',00004054,'ADCSWCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,262740405.51000,16.00000,42038464.88000,262740405.51,1.00000,'',00004054,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4946236721.22000,16.00000,791397875.40000,4946236721.22,1.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS EL DIA 17 DE JUNIO 
+ORDEN: 34900
+TASA: 3.548.283,85',00004055,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',5.00000,742371947.10000,16.00000,593897557.68000,3711859735.50,5.00000,'ORDEN: 34900',00004055,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,159672773.25000,16.00000,25547643.72000,159672773.25,1.00000,'',00004055,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,1312865024.50000,16.00000,210058403.92000,1312865024.50,1.00000,'',00004055,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,5275731759.88000,16.00000,844117081.58000,5275731759.88,1.00000,'SERVICIOS PRESTADOS EL DIA 24 DE JUNIO 
+ORDEN: 34901
+TASA:  3.784.653,84',00004055,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',5.00000,791825276.40000,16.00000,633460221.12000,3959126382.00,5.00000,'ORDEN: 34901',00004055,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(7,'PPAL',1.00000,170309422.80000,16.00000,27249507.65000,170309422.80,1.00000,'',00004055,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(8,'PPAL',1.00000,1400321920.80000,16.00000,224051507.33000,1400321920.80,1.00000,'',00004055,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(9,'PPAL',1.00000,3140418560.99000,16.00000,502466969.76000,3140418560.99,1.00000,'',00004055,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,4566574475.15000,16.00000,730651916.02000,4566574475.15,1.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS EL DIA 11 DE JUNIO 
+ORDEN: 34902
+TASA: 3.275.925,39',00004056,'HDCUB96',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',2.00000,685389110.10000,16.00000,219324515.23000,1370778220.20,2.00000,'ORDEN: 34902',00004056,'ADCUBGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1212092394.30000,16.00000,193934783.09000,1212092394.30,1.00000,'',00004056,'CUBDSV',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,147416642.55000,16.00000,23586662.81000,147416642.55,1.00000,'',00004056,'CUBSPA',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,1094529259.83000,16.00000,175124681.57000,1094529259.83,1.00000,'',00004056,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',1.00000,461440298.50000,16.00000,73830447.76000,461440298.50,1.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS EL 26 DE JULIO 
+ORDEN: 7580',00004057,'ADTEMTCG',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,69216044.78000,16.00000,11074567.16000,69216044.78,1.00000,'',00004057,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',6.00000,7966347100.00000,16.00000,7647693216.00000,47798082600.00,6.00000,'FACTURACION CORRESPONDIENTE A LOS SERVICIOS PRESTADOS DEL 16 AL 31 DE JULIO 
+ORDEN: 34906, 34907, 34908, 34909, 34910, 34911',00004058,'HDTAP330',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,318653884.00000,16.00000,50984621.44000,318653884.00,1.00000,'ORDEN: 34906',00004058,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,318653884.00000,16.00000,50984621.44000,318653884.00,1.00000,'ORDEN: 34908',00004058,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,318653884.00000,16.00000,50984621.44000,318653884.00,1.00000,'ORDEN: 34910',00004058,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(5,'PPAL',1.00000,318653884.00000,16.00000,50984621.44000,318653884.00,1.00000,'ORDEN: 34911',00004058,'ADTAPGPU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(6,'PPAL',1.00000,7360904720.40000,16.00000,1177744755.26000,7360904720.40,1.00000,'',00004058,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',12.00000,4887353945.85000,16.00000,9383719576.03000,58648247350.20,12.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE JULIO 
+ORDEN: 34923, 34924, 34925, 34926, 34927, 34928, 34929, 34930, 34931, 34932, 34933, 34934',00004059,'HDTUB777',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,8797237102.53000,16.00000,1407557936.40000,8797237102.53,1.00000,'',00004059,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',5.00000,2303867581.32000,16.00000,1843094065.06000,11519337906.60,5.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS DEL 16 AL 31 DE JULIO 
+ORDEN: 34892,34893, 34894, 34895, 34896',00004060,'HDDHL737',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(2,'PPAL',1.00000,622370867.19000,16.00000,99579338.75000,622370867.19,1.00000,'ORDEN: 34894',00004060,'ADDHLASU',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
+facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(3,'PPAL',1.00000,1821256316.07000,16.00000,291401010.57000,1821256316.07,1.00000,'',00004060,'00000001',1)
+INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
 facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(1,'PPAL',27.00000,473001859.06000,16.00000,2043368031.14000,12771050194.62,27.00000,'FACTURACION CORRESPONDIENTE A SERVICIOS PRESTADOS DEL 16 AL 31 DE JULIO 
 ORDEN: 7555, 7565, 7563, 7564, 7576, 7575, 7574, 7583, 7584, 7582, 7593, 7594',00004061,'ADDHLTR',1)
 INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
@@ -5742,13 +9194,16 @@ facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_
 INSERT INTO FacturaVentaRenglon (facren_reng_num,facren_cod_alm,facren_total_art,facren_precio_venta,facren_porc_imp,
 facren_monto_imp,facren_reng_neto,facren_pendiente,facren_comentario,facren_fac_doc_fk,facren_art_fk,facren_usu_modif_fk) VALUES	(4,'PPAL',1.00000,8720171141.94000,16.00000,1395227382.71000,8720171141.94,1.00000,'',00004135,'00000001',1)
 
+
+
+
+
 --PAGOSRETENCIONIVA
 INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_doc_num_control,pagRetIva_base_imponible,
 pagRetIva_monto_ret_imp,pagRetIva_num_comprobante,pagRetIva_alicuota,pagRetIva_pro_fk,pagRetIva_usu_modif_fk) VALUES ('
 00001181','202010','2020-10-05','00-1382',272500000.00,32700000.00,'20201000011424',16.00,'411445894',1)
 INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_doc_num_control,pagRetIva_base_imponible,
 pagRetIva_monto_ret_imp,pagRetIva_num_comprobante,pagRetIva_alicuota,pagRetIva_pro_fk,pagRetIva_usu_modif_fk) VALUES ('E00066874','202006','2020-05-12','00-00584146',4298509.80,515821.18,'20200500011047',16.00,'200042362',1)
-
 INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_doc_num_control,pagRetIva_base_imponible,
 pagRetIva_monto_ret_imp,pagRetIva_num_comprobante,pagRetIva_alicuota,pagRetIva_pro_fk,pagRetIva_usu_modif_fk) VALUES ('000309','202101','2021-01-15','00-000309',10163771.98,1626203.52,'20210100011717',16.00,'055414943',1)
 INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_doc_num_control,pagRetIva_base_imponible,

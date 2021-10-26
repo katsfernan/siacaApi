@@ -2,8 +2,10 @@ django==3.0
 djangorestframework==3.12.4
 django-mssql-backend==2.8.1
 django-cors-headers==3.10.0
-boto3
+boto3~=1.18.59
 celery===5.1.2 
 gevent==20.9.0
 django-celery-beat==2.2.1
-pyodbc
+pyodbc~=4.0.32
+botocore~=1.21.59
+pandas

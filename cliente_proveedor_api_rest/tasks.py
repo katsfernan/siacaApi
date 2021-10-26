@@ -11,8 +11,8 @@ from django.core.mail import send_mail
 def queryFacturasProfit():
     #CREANDO CONEXION A DB
     direccion_servidor = '127.0.0.1'
-    nombre_bd = 'SIACA_INTRANET'
-    nombre_usuario = 'siaca_api'
+    nombre_bd = 'SIACA_2020'
+    nombre_usuario = 'siaca_profit'
     password = 'siaca'
     try:
         conexion = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' +
@@ -24,7 +24,8 @@ def queryFacturasProfit():
         return ("Ocurrió un error al conectar a Profit Plus SQL Server: ", error)
         
     #CREANDO CONSULTA A PROFIT PLUS   
-    fecha_consulta = datetime.now()
+    #fecha_consulta = datetime.now()
+    fecha_consulta = '2021-09-28'
     
     consulta_factura_encabezado = '''
     SELECT 
@@ -55,7 +56,7 @@ def queryFacturasProfit():
     
     if facturas_encabezado:
         for fac in facturas_encabezado:
-            doc_num = fac[0]
+            doc_num = int(fac[0])
             co_cli = fac[9]
             try:
                 FacturaVenta.objects.get(pk = doc_num)
@@ -80,20 +81,19 @@ def queryFacturasProfit():
                     email_cliente = cliente.cli_email
 
                                                
-            finally:    
-                nuevaFactura = FacturaVenta(fac_doc_num = fac[0], fac_fecha_emi = fac[1], fac_fecha_venc=fac[2],
-                                            fac_fecha_reg= fac[3], fac_num_control = fac[4], fac_tasa=fac[5],
-                                            fac_total_bruto=fac[6], fac_monto_imp=fac[7],fac_monto_total=fac[8],
-                                            fac_cli_fk= fac[9], fac_moneda_fk=fac[10], fac_cp_fk=fac[11])
-                cursor_factura_renglon = conexion.cursor()
-                cursor_factura_renglon.execute(consulta_factura_renglon, doc_num)
-                facturas_renglon = cursor_factura_renglon.fetchall()
-                for facren in facturas_renglon:
-                    
-                    pass
-                asunto = 'Nueva factura en su perfil de cliente Siaca'
-                msg = 'Usted tiene una nueva factura a consultar. Número de factura: {numerofactura}'.format(numerofactura = nuevaFactura.fac_doc_num)
-                send_email_task(email_cliente, asunto, msg)
+                finally:    
+                    nuevaFactura = FacturaVenta(fac_doc_num = fac[0], fac_fecha_emi = fac[1], fac_fecha_venc=fac[2],
+                                                fac_fecha_reg= fac[3], fac_num_control = fac[4], fac_tasa=fac[5],
+                                                fac_total_bruto=fac[6], fac_monto_imp=fac[7],fac_monto_total=fac[8],
+                                                fac_cli_fk= fac[9], fac_moneda_fk=fac[10], fac_cp_fk=fac[11])
+                    cursor_factura_renglon = conexion.cursor()
+                    cursor_factura_renglon.execute(consulta_factura_renglon, doc_num)
+                    facturas_renglon = cursor_factura_renglon.fetchall()
+                    for facren in facturas_renglon:
+                        pass
+                    asunto = 'Nueva factura en su perfil de cliente Siaca'
+                    msg = 'Usted tiene una nueva factura a consultar. Número de factura: {numerofactura}'.format(numerofactura = nuevaFactura.fac_doc_num)
+                    send_email_task(email_cliente, asunto, msg)
 
 @shared_task
 def send_email_task(destinatario, asunto, mensaje):

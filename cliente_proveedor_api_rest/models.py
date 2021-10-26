@@ -51,7 +51,7 @@ class FacturaVenta(models.Model):
     
     @property
     def clienteDesc (self):
-        return self.fac_cli_fk.cli_descripcion  + '' + (self.fac_cli_fk.cli_descripcion2 if self.fac_cli_fk.descripcion2 else '')     
+        return self.fac_cli_fk.cli_descripcion
     
     @property
     def condicionPagoDesc(self):
@@ -116,6 +116,10 @@ class PagoRetencionIva(models.Model):
 
     def __str__(self) -> str:
         return str(self.pagRetIva_doc_num)
+    
+    @property
+    def provDesc(self):
+        return self.pagRetIva_pro_fk.pro_descripcion
     
     
     

@@ -11,5 +11,5 @@ urlpatterns = [
     #Rutas Proveedores
     path('retenciones/',views.pago_retencion_iva, name='pago_retencion_iva'),
     path('retenciones/detalle/<int:pk>',views.pago_retencion_iva_detalle, name='pago_retencion_iva_detalle'),    
-    
+    path('prueba_profit/', views.prueba_profit, name= 'prueba_profit')
     ]

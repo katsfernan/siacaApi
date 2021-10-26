@@ -62,7 +62,8 @@ class ClienteSerializer(serializers.ModelSerializer):
             'cli_descripcion2',
             'cli_tipo_cli',
             'cli_estatus',
-            'rol'
+            'rol',
+            'cli_usu_fk'
         ]
 
     def get_rol_from_client(self, cliente):
