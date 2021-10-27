@@ -149,7 +149,8 @@ class Empleado(models.Model):
 class Cliente(models.Model):
     cli_doc_num = models.CharField(max_length=25,primary_key=True)
     cli_descripcion = models.CharField(max_length=255)
-    cli_descripcion2 = models.CharField(max_length=255, blank=True, null=True)
+    cli_direccion = models.CharField(max_length=255,blank=True,null=True)
+    cli_telefonos  = models.CharField(max_length=80,blank=True,null=True)
     cli_email = models.CharField(unique=True, max_length=255, blank=True, null=True)
     cli_tipo_cli = models.IntegerField()
     cli_fecha_modif = models.DateTimeField(default=datetime.datetime.now)

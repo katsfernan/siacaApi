@@ -32,6 +32,9 @@ class FacturaVentaSerializer (serializers.ModelSerializer):
             'fac_monto_imp',
             'fac_monto_total',
             'clienteDesc',
+            'clienteDocNum',
+            'clienteDireccion',
+            'clienteTelefonos',
             'condicionPagoDesc'
 
         ]
@@ -55,6 +58,7 @@ class FacturaVentaRenglonSerializer (serializers.ModelSerializer):
             'facren_pendiente',
             'facren_comentario',
             'facren_fac_doc_fk',
+            'articuloCod',
             'articuloDesc'
         ]
         

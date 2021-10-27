@@ -1,3 +1,5 @@
+use SIACA_2020
+
 select concat('INSERT INTO Articulo VALUES (''',rtrim(co_art),''', ','''',format(fecha_reg,'yyyy-MM-dd'),''',''',art_des,''',''',tipo,''',',anulado),
 concat(',''',format(fecha_inac,'yyyy-MM-dd'),''',','NULL)') 
 from saArticulo
@@ -5,7 +7,8 @@ where fecha_inac is not null AND art_des like '%inci%'
 
 
 
-select concat ('INSERT INTO Cliente VALUES (''',rtrim(co_cli),''',''',cli_des,''',','NULL,''',email,''',',tip_cli,',CURRENT_TIMESTAMP,1,NULL,NULL,1)') 
+select 'INSERT INTO Cliente (cli_doc_num, cli_descripcion, cli_direccion,cli_telefonos,cli_email,cli_tipo_cli,cli_fecha_modif, cli_estatus, cli_usu_fk,cli_rol_fk,cli_usu_modif_fk ) 
+VALUES ' , concat('(''',rtrim(co_cli),''',''',cli_des,''',''',direc1,''',''',telefonos,''',''',email,''',',tip_cli,',CURRENT_TIMESTAMP,1,NULL,NULL,1)') 
 from saCliente
 
 

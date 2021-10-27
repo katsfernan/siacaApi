@@ -59,7 +59,9 @@ class ClienteSerializer(serializers.ModelSerializer):
         fields = [
             'cli_doc_num',
             'cli_descripcion',
-            'cli_descripcion2',
+            'cli_direccion',
+            'cli_telefonos',
+            'cli_email',
             'cli_tipo_cli',
             'cli_estatus',
             'rol',

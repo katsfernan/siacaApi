@@ -50,8 +50,20 @@ class FacturaVenta(models.Model):
         return str(self.fac_doc_num)
     
     @property
+    def clienteDocNum (self):
+        return self.fac_cli_fk.cli_doc_num
+    
+    @property
     def clienteDesc (self):
         return self.fac_cli_fk.cli_descripcion
+    
+    @property
+    def clienteDireccion(self):
+        return self.fac_cli_fk.cli_direccion
+    
+    @property
+    def clienteTelefonos(self):
+        return self.fac_cli_fk.cli_telefonos
     
     @property
     def condicionPagoDesc(self):
@@ -93,6 +105,9 @@ class FacturaVentaRenglon(models.Model):
     def __str__(self) -> str:
         return str(self.facren_id) + '' + str(self.facren_reng_num) + '' + str(self.facren_fac_doc_fk)
 
+    @property
+    def articuloCod (self):
+        return self.facren_art_fk.art_cod
     @property
     def articuloDesc(self):
         return self.facren_art_fk.art_descripcion
