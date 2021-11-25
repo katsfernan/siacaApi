@@ -176,17 +176,18 @@ CELERY_ACCEPT_CONTENT= ['json']
 
 CELERY_TASK_SERIALIZER = 'json'
 
+
 #Configuraciones Celery Beat
 from celery.schedules import crontab
 
 CELERY_TIMEZONE = 'America/Caracas'   
-# Let's make things happen 
+
 CELERY_BEAT_SCHEDULE = {
- 'enviar-email-cada-5-minutos': {
-       'task': 'cliente_proveedor_api_rest.tasks.send_email_task',
-        # There are 4 ways we can handle time, read further 
-       'schedule': crontab(minute='*/5'),
-        # If you're using any arguments
+ 'sicronizaFacturas_cada30Minutos': {
+       'task': 'cliente_proveedor_api_rest.tasks.sincroniza_facturas',
+    #    'schedule': crontab(minute='*/30'),
+        'schedule': 60
+
     }      
 }
 

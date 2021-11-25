@@ -20,6 +20,14 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 
 app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
 
+# app.conf.beat_schedule = {
+#     'sicronizaFacturas_cada30Minutos': {
+#         # 'task': 'cliente_proveedor_api_rest.tasks.sincroniza_facturas',
+#         'task': 'cliente_proveedor_api_rest.tasks.sincroniza_facturas',
+#         'schedule': 5,
+#     }
+# }
+
 @app.task(bind=True)
 def debug_task(self):
     print('Request: {0!r}'.format(self.request))

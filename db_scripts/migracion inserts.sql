@@ -38,8 +38,8 @@ select 'INSERT INTO TipoProveedor  (tprov_id,tprov_descripcion,tprov_detalle,tpr
 from saTipoProveedor
 
 use siaca_2020
-select 'INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_doc_num_control,pagRetIva_base_imponible,
-pagRetIva_monto_ret_imp,pagRetIva_num_comprobante,pagRetIva_alicuota,pagRetIva_pro_fk,pagRetIva_usu_modif_fk) VALUES (''', concat(rtrim(numero_documento), ''',''',periodo_impositivo,''',''',format(fecha_documento,'yyyy-MM-dd'),''',''',rtrim(numero_control_documento),''',',base_imponible,',',monto_ret_imp,',''',num_comprobante,''',',alicuota,',''',rtrim(p.co_prov),''',',1,')')
+select 'INSERT INTO PagoRetencionIva (pagRetIva_doc_num,pagRetIva_periodo,pagRetIva_fecha_doc,pagRetIva_nro_doc_afectado, pagRetIva_monto_documento, pagRetIva_doc_num_control,pagRetIva_base_imponible,
+pagRetIva_monto_ret_imp,pagRetIva_num_comprobante,pagRetIva_alicuota,pagRetIva_pro_fk,pagRetIva_usu_modif_fk) VALUES', concat('(''',rtrim(numero_documento), ''',''',periodo_impositivo,''',''',format(fecha_documento,'yyyy-MM-dd'),''',''', rtrim(numero_documento_afectado),''',',monto_documento,',''' ,rtrim(numero_control_documento),''',',base_imponible,',',monto_ret_imp,',''',num_comprobante,''',',alicuota,',''',rtrim(p.co_prov),''',',1,')')
 from saPagoRetenIvaReng r
 join saproveedor p on rtrim(p.co_prov) = substring(rtrim(r.rif_comprador),2,9)
 

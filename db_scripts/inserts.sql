@@ -132,15 +132,15 @@ VALUES ('UASP', 'Modificar Archivos de Servicios Prestados', CURRENT_TIMESTAMP, 
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
 VALUES ('DASP', 'Eliminar Archivos de Servicios Prestados', CURRENT_TIMESTAMP, 1, 1);
 
---- ARCHIVO DE RETENCIONES ---
+---RETENCIONES IVA ---
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
-VALUES ('CARE', 'Crear Archivos de Retenciones', CURRENT_TIMESTAMP, 1, 1);
+VALUES ('CARE', 'Crear Retenciones IVA', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
-VALUES ('RARE', 'Ver Archivos de Retenciones', CURRENT_TIMESTAMP, 1, 1);
+VALUES ('RARE', 'Ver Retenciones IVA', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
-VALUES ('UARE', 'Modificar Archivos de Retenciones', CURRENT_TIMESTAMP, 1, 1);
+VALUES ('UARE', 'Modificar Retenciones IVA', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
-VALUES ('DARE', 'Eliminar Archivos de Retenciones', CURRENT_TIMESTAMP, 1, 1);
+VALUES ('DARE', 'Eliminar Retenciones IVA', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Rol (rol_nombre, rol_descripcion, rol_fecha_modif, rol_estatus, rol_usu_modif_fk)
 VALUES ('Director', '', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Rol (rol_nombre, rol_descripcion, rol_fecha_modif, rol_estatus, rol_usu_modif_fk)
@@ -252,6 +252,11 @@ VALUES ('Cliente', '', CURRENT_TIMESTAMP, 1, 1);
 INSERT INTO Rol (rol_nombre, rol_descripcion, rol_fecha_modif, rol_estatus, rol_usu_modif_fk)
 VALUES ('Proveedor', '', CURRENT_TIMESTAMP, 1, 1);
 --- Director ---
+
+--FACTURAS VENTA--
+INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
+VALUES ('VFAC', 'Ver Facturas Venta', CURRENT_TIMESTAMP, 1, 1);
+
 
 --- USUARIOS ---
 INSERT INTO Rol_Permiso (rp_fecha_modif, rp_estatus, rp_rol_fk, rp_per_fk, rp_usu_modif_fk)

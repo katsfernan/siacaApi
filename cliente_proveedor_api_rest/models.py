@@ -118,7 +118,9 @@ class PagoRetencionIva(models.Model):
     pagRetIva_doc_num = models.CharField(max_length=50)
     pagRetIva_periodo = models.CharField(max_length=20)
     pagRetIva_fecha_doc = models.DateField()
-    pagRetIva_doc_num_control = models.CharField(max_length=50)
+    pagRetIva_doc_num_control = models.CharField(max_length=50, blank=True, null=True)
+    pagRetIva_nro_doc_afectado = models.CharField(max_length=50, blank=True, null=True)
+    pagRetIva_monto_documento = models.FloatField()
     pagRetIva_base_imponible = models.FloatField()
     pagRetIva_monto_ret_imp = models.FloatField()
     pagRetIva_num_comprobante = models.CharField(max_length=50)
@@ -135,6 +137,16 @@ class PagoRetencionIva(models.Model):
     @property
     def provDesc(self):
         return self.pagRetIva_pro_fk.pro_descripcion
+    
+    @property
+    def provRif(self):
+        return self.pagRetIva_pro_fk.pro_rif
+    
+    @property
+    def provDireccion(self):
+        return str(self.pagRetIva_pro_fk.pro_direc1) or ''  + str(self.pagRetIva_pro_fk.pro_direc2) or ''
+    
+    
     
     
     

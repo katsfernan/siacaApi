@@ -71,11 +71,15 @@ class PagoRetencionIvaSerializer (serializers.ModelSerializer):
             'pagRetIva_periodo',
             'pagRetIva_fecha_doc',
             'pagRetIva_doc_num_control',
+            'pagRetIva_nro_doc_afectado',
+            'pagRetIva_monto_documento',
             'pagRetIva_base_imponible',
             'pagRetIva_monto_ret_imp',
             'pagRetIva_num_comprobante',
             'pagRetIva_alicuota',
-            'provDesc'
+            'provDesc',
+            'provRif',
+            'provDireccion'
         ]
         
     

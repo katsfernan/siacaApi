@@ -10,6 +10,7 @@ urlpatterns = [
     path('facturas/detalle/<int:pk>',views.factura_venta_detalle,name='factura_venta_detalle'),
     #Rutas Proveedores
     path('retenciones/',views.pago_retencion_iva, name='pago_retencion_iva'),
-    path('retenciones/detalle/<int:pk>',views.pago_retencion_iva_detalle, name='pago_retencion_iva_detalle'),    
-    path('prueba_profit/', views.prueba_profit, name= 'prueba_profit')
+    
+    # path('prueba/',views.prueba_profit, name = 'prueba_profit')
+   
     ]

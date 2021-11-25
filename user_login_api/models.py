@@ -155,9 +155,9 @@ class Cliente(models.Model):
     cli_tipo_cli = models.IntegerField()
     cli_fecha_modif = models.DateTimeField(default=datetime.datetime.now)
     cli_estatus = models.BooleanField(default=True)
-    cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', related_name='cli_usu_fk')
-    cli_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='cli_rol_fk')
-    cli_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_modif_fk', related_name='cli_usu_modif_fk')
+    cli_usu_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_fk', related_name='cli_usu_fk' , blank=True, null=True)
+    cli_rol_fk = models.ForeignKey(Rol, on_delete=models.DO_NOTHING, db_column='cli_rol_fk', blank=True, null=True)
+    cli_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='cli_usu_modif_fk', related_name='cli_usu_modif_fk',blank=True, null=True)
 
     class Meta:
         db_table = 'Cliente'
