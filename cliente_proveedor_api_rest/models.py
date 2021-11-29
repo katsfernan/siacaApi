@@ -146,7 +146,65 @@ class PagoRetencionIva(models.Model):
     def provDireccion(self):
         return str(self.pagRetIva_pro_fk.pro_direc1) or ''  + str(self.pagRetIva_pro_fk.pro_direc2) or ''
     
+
+class Pago (models.Model):
+    pag_cob_num = models.CharField(max_length=50, primary_key=True)
+    pag_descripcion = models.CharField (max_length=100)
+    pag_tasa = models.FloatField()
+    pag_fecha = models.DateField()
+    pag_pro_fk = models.ForeignKey(Proveedor, on_delete=models.DO_NOTHING, db_column='pag_pro_fk', blank=True, null=True)
+    pag_moneda_fk =  models.ForeignKey(Moneda, on_delete=models.DO_NOTHING, db_column='pag_moneda_fk', blank=True, null=True)
+    pag_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pag_usu_modif_fk', blank=True, null=True)
     
+    class Meta:
+        db_table = 'Pago'
+class TipoDoc (models.Model):
+    tipoDoc_cod = models.CharField(max_length=20,primary_key=True)
+    tipoDoc_descripcion = models.CharField(max_length= 50)
+    tipoDoc_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='tipoDoc_usu_modif_fk', blank=True, null=True)
+    class Meta:
+        db_table = 'TipoDoc'
+class PagoDocReng(models.Model):
+    #pagDocReng_id = models.AutoField(primary_key=True)
+    pagDocReng_rowguid = models.CharField(max_length= 100, primary_key=True)
+    pagDocReng_reng_num = models.IntegerField()
+    pagDocReng_mont_cob = models.FloatField()
+    pagDocReng_nro_doc = models.CharField(max_length= 50)
+    pagDocReng_nro_fact = models.CharField(max_length=50)
+    pagDocReng_tipo_doc_fk = models.ForeignKey(TipoDoc, on_delete=models.DO_NOTHING, db_column='pagDocReng_tipo_doc_fk', blank=True, null=True)
+    pagDocReng_cob_num_fk = models.ForeignKey(Pago, on_delete=models.DO_NOTHING, db_column='pagDocReng_cob_num_fk')
+    pagDocReng_rowguid_reng_ori_fk = models.ForeignKey('self', on_delete=models.DO_NOTHING, db_column='pagDocReng_rowguid_reng_ori_fk', blank=True, null=True)
+    pagDocReng_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pagDocReng_usu_modif_fk', blank=True, null=True)
+ 
+    class Meta:
+        db_table = 'PagoDocReng'       
     
+class PagoRentenReng (models.Model):
+    pagRentReng_id = models.AutoField(primary_key=True)
+    pagRentReng_co_islr = models.CharField(max_length=10)
+    pagRentReng_monto = models.FloatField()
+    pagRentReng_monto_reten = models.FloatField()
+    pagRentReng_sustraendo = models.FloatField()
+    pagRentReng_porc_retn = models.FloatField()
+    pagRentReng_rowguid_reng_cob = models.ForeignKey(PagoDocReng, on_delete=models.DO_NOTHING, db_column='pagRentReng_rowguid_reng_cob', blank=True, null=True)
+    pagRentReng_rowguid_reng_cob_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='pagRentReng_rowguid_reng_cob_usu_modif_fk', blank=True, null=True)
+    class Meta:
+        db_table = 'PagoRentenReng'  
     
+    @property
+    def fecha (self):
+        return self.pagRentReng_rowguid_reng_cob.pagDocReng_cob_num_fk.pag_fecha
+
+    @property
+    def numPago(self):
+        return self.pagRentReng_rowguid_reng_cob.pagDocReng_cob_num_fk.pag_cob_num
+    
+    @property
+    def tipoPago(self):
+        return self.pagRentReng_rowguid_reng_cob.pagDocReng_rowguid_reng_ori_fk.pagDocReng_tipo_doc_fk.tipoDoc_cod
+    
+    @property
+    def nroDoc(self):
+        return self.pagRentReng_rowguid_reng_cob.pagDocReng_rowguid_reng_ori_fk.pagDocReng_nro_fact
+        
     

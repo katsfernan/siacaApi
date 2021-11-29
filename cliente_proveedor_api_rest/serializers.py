@@ -1,6 +1,6 @@
 from django.db.models import fields
 from rest_framework import serializers
-from .models import FacturaVentaRenglon, CondicionPago, Moneda, FacturaVenta, PagoRetencionIva
+from .models import FacturaVentaRenglon, CondicionPago, Moneda, FacturaVenta, PagoRentenReng, PagoRetencionIva
     
 class CondicionPagoSerializer (serializers.ModelSerializer):
     
@@ -82,5 +82,20 @@ class PagoRetencionIvaSerializer (serializers.ModelSerializer):
             'provDireccion'
         ]
         
+class PagoRentenRengSerializer (serializers.ModelSerializer):
     
+    class Meta:
+        model = PagoRentenReng
+        fields = [
+            'pagRentReng_co_islr',
+            'pagRentReng_monto',
+            'pagRentReng_monto_reten',
+            'pagRentReng_sustraendo',
+            'pagRentReng_porc_retn',
+            
+            'fecha',
+            'numPago' ,       
+            'tipoPago',
+            'nroDoc'  ,  
+        ]
     
