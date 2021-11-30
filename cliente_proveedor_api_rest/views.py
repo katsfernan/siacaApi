@@ -219,29 +219,32 @@ def retencion_islr_rango(request):
                 except Pago.DoesNotExist:
                     return Response(status=status.HTTP_404_NOT_FOUND,data='No hay Retenciones de ISLR disponibles para consultar')   
                 
-                for doc in documento_pago:
-                    try:
-                        documento_pago_renglon = PagoDocReng.objects.get(pagDocReng_cob_num_fk = doc, pagDocReng_tipo_doc_fk = 'ISLR')
-                    
-                    except PagoDocReng.DoesNotExist:
-                        return Response(status=status.HTTP_400_BAD_REQUEST,data='Hubo un error al consultar uno de los datos. Intente nuevamente')
-                    else:
+                if not documento_pago:
+                    return Response(status=status.HTTP_404_NOT_FOUND,data='No hay Retenciones de ISLR disponibles para consultar')   
+                else:
+                    for doc in documento_pago:
                         try:
-                            documento_pago_renten_renglon = PagoRentenReng.objects.get(pagRentReng_rowguid_reng_cob  = documento_pago_renglon)
-                        except PagoRentenReng.DoesNotExist:
+                            documento_pago_renglon = PagoDocReng.objects.get(pagDocReng_cob_num_fk = doc, pagDocReng_tipo_doc_fk = 'ISLR')
+                        
+                        except PagoDocReng.DoesNotExist:
                             return Response(status=status.HTTP_400_BAD_REQUEST,data='Hubo un error al consultar uno de los datos. Intente nuevamente')
                         else:
-                            
-                            nuevo_pago = PagoRentenRengSerializer(documento_pago_renten_renglon)
-                            pagos_list.append(nuevo_pago.data)
-                                     
-                proveedor_info = ProveedorSerializer(proveedor)    
-                return Response ({
-                    'proveedor':proveedor_info.data,
-                    'pagos_retencion_islr': pagos_list,
-                    'fecha_i': fecha_i_response,
-                    'fecha_f': fecha_f_response
-                })    
+                            try:
+                                documento_pago_renten_renglon = PagoRentenReng.objects.get(pagRentReng_rowguid_reng_cob  = documento_pago_renglon)
+                            except PagoRentenReng.DoesNotExist:
+                                return Response(status=status.HTTP_400_BAD_REQUEST,data='Hubo un error al consultar uno de los datos. Intente nuevamente')
+                            else:
+                                
+                                nuevo_pago = PagoRentenRengSerializer(documento_pago_renten_renglon)
+                                pagos_list.append(nuevo_pago.data)
+                                        
+                    proveedor_info = ProveedorSerializer(proveedor)    
+                    return Response ({
+                        'proveedor':proveedor_info.data,
+                        'pagos_retencion_islr': pagos_list,
+                        'fecha_i': fecha_i_response,
+                        'fecha_f': fecha_f_response
+                    })    
         else:
             rol_id = (empleado.data["rol"])["rol_id"]
             rol_permissions = RolPermisoSerializer(
