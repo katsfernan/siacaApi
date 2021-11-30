@@ -107,7 +107,10 @@ class RolPermiso(models.Model):
     rp_usu_modif_fk = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, db_column='rp_usu_modif_fk')
 
     class Meta:
-        db_table = 'Rol_Permiso'
+        db_table = 'Rol_Permiso' 
+        
+    def __str__ (self)  -> str:
+        return 'Rol: ' + self.rp_rol_fk.rol_nombre + ' - Permiso: ' + self.rp_per_fk.per_nombre                                                                                                  
 
 
 class Departamento(models.Model):

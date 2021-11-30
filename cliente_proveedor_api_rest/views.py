@@ -254,8 +254,7 @@ def retencion_islr_rango(request):
                 if permiso_serialized.per_nombre == 'Ver Retenciones ISLR': 
                       
                     proveedor_cod = request.query_params.get('prov_cod', None)
-                    if proveedor_cod is None:
-                        
+                    if proveedor_cod is None or proveedor_cod == '':
                         return Response(status=status.HTTP_400_BAD_REQUEST,data='Selecciona el Proveedor a consultar')
                     else:   
                         try:

@@ -253,9 +253,14 @@ INSERT INTO Rol (rol_nombre, rol_descripcion, rol_fecha_modif, rol_estatus, rol_
 VALUES ('Proveedor', '', CURRENT_TIMESTAMP, 1, 1);
 --- Director ---
 
+
 --FACTURAS VENTA--
 INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
 VALUES ('VFAC', 'Ver Facturas Venta', CURRENT_TIMESTAMP, 1, 1);
+
+--RETENCIONES ISLR 
+INSERT INTO Permiso (per_codigo, per_nombre, per_fecha_modif, per_estatus, per_usu_modif_fk)
+VALUES ('VRETISLR', 'Ver Retenciones ISLR', CURRENT_TIMESTAMP, 1, 1);
 
 
 --- USUARIOS ---
