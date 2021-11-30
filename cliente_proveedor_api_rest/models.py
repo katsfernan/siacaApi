@@ -206,5 +206,3 @@ class PagoRentenReng (models.Model):
     @property
     def nroDoc(self):
         return self.pagRentReng_rowguid_reng_cob.pagDocReng_rowguid_reng_ori_fk.pagDocReng_nro_fact
-        
-    

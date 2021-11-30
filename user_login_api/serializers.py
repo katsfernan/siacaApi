@@ -80,6 +80,7 @@ class ProveedorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Proveedor
         fields = [
+            'pro_cod',
             'pro_rif',
             'pro_descripcion',
             'pro_direc1',

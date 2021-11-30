@@ -96,6 +96,7 @@ class PagoRentenRengSerializer (serializers.ModelSerializer):
             'fecha',
             'numPago' ,       
             'tipoPago',
-            'nroDoc'  ,  
+            'nroDoc',
+            'nroControl',  
         ]
     
