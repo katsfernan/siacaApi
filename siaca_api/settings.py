@@ -183,12 +183,17 @@ from celery.schedules import crontab
 CELERY_TIMEZONE = 'America/Caracas'   
 
 CELERY_BEAT_SCHEDULE = {
- 'sicronizaFacturas_cada30Minutos': {
+ 'sicronizaFacturas_cada_Lunes': {
        'task': 'cliente_proveedor_api_rest.tasks.sincroniza_facturas',
-    #    'schedule': crontab(minute='*/30'),
-        'schedule': 60
+        'schedule': crontab(hour=7, minute=30, day_of_week=1),
 
-    }      
+    },
+ 
+ 'sicronizaRetenciones_cada_Martes': {
+       'task': 'cliente_proveedor_api_rest.tasks.sincroniza_retenciones',
+        'schedule': crontab(hour=7, minute=30, day_of_week=2),
+
+    }           
 }
 
 #Configuraciones correo electronico

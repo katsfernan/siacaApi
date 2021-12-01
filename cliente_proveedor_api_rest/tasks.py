@@ -170,6 +170,7 @@ def sincroniza_facturas():
                     msg = 'Usted tiene una nueva factura a consultar. Número de factura: {numerofactura}'.format(numerofactura = nuevaFactura.fac_doc_num)
                     
                     # En el primer argumento debe colocarse el correo a donde se enviara la notificacion 
+                    # cli[2]
                     send_email_task('tokijin559@fretice.com', asunto, msg)
 
         if facturasNuevas:
@@ -182,7 +183,7 @@ def sincroniza_facturas():
         return Response(error)
     
 @shared_task 
-def prueba_profit():
+def sicroniza_retenciones():
     #CREANDO CONEXION A DB
     direccion_servidor = 'DESKTOP-6A1RO2L'
     nombre_bd = 'SIACA_2020'
@@ -317,7 +318,7 @@ def prueba_profit():
                     asunto = 'Nuevo pago de retención de IVA en su perfil de cliente Siaca'
                     msg = 'Usted tiene un nuevo pago de retención de IVA a consultar. Número de documento: {nuevoPagoRetencionIVA}'.format(nuevoPagoRetencionIVA = nuevoPagoRetencionIVA.pagRetIva_doc_num)
                     
-                    
+                    #prov[3]
                     send_email_task('tokijin559@fretice.com', asunto, msg)
 
         if pagoRetencionesIVANuevas:
